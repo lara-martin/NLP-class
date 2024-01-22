@@ -16,234 +16,167 @@
 #    -
 #      title: "HW1: Build a Text-Adventure Game (5%)"
 #      url: text-adventure-game/text-adventure-game.html
-#type: deadline
+#type: deadline or no_lecture
 
 
 
 -
-  date: 2023-08-31
-  title: Introduction to AI
+  date: 2024-01-29
+  title: 
   activities: 
-  slides: slides/23-08-31_Intro.pdf
+  slides: 
 -
-  date: 2023-09-05
-  title: Agents
-  slides: slides/23-09-05_Agents.pdf
+  date: 2024-01-31
+  title: 
+  slides: 
 -
-  date: 2023-09-07
-  title: Agents & Uninformed Search
-  slides: slides/23-09-07_Agents_Uninformed-Search.pdf
+  date: 2024-02-02
+  title: Waitlist Deadline
+  type: no_lecture  
 -
-  date: 2023-09-07
+  date: 2024-02-05
+  title: 
+  slides: 
+-
+  date: 2024-02-05
   title: Waitlists Deactivated
   type: no_lecture
 -
-  date: 2023-09-12
-  title: Uninformed Search
-  slides: slides/23-09-12_Uninformed-Search.pdf
+  date: 2024-02-07
+  title:
+  slides: 
   
 -
-  type: no_lecture
-  date: 2023-09-13
+  date: 2024-02-09
   title: Last Day to Change Schedule
--
-  date: 2023-09-14
-  title: Uninformed Search & Informed Search
-  slides: slides/23-09-14_Uninformed-Search-2.pdf
--
-  date: 2023-09-19
-  title: Informed Search
-  slides: slides/23-09-19_Informed-Search.pdf
--
-  date: 2023-09-20
   type: no_lecture
-  homework_due:   
-    -
-      title: "Module 1 Summary"
-      url: presentations.html    
--
-  date: 2023-09-21
-  title: Local Search
-  slides: slides/23-09-21_Local-Search.pdf
-  type: deadline
-  homework_due:   
-    -
-      title: "Module 1 Group Presentations"
-      url: presentations.html
   
 -
-  date: 2023-09-26
-  title: Multi-Agent Search
-  slides: slides/23-09-26_Multi-Agent-Search.pdf
+  date: 2024-02-12
+  title: 
+  slides: 
+-
+  date: 2024-02-14
+  title: 
+  slides: 
+-
+  date: 2024-02-19
+  title:
+  slides: 
   type: deadline
   homework_due:   
     -
-      title: "HW1: Search in Pac-Man (10%)"
-      url: search/search.html
+      title: 
+      url: 
+  
 -
-  date: 2023-09-28
-  title: Knowledge-based Agents & Propositional Logic
-  slides: slides/23-09-28_Propositional-Logic.pdf
+  date: 2024-02-21
+  title: 
+  slides: 
+
 -
-  date: 2023-10-03
-  title: Propositional Logic
-  slides: slides/23-10-03_Propositional-Logic-2.pdf
+  date: 2024-02-26
+  title: 
+  slides: 
 -
-  date: 2023-10-04
+  date: 2024-02-28
+  title: 
+  slides: 
+-
+  date: 2024-03-04
+  title:
+  slides:
+
+-
+  date: 2024-03-06
+  title: 
+  slides: 
+
+-
+  date: 2024-03-11
+  title: 
+  slides: 
+-
+  date: 2024-03-13
+  title: 
+  slides: 
+-
+  date: 2024-03-18
   type: no_lecture
-  homework_due:   
-    -
-      title: "Module 2 Summary"
-      url: presentations.html  
+  title: Spring Break - No Class
+
 -
-  date: 2023-10-05
-  title: First-Order Logic
-  slides: slides/23-10-05_First-Order-Logic.pdf
-  type: deadline
-  homework_due:   
-    -
-      title: "Module 2 Group Presentations"
-      url: presentations.html
--
-  date: 2023-10-10
-  title: Planning
-  slides: slides/23-10-10_Planning-and-Ethics.pdf
-  guest_speaker: Dr. Cassie Kent
-  guest_url: https://dekent.github.io/
--
-  date: 2023-10-12
-  title: Markov Decision Processes (MDPs)
-  slides: slides/23-10-12_Utility-and-Decision-Making.pdf
-  guest_speaker: Dr. Cassie Kent
-  guest_url: https://dekent.github.io/
--
-  date: 2023-10-17
+  date: 2024-03-20
+  title: Spring Break - No Class
   type: no_lecture
 
 -
-  date: 2023-10-19
-  title: Markov Decision Processes (MDPs)
-  slides: slides/23-10-19_MDPs.pdf
-  guest_speaker: Dr. Frank Ferraro
-  guest_url: https://redirect.cs.umbc.edu/~ferraro/
-  type: deadline
-  homework_due:   
-    -
-      title: "HW2: Hunt the Wampa (10%)"
-      url:  logic/logical-agent.html
+  date: 2024-03-25
+  slides:
 
 -
-  date: 2023-10-23
-  type: no_lecture
-  homework_due:   
-    -
-      title: "Module 3 Summary"
-      url: presentations.html        
--
-  date: 2023-10-24
-  title: Reinforcement Learning (RL)
-  slides: slides/23-10-24_Reinforcement-Learning.pdf
-  type: deadline
-  homework_due:   
-    -
-      title: "Module 3 Group Presentations"
-      url: presentations.html
--
-  date: 2023-10-26
-  title: Reinforcement Learning (RL)   
-  slides: slides/23-10-26_Reinforcement-Learning-2.pdf
--
-  date: 2023-10-31
-  title: Midterm Review
-  slides: slides/23-10-31_Midterm-Review.pdf
+  date: 2024-03-27
+  title:
+  slides: 
 
 -
-  date: 2023-11-02
-  homework_due:   
-    -
-      title: "Midterm (20%)"
-  type: deadline
+  date: 2024-04-01
+  title: 
+  slides:
 -
-  date: 2023-11-07
-  title: Intro to Probability
-  slides: slides/23-11-07_Probability.pdf
+  date: 2024-04-03
+  title: 
+  slides:
 -
-  date: 2023-11-08
+  date: 2024-04-05
   title: Last Day to Withdraw
   type: no_lecture
 -
-  date: 2023-11-09
-  title: Statistical Learning
-  slides: slides/23-11-09_Statistical-Learning.pdf
+  date: 2024-04-08
+  slides: 
 -
-  date: 2023-11-14
-  title: Bayes Nets
-  type: deadline
-  slides: slides/23-11-14_Bayes-Nets.pdf
-  homework_due:   
-    -
-      title: "HW3: Reinforcement Learning in GridWorld & Pac-Man (10%)"
-      url: sequential/rl.html
+  date: 2024-04-10
+  title: 
+  slides: 
 -
-  date: 2023-11-15
-  type: no_lecture
-  homework_due:   
-    -
-      title: "Module 4 Summary"
-      url: presentations.html    
+  date: 2024-04-15
+  title: 
 -
-  date: 2023-11-16
-  title: Bayes Nets
-  type: deadline
-  slides: slides/23-11-16_Bayes-Nets-Inference.pdf
-  homework_due:   
-    -
-      title: "Module 4 Group Presentations"
-      url: presentations.html  
-    -
-      title: "Project Milestone 1: Proposal"
-      url:  project/proposal.html
+  date: 2024-04-17
+  title: 
+  slides: 
 -
-  date: 2023-11-21
-  title: Naive Bayes 
-  slides: slides/23-11-21_Naive-Bayes.pdf
+  date: 2024-04-22
+  title: 
+  slides: 
+
 -
-  date: 2023-11-23
-  title: No Class - Thanksgiving
-  type: no_lecture       
+  date: 2024-04-24
+  type: 
+
 -
-  date: 2023-11-28
-  title: Intro to Machine Learning
-  slides: slides/23-11-28_Intro-to-ML.pdf
-  homework_due:
-    -
-      title: "Project Milestone 2: Lit Review"
-      url:  project/lit-review.html
+  date: 2024-04-29
+  title: 
+  slides: 
+
 -
-  date: 2023-11-30
-  title: Types of ML Algorithms
-  slides: slides/23-11-30_Types-of-ML-Algorithms.pdf
+  date: 2024-05-01
+  title:
+  slides: 
 -
-  date: 2023-12-05
-  title: Perceptrons (& Working on Final Project in Class)
-  slides: slides/23-12-05_Perceptrons.pdf
+  date: 2024-05-06
+  title:     
 -
-  date: 2023-12-07
-  title: Deep Neural Networks
-  slides: slides/23-12-07_Neural-Networks.pdf
-  homework_due:
-    -
-      title: "Project Milestone 3: Final Report Draft"
-      url: project/draft.html
+  date: 2024-05-08
+  title: 
+  slides: 
+
 -
-  date: 2023-12-12
-  title: Transformers
-  slides: slides/23-12-12_Transformers.pdf
+  date: 2024-05-13
+  title: 
+  slides: 
 -
-  date: 2023-12-19
-  type: deadline
-  title: "Final Project Presentations, 1:00-3:00 PM"
-  homework_due:
-    -
-      title: "Project Milestone 4: Final Submission"
-      url:  project/final-submission.html
+  date: 2024-05-15
+  title: 
+  slides: 
+
