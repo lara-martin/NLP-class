@@ -1,24 +1,8 @@
 ---
-title: CMSC 671 - Fall 2023 @ UMBC
+title: CMSC 473/673 - Spring 2024 @ UMBC
 layout: default
 active_tab: main_page
 ---
-
-<!--
-<div class="alert alert-warning" markdown="1">
-Want to join the class, but didn't attend the first lecture? Here are the steps to follow:
-1. [Get a permit by signing yourself up for CIS 700-001 via the waitlist system](https://forms.cis.upenn.edu/waitlist/index.php).  
-2. [Do the for-credit in-class assignment from the first lecture](http://interactive-fiction-class.org/in_class_activities/play-text-adventures/play-text-adventures.html).
-3. [Listen to recording of the first lecture](https://upenn.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=8b5f2734-0738-4f52-90f5-ab3c01236b7c) and [look over the slides](http://interactive-fiction-class.org/slides/text-adventure-games.pdf).
-4. [Complete the first homework assignment before class on Thursday](http://interactive-fiction-class.org/homeworks/text-adventure-game/text-adventure-game.html).
-</div>
--->
-
-<!--
-<div class="alert alert-success" markdown="1">
-[Post your game here.](https://docs.google.com/document/d/1XpBEevYpHvLjCr-3CkAhERN_GPHsjNmkPo-Wf9KjxDs/edit?usp=sharing)
-</div>
--->
 
 <!-- Display an alert about upcoming homework assignments -->
 {% capture now %}{{'now' | date: '%s'}}{% endcapture %}
@@ -56,31 +40,19 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 
 <!--
 <div class="alert alert-success" markdown="1">
-A great example of what you could build if you take this class is the [AI Dungeon](https://play.aidungeon.io/), which is an interactive fiction game  that was developed by a student at BYU using [Open AI's GPT-2](https://openai.com/blog/better-language-models/) large scale language model.
-</div>
--->
-<!--
-<div class="alert alert-success" markdown="1">
 First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It will take place virtually. Here is the [Zoom link](https://upenn.zoom.us/j/95868341588?pwd=a0NvbkhtUEdYTTk5d0Vmc2VvcHJrUT09). We look forward to seeing you there!
 </div>
 -->
-# CMSC 671-01 Principles of Artificial Intelligence at UMBC
+# CMSC 473/673 Natural Language Processing at UMBC
 
-## Fall 2023
+## Spring 2024
 
 ### Course Description
-Artificial Intelligence (AI), the study of how machines can behave in an intelligent, human-like manner, is shaping the way we interact with modern technology on a daily basis. In this introductory course, we will discuss what an intelligent agent is, and explore how an agent can solve problems by searching, make informed decisions, reason under uncertainty, and even learn. This course will help you develop the general foundational tools necessary to implement your own intelligent agents, understand the methods behind recent advances in AI, and pursue more specialized AI applications, including game AI, knowledge representation, machine learning, natural language processing, computer vision, planning, robotics, and more.
+
 
 ### Learning Objectives
 By the end of the course, you will be able to...
-* Predict the behavior of different search algorithms
-* Construct and query a knowledge base using first-order logic
-* Define decision making problems, and implement agents that can solve them
-* Apply probabilistic reasoning to problems with uncertainty
-* Compare and contrast AI methods to determine an appropriate method for a given
-problem
-* Reflect on the societal impacts of the AI methods and applications discussed in class
-* Develop and run AI experiments to work towards solving modern problems
+
 
 
 ### Staff
@@ -90,21 +62,22 @@ Instructor
 : Office Hours: Tuesdays, 2:30-3:30pm ET and Fridays 11am-12pm ET in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
 
 TA
-: Aydin Ayanzadeh
-: [aydina1@umbc.edu](mailto:aydina1@umbc.edu)
-: Office Hours: Wednesdays, 2-4:30pm ET in ITE 334, also <a href="mailto:aydina1@umbc.edu">by appointment</a>.
+: 
+: 
+: Office Hours: in ITE 334, also <a href="mailto:">by appointment</a>.
 
 ### Logistics
 Time and Place
-: Fall 2023, Tuesdays & Thursdays from 1:00-2:15pm EST
-: Janet & Walter Sondheim 103
-: First day of class is August 31, 2023
-: Last day of class is December 12, 2023
+: Spring 2024, Mondays & Wednesdays from 11:30 AM - 12:45 PM ET
+: Interdisciplinary Life Sciences S 101
+: First day of class is January 1, 2024
+: Last day of class is December 12, 2024
 
 
 
-Textbook
-: [Artificial Intelligence: A Modern Approach](http://aima.cs.berkeley.edu/) (fourth edition) by Stuart Russell and Peter Norvig. AI is moving fast, so the edition matters! A digital version of the textbook can be found through Blackboard under "My Textbooks & Course Resources".
+Textbooks
+: [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
+: [Introduction to Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf) by Jacob Eisenstein
 
 
 Grading
@@ -112,17 +85,16 @@ Grading
 * 10% Class Knowledge Checks
 * 10% Paper Presentation
 * 30% Homeworks (3 in total; 10% each)
-* 20% Midterm
-* 30% Final Project
+* 30% Project
 
 
-Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through the class Slack. (Please email [both Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 671] Need access to class Slack) specifying the email address you want to use, if you need to be added.) There is no grade for these discussions; they are only for your benefit.
+Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through the class Slack. (Please email [both Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 473/673] Need access to class Slack) specifying the email address you want to use, if you need to be added.) There is no grade for these discussions; they are only for your benefit.
 
 #### Assignment Descriptions
 
 Class Knowledge Checks
 : These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the ethics of an AI topic, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
-If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. [Please ask Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 671] Make-up clicker question) if you need to make up a day where we did only clicker questions.
+If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. [Please ask Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 473/673] Make-up clicker question) if you need to make up a day where we did only clicker questions.
 Your two lowest grade class knowledge checks (i.e., incomplete or missing submissions) will be dropped.
 
 Paper Presentations
@@ -131,17 +103,13 @@ Paper Presentations
 Homeworks
 : There are 4 homeworks, each corresponding to Modules 1-4: Search, Logical Agents, Sequential Decision Making, and Probability & Stochastic Reasoning. They will each have a corresponding page on this website with more information.
 
-Midterm
-: The midterm will show us how well you have learned about the different methods and if you can reason about when to apply them. It will test your knowledge about Modules 0-3 to see if there are any weaknesses in your knowledge before you start on your final project.
-
-Final Project
+Project
 : Teams will come up with AI project ideas and implement them. There will be check-in points along the way to see how you are progressing and to see how well your team is working together.
 
 ### Class Policies
 #### Late Day Policy
 Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
 
-**Edit: With the number of homeworks brought down to 3, you will be allowed to use up to 3 late days for HW 3 and up to 1 late day for each project milestone except for the final milestone (Project Milestone 4: Final Submission). This last assignment must be submitted on time.**
 
 #### Academic Integrity
 If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
@@ -155,15 +123,13 @@ If you use ChatGPT (or similar chatbots or AI-based generation tools), you must 
 Use of AI/automatic tools for grammatical assistance (such as spell-checkers or Grammarly) or small-scale predictive text (e.g., next word prediction, tab completion) is okay. Provided the use of these tools does not change the substance of your work, use of these tools may be, but is not required to be, disclosed.
 
 #### Collaboration Policy
-You ARE allowed to work in pairs on the homework assignments and teams of 3-5 for the final project. You must clearly indicate the names of all people involved when submitting the assignment, attributing who did what for the assignment. You can discuss answers/submissions for the paper presentation & class knowledge checks.
-Please note that you are **NOT allowed to collaborate at all on the midterm.**
+You ARE allowed to work in pairs on the homework assignments and teams of 3-5 for the project. You must clearly indicate the names of all people involved when submitting the assignment, attributing who did what for the assignment. You can discuss answers/submissions for the paper presentation & class knowledge checks.
 
 #### Technology Use
-You're allowed to use your computer in class since the clicker questions will be by phone or web browser
-(https://www.polleverywhere.com/), but be warned that I'm more likely to call on you and ask you a question if I see you're not paying attention. 😈
+You're allowed to use your computer in class since the clicker questions will be by phone or web browser (https://www.polleverywhere.com/).
 
 ##### Acknowledgements
-Class materials have been borrowed from Dr. Chris Callison-Burch, Dr. Tim Finin, Dr. Cassandra Kent, Dr. Cynthia Matuszek, and Dr. Mark Riedl. Generative AI policy is borrowed from Dr. Frank Ferraro.
+Class materials have been borrowed from Dr. Chris Callison-Burch, Dr. Marine Carpuat, Dr. Frank Ferraro, and Dr. Alan Ritter. Generative AI policy is borrowed from Dr. Frank Ferraro.
 
 
 ------
