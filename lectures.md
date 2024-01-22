@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CMSC 671 - Schedule
+title: CMSC 473/673 - Schedule
 active_tab: lectures
 ---
 
