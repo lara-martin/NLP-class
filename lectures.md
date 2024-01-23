@@ -13,7 +13,7 @@ active_tab: lectures
 
 
 <div class="alert alert-info">
-The lecture schedule will be updated as the term progresses. You can find more details under the <a href="/modules.html">Modules</a> tab.
+The lecture schedule will be updated as the term progresses.
 </div>
 
 <table class="table table-striped">
@@ -27,22 +27,6 @@ The lecture schedule will be updated as the term progresses. You can find more d
   </thead>
   <tbody>
     {% for lecture in site.data.lectures %}
-	    {% assign required = nil %}
-	    {% assign optional = nil %}
-
-	    <!-- Find matching section in modules -->
-	    {% for module in site.data.modules %}
-		    {% for lesson in module.lessons %}
-			    {% if lecture.title contains lesson.title %}
-				    {% assign mod_num = module.module_number %}
-				    {% assign required = lesson.readings%}
-				    {% assign optional = lesson.optional%}
-				    {% break %}
-			    {% endif %}
-		    {% endfor %}
-	    {% endfor %}
-
-
 	    <!-- Create a HTML anchor for the most recent lecture -->
 	    {% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
 	    {% assign lecture_date = lecture_date | plus: 0 %}
@@ -67,7 +51,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
 	      <td width="19%">{{ lecture.date | date: '%a, %b %-d, %Y' }}</td>
 	      <td width="20%">
 		 {{ lecture.title }}<br>
-		 {% if mod_num and lecture.type != 'no_lecture' and lecture.title %}(<a href="modules.html#module{{mod_num}}">Module {{mod_num}}</a>)
+		 {% if mod_num and lecture.type != 'no_lecture' and lecture.title %}
 			{% if lecture.slides %}
 			  <a href="{{ lecture.slides }}">[slides]</a>
 			{% endif %}
@@ -94,9 +78,9 @@ The lecture schedule will be updated as the term progresses. You can find more d
 		{% endif %}
 	      </td>
 	      <td>
-		{% if required %} 
+		{% if lecture.required %} 
 		<ul>
-		  {% for reading in required %}
+		  {% for reading in lecture.required %}
 		    <li>
 		    {% if reading.url %}
 			{{ reading.authors }}, <a href="{{ reading.url }}">{{ reading.title }}</a> 
@@ -109,7 +93,7 @@ The lecture schedule will be updated as the term progresses. You can find more d
 		  {% endfor %}
 		</ul>
 		{% endif %}
-	      </td>
+	      </td>    
 	      <td>
 		{% if lecture.homework_due %} 
 		  {% for hw in lecture.homework_due %}
