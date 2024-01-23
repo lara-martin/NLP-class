@@ -40,7 +40,7 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 
 <!--
 <div class="alert alert-success" markdown="1">
-First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It will take place virtually. Here is the [Zoom link](https://upenn.zoom.us/j/95868341588?pwd=a0NvbkhtUEdYTTk5d0Vmc2VvcHJrUT09). We look forward to seeing you there!
+
 </div>
 -->
 # CMSC 473/673 Natural Language Processing at UMBC
@@ -48,11 +48,14 @@ First day of class is Thursday, January 13, 2022 at 1:45pm-3:15pm Eastern. It wi
 ## Spring 2024
 
 ### Course Description
-
+Natural language processing (NLP) is the field of working with language to automatically perform a variety of tasks, instead of or in collaboration with people. 
+This course will show you both old and new techniques that are still used today.
 
 ### Learning Objectives
 By the end of the course, you will be able to...
-
+* Recall common tasks in NLP
+* 
+* Plan and create an NLP system for a particular task.
 
 
 ### Staff
@@ -70,8 +73,8 @@ TA
 Time and Place
 : Spring 2024, Mondays & Wednesdays from 11:30 AM - 12:45 PM ET
 : Interdisciplinary Life Sciences S 101
-: First day of class is January 1, 2024
-: Last day of class is December 12, 2024
+: First day of class is January 29, 2024
+: Last day of class is May 15, 2024
 
 
 
