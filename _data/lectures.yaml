@@ -22,21 +22,26 @@
 
 -
   date: 2024-01-29
-  title: What is NLP?
+  title: What class is this?
   activities: 
   slides: 
-  reading: 
+  
 -
   date: 2024-01-31
-  title: Examples of NLP Tasks
+  title: What is NLP?
   slides: 
+  required: 
+    -
+      title: Chapter 1: Introduction
+      authors: Jacob Eisenstein
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
 -
   date: 2024-02-02
   title: Waitlist Deadline
   type: no_lecture  
 -
   date: 2024-02-05
-  title: PyTorch & HuggingFace Tutorial
+  title: Examples of NLP Tasks
   slides: 
 -
   date: 2024-02-05
@@ -44,8 +49,7 @@
   type: no_lecture
 -
   date: 2024-02-07
-  title: Machine Learning Basics & Evaluation
-  slides: 
+
   
 -
   date: 2024-02-09
@@ -54,53 +58,95 @@
   
 -
   date: 2024-02-12
-  title: Machine Learning Basics & Evaluation
-  slides: 
+  title: Tokens
+  slides:
+  required:
+    -
+      title: Chapter 2: Regular Expressions, Text Normalization, Edit Distance
+      url: https://web.stanford.edu/~jurafsky/slp3/2.pdf
+      authors:  Dan Jurafsky and James H. Martin     
+    -
+      title: Chapter 2.2 & 4.5
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein  
+      
 -
   date: 2024-02-14
-  title: Classification with Maximum Entropy Models
-  slides: 
+
 -
   date: 2024-02-19
-  title: Learning & Using Maximum Entropy Models
+  title: Machine Learning Basics & Evaluation
   slides: 
-  type: deadline
-  homework_due:   
-    -
-      title: 
-      url: 
+
   
 -
   date: 2024-02-21
-  title: Vector Embeddings
+  title: Machine Learning Basics & Evaluation
   slides: 
+  required:
+    -
+      title: Chapter 4.3 & 4.4
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
 
 -
   date: 2024-02-26
-  title: Vector Embeddings & Subword Units
+  title: PyTorch & HuggingFace Tutorial
   slides: 
+  type: tutorial
+
 -
   date: 2024-02-28
-  title: N-Gram Language Models
+  title: Classification with Maximum Entropy Models
   slides: 
+  required:
+    -
+      title: Chapter 2.5
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
+      
 -
   date: 2024-03-04
-  title: N-Gram Language Models
-  slides:
+  title: Learning & Using Maximum Entropy Models
+  slides: 
+  required:
+    -
+      title: Chapter B.1 Gradient descent
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
 
 -
   date: 2024-03-06
-  title: Generation with Recurrent Neural Network LMs
+  title: Vector Embeddings
   slides: 
+  required:
+    -
+      title: Chapter 14
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein    
+    -
+      title: Chapter 6: Vector Semantics and Embeddings
+      url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
+      authors:  Dan Jurafsky and James H. Martin 
 
 -
   date: 2024-03-11
-  title: Attention
-  slides: 
+  title: Vector Embeddings
+  slides:
+
 -
   date: 2024-03-13
-  title: Transformers
+  title: N-Gram Language Models
   slides: 
+  required:
+    -
+      title: Chapter 6.1: N-gram Language Models
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
+    -
+      title: Chapter 3: N-gram Language Models
+      url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
+      authors:  Dan Jurafsky and James H. Martin   
 -
   date: 2024-03-18
   type: no_lecture
@@ -113,22 +159,35 @@
 
 -
   date: 2024-03-25
-  title: Pre-training & Fine-tuning
+  title:  N-Gram Language Models
   slides: 
-  
+    
 
 -
   date: 2024-03-27
-  title: Types of Foundational Models
+  title: Neural Language Models
   slides: 
+    -
+      title: Chapter 7: Neural Networks and Neural Language Models 
+      url: https://web.stanford.edu/~jurafsky/slp3/7.pdf
+      authors:  Dan Jurafsky and James H. Martin   
 
 -
   date: 2024-04-01
-  title: Ethics of NLP 
+  title: Recurrent Neural Network LMs
   slides:
+  required:
+    -
+      title: Chapter 6
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
+    -
+      title: Chapter 9: RNNs and LSTMs
+      url: https://web.stanford.edu/~jurafsky/slp3/9.pdf
+      authors:  Dan Jurafsky and James H. Martin         
 -
   date: 2024-04-03
-  title: Prompt Engineering
+  title: Recurrent Neural Network LMs
   slides:
 -
   date: 2024-04-05
@@ -136,44 +195,94 @@
   type: no_lecture
 -
   date: 2024-04-08
-  title: Instruction Tuning
+  title: Attention
   slides: 
+  required:
+    -
+      title: 
+      url: 
+      authors:  
 -
   date: 2024-04-10
-  title: 
-  slides: 
+  title: Transformers
+  slides:
+
 -
   date: 2024-04-15
-  title: 
+  title: Pre-training & Fine-tuning
+  required:
+    -
+      title: Chapter 11: Fine-tuning and Masked Language Models
+      url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
+      authors:  Dan Jurafsky and James H. Martin  
 -
   date: 2024-04-17
-  title: 
+  title: Types of Foundational Models
   slides: 
+  required:
+    -
+      title: 
+      url: 
+      authors:  
 -
   date: 2024-04-22
-  title: 
+  title: Ethics of NLP
   slides: 
+  required:
+    -
+      title: On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜
+      url: https://dl.acm.org/doi/10.1145/3442188.3445922
+      authors: Emily M. Bender, Timnit Gebru, Angelina McMillan-Major, Shmargaret Shmitchell 
 
 -
   date: 2024-04-24
-  type: 
+  title: Prompt Engineering
+  required:
+    -
+      title: 
+      url: 
+      authors:  
 
 -
   date: 2024-04-29
-  title: 
+  title: Instruction Tuning
   slides: 
+  required:
+    -
+      title: 
+      url: 
+      authors:  
 
 -
   date: 2024-05-01
   title: "Applications: Machine Translation"
   slides: 
+  required:
+    -
+      title: Chapter 13: Machine Translation
+      url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
+      authors:  Dan Jurafsky and James H. Martin  
 -
   date: 2024-05-06
   title:   "Applications: Dialog Systems"
+  required:
+    -
+      title: Chapter 19.3: Dialogue
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
+    -
+      title: Chapter 15: Chatbots and Dialogue Systems
+      url: https://web.stanford.edu/~jurafsky/slp3/15.pdf
+      authors:  Dan Jurafsky and James H. Martin       
 -
   date: 2024-05-08
   title: "Applications: Creative Generation"
   slides: 
+  required:
+    -
+      title: 
+      url: 
+      authors:  
 
 -
   date: 2024-05-13
