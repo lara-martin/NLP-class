@@ -55,8 +55,8 @@ This course will show you both old and new techniques that are still used today.
 By the end of the course, you will be able to...
 * Recall and forumulate problems for common tasks in NLP.
 * Diagnose and setup appropriate evaluation metrics for a given problem, including determining what an appropriate baseline might be.
-* Implement popular NLP toolkits and libraries.
-* 
+* Implement systems that use popular NLP toolkits and libraries.
+* Compare different language models to decide when you might to use them.
 * Plan and create an NLP system for a particular task.
 
 
@@ -64,7 +64,7 @@ By the end of the course, you will be able to...
 Instructor
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
-: Office Hours: Tuesdays, 2:30-3:30pm ET and Fridays 11am-12pm ET in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
+: Office Hours: Tuesdays, 3-4pm ET and Wednesdays 1-2pm ET in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
 
 TA
 : 
