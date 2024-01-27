@@ -79,3 +79,7 @@ thead {
   background: darkgrey;
   color: black;
 }
+
+.tutorial > td {
+  background-color: #e6ffcc;
+}
