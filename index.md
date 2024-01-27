@@ -93,16 +93,6 @@ Textbooks
 | Project | 50% | 40% |
 | Grad Assignment | - | 20% |
 
-<br>
-
-| If you get at least... | 473 (undergrad) | 673 (grad) |
-| | You are guaranteed the following letter grade|
-|----------------|---------------------|----------------|
-| 90% | A | A- |
-| 80% | B | B- |
-| 70% | C | C- |
-| 65% | D | D |
-| 0% | F | F|
 
 #### Google Classroom
 Google Classroom will be used for grading and most communication. (Please email [both Lara & Duong](mailto:laramar@umbc.edu;dta1@umbc.edu?subject=[CMSC 473/673] Need access to Google Classroom) specifying the email address you want to use, if you need to be added.)
@@ -112,16 +102,16 @@ Disclaimer: This is the first time that I'm using Google Classroom, so there mig
 
 #### Assignment Descriptions
 
-Class Knowledge Checks
+**Class Knowledge Checks**
 : These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the topic of the day, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
 If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. [Please ask Dr. Martin](mailto:laramar@umbc.edu?subject=[CMSC 473/673] Make-up clicker question) if you need to make up a day where we did only clicker questions.
 Your two lowest grade class knowledge checks (i.e., incomplete or missing submissions) will be dropped.
 
 
-Homeworks
-: There are 3 homeworks: NLP Tasks (learning objective 1), NLP Evaluation (learning objective 2), NLP Methods (learning objective 3). They will each have a corresponding page on this website with more information.
+**Homeworks**
+: There are 3 homeworks: [NLP Tasks]() (learning objective 1), [NLP Evaluation]() (learning objective 2), [NLP Methods]() (learning objective 3). They each have a corresponding page on this website with more information.
 
-Project (learning objective 6)
+**Project (learning objective 6)**
 : Teams will come up with NLP project ideas (with the help of Lara & Duong) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.
 : [Milestone 1: Project Proposal](homeworks/project/proposal.html)
 : [Milestone 2: Project Preparation and Informal Literature Review](homeworks/project/lit-review.html)
@@ -129,12 +119,14 @@ Project (learning objective 6)
 : [Milestone 4: Complete Draft](homeworks/project/draft.html)
 : [Milestone 5: Final Submission](homeworks/project/final-submission.html)
 
-Graduate Assignment (learning objective 4 or 5)
-: 
+**Graduate Assignment (learning objective 4 or 5)**
+: If you are taking the graduate version of the course (CMSC 673), you will have an extra assignment that you need to complete. This assignment has two options that you can choose between (which you can choose depending on what career trajectory you plan). The graduate assignment is done individually.
+: **Option 1: [Implementation]()** -- (suited for implementation-focused students) If you choose this option, you will pick an NLP tool from a list and implement it.
+: **Option 2: [Paper]()** -- (suited for research-focused students) If you choose this option, you will find papers for and write up a literature review summarizing what you found.
 
 ### Class Policies
 #### Late Day Policy
-Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the project's final milestone, which must be finished by the final day of class.**
+Each student has ten free "late days".  Homeworks can be submitted at most three days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days cannot be used on the project's final milestone or the final grad assignment milestone, which must be finished by the final day of class.**
 
 
 #### Academic Integrity
@@ -151,6 +143,7 @@ Use of AI/automatic tools for grammatical assistance (such as spell-checkers or 
 #### Collaboration Policy
 ##### Not allowed
 The **homeworks** are designed for us to get an idea of how well you're picking up the material and applying it. Therefore, you are not allowed to collaborate on the homeworks.
+The **graduate assignment** is also done individually.
 
 ##### Allowed
 However, for the **project**, you are allowed to work in teams of 3-5. You can also discuss answers/submissions for the **class knowledge checks**.
