@@ -79,16 +79,14 @@ Time and Place
 : First day of class is January 29, 2024
 : Last day of class is May 15, 2024
 
-
-
-#### Textbooks
+Textbooks
 : [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
 : [Introduction to Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf) by Jacob Eisenstein
 
 
 #### Grading
 : 
-| **Assignment** | **473 (undergrad)** | **673 (grad)** |
+| Assignment | 473 (undergrad) | 673 (grad) |
 |----------------|---------------------|----------------|
 | Class Knowledge Checks | 10% | 10% |
 | Homeworks | 40% | 30% |
