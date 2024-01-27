@@ -43,6 +43,8 @@ The lecture schedule will be updated as the term progresses.
 		class="warning"
 	      {% else if lecture.type == 'no_lecture' %}
 		class="danger"
+  	      {% else if lecture.type == 'tutorial' %}
+		class="tutorial"
 	      {% endif %}
 	    {% endif %}
 	    >
