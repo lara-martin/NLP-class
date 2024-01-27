@@ -1,7 +1,7 @@
 ---
 title: CMSC 473/673 - Spring 2024 @ UMBC
 layout: default
-active_tab: main_page
+active_tab: about
 ---
 
 <!-- Display an alert about upcoming homework assignments -->
