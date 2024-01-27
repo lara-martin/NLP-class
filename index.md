@@ -62,24 +62,24 @@ By the end of the course, you will be able to...
 
 
 ### Staff
-Instructor
+**Instructor**
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 : Office Hours: Tuesdays, 3-4pm ET and Wednesdays 1-2pm ET in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
 
-TA
+**TA**
 : Duong Ta
 : [dta1@umbc.edu](dta1@umbc.edu)
 : Office Hours: TBA in ITE 334, also <a href="mailto:">by appointment</a>.
 
 ### Logistics
-Time and Place
+**Time and Place**
 : Spring 2024, Mondays & Wednesdays from 11:30 AM - 12:45 PM ET
 : Interdisciplinary Life Sciences S 101
 : First day of class is January 29, 2024
 : Last day of class is May 15, 2024
-<br>
-Textbooks
+<br><br>
+**Textbooks**
 : [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
 : [Introduction to Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf) by Jacob Eisenstein
 
