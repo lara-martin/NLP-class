@@ -33,11 +33,6 @@ The lecture schedule will be updated as the term progresses.
 	    {% assign now = now | minus: 14400 %}
 
 	    <tr
-	    {% if anchor_created != true and lecture_date >= now %}
-	      {% assign anchor_created = true %}
-	      id="now" 
-	    {% endif %}
-
 	    {% if lecture.type %}
 	      {% if lecture.type == 'deadline' %}
 		class="warning"
