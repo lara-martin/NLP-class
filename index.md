@@ -70,7 +70,7 @@ Instructor
 TA
 : Duong Ta
 : [dta1@umbc.edu](dta1@umbc.edu)
-: Office Hours: in ITE 334, also <a href="mailto:">by appointment</a>.
+: Office Hours: TBA in ITE 334, also <a href="mailto:">by appointment</a>.
 
 ### Logistics
 Time and Place
@@ -78,7 +78,7 @@ Time and Place
 : Interdisciplinary Life Sciences S 101
 : First day of class is January 29, 2024
 : Last day of class is May 15, 2024
-
+<br>
 Textbooks
 : [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
 : [Introduction to Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf) by Jacob Eisenstein
@@ -123,14 +123,14 @@ Graduate Assignment (learning objective 4 or 5)
 
 ### Class Policies
 #### Late Day Policy
-Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the project's final deadline, which must be finished by the final day of class.**
+Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the project's final milestone, which must be finished by the final day of class.**
 
 
 #### Academic Integrity
 If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
 
 Plagiarism or any sort of cheating is not tolerated in this class. All work submitted must be your own (or, if permitted, with partners---see [Collaoration Policy](#collaboration-policy). If you are allowed external sources
-on an assignment, please be sure to cite your source! Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. If you are suspected of cheating, plagiarism, or other forms of academic dishonesty, your case will be brought to the attention of the Undergraduate Academic Conduct Committee or Graduate Council Grievance Committee and may result in an F in the course, depending on the Committee’s decision. **Your first offense will result in at least a 0 (zero) on the assignment.** If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
+on an assignment, please be sure to cite your source! This includes Large Language Models (LLMs): Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. If you are suspected of cheating, plagiarism, or other forms of academic dishonesty, your case will be brought to the attention of the Undergraduate Academic Conduct Committee or Graduate Council Grievance Committee and may result in an F in the course, depending on the Committee’s decision. **Your first offense will result in at least a 0 (zero) on the assignment.** If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
 
 #### Generative AI
 If you use ChatGPT (or similar chatbots or AI-based generation tools), you must describe exactly how you used it, including providing the prompt, the original generation, and your edits. This applies to prose, code, or any form of content creation. Not disclosing is an academic integrity violation. If you do disclose, your answer may receive anywhere from 0 to full credit, depending on the extent of substantive edits, achievement of learning objectives, and overall circumvention of those objectives.
