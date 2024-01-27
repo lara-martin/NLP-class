@@ -63,3 +63,18 @@
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
+
+
+td {
+  padding: 10px 15px 10px 10px;
+}
+
+tr {
+  border: black;
+
+}
+
+thead {
+  background: darkgrey;
+  color: black;
+}
