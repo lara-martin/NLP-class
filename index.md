@@ -85,7 +85,7 @@ Textbooks
 
 
 #### Grading
-: 
+
 | Assignment | 473 (undergrad) | 673 (grad) |
 |----------------|---------------------|----------------|
 | Class Knowledge Checks | 10% | 10% |
