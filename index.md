@@ -19,7 +19,7 @@ The in-class activity for {{ page.release_date | date: "%A %b %-d" }} will be to
 {% else %}
 <!-- Homework assignment -->
 <div class="alert alert-info">
-<a href="https://laramartin.net/Principles-of-AI{{page.url}}">{% if page.type %}{{page.type}} {{page.number}}: {% endif %}{{page.title}}</a> has been released.
+<a href="https://laramartin.net/NLP-class{{page.url}}">{% if page.type %}{{page.type}} {{page.number}}: {% endif %}{{page.title}}</a> has been released.
 {% if page.deliverables %}
 The assignment has multiple deliverables.
 <ul>
@@ -92,6 +92,17 @@ Textbooks
 | Homeworks | 40% | 30% |
 | Project | 50% | 40% |
 | Grad Assignment | - | 20% |
+
+<br>
+
+| If you get at least... | 473 (undergrad) | 673 (grad) |
+| | You are guaranteed the following letter grade|
+|----------------|---------------------|----------------|
+| 90% | A | A- |
+| 80% | B | B- |
+| 70% | C | C- |
+| 65% | D | D |
+| 0% | F | F|
 
 #### Google Classroom
 Google Classroom will be used for grading and most communication. (Please email [both Lara & Duong](mailto:laramar@umbc.edu;dta1@umbc.edu?subject=[CMSC 473/673] Need access to Google Classroom) specifying the email address you want to use, if you need to be added.)
