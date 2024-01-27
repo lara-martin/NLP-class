@@ -48,16 +48,17 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 ## Spring 2024
 
 ### Course Description
-Natural language processing (NLP) is the field of working with language to automatically perform a variety of tasks, instead of or in collaboration with people. 
-This course will show you both old and new techniques that are still used today.
+Natural language processing (NLP) is the field of working with language to automatically perform a variety of tasks, instead of or in collaboration with people. NLP can focus on the Generation (NLG) and/or Understanding (NLU) of natural language. Recently, large language models (LLMs) like ChatGPT have gotten the attention of the general public, but they have also greatly changed the landscape of modern NLP research.
+This course will show you both old & new techniques that are still used today and will give you a basic understanding of why & how we do NLP.
 
 ### Learning Objectives
 By the end of the course, you will be able to...
-* Recall and forumulate problems for common tasks in NLP.
-* Diagnose and setup appropriate evaluation metrics for a given problem, including determining what an appropriate baseline might be.
-* Implement systems that use popular NLP toolkits and libraries.
-* Compare different language models to decide when you might to use them.
-* Plan and create an NLP system for a particular task.
+1. Recall common tasks in NLP and forumulate problems for them.
+2. Diagnose and setup appropriate evaluation metrics for a given problem, including determining what an appropriate baseline might be.
+3. Compare and contrast language models and other NLP methods.
+4. Implement AI systems that use popular NLP toolkits and libraries.
+5. Construct a literature review from state-of-the-art research.
+6. Plan and create an NLP system for a particular task.
 
 
 ### Staff
@@ -67,8 +68,8 @@ Instructor
 : Office Hours: Tuesdays, 3-4pm ET and Wednesdays 1-2pm ET in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
 
 TA
-: 
-: 
+: Duong Ta
+: [dta1@umbc.edu](dta1@umbc.edu)
 : Office Hours: in ITE 334, also <a href="mailto:">by appointment</a>.
 
 ### Logistics
@@ -80,47 +81,58 @@ Time and Place
 
 
 
-Textbooks
+#### Textbooks
 : [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
 : [Introduction to Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf) by Jacob Eisenstein
 
 
-Grading
+#### Grading
 : 
-* 10% Class Knowledge Checks
-* 10% Paper Presentation
-* 30% Homeworks (3 in total; 10% each)
-* 30% Project
+| **Assignment** | **473 (undergrad)** | **673 (grad)** |
+|----------------|---------------------|----------------|
+| Class Knowledge Checks | 10% | 10% |
+| Homeworks | 40% | 30% |
+| Project | 50% | 40% |
+| Grad Assignment | - | 20% |
 
+#### Google Classroom
+Google Classroom will be used for grading and most communication. (Please email [both Lara & Duong](mailto:laramar@umbc.edu;dta1@umbc.edu?subject=[CMSC 473/673] Need access to Google Classroom) specifying the email address you want to use, if you need to be added.)
+Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through Google Classroom.  There is no grade for discussions; they are only for your benefit.
 
-Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through the class Slack. (Please email [both Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 473/673] Need access to class Slack) specifying the email address you want to use, if you need to be added.) There is no grade for these discussions; they are only for your benefit.
+Disclaimer: This is the first time that I'm using Google Classroom, so there might be some hiccups along the way.
 
 #### Assignment Descriptions
 
 Class Knowledge Checks
-: These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the ethics of an AI topic, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
-If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. [Please ask Lara & Aydin](mailto:laramar@umbc.edu;aydina1@umbc.edu?subject=[CMSC 473/673] Make-up clicker question) if you need to make up a day where we did only clicker questions.
+: These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the topic of the day, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
+If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. [Please ask Dr. Martin](mailto:laramar@umbc.edu?subject=[CMSC 473/673] Make-up clicker question) if you need to make up a day where we did only clicker questions.
 Your two lowest grade class knowledge checks (i.e., incomplete or missing submissions) will be dropped.
 
-Paper Presentations
-: Throughout the semester, each student must select a Module and find a research paper relevant to the selected Module, showing how these methods are still used in research today. You will have a specified presentation day where you will informally present what you learned about the paper in small groups and then your group will share the key points with the rest of the class. The night before you present, a short 1-page summary of the paper will be due. More information about the presentation/summary can be found [here](https://laramartin.net/Principles-of-AI/homeworks/presentations.html).
 
 Homeworks
-: There are 4 homeworks, each corresponding to Modules 1-4: Search, Logical Agents, Sequential Decision Making, and Probability & Stochastic Reasoning. They will each have a corresponding page on this website with more information.
+: There are 3 homeworks: NLP Tasks (learning objective 1), NLP Evaluation (learning objective 2), NLP Methods (learning objective 3). They will each have a corresponding page on this website with more information.
 
-Project
-: Teams will come up with AI project ideas and implement them. There will be check-in points along the way to see how you are progressing and to see how well your team is working together.
+Project (learning objective 6)
+: Teams will come up with NLP project ideas (with the help of Lara & Duong) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.
+: [Milestone 1: Project Proposal](homeworks/project/proposal.html)
+: [Milestone 2: Project Preparation and Informal Literature Review](homeworks/project/lit-review.html)
+: [Milestone 3: Halfway Point]()
+: [Milestone 4: Complete Draft](homeworks/project/draft.html)
+: [Milestone 5: Final Submission](homeworks/project/final-submission.html)
+
+Graduate Assignment (learning objective 4 or 5)
+: 
 
 ### Class Policies
 #### Late Day Policy
-Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the final project, which must be finished by the final day of class.  Late days may not be used for paper presentations.**
+Each student has five free "late days".  Homeworks can be submitted at most two days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days only apply to the homeworks. They cannot be used on the project's final deadline, which must be finished by the final day of class.**
 
 
 #### Academic Integrity
 If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
 
 Plagiarism or any sort of cheating is not tolerated in this class. All work submitted must be your own (or, if permitted, with partners---see [Collaoration Policy](#collaboration-policy). If you are allowed external sources
-on an assignment (i.e. not an exam), please be sure to cite your source! Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. If you are suspected of cheating, plagiarism, or other forms of academic dishonesty, your case will be brought to the attention of the Undergraduate Academic Conduct Committee or Graduate Council Grievance Committee and may result in an F in the course, depending on the Committee’s decision. **Your first offense will result in at least a 0 (zero) on the assignment.** If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
+on an assignment, please be sure to cite your source! Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. If you are suspected of cheating, plagiarism, or other forms of academic dishonesty, your case will be brought to the attention of the Undergraduate Academic Conduct Committee or Graduate Council Grievance Committee and may result in an F in the course, depending on the Committee’s decision. **Your first offense will result in at least a 0 (zero) on the assignment.** If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
 
 #### Generative AI
 If you use ChatGPT (or similar chatbots or AI-based generation tools), you must describe exactly how you used it, including providing the prompt, the original generation, and your edits. This applies to prose, code, or any form of content creation. Not disclosing is an academic integrity violation. If you do disclose, your answer may receive anywhere from 0 to full credit, depending on the extent of substantive edits, achievement of learning objectives, and overall circumvention of those objectives.
@@ -128,7 +140,12 @@ If you use ChatGPT (or similar chatbots or AI-based generation tools), you must 
 Use of AI/automatic tools for grammatical assistance (such as spell-checkers or Grammarly) or small-scale predictive text (e.g., next word prediction, tab completion) is okay. Provided the use of these tools does not change the substance of your work, use of these tools may be, but is not required to be, disclosed.
 
 #### Collaboration Policy
-You ARE allowed to work in pairs on the homework assignments and teams of 3-5 for the project. You must clearly indicate the names of all people involved when submitting the assignment, attributing who did what for the assignment. You can discuss answers/submissions for the paper presentation & class knowledge checks.
+##### Not allowed
+The **homeworks** are designed for us to get an idea of how well you're picking up the material and applying it. Therefore, you are not allowed to collaborate on the homeworks.
+
+##### Allowed
+However, for the **project**, you are allowed to work in teams of 3-5. You can also discuss answers/submissions for the **class knowledge checks**.
+You must clearly indicate the names of all people involved when submitting the assignment. You are also required to list who did what for the project milestones.
 
 #### Technology Use
 You're allowed to use your computer in class since the clicker questions will be by phone or web browser (https://www.polleverywhere.com/).
