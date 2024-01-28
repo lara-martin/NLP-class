@@ -36,9 +36,9 @@ The lecture schedule will be updated as the term progresses.
 	    {% if lecture.type %}
 	      {% if lecture.type == 'deadline' %}
 		class="warning"
-    	      {% else if lecture.type == 'tutorial' %}
+    	      {% elsif lecture.type == 'tutorial' %}
 		class="tutorial"
-	      {% else if lecture.type == 'no_lecture' %}
+	      {% elsif lecture.type == 'no_lecture' %}
 		class="danger"
 	      {% endif %}
 	    {% endif %}
