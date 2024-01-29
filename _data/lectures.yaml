@@ -268,11 +268,6 @@
   date: 2024-04-24
   title: Prompt Engineering
   type: tutorial
-  required:
-    -
-      title: 
-      url: 
-      authors:  
 
 -
   date: 2024-04-29
@@ -286,7 +281,7 @@
     -
       title: Instruction Tuning with GPT-4
       url: https://arxiv.org/abs/2304.03277
-      authors: https://arxiv.org/abs/2304.03277     
+      authors: Baolin Peng, Chunyuan Li, Pengcheng He, Michel Galley, Jianfeng Gao  
 
 -
   date: 2024-05-01
@@ -315,9 +310,9 @@
   slides: 
   required:
     -
-      title: 
-      url: 
-      authors:  
+      title: "Re3: Generating Longer Stories With Recursive Reprompting and Revision"
+      url: https://aclanthology.org/2022.emnlp-main.296
+      authors: Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein
 
 -
   date: 2024-05-13
