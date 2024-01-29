@@ -126,7 +126,7 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 
 ### Class Policies
 #### Late Day Policy
-Each student has ten free "late days".  Homeworks can be submitted at most three days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days cannot be used on the project's final milestone or the final grad assignment milestone, which must be finished by the final day of class.**
+Each student has five (5) free "late days".  Homeworks can be submitted at most three days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days cannot be used on the project's final milestone or the final grad assignment milestone, which must be finished by the final day of class.**
 
 
 #### Academic Integrity
