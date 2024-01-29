@@ -150,7 +150,7 @@ However, for the **project**, you are allowed to work in teams of 3-5. You can a
 You must clearly indicate the names of all people involved when submitting the assignment. You are also required to list who did what for the project milestones.
 
 #### Technology Use
-You're allowed to use your computer in class since the clicker questions will be by phone or web browser (https://www.polleverywhere.com/).
+You're allowed to use your computer in class since the clicker questions will be by phone or web browser ([https://www.polleverywhere.com/](https://www.polleverywhere.com/).
 
 ##### Acknowledgements
 Class materials have been borrowed from Dr. Chris Callison-Burch, Dr. Marine Carpuat, Dr. Frank Ferraro, and Dr. Alan Ritter. Generative AI policy is borrowed from Dr. Frank Ferraro.
