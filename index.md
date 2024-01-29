@@ -53,7 +53,7 @@ This course will show you both old & new techniques that are still used today an
 
 ### Learning Objectives
 By the end of the course, you will be able to...
-1. Recall common tasks in NLP and forumulate problems for them.
+1. Recall common tasks in NLP and formulate problems for them.
 2. Diagnose and setup appropriate evaluation metrics for a given problem, including determining what an appropriate baseline might be.
 3. Compare and contrast language models and other NLP methods.
 4. Implement AI systems that use popular NLP toolkits and libraries.
