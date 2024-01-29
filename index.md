@@ -89,8 +89,8 @@ By the end of the course, you will be able to...
 | Assignment | 473 (undergrad) | 673 (grad) |
 |----------------|---------------------|----------------|
 | Class Knowledge Checks | 10% | 10% |
-| Homeworks | 40% | 30% |
-| Project | 50% | 40% |
+| Homeworks | 50% | 30% |
+| Project | 40% | 40% |
 | Grad Assignment | - | 20% |
 
 
