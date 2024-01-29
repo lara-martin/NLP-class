@@ -49,15 +49,6 @@
   type: no_lecture
 -
   date: 2024-02-07
-
-  
--
-  date: 2024-02-09
-  title: Last Day to Change Schedule
-  type: no_lecture
-  
--
-  date: 2024-02-12
   title: Tokens
   slides:
   required:
@@ -69,18 +60,19 @@
       title: Chapter 2.2 & 4.5
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
       authors: Jacob Eisenstein  
+  
+-
+  date: 2024-02-09
+  title: Last Day to Change Schedule
+  type: no_lecture
+  
+-
+  date: 2024-02-12
+  title: Machine Learning Basics & Evaluation
+  slides: 
       
 -
   date: 2024-02-14
-
--
-  date: 2024-02-19
-  title: Machine Learning Basics & Evaluation
-  slides: 
-
-  
--
-  date: 2024-02-21
   title: Machine Learning Basics & Evaluation
   slides: 
   required:
@@ -88,15 +80,16 @@
       title: Chapter 4.3 & 4.4
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
       authors: Jacob Eisenstein
-
+      
 -
-  date: 2024-02-26
+  date: 2024-02-19
   title: PyTorch & HuggingFace Tutorial
   slides: 
   type: tutorial
 
+  
 -
-  date: 2024-02-28
+  date: 2024-02-21
   title: Classification with Maximum Entropy Models
   slides: 
   required:
@@ -104,9 +97,9 @@
       title: Chapter 2.5
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
       authors: Jacob Eisenstein
-      
+
 -
-  date: 2024-03-04
+  date: 2024-02-26
   title: Learning & Using Maximum Entropy Models
   slides: 
   required:
@@ -115,8 +108,9 @@
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
       authors: Jacob Eisenstein
 
+
 -
-  date: 2024-03-06
+  date: 2024-02-28
   title: Vector Embeddings
   slides: 
   required:
@@ -128,14 +122,14 @@
       title: "Chapter 6: Vector Semantics and Embeddings"
       url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
       authors:  Dan Jurafsky and James H. Martin 
-
+      
 -
-  date: 2024-03-11
+  date: 2024-03-04
   title: Vector Embeddings
   slides:
 
 -
-  date: 2024-03-13
+  date: 2024-03-06
   title: N-Gram Language Models
   slides: 
   required:
@@ -146,7 +140,14 @@
     -
       title: "Chapter 3: N-gram Language Models"
       url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
-      authors:  Dan Jurafsky and James H. Martin   
+      authors:  Dan Jurafsky and James H. Martin
+
+-
+  date: 2024-03-11
+
+-
+  date: 2024-03-13
+
 -
   date: 2024-03-18
   type: no_lecture
