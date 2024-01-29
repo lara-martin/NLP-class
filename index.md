@@ -65,7 +65,7 @@ By the end of the course, you will be able to...
 **Instructor**
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
-: Office Hours: Tuesdays, 3-4pm ET and Wednesdays 1-2pm ET in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
+: Office Hours: Tuesdays, 3-4pm ET and Wednesdays 2-3pm ET in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
 
 **TA**
 : Duong Ta
