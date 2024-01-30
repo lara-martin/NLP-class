@@ -55,7 +55,7 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-The project is a chance for you to apply what you learned in class to a concrete task. You can **choose between two directions**: creating a novel NLP system or answering a research question. For the direction that you choose, write a project proposal that answers the questions below.  You should also prepare to give a two-minute “lightning” presentation on your proposal in class on {{ page.due_date | date: "%B" }}{{ page.due_date | date: "%-d" | plus:1}}. 
+The project is a chance for you to apply what you learned in class to a concrete task. You can **choose between two directions**: creating a novel NLP system or answering a research question. For the direction that you choose, write a project proposal that answers the questions below.  You should also prepare to give a two-minute “lightning” presentation on your proposal in class on **{{ page.due_date | date: "%B" }} {{ page.due_date | date: "%-d" | plus:1}}**. More information about the presentation can be found under "[What to Submit](#what-to-submit)"
 
 If you are trying to decide between multiple project ideas, or if you’re struggling to come up with something, we highly encourage you to come to Office Hours and discuss it with the staff. We are experienced researchers and should be able to help you narrow down which ideas of yours are the most feasible + interesting.
 
