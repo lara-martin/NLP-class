@@ -16,7 +16,7 @@
 #    -
 #      title: "HW1: Build a Text-Adventure Game (5%)"
 #      url: text-adventure-game/text-adventure-game.html
-#type: deadline or no_lecture
+#type: deadline or no_lecture or tutorial
 
 
 
@@ -87,13 +87,21 @@
     
 -
   date: 2024-02-19
-  title: PyTorch & HuggingFace Tutorial
-  slides: 
-  type: tutorial
+  type: deadline
+  homework_due:
+    -
+      title: Project Milestone 1: Project Proposal
+      url: project/proposal.html
+
 
   
 -
   date: 2024-02-21
+  title: PyTorch & HuggingFace Tutorial
+  slides: 
+  type: tutorial
+-
+  date: 2024-02-26
   title: Classification with Logistic Regression
   slides: 
   required:
@@ -106,8 +114,10 @@
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
       authors: Dan Jurafsky and James H. Martin      
 
+
+
 -
-  date: 2024-02-26
+  date: 2024-02-28
   title: Learning & Using Logistic Regression
   slides: 
   required:
@@ -118,11 +128,9 @@
     -
       title: NLP Chapter 5.4-5.11
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
-      authors: Dan Jurafsky and James H. Martin       
-
-
+      authors: Dan Jurafsky and James H. Martin      
 -
-  date: 2024-02-28
+  date: 2024-03-04
   title: Vector Embeddings
   slides: 
   required:
@@ -135,13 +143,14 @@
       url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
       authors:  Dan Jurafsky and James H. Martin 
       
+
 -
-  date: 2024-03-04
+  date: 2024-03-06
   title: Vector Embeddings
   slides:
 
 -
-  date: 2024-03-06
+  date: 2024-03-11
   title: N-Gram Language Models
   slides: 
   required:
@@ -153,10 +162,6 @@
       title: SLP Chapter 3
       url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
       authors:  Dan Jurafsky and James H. Martin
-
--
-  date: 2024-03-11
-
 -
   date: 2024-03-13
 
@@ -263,10 +268,14 @@
       title: Green AI
       url: https://dl.acm.org/doi/10.1145/3381831
       authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
+    -
+      title: Preventing Generation of Verbatim Memorization in Language Models Gives a False Sense of Privacy
+      url: https://aclanthology.org/2023.inlg-main.3/
+      authors: Daphne Ippolito, et al.    
 
 -
   date: 2024-04-24
-  title: Prompt Engineering
+  title: Prompt Engineering Tutorial
   type: tutorial
 
 -
