@@ -70,7 +70,7 @@ By the end of the course, you will be able to...
 **TA**
 : Duong Ta
 : [dta1@umbc.edu](mailto:dta1@umbc.edu)
-: Office Hours: Thursdays, 1-3pm ET in ITE 334, also <a href="mailto:dta1@umbc.edu">by appointment</a>.
+: Office Hours: Thursdays, 2:30-4pm ET in ITE 334, also <a href="mailto:dta1@umbc.edu">by appointment</a>.
 
 ### Logistics
 **Time and Place**

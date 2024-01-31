@@ -21,7 +21,7 @@ The lecture schedule will be updated as the term progresses.
     <tr>
       <th>Date</th> 
       <th>Lecture Topic</th>
-      <th>Readings</th>
+      <th>Readings for this Lesson</th>
       <th>Homework Due</th>
     </tr>
   </thead>
