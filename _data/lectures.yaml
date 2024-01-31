@@ -42,14 +42,6 @@
 -
   date: 2024-02-05
   title: Examples of NLP Tasks
-  slides: 
--
-  date: 2024-02-05
-  title: Waitlists Deactivated
-  type: no_lecture
--
-  date: 2024-02-07
-  title: Tokens
   slides:
   required:
     -
@@ -60,6 +52,17 @@
       title: NLP Chapter 2.2 & 4.5
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
       authors: Jacob Eisenstein  
+
+-
+  date: 2024-02-05
+  title: Waitlists Deactivated
+  type: no_lecture
+-
+  date: 2024-02-07
+  title: 
+  slides:
+  required:
+
   
 -
   date: 2024-02-09
