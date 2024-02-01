@@ -78,6 +78,7 @@ By the end of the course, you will be able to...
 : Interdisciplinary Life Sciences S 101
 : First day of class is January 29, 2024
 : Last day of class is May 15, 2024
+: Grading & submissions using [Google Classroom](https://classroom.google.com/u/3/c/NjUwNDE2MzEwMzQx)
 <br><br>
 **Textbooks**
 : [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
@@ -95,7 +96,7 @@ By the end of the course, you will be able to...
 
 
 #### Google Classroom
-Google Classroom will be used for grading and most communication. (Please email [both Lara & Duong](mailto:laramar@umbc.edu;dta1@umbc.edu?subject=[CMSC 473/673] Need access to Google Classroom) specifying the email address you want to use, if you need to be added.)
+[Google Classroom](https://classroom.google.com/u/3/c/NjUwNDE2MzEwMzQx) will be used for grading and most communication. (Please email [both Lara & Duong](mailto:laramar@umbc.edu;dta1@umbc.edu?subject=[CMSC 473/673] Need access to Google Classroom) specifying the email address you want to use, if you need to be added.)
 Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through Google Classroom.  There is no grade for discussions; they are only for your benefit.
 
 Disclaimer: This is the first time that I'm using Google Classroom, so there might be some hiccups along the way.
