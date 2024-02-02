@@ -106,7 +106,7 @@ Write a project proposal that includes the following sections:
 
 # What to Submit
 1. Submit to Google Classroom:
-* `proposal.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points. LaTeX is preferred but not required.
+* `team#-proposal.pdf` (where "#" is your team number). This document is your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points. LaTeX is preferred but not required.
 
 2. Prepare the following for class:
 * A two minute “lightning” presentation pitching your idea to the class. You should add a __single slide__ to this [Google Slides presentation](https://docs.google.com/presentation/d/1ELEsrtPzomThfCEcvc3xJTN1ox2NogmYHNllQEFbbO0/edit?usp=sharing), which you will need to use your UMBC email to access. You will have time for a longer presentation at the end of the semester.
