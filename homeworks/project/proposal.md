@@ -63,16 +63,16 @@ If you are trying to decide between multiple project ideas, or if you’re strug
 Use the techniques we have learned in class to build a novel NLP system. By the end of the semester, you should have a demo that runs either in Colab or a website showcasing your system.
 
 Write a project proposal that includes the following sections:
-1. __Project Description__(3 points): What novel AI system do you propose to design?
+1. __Project Description__ (3 points): What novel AI system do you propose to design?
   - Give an example mockup of what the user experience will look like. (1 to 2 paragraphs + diagram)
-2. __Data__(3 points): What data will be needed to build your system? If this is few or zero shot, explain how you will be designing your prompts.
+2. __Data__ (3 points): What data will be needed to build your system? If this is few or zero shot, explain how you will be designing your prompts.
   - Does the needed data already exist?  If so, how much data is available?
-3. __Proposed Method__(3 points): How will you be using algorithms from class in order to create your system? Will you need to train a model?
+3. __Proposed Method__ (3 points): How will you be using algorithms from class in order to create your system? Will you need to train a model?
   - Write 2-3 paragraphs explaining your proposed method.
-4. __Related work__(2 points): Do similar systems exist to the one you propose to create?
+4. __Related work__ (2 points): Do similar systems exist to the one you propose to create?
   - Give references to them and explain how you think they relate to your project idea.
   - This section will be fleshed out more in the next milestone, so for this submission just include the most relevant related works.
-5. __Team members__(1 point): Give a list of the students who will participate in this project, and what contribution you expect each person to make to the project.
+5. __Team members__ (1 point): Give a list of the students who will participate in this project, and what contribution you expect each person to make to the project.
 
 
 ## Option 2: Attempt to answer an NLP research question
