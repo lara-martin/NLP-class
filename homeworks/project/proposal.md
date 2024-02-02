@@ -90,11 +90,17 @@ Write a project proposal that includes the following sections:
   - This section will be fleshed out more in the next milestone, so for this submission just include the most relevant related works.
 5. __Team members__ (1 point): Give a list of the students who will participate in this project, and what contribution you expect each person to make to the project.
 
+# Dataset Resources
+* I have a list of story generation-adjacent resources on my website: [https://laramartin.net/resources.html](https://laramartin.net/resources.html)
+* A great resource for finding the code/datasets from papers is [Papers with Code](https://paperswithcode.com/). You can even search by task, modality, or language on the [Datasets page](https://paperswithcode.com/datasets).
+* [HuggingFace](https://huggingface.co/) also has a great collection of datasets and models. Plus, these datasets can be pulled and worked with directly in Python! Most of these also have papers corresponding with them.
+* There is also [Kaggle](https://www.kaggle.com/), which is less curated (i.e., anyone can add things there) and should be _navigated with caution_. I would use this only if you can't find anything useful on the other sites.
+
 # What to Submit
-Submit to Google Classroom:
+1. Submit to Google Classroom:
 * `proposal.pdf` which contains your project proposal. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points. LaTeX is preferred but not required.
 
-Prepare the following for class:
+2. Prepare the following for class:
 * A two minute “lightning” presentation pitching your idea to the class. You should add a __single slide__ to this [Google Slides presentation](https://docs.google.com/presentation/d/1ELEsrtPzomThfCEcvc3xJTN1ox2NogmYHNllQEFbbO0/edit?usp=sharing), which you will need to use your UMBC email to access. You will have time for a longer presentation at the end of the semester.
   * For some examples of past lightning talks, you can find slides to projects from an Interactive Fiction and Text Generation class I taught here: [past slides](https://docs.google.com/presentation/d/14SnEPKNyEtDZuUlJnIRxx57xQInliMvK4pLdnVurh5E/edit?usp=sharing).
 
