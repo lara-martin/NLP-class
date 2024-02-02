@@ -39,7 +39,7 @@ The proposal document is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} bef
 <br>
 Submission Link: <a href="{{page.submission}}">{{ page.submission }}</a>
 <br>
-The lightning talk will be on {{ page.due_date | date: "%A, %B" }} {{{{ page.due_date | date: "%-d" | plus:1}},{{ page.due_date | date:"%Y" }}. Your slide should be posted before class on <a href="https://docs.google.com/presentation/d/1ELEsrtPzomThfCEcvc3xJTN1ox2NogmYHNllQEFbbO0/edit?usp=sharing">Google Slides</a>.
+The lightning talk will be on {{ page.due_date | date: "%A, %B %-d, %Y"| plus:1 }}. Your slide should be posted before class on <a href="https://docs.google.com/presentation/d/1ELEsrtPzomThfCEcvc3xJTN1ox2NogmYHNllQEFbbO0/edit?usp=sharing">Google Slides</a>.
 </div>
 
 {% if page.materials %}
