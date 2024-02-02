@@ -37,12 +37,12 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 <div class="alert alert-info">
 {% assign seconds = 1 | times: 24 | times: 60 | times: 60 %}
 {% assign nextDay = page.due_date %}
-{{ nextDay | date: "%s" | plus: seconds | date: "%Y-%m-%d" }}
+
 The proposal document is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}.
 <br>
 Submission Link: <a href="{{page.submission}}">{{ page.submission }}</a>
 <br>
-The lightning talk will be on {{ nextDay | date: "%A, %B %-d, %Y"}}. Your slide should be posted before class on <a href="https://docs.google.com/presentation/d/1ELEsrtPzomThfCEcvc3xJTN1ox2NogmYHNllQEFbbO0/edit?usp=sharing">Google Slides</a>.
+The lightning talk will be on {{ nextDay | date: "%s" | plus: seconds | date: "%A, %B %-d, %Y" }}. Your slide should be posted before class on <a href="https://docs.google.com/presentation/d/1ELEsrtPzomThfCEcvc3xJTN1ox2NogmYHNllQEFbbO0/edit?usp=sharing">Google Slides</a>.
 </div>
 
 {% if page.materials %}
