@@ -113,7 +113,7 @@ D. In the above question, should all of these items actually be considered disti
   _Hint:_
   <br>
   There is not a right or wrong answer here.
-  You may want to examine the ``lemmas'' field when coming up with your answer.
+  You may want to examine the ``lemmas`` field when coming up with your answer.
   Some collapsing methods may be more appropriate than others, but the question is to think about these methods and what effect they may have.[^1]
   
   
@@ -123,7 +123,7 @@ D. In the above question, should all of these items actually be considered disti
 E. Using the tokens/FORM field, examine some of the least common words in the training set.
   For this question, I recommend implementing a way of examining words that only appear $m$ times in training. With this, you should be able to identify words that appear only once, or only appear 10 times, or 100 times.
   
-  i. At what general point (value of $`m`$) do the words start looking like "standard" words?
+  i. At what general point (value of $m$) do the words start looking like "standard" words?
    * Note that there's no _precise_ value of $m$ that's correct or incorrect: this is about you looking at the data and thinking about possible linguistic / empirical trends.
   ii. Now, regardless of whether these words were \textit{standard}, are they "reasonable?"
   That is, are they items that you would want to be able to talk about as distinct items? %
@@ -134,7 +134,7 @@ E. Using the tokens/FORM field, examine some of the least common words in the tr
 
 
 7. Now it's time to look at the development (aka validation) split.
-  i.  How many word tokens are there in this split? %
+  i.  How many word tokens are there in this split?
   ii.  How many word types in the validation split were not seen in the training data? We call these _out of vocabulary_ (OOV) words.
   iii. This proportion of OOV words is pretty standard in NLP. Did the number of OOV words surprise you? Briefly discuss (roughly 2-3 sentences) the potential implications of having this many OOV words.
 
@@ -144,10 +144,9 @@ E. Using the tokens/FORM field, examine some of the least common words in the tr
 
 
 ## Question 2: Pytorch (15 points)
-While there are a number of libraries that are popular to use for machine learning, especially when it comes to the neural/deep learning aspects of NLP, Pytorch is a very popular library. %
-Especially if you are not familiar with Pytorch, go through the Pytorch tutorials (\url{https://pytorch.org/tutorials/}) listed under ``Introduction to PyTorch'' (on the left). %
-The most important, \textit{general} ones for now are the ``Basics,'' ``Tensors,'' ``Build the Neural Network,'' and ``Automatic Differentiation'' %and ``Optimizing Model Parameters'' 
-tutorials.
+While there are a number of libraries that are popular to use for machine learning, especially when it comes to the neural/deep learning aspects of NLP, Pytorch is a very popular library.
+Especially if you are not familiar with Pytorch, go through the [Pytorch tutorials](https://pytorch.org/tutorials/) listed under "Introduction to PyTorch (on the left).
+The most important, _general_ ones for now are the "Basics", "Tensors", "Build the Neural Network", and "Automatic Differentiation".
 I recommend opening an interpreter, such as a Colab notebook, and running the code in the tutorial as you read it.
 
 %For this question, feel free to try these out for yourself.
@@ -182,3 +181,5 @@ The recommended Pytorch tutorials covered that running ``z.backward()`` will com
 * Question 1 - 30 points
 * Question 2 - 15 points
 </div>
+
+# Footnotes
