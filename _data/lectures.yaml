@@ -42,7 +42,7 @@
 -
   date: 2024-02-05
   title: Examples of NLP Tasks
-  slides:
+  slides: slides/24-02-04_NLP-Tasks.pdf
   required:
     -
       title: SLP Chapter 2
