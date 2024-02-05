@@ -167,7 +167,7 @@ C. Now, following after B, consider
 ```
 z = y.sum()
 ```
-The recommended Pytorch tutorials covered that running ``z.backward()`` will compute ``the gradient.'' But, what gradient is actually being computed, and how does it depend on ``x`` vs. how does it depend on the value of ``f.weight``? To help answer this, you can examine the gradient that is actually computed (``f.weight.grad``).
+The recommended Pytorch tutorials covered that running ``z.backward()`` will compute "the gradient." But, what gradient is actually being computed, and how does it depend on $x$ vs. how does it depend on the value of ``f.weight``? To help answer this, you can examine the gradient that is actually computed (``f.weight.grad``).
 
 
 
