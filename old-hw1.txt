@@ -3,12 +3,12 @@ layout: default
 img: CL.png
 caption: Computational Linguistics
 img_link: https://qwantz.com/index.php?comic=170 
-title: Getting into the Data
-type: Homework
+title: Handling Types & Tokens
+type: In-Class Assignment
 number: 1
 active_tab: homework
-release_date: 2024-02-28
-due_date: 2024-02-28 23:59:00EST
+release_date: 2024-02-07
+due_date: 2024-02-07 23:59:00EST
 submission: 
 ---
 
@@ -57,13 +57,6 @@ You can download the materials for this assignment here:
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
-
-Learning objectives:
-
-* Find out basic information about an NLP task.
-* 
-
-
 
 
 ## Question 1: Handling Corpora (30 points)
