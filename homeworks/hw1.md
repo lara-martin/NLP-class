@@ -78,23 +78,23 @@ For this assignment, do not run your code on the test data.
 	You can use any method you want to compute the number and averages (e.g., Linux commands, or a small Python or Java program). Turn in what you wrote. 
 
 
-While it is a good idea to question your data, especially if it looks strange/not what you expected, for this question you can take these tokens as they are: assume that, for _some_ application, they are useful.
-The text you see is called _tokenized text_.
-In particular, it is text that has been tokenized, or split into individual "words," according to a particular specification.
-You may be surprised that we consider punctuation as different tokens.
+	While it is a good idea to question your data, especially if it looks strange/not what you expected, for this question you can take these tokens as they are: assume that, for _some_ application, they are useful.
+	The text you see is called _tokenized text_.
+	In particular, it is text that has been tokenized, or split into individual "words," according to a particular specification.
+	You may be surprised that we consider punctuation as different tokens.
 
 
-But let's dive into this some more.
-The individual instances you observe are _tokens_, where each token is drawn from a set of _types_.
-Using a programming analogy, we can say that word types are like classes while word tokens are like instances of that class.
-For example, in the following sentence there are six types and eight tokens:
+	But let's dive into this some more.
+	The individual instances you observe are _tokens_, where each token is drawn from a set of _types_.
+	Using a programming analogy, we can say that word types are like classes while word tokens are like instances of that class.
+	For example, in the following sentence there are six types and eight tokens:
 
-  ```
-  the gray cat chased the tabby cat .
-  ```
+	  ```
+	  the gray cat chased the tabby cat .
+	  ```
 
 
-Notice that this computation includes punctuation.
+	Notice that this computation includes punctuation.
 
 2. Working with the training set only: Using the ``tokens`` key (or if you're processing the conllu directly, the ``FORM`` field), how many different word types and tokens are there?
   Do not perform any processing that modifies the words.
@@ -109,15 +109,15 @@ Notice that this computation includes punctuation.
   Hypothesize some effects your collapsing would have.
   You can argue for or against your collapsing method.
 
-<div class="alert alert-info">
+  <div class="alert alert-info">
   _Hint:_
   <br>
   There is not a right or wrong answer here.
   You may want to examine the ``lemmas`` field when coming up with your answer.
-  Some collapsing methods may be more appropriate than others, but the question is to think about these methods and what effect they may have.[^1]
+  Some collapsing methods may be more appropriate than others, but the question is to think about these methods and what effect they may have. Now, there are <i>simpler</i> answers.   In particular, some collapsing methods can be accomplished with simple calls to standard string processing functions.   Others could be accomplished with some more advanced processing (e.g., column 3).
   </div>
   
- [^1]: Now, there are _simpler_ answers.   In particular, some collapsing methods can be accomplished with simple calls to standard string processing functions.   Others could be accomplished with some more advanced processing (e.g., see column 3).
+
 
 
 5. Using the tokens/FORM field, examine some of the least common words in the training set.
@@ -125,7 +125,7 @@ Notice that this computation includes punctuation.
   
   i. At what general point (value of $m$) do the words start looking like "standard" words?
   <div class="alert alert-info">
-   * Note that there's no _precise_ value of $m$ that's correct or incorrect: this is about you looking at the data and thinking about possible linguistic / empirical trends.
+   Note that there's no <i>precise</i> value of $m$ that's correct or incorrect: this is about you looking at the data and thinking about possible linguistic/empirical trends.
    </div>
   ii. Now, regardless of whether these words were _standard_, are they "reasonable?"
   That is, are they items that you would want to be able to talk about as distinct items?
@@ -145,9 +145,9 @@ Notice that this computation includes punctuation.
   
 
 
-## Question 2: Pytorch (15 points)
+## Question 2: PyTorch (15 points)
 While there are a number of libraries that are popular to use for machine learning, especially when it comes to the neural/deep learning aspects of NLP, Pytorch is a very popular library.
-Especially if you are not familiar with Pytorch, go through the [Pytorch tutorials](https://pytorch.org/tutorials/).
+Especially if you are not familiar with Pytorch, go through the [PyTorch tutorials](https://pytorch.org/tutorials/).
 The most important, _general_ ones for now are the "Learn the Basics", "Tensors", "Build the Neural Network", and "Automatic Differentiation with ``torch.autograd``".
 I recommend opening an interpreter, such as a Colab notebook, and running the code in the tutorial as you read it.
 
@@ -167,7 +167,7 @@ C. Now, following after B, consider
 ```
 z = y.sum()
 ```
-The recommended Pytorch tutorials covered that running ``z.backward()`` will compute "the gradient." But, what gradient is actually being computed, and how does it depend on $x$ vs. how does it depend on the value of ``f.weight``? To help answer this, you can examine the gradient that is actually computed (``f.weight.grad``).
+The recommended PyTorch tutorials covered that running ``z.backward()`` will compute "the gradient." But, what gradient is actually being computed, and how does it depend on $x$ vs. how does it depend on the value of ``f.weight``? To help answer this, you can examine the gradient that is actually computed (``f.weight.grad``).
 
 
 
