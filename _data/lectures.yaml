@@ -59,6 +59,17 @@
   type: no_lecture
 -
   date: 2024-02-07
+  title: Examples of NLP Tasks
+  slides:
+
+  
+-
+  date: 2024-02-09
+  title: Last Day to Change Schedule
+  type: no_lecture
+  
+-
+  date: 2024-02-12
   title: Machine Learning Basics & Evaluation
   slides: 
   required:
@@ -71,19 +82,9 @@
       url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
       authors: Dan Jurafsky and James H. Martin   
 
-  
--
-  date: 2024-02-09
-  title: Last Day to Change Schedule
-  type: no_lecture
-  
--
-  date: 2024-02-12
-  title: Machine Learning Basics & Evaluation
-
 -
   date: 2024-02-14
-
+  title: Machine Learning Basics & Evaluation
     
 -
   date: 2024-02-19
