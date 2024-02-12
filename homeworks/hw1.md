@@ -1,8 +1,8 @@
 ---
 layout: default
-img: CL.png
-caption: Computational Linguistics
-img_link: https://qwantz.com/index.php?comic=170 
+img: periodic-table-of-nlp-tasks.png
+caption: "Periodic Table" of NLP Tasks
+img_link: https://www.innerdoc.com/periodic-table-of-nlp-tasks/
 title: Being up to the Task
 type: Homework
 number: 1
