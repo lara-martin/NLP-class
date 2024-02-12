@@ -104,8 +104,8 @@ Please note that you will be graded on the accuracy of your definition, so make 
 Important: You will get zero (0) points for this if you do not reference your sources.
 </div>
 
-### Question 2: Select what task(s) are right for each step (15 points, 5 for each part)
-There are no particular "right" answers that we are looking for. However, whatever you decide to pick, you must 1) explain why it would be a good fit and 2) explain what the inputs & outputs would be. Select and motivate your selection for each of a, c, and e from the app description. (Do not do b or d.) You can use 1 or more tasks for each part.
+### Question 2: Select what task(s) are right for each step (18 points, 6 for each part)
+There are no particular "right" answers that we are looking for. However, whatever you decide to pick, you must 1) explain why it would be a good fit (2 pts each) and 2) explain what the inputs (2 pts each) & outputs (2 pts each) would be. Select and motivate your selection for each of a, c, and e from the app description. (Do not do b or d.) You can use 1 or more tasks for each part.
 
 Remember, you are using this [corpus of textbooks](https://huggingface.co/datasets/open-phi/textbooks). Give concrete examples of how your ideal inputs and outputs would look using this data! If you need any other data for your tasks, explain what that dataset might look like---you don't have to actually find it. 
 
