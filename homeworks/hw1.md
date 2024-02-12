@@ -69,11 +69,11 @@ You can download the materials for this assignment here:
 ## Description
 You work for SuperDuperAI (SDAI), a start-up company that makes AI tools that their customers can use. You are their NLP specialist. One of SDAI's customers recently came to the company with a [database of textbooks](https://huggingface.co/datasets/open-phi/textbooks) that they collected. They want SDAI to make them an app that can quiz people when they select a textbook.
 
-The flow of the app will look like this:
-a. The user types in a keyword that they're interested in, and the app finds relevant textbooks.
-b. They select the textbook and chapter they want to use.
-c. The app displays a question relevant to the chapter.
-d. The user answers the question.
+The flow of the app will look like this:<br>
+a. The user types in a keyword that they're interested in, and the app finds relevant textbooks.<br>
+b. They select the textbook and chapter they want to use.<br>
+c. The app displays a question relevant to the chapter.<br>
+d. The user answers the question.<br>
 e. The app gives a numerical score for how well the user answered the question.
 
 Being the NLP specialist on the team, **you are in charge of figuring out what is needed to create parts a, c, and e.**
