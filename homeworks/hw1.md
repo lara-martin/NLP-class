@@ -116,7 +116,7 @@ You can draw your diagram in any app you want. Diagram apps I use often are MS P
 
 # Grading
 <div class="alert alert-warning" markdown="1">
-* Question 1 - 5 points
+* Question 1 - 10 points
 * Question 2 - 15 points
 * Question 3 - 3 points
 </div>
