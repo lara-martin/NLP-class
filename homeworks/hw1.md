@@ -3,7 +3,7 @@ layout: default
 img: CL.png
 caption: Computational Linguistics
 img_link: https://qwantz.com/index.php?comic=170 
-title: Getting into the Data
+title: Being up to the Task
 type: Homework
 number: 1
 active_tab: homework
@@ -58,134 +58,67 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-Learning objectives:
+## Learning Objectives
 
-* Find out basic information about an NLP task.
-* 
-
-
-
-
-## Question 1: Handling Corpora (30 points)
-In this question, you'll be doing some basic counting of words---the "Hello, World" of NLP.
-
-Using [HuggingFace](https://huggingface.co/datasets), download the ``en_ewt`` subcorpus of the [Universal Dependencies](https://universaldependencies.org/) corpus.
-You may use the Huggingface ``datasets`` module to assist, or you may download and load the files yourself.
-Note that in its raw form UD is distributed as a collection of specialized ``conllu`` files---the Huggingface ``datasets`` library handles parsing those ``conllu`` files for you.
-For this assignment, do not run your code on the test data.
-<span style="color:red"> **If you use the test data, you will not receive full credit!** </span>
-
-1. Read through the documentation discussing the format of the dataset:  [https://universaldependencies.org/docs/format.html](https://universaldependencies.org/docs/format.html)
-  
-  a. Using this documentation, verify to yourself that the first sentence has 29 tokens (nothing to turn in).
-  b. Compute the number of sentences in both the training and validation splits.
-  c. On average, how many words are there per sentence for each split?
-
-	You can use any method you want to compute the number and averages (e.g., Linux commands, or a small Python or Java program). Turn in what you wrote. 
+* Searching for basic information about NLP tasks.
+* Exploring a dataset.
+* Coming up with appropriate tasks for an application & providing your reasoning behind it.
+* Determining appropriate inputs and outputs for the tasks.
 
 
-	While it is a good idea to question your data, especially if it looks strange/not what you expected, for this question you can take these tokens as they are: assume that, for _some_ application, they are useful.
-	The text you see is called _tokenized text_.
-	In particular, it is text that has been tokenized, or split into individual "words," according to a particular specification.
-	You may be surprised that we consider punctuation as different tokens.
+## Description
+You work for SuperDuperAI (SDAI), a start-up company that makes AI tools that their customers can use. You are their NLP specialist. One of SDAI's customers recently came to the company with a [database of textbooks](https://huggingface.co/datasets/open-phi/textbooks) that they collected. They want SDAI to make them an app that can quiz people when they select a textbook.
+
+The flow of the app will look like this:
+a. The user types in a keyword that they're interested in, and the app finds relevant textbooks.
+b. They select the textbook and chapter they want to use.
+c. The app displays a question relevant to the chapter.
+d. The user answers the question.
+e. The app gives a numerical score for how well the user answered the question.
+
+Being the NLP specialist, you are in charge of figuring out what is needed to create parts a, c, and e.
 
 
-	But let's dive into this some more.
-	The individual instances you observe are _tokens_, where each token is drawn from a set of _types_.
-	Using a programming analogy, we can say that word types are like classes while word tokens are like instances of that class.
-	For example, in the following sentence there are six types and eight tokens:
+### Question 1: Define the tasks (10 points)
 
-	  ```
-	  the gray cat chased the tabby cat .
-	  ```
+You know about the following tasks, but you forget exactly what they do.
+1. Document Ranking
+2. Information Extraction
+3. Part-of-Speech Tagging
+4. Question Answering
+5. Relation Extraction
+6. Semantic Role Labelling
+7. Sentence Boundary Disambiguation
+8. Sentence Similarity
+9. Summarization
+10. Text segmentation
 
+For this question, look up each of these NLP tasks, find a source that gives a definition, and give a *direct quote* of what your source said (and, of course, include where you found it).
 
-	Notice that this computation includes punctuation.
+For example, if I was defining what UMBC is:<br>
+**UMBC**: "University of Maryland, Baltimore County (UMBC) is a top-ranked national university with an inclusive culture that connects innovative teaching and learning, research across disciplines, and civic engagement." (UMBC, https://umbc.edu/about/)
 
-2. Working with the training set only: Using the ``tokens`` key (or if you're processing the conllu directly, the ``FORM`` field), how many different word types and tokens are there?
-  Do not perform any processing that modifies the words.
-  Turn in the code for this.
+Please note that you will be graded on the accuracy of your definition, so make sure your source is reliable.
 
-3. Examine some of the most common words from the training set, like the twenty, thirty, and fifty most common ones.
-  Using examples, discuss what you notice about those common words.
-  Each word should be alphanumerically (lexically) distinct.
+<div class="alert alert-info">
+Important: You will get zero (0) points for this if you do not reference your sources.
+</div>
 
-4. In the above question, should all of these items actually be considered distinct?
-  What are some ways that we could group together words?
-  Hypothesize some effects your collapsing would have.
-  You can argue for or against your collapsing method.
+### Question 2: Select what task
+There are no particular "right" answers that we are looking for. However, whatever you decide to pick, you must 1) explain why it would be a good fit and 2) explain what the inputs & outputs would be. Select and motivate your selection for each of a, c, and e from the app description. You can use 1 or more tasks for each part.
 
-  <div class="alert alert-info">
-  <b>Hint:</b>
-  <br>
-  There is not a right or wrong answer here.
-  You may want to examine the ``lemmas`` field when coming up with your answer.
-  Some collapsing methods may be more appropriate than others, but the question is to think about these methods and what effect they may have. Now, there are <i>simpler</i> answers.   In particular, some collapsing methods can be accomplished with simple calls to standard string processing functions.   Others could be accomplished with some more advanced processing (e.g., column 3).
-  </div>
-  
+Remember, you are using this [corpus of textbooks](https://huggingface.co/datasets/open-phi/textbooks). Give concrete examples of how your ideal inputs and outputs would look using this data! If you need any other data for your tasks, explain what that dataset might look like---you don't have to actually find it. 
 
+### Question 3: Draw a diagram (3 points)
+Now that you have all of the components, draw a flow diagram of where the data is coming from and going to, what processes you have to do (nodes with your chosen tasks), and how the data would be transformed. **Include all steps a-e.**
 
-
-5. Using the tokens/FORM field, examine some of the least common words in the training set.
-  For this question, I recommend implementing a way of examining words that only appear $m$ times in training. With this, you should be able to identify words that appear only once, or only appear 10 times, or 100 times.
-  
-  i. At what general point (value of $m$) do the words start looking like "standard" words?
-  <div class="alert alert-info">
-   Note that there's no <i>precise</i> value of $m$ that's correct or incorrect: this is about you looking at the data and thinking about possible linguistic/empirical trends.
-   </div>
-  ii. Now, regardless of whether these words were _standard_, are they "reasonable?"
-  That is, are they items that you would want to be able to talk about as distinct items?
-  From a computational point of view, do you want to spend the computational resources to deal with them?
-
-  Argue for or against these items' reasonableness.  If you find them unreasonable, propose a solution.   You do not need to implement it.
-
-
-
-6. Now it's time to look at the development (aka validation) split.
-  i.  How many word tokens are there in this split?
-  ii.  How many word types in the validation split were not seen in the training data? We call these _out of vocabulary_ (OOV) words.
-  iii. This proportion of OOV words is pretty standard in NLP. Did the number of OOV words surprise you? Briefly discuss (roughly 2-3 sentences) the potential implications of having this many OOV words.
-
-  Again, do not perform any processing that modifies the words.
-  Turn in the code for this.
-  
-
-
-## Question 2: PyTorch (15 points)
-While there are a number of libraries that are popular to use for machine learning, especially when it comes to the neural/deep learning aspects of NLP, Pytorch is a very popular library.
-Especially if you are not familiar with Pytorch, go through the [PyTorch tutorials](https://pytorch.org/tutorials/).
-The most important, _general_ ones for now are the "Learn the Basics", "Tensors", "Build the Neural Network", and "Automatic Differentiation with ``torch.autograd``".
-I recommend opening an interpreter, such as a Colab notebook, and running the code in the tutorial as you read it.
-
-
-1. A _layer_ is simply a way of encapsulating some computable function. Describe, in words, what ``torch.nn.Linear`` computes.
-2. Pytorch is row major. However, this can get a bit annoying when having to deal with matrix-vector multiplication, since the vector would need to be a column vector represented in row major order. So, Pytorch will often try to be liberal and accommodating in how it interprets one-dimensional tensors. We can see this in the following code (assume all imports are okay):
-	```
-	f = torch.nn.Linear(3, 2, bias=False)
-	f.weight = torch.nn.Parameter(
-		 torch.Tensor([[3, 2, 1], 
-					   [1, 4, 1]]))
-	x = torch.Tensor([1, 0, 0])
-	y = f(x)
-	```
-	State what the value of ``y`` is, and describe conceptually what this computation is doing. (Hint: you could also try ``f(torch.Tensor([0, 1, 0]))``,  ``f(torch.Tensor([0, 0, 1]))``, and / or ``f(torch.Tensor([1, 1]))``. You can also try different values of {\tt f.weight}, just make sure that it retains the same 2x3 shape.)
-	C. Now, following after B, consider
-	```
-	z = y.sum()
-	```
-	The recommended PyTorch tutorials covered that running ``z.backward()`` will compute "the gradient." But, what gradient is actually being computed, and how does it depend on $x$ vs. how does it depend on the value of ``f.weight``? To help answer this, you can examine the gradient that is actually computed (``f.weight.grad``).
-
-
-
-
-
-
-
+You can draw your diagram in any app you want. Diagram apps I use often are MS Powerpoint and draw.io.
 
 # Grading
 <div class="alert alert-warning" markdown="1">
-* Question 1 - 30 points
+* Question 1 - 5 points
 * Question 2 - 15 points
+* Question 3 - 3 points
 </div>
 
 # Footnotes

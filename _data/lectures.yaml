@@ -71,7 +71,7 @@
 -
   date: 2024-02-12
   title: Machine Learning Basics & Evaluation
-  slides: 
+  slides: slides/24-02-12_ML-Evaluation.pdf
   required:
     -
       title: NLP Chapter 4.3 & 4.4
