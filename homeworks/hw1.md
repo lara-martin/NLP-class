@@ -1,7 +1,7 @@
 ---
 layout: default
 img: periodic-table-of-nlp-tasks.png
-caption: "Periodic Table" of NLP Tasks
+caption: Periodic Table of NLP Tasks
 img_link: https://www.innerdoc.com/periodic-table-of-nlp-tasks/
 title: Being up to the Task
 type: Homework
@@ -38,7 +38,7 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 {% assign seconds = 1 | times: 24 | times: 60 | times: 60 %}
 {% assign nextDay = page.due_date %}
 
-The proposal document is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}.
+The assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}.
 <br>
 Submission Link: <a href="{{page.submission}}">{{ page.submission }}</a>
 </div>
