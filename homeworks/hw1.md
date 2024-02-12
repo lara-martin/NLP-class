@@ -76,7 +76,7 @@ c. The app displays a question relevant to the chapter.
 d. The user answers the question.
 e. The app gives a numerical score for how well the user answered the question.
 
-Being the NLP specialist, you are in charge of figuring out what is needed to create parts a, c, and e.
+Being the NLP specialist on the team, **you are in charge of figuring out what is needed to create parts a, c, and e.**
 
 
 ### Question 1: Define the tasks (10 points)
@@ -104,15 +104,15 @@ Please note that you will be graded on the accuracy of your definition, so make 
 Important: You will get zero (0) points for this if you do not reference your sources.
 </div>
 
-### Question 2: Select what task
-There are no particular "right" answers that we are looking for. However, whatever you decide to pick, you must 1) explain why it would be a good fit and 2) explain what the inputs & outputs would be. Select and motivate your selection for each of a, c, and e from the app description. You can use 1 or more tasks for each part.
+### Question 2: Select what task(s) are right for each step (15 points, 5 for each part)
+There are no particular "right" answers that we are looking for. However, whatever you decide to pick, you must 1) explain why it would be a good fit and 2) explain what the inputs & outputs would be. Select and motivate your selection for each of a, c, and e from the app description. (Do not do b or d.) You can use 1 or more tasks for each part.
 
 Remember, you are using this [corpus of textbooks](https://huggingface.co/datasets/open-phi/textbooks). Give concrete examples of how your ideal inputs and outputs would look using this data! If you need any other data for your tasks, explain what that dataset might look like---you don't have to actually find it. 
 
 ### Question 3: Draw a diagram (3 points)
 Now that you have all of the components, draw a flow diagram of where the data is coming from and going to, what processes you have to do (nodes with your chosen tasks), and how the data would be transformed. **Include all steps a-e.**
 
-You can draw your diagram in any app you want. Diagram apps I use often are MS Powerpoint and draw.io.
+You can draw your diagram in any app you want. Diagram apps I use often are MS Powerpoint and draw.io. No hand-drawn diagrams, please.
 
 # Grading
 <div class="alert alert-warning" markdown="1">
