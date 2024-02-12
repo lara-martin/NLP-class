@@ -55,7 +55,7 @@ You can download the materials for this assignment here:
 {% endif %}
 
 
-{{page.type}} {{page.number}}: {{page.title}} [^1]
+{{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
 ## Learning Objectives
@@ -120,6 +120,3 @@ You can draw your diagram in any app you want. Diagram apps I use often are MS P
 * Question 2 - 15 points
 * Question 3 - 3 points
 </div>
-
-# Footnotes
-[1] [https://plainenglish.com/expressions/up-to-the-task/](https://plainenglish.com/expressions/up-to-the-task/)
