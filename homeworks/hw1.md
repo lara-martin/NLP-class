@@ -40,8 +40,8 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 The assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}.
 <br>
-Submission Link: <a href="{{page.submission}}">{{ page.submission }}</a><br>
-Please be sure to double check the academic integrity and generative AI policies [listed on the syllabus](https://laramartin.net/NLP-class/#academic-integrity).
+Submission Link: <a href="{{page.submission}}">{{ page.submission }}</a><br><br>
+Please be sure to double check the academic integrity and generative AI policies <a href="https://laramartin.net/NLP-class/#academic-integrity">listed on the syllabus</a>.
 </div>
 
 {% if page.materials %}
