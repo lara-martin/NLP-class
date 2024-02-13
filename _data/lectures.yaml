@@ -129,7 +129,11 @@
     -
       title: NLP Chapter 5.4-5.11
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
-      authors: Dan Jurafsky and James H. Martin      
+      authors: Dan Jurafsky and James H. Martin
+  homework_due:   
+    -
+      title: "HW1: Being up to the Task"
+      url: hw1.html         
 -
   date: 2024-03-04
   title: Vector Embeddings
