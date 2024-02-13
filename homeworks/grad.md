@@ -77,7 +77,7 @@ All milestones must be met for full credit.
 | ---- | ------------------------- | ------------------- |
 | Checkpoint 1 | Selection of one of GA1-GA3 and initial list of resources | Selection of topic for GA4 and initial list of papers |
 | Checkpoint 2 | Initial report discussing progress, hurdles, and other challenges; and git repo containing at least three non-trivial/starter commits | Complete first draft, including citations | 
-| Checkpoint 3 | Feedback/suggestions on another student's initial report | Review |
+| Checkpoint 3 | Feedback/suggestions on another student's initial report | Peer review |
 | Final Submission | Completed code, full git repository, completed writeup, and document summarizing how the feedback was used | Completed final paper + summary-of-changes document |
 
 
@@ -96,6 +96,7 @@ spend significant time on any of them.
 ---
 
 ## Implementation Track
+Pick one:<br>
 (GA1) Using the Universal Dependencies corpora, implement and evaluate a neural arc-standard dependency parser. <br>
 (GA2) Re-implement the “Character-Aware Neural Language Models” work of Kim et al. (2016, AAAI). <br>
 (GA3) 
@@ -241,9 +242,9 @@ own, separate topic.
 
 ####  Hierarchical/Advanced Language Modeling
 For this topic, you will examine advanced and/or hierarchical approaches to language modeling. Examples
-include (modified) Kneser-Ney smoothing [Chen and Goodman (1999)], syntactic and/or semantic language
-models [Chelba and Jelinek (1998)], topic models [Blei et al. (2003); Teh et al. (2006)], hierarchical
-Bayesian language models [MacKay and Peto (1995); Teh (2006)] , and neural language models.
+include (modified) Kneser-Ney smoothing [[Chen and Goodman (1999)](https://www.sciencedirect.com/science/article/pii/S0885230899901286)], syntactic and/or semantic language
+models [[Chelba and Jelinek (1998)](https://aclanthology.org/P98-1035/)], topic models [[Blei et al. (2003)](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf); [Teh et al. (2006)](https://www.jstor.org/stable/27639773)], hierarchical
+Bayesian language models [[MacKay and Peto (1995)](https://www.semanticscholar.org/paper/A-hierarchical-Dirichlet-language-model-MacKay-Peto/01fa57bd91f731522c861404d29e4604ba6ac6d3); [Teh (2006)](https://aclanthology.org/P06-1124/)] , and neural language models.
 
 #### Grounded Language Processing
 For this topic, you will examine how non-language signals (e.g., image or audio features) can help NLP
@@ -292,7 +293,7 @@ are workshops on Ethics and gender bias in NLP. There is also a more general gro
 FAT/ML (Fairness, Accountability, and Transparency in Machine Learning). You can look through the
 associated proceedings (but make sure there’s an NLP component).
 
-####  NLP for <Insert Your Area Here>
+####  NLP for [Insert Your Area Here]
 For this topic you would survey how NLP can be used in an area of study of interest to you. For instance,
 there are special interest groups (called SIGs) for NLP for the humanities, Semitic languages, and biomedical
 applications—among many others. Look at the “SIGs” row in the main table at [https://aclweb.org/anthology/](https://aclweb.org/anthology/).
