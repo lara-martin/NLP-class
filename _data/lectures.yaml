@@ -170,7 +170,12 @@
       authors:  Dan Jurafsky and James H. Martin
 -
   date: 2024-03-13
-
+  type: deadline
+  title: 
+  homework_due:
+    -
+      title: "Project Milestone 2: Literature Review"
+      url: project/lit-review.html
 -
   date: 2024-03-18
   type: no_lecture
@@ -194,7 +199,11 @@
     -
       title: SLP Chapter 7
       url: https://web.stanford.edu/~jurafsky/slp3/7.pdf
-      authors:  Dan Jurafsky and James H. Martin   
+      authors:  Dan Jurafsky and James H. Martin
+  homework_due:
+    -
+      title: "HW 2"
+      url: 
 
 -
   date: 2024-04-01
@@ -208,11 +217,16 @@
     -
       title: SLP Chapter 9
       url: https://web.stanford.edu/~jurafsky/slp3/9.pdf
-      authors:  Dan Jurafsky and James H. Martin         
+      authors:  Dan Jurafsky and James H. Martin     
 -
   date: 2024-04-03
   title: Recurrent Neural Network LMs
   slides:
+  type: deadline
+  homework_due:
+    -
+      title: "Project Milestone 3: Halfway Checkpoint"
+      url: project/halfway.html
 -
   date: 2024-04-05
   title: Last Day to Withdraw
@@ -247,6 +261,10 @@
       title: SLP Chapter 11.3
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
       authors:  Dan Jurafsky and James H. Martin  
+  homework_due:
+    -
+      title: "HW 3"
+      url: 
 
 -
   date: 2024-04-17
@@ -301,12 +319,17 @@
 -
   date: 2024-05-01
   title: "Applications: Machine Translation"
+  type: deadline
   slides: 
   required:
     -
       title: "SLP Chapter 13: Machine Translation"
       url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
-      authors:  Dan Jurafsky and James H. Martin  
+      authors:  Dan Jurafsky and James H. Martin
+  homework_due:
+    -
+      title: "Project Milestone 4: Rough Draft"
+      url: project/draft.html
 -
   date: 2024-05-06
   title:   "Applications: Dialog Systems"
@@ -336,5 +359,9 @@
 -
   date: 2024-05-15
   title: 
+  type: deadline
   slides: 
-
+  homework_due:
+    -
+      title: "Project Milestone 5: Final Submission"
+      url: project/final-submission.html

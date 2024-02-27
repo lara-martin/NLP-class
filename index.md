@@ -110,7 +110,7 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 
 
 **Homeworks**
-: There are 3 homeworks: [NLP Tasks]() (learning objective 1), [NLP Evaluation]() (learning objective 2), [NLP Methods]() (learning objective 3). They each have a corresponding page on this website with more information.
+: There are 3 homeworks: [NLP Tasks](homeworks/hw1.html) (learning objective 1), [NLP Evaluation]() (learning objective 2), [NLP Methods]() (learning objective 3). They each have a corresponding page on this website with more information.
 
 **Project (learning objective 6)**
 : Teams will come up with NLP project ideas (with the help of Lara & Duong) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.
@@ -122,8 +122,8 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 
 **Graduate Assignment (learning objective 4 or 5)**
 : If you are taking the graduate version of the course (CMSC 673), you will have an extra assignment that you need to complete. This assignment has two options that you can choose between (which you can choose depending on what career trajectory you plan). The graduate assignment is done individually.
-: **Option 1: [Implementation]()** -- (suited for implementation-focused students) If you choose this option, you will pick an NLP tool from a list and implement it.
-: **Option 2: [Paper]()** -- (suited for research-focused students) If you choose this option, you will find papers for and write up a literature review summarizing what you found.
+: **Option 1: Implementation** -- (suited for implementation-focused students) If you choose this option, you will pick an NLP tool from a list and implement it.
+: **Option 2: Paper** -- (suited for research-focused students) If you choose this option, you will find papers for and write up a literature review summarizing what you found.
 
 ### Class Policies
 #### Late Day Policy

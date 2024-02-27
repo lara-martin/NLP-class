@@ -5,7 +5,7 @@ caption: Don't Panic
 img_link: https://xkcd.com/1658/
 title: Final Report Draft
 type: Project Milestone
-number: 4
+number: 3
 active_tab: homework
 release_date: 2023-11-03
 due_date: 2023-12-07 23:59:00EST

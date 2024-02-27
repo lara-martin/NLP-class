@@ -7,9 +7,9 @@ title: Project Preparation and Literature Review
 type: Project Milestone
 number: 2
 active_tab: homework
-release_date: 2023-11-03
-due_date: 2023-11-28 23:59:00EST
-submission: https://blackboard.umbc.edu/ultra/courses/_76209_1/outline/assessment/test/_6481223_1?courseId=_76209_1
+release_date: 2024-03-01
+due_date: 2024-03-13 23:59:00EST
+submission: https://classroom.google.com/u/3/w/NjUwNDE2MzEwMzQx/tc/NjUxMjcyNDAwOTIx
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -104,9 +104,9 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 7. __Attribution__: For each of your team mates, write a couple sentences describing their main contributions to the project so far and what each person plans to do for the rest of the project.
 
 # What to Submit
-Submit the following to [Blackboard]({{page.submission}}):
-* `lit_review.pdf` which contains your literature review. This can be in any format you like. We find that using Google Docs and then downloading as a PDF works well for this sort of thing.
-* `milestone2.pdf` which contains your Milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template (e.g., [AAAI's template](https://www.aaai.org/Publications/Templates/AuthorKit23.zip)).
+Submit the following to [Google Classroom]({{page.submission}}):
+* `group[#]-lit_review.pdf` which contains your literature review, where [#] is your group number. This can be in any format you like. We find that using Google Docs and then downloading as a PDF works well for this sort of thing.
+* `group[#]-milestone2.pdf` which contains your Milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template (e.g., [AAAI's template](https://www.aaai.org/Publications/Templates/AuthorKit23.zip)).
 
 # Grading
 <div class="alert alert-warning" markdown="1">

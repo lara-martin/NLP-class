@@ -5,7 +5,7 @@ caption:
 img_link: 
 title: Graduate Assignment (20% of grade)
 active_tab: homework
-release_date: 2024-02-28
+release_date: 2024-03-01
 due_date1: 2024-02-28 23:59:00EST
 due_date2: 2024-02-28 23:59:00EST
 due_date3: 2024-02-28 23:59:00EST
@@ -98,8 +98,9 @@ spend significant time on any of them.
 ## Implementation Track
 Pick one:<br>
 (GA1) Using the Universal Dependencies corpora, implement and evaluate a neural arc-standard dependency parser. <br>
-(GA2) Re-implement the “Character-Aware Neural Language Models” work of Kim et al. (2016, AAAI). <br>
-(GA3) 
+(GA2) Re-implement the “Character-Aware Neural Language Models” work of Kim et al. (2016). <br>
+(GA3) Follow the tutorial "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition" (Rabiner, 1989) to implement an HMM.
+(GA4) 
 
 
 For any of these options, you must
@@ -166,7 +167,13 @@ In addition to re-creating the Penn treebank results, also evaluate this model o
 language from the UD data. For this option, you may use existing layers in the toolkits Pytorch, Tensorflow,
 or Keras.
 
-#### (GA3)
+#### (GA3) Crea
+[Rabiner (1989)](https://ieeexplore.ieee.org/document/18626)
+
+NEG-15 word2vec model from "Distributed Representations of Words and Phrases and their Compositionality" (2013)
+Preprocess the text using the perl script at the bottom of this page: http://mattmahoney.net/dc/textdata.html
+WebBase corpus: http://ebiquity.umbc.edu/redirect/to/resource/id/351/UMBC-webbase-corpus (might take a few hours to download)
+
 
 ---
 
