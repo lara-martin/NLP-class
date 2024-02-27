@@ -116,7 +116,7 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 : Teams will come up with NLP project ideas (with the help of Lara & Duong) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.
 : [Milestone 1: Project Proposal](homeworks/project/proposal.html)
 : [Milestone 2: Project Preparation and Informal Literature Review](homeworks/project/lit-review.html)
-: [Milestone 3: Halfway Point]()
+: [Milestone 3: Halfway Point](homeworks/project/halfway.html)
 : [Milestone 4: Complete Draft](homeworks/project/draft.html)
 : [Milestone 5: Final Submission](homeworks/project/final-submission.html)
 

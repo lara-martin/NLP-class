@@ -102,8 +102,23 @@
   title: PyTorch & HuggingFace Tutorial
   slides: 
   type: tutorial
+  
+  
 -
   date: 2024-02-26
+   
+
+-
+  date: 2024-02-28
+  type: deadline
+  homework_due:   
+    -
+      title: "HW1: Being up to the Task"
+      url: hw1.html    
+      
+           
+-
+  date: 2024-03-04
   title: Classification with Logistic Regression
   slides: 
   required:
@@ -114,12 +129,11 @@
     -
       title: NLP Chapter 5.1-5.3 (+intro)
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
-      authors: Dan Jurafsky and James H. Martin      
-
-
+      authors: Dan Jurafsky and James H. Martin  
+      
 
 -
-  date: 2024-02-28
+  date: 2024-03-06
   title: Learning & Using Logistic Regression
   slides: 
   required:
@@ -131,14 +145,10 @@
       title: NLP Chapter 5.4-5.11
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
       authors: Dan Jurafsky and James H. Martin
-  homework_due:   
-    -
-      title: "HW1: Being up to the Task"
-      url: hw1.html         
 -
-  date: 2024-03-04
+  date: 2024-03-11
   title: Vector Embeddings
-  slides: 
+  slides:
   required:
     -
       title: NLP Chapter 14
@@ -147,35 +157,18 @@
     -
       title: SLP Chapter 6
       url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
-      authors:  Dan Jurafsky and James H. Martin 
-      
-
--
-  date: 2024-03-06
-  title: Vector Embeddings
-  slides:
-
--
-  date: 2024-03-11
-  title: N-Gram Language Models
-  slides: 
-  required:
-    -
-      title: NLP Chapter 6.1
-      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein
-    -
-      title: SLP Chapter 3
-      url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
       authors:  Dan Jurafsky and James H. Martin
+
 -
   date: 2024-03-13
   type: deadline
-  title: 
+  title: Vector Embeddings
+  slides: 
   homework_due:
     -
       title: "Project Milestone 2: Literature Review"
       url: project/lit-review.html
+      
 -
   date: 2024-03-18
   type: no_lecture
@@ -188,18 +181,22 @@
 
 -
   date: 2024-03-25
-  title:  N-Gram Language Models
-  slides: 
+  title: N-Gram Language Models
+  required:
+    -
+      title: NLP Chapter 6.1
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
+    -
+      title: SLP Chapter 3
+      url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
+      authors:  Dan Jurafsky and James H. Martin
     
 
 -
   date: 2024-03-27
-  title: Neural Language Models
-  required: 
-    -
-      title: SLP Chapter 7
-      url: https://web.stanford.edu/~jurafsky/slp3/7.pdf
-      authors:  Dan Jurafsky and James H. Martin
+  title:  N-Gram Language Models
+  slides: 
   homework_due:
     -
       title: "HW 2"
@@ -207,6 +204,14 @@
 
 -
   date: 2024-04-01
+  title: Neural Language Models
+  required: 
+    -
+      title: SLP Chapter 7
+      url: https://web.stanford.edu/~jurafsky/slp3/7.pdf
+      authors:  Dan Jurafsky and James H. Martin
+-
+  date: 2024-04-03
   title: Recurrent Neural Network LMs
   slides:
   required:
@@ -217,22 +222,27 @@
     -
       title: SLP Chapter 9
       url: https://web.stanford.edu/~jurafsky/slp3/9.pdf
-      authors:  Dan Jurafsky and James H. Martin     
--
-  date: 2024-04-03
-  title: Recurrent Neural Network LMs
-  slides:
+      authors:  Dan Jurafsky and James H. Martin 
   type: deadline
   homework_due:
     -
       title: "Project Milestone 3: Halfway Checkpoint"
       url: project/halfway.html
+      
+      
 -
   date: 2024-04-05
   title: Last Day to Withdraw
   type: no_lecture
+  
+  
 -
   date: 2024-04-08
+  title: Recurrent Neural Network LMs
+  
+  
+-
+  date: 2024-04-10
   title: Attention
   slides: 
   required:
@@ -240,8 +250,15 @@
       title: NLP Chapter 18.3.1
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
       authors: Jacob Eisenstein 
+      
+      
 -
-  date: 2024-04-10
+  date: 2024-04-15
+  type: deadline
+  homework_due:
+    -
+      title: "HW 3"
+      url: 
   title: Transformers
   slides:
   required:
@@ -252,23 +269,22 @@
     -
       title: Attention Is All You Need
       url: https://dl.acm.org/doi/10.5555/3295222.3295349
-      authors: Ashish Vaswani, et al.
+      authors: Ashish Vaswani, et al.      
+
 -
-  date: 2024-04-15
+  date: 2024-04-17
   title: Pre-training & Fine-tuning
   required:
     -
       title: SLP Chapter 11.3
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
-      authors:  Dan Jurafsky and James H. Martin  
-  homework_due:
-    -
-      title: "HW 3"
-      url: 
-
+      authors:  Dan Jurafsky and James H. Martin 
+      
+      
+      
 -
-  date: 2024-04-17
-  title: Types of Foundational Models
+  date: 2024-04-22
+   title: Types of Foundational Models
   slides: 
   required:
     -
@@ -279,8 +295,9 @@
       title: SLP Chapter 11.1-11.2 (+intro)
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
       authors:  Dan Jurafsky and James H. Martin  
+
 -
-  date: 2024-04-22
+  date: 2024-04-24
   title: Ethics of NLP
   slides: 
   required:
@@ -295,16 +312,18 @@
     -
       title: Preventing Generation of Verbatim Memorization in Language Models Gives a False Sense of Privacy
       url: https://aclanthology.org/2023.inlg-main.3/
-      authors: Daphne Ippolito, et al.    
-
--
-  date: 2024-04-24
-  title: Prompt Engineering Tutorial
-  type: tutorial
+      authors: Daphne Ippolito, et al.   
 
 -
   date: 2024-04-29
+  title: Prompt Engineering Tutorial
+  type: tutorial
+
+
+-
+  date: 2024-05-01
   title: Instruction Tuning
+  type: deadline
   slides: 
   required:
     -
@@ -314,24 +333,23 @@
     -
       title: Instruction Tuning with GPT-4
       url: https://arxiv.org/abs/2304.03277
-      authors: Baolin Peng, Chunyuan Li, Pengcheng He, Michel Galley, Jianfeng Gao  
-
--
-  date: 2024-05-01
-  title: "Applications: Machine Translation"
-  type: deadline
-  slides: 
-  required:
-    -
-      title: "SLP Chapter 13: Machine Translation"
-      url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
-      authors:  Dan Jurafsky and James H. Martin
+      authors: Baolin Peng, Chunyuan Li, Pengcheng He, Michel Galley, Jianfeng Gao    
   homework_due:
     -
       title: "Project Milestone 4: Rough Draft"
       url: project/draft.html
 -
   date: 2024-05-06
+  required:
+    -
+      title: "SLP Chapter 13: Machine Translation"
+      url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
+      authors:  Dan Jurafsky and James H. Martin  
+  title: "Applications: Machine Translation"
+  
+        
+-
+  date: 2024-05-08
   title:   "Applications: Dialog Systems"
   required:
     -
@@ -341,21 +359,19 @@
     -
       title: "SLP Chapter 15: Chatbots and Dialogue Systems"
       url: https://web.stanford.edu/~jurafsky/slp3/15.pdf
-      authors:  Dan Jurafsky and James H. Martin       
+      authors:  Dan Jurafsky and James H. Martin   
+
+
 -
-  date: 2024-05-08
+  date: 2024-05-13
   title: "Applications: Creative Generation"
   slides: 
   required:
     -
       title: "Re3: Generating Longer Stories With Recursive Reprompting and Revision"
       url: https://aclanthology.org/2022.emnlp-main.296
-      authors: Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein
-
--
-  date: 2024-05-13
-  title: 
-  slides: 
+      authors: Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein  
+  
 -
   date: 2024-05-15
   title: 
