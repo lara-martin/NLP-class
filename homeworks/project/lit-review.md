@@ -81,6 +81,8 @@ We recommend starting with these three methods to find papers then skimming ~10 
 
 **Note: While the writing itself might be informal for this part, the paper selection and insights should be high quality.**
 
+**Side note: this isn't what's traditionally called a literature review. A literature review usually requires a lot more work. If you are doing the paper writing for the Grad Assignment, that is more of an actual literature review.**
+
 Each team should submit a document titled `lit_review.pdf` which should contain, for each paper:
 * The title of the paper, the year of publication, and a link to the paper.
 * A paragraph with a short summary of the paper's contributions. (2-3 sentences)
