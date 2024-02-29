@@ -5,7 +5,7 @@ caption:
 img_link: 
 title: Graduate Assignment (20% of grade)
 active_tab: homework
-release_date: 2024-03-01
+release_date: 2024-03-10
 due_date1: 2024-02-28 23:59:00EST
 due_date2: 2024-02-28 23:59:00EST
 due_date3: 2024-02-28 23:59:00EST
@@ -83,7 +83,7 @@ All milestones must be met for full credit.
 
 ## Description
 For the graduate assignment, choose ONE of the following
-assessments: GA1-GA4. GA1-GA3 will require you to implement NLP algorithms. For GA4, you will write a 4-page conference-style literature review paper on a particular topic.
+assessments: **GA1-GA4**. GA1-GA3 will require you to implement NLP algorithms. For GA4, you will write a 4-page conference-style literature review paper on a particular topic.
 While each person is free to choose which of these four options they will complete, I encourage each person to strongly consider how
 each may be able to further their career/degree goals and choose the assessment that maximizes progress
 toward that goal. For example, someone writing a disseration (doctoral or masters) may wish to do the
@@ -100,7 +100,7 @@ Pick one:<br>
 (GA1) Using the Universal Dependencies corpora, implement and evaluate a neural arc-standard dependency parser. <br>
 (GA2) Re-implement the “Character-Aware Neural Language Models” work of Kim et al. (2016). <br>
 (GA3) Follow the tutorial "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition" (Rabiner, 1989) to implement an HMM.
-(GA4) 
+(GA4)
 
 
 For any of these options, you must
