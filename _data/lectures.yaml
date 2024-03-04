@@ -148,6 +148,11 @@
 -
   date: 2024-03-11
   title: Vector Embeddings
+  type: deadline
+  homework_due:   
+    -
+      title: "Grad Checkpoint 1: Selection"
+      url: grad.html    
   slides:
   required:
     -
@@ -318,7 +323,11 @@
       title: Preventing Generation of Verbatim Memorization in Language Models Gives a False Sense of Privacy
       url: https://aclanthology.org/2023.inlg-main.3/
       authors: Daphne Ippolito, et al.   
-
+  type: deadline
+  homework_due:   
+    -
+      title: "Grad Checkpoint 2: Draft"
+      url: grad.html  
 -
   date: 2024-04-29
   title: Prompt Engineering Tutorial
@@ -343,6 +352,9 @@
     -
       title: "Project Milestone 4: Rough Draft"
       url: project/draft.html
+    -
+      title: "Grad Checkpoint 3: Feedback"
+      url: grad.html        
 -
   date: 2024-05-06
   required:
@@ -386,3 +398,6 @@
     -
       title: "Project Milestone 5: Final Submission"
       url: project/final-submission.html
+    -
+      title: "Grad Checkpoint 4: Final Submission"
+      url: grad.html        
