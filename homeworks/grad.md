@@ -6,7 +6,7 @@ img_link:
 title: Graduate Assignment (20% of grade)
 active_tab: homework
 release_date: 2024-03-04 12:59:00EST
-due_date1: 2024-03-25 23:59:00EST
+due_date1: 2024-03-11 23:59:00EST
 due_date2: 2024-04-24 23:59:00EST
 due_date3: 2024-05-01 23:59:00EST
 due_date_final: 2024-05-15 23:59:00EST
