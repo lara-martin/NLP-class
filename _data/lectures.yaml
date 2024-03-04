@@ -120,7 +120,7 @@
 -
   date: 2024-03-04
   title: Classification with Logistic Regression
-  slides: 
+  slides: slides/24-03-04_Classification.pdf
   required:
     -
       title: NLP Chapter 2.5
@@ -161,13 +161,18 @@
 
 -
   date: 2024-03-13
-  type: deadline
   title: Vector Embeddings
+  slides: 
+      
+-
+  date: 2024-03-15
+  type: no_lecture
+  title: No Class - Project Milestone Due
   slides: 
   homework_due:
     -
       title: "Project Milestone 2: Literature Review"
-      url: project/lit-review.html
+      url: project/lit-review.html      
       
 -
   date: 2024-03-18
