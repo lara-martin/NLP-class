@@ -5,12 +5,12 @@ caption:
 img_link: 
 title: Graduate Assignment (20% of grade)
 active_tab: homework
-release_date: 2024-03-10
-due_date1: 2024-02-28 23:59:00EST
-due_date2: 2024-02-28 23:59:00EST
-due_date3: 2024-02-28 23:59:00EST
-due_date_final: 2024-02-28 23:59:00EST
-submission: 
+release_date: 2024-03-04 12:59:00EST
+due_date1: 2024-03-25 23:59:00EST
+due_date2: 2024-04-24 23:59:00EST
+due_date3: 2024-05-01 23:59:00EST
+due_date_final: 2024-05-15 23:59:00EST
+submission: https://classroom.google.com/u/3/w/NjUwNDE2MzEwMzQx/tc/NjUxNTgzMTgyODgy
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -99,8 +99,7 @@ spend significant time on any of them.
 Pick one:<br>
 (GA1) Using the Universal Dependencies corpora, implement and evaluate a neural arc-standard dependency parser. <br>
 (GA2) Re-implement the “Character-Aware Neural Language Models” work of Kim et al. (2016). <br>
-(GA3) Follow the tutorial "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition" (Rabiner, 1989) to implement an HMM.
-(GA4)
+(GA3) Follow the tutorial ["A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition" (Rabiner, 1989)](https://ieeexplore.ieee.org/document/18626) to implement an HMM.
 
 
 For any of these options, you must
@@ -119,8 +118,7 @@ Be sure to cite appropriately and follow all academic honesty standards. Account
 and graphs, an appropriate target length of this writeup is anywhere from 1 to 3 pages (though that is not a
 hard limit).
 Within the Implementation Track, you will be primarly evaluated on the completeness and correctness
-of your implementation. However, the thoroughness and clarity of the writeup will be a sizeable (but non-
-majority) portion of your grade.
+of your implementation. However, the thoroughness and clarity of the writeup will be a sizeable (but non-majority) portion of your grade.
 
 ### Milestones
 
@@ -167,12 +165,12 @@ In addition to re-creating the Penn treebank results, also evaluate this model o
 language from the UD data. For this option, you may use existing layers in the toolkits Pytorch, Tensorflow,
 or Keras.
 
-#### (GA3) Crea
-[Rabiner (1989)](https://ieeexplore.ieee.org/document/18626)
+#### (GA3) Create a Hidden Markov Model from [Rabiner (1989)](https://ieeexplore.ieee.org/document/18626)'s tutorial
 
-NEG-15 word2vec model from "Distributed Representations of Words and Phrases and their Compositionality" (2013)
-Preprocess the text using the perl script at the bottom of this page: http://mattmahoney.net/dc/textdata.html
-WebBase corpus: http://ebiquity.umbc.edu/redirect/to/resource/id/351/UMBC-webbase-corpus (might take a few hours to download)
+1. Find a text dataset on HuggingFace. Make sure that it has a training/testing split (or make it yourself).
+2. Turn the text into [ARPAbet phonemes](https://en.wikipedia.org/wiki/ARPABET) using the [CMUdict](http://www.speech.cs.cmu.edu/cgi-bin/cmudict)
+3. Train an HMM from scratch following [Rabiner (1989)](https://ieeexplore.ieee.org/document/18626).
+4. Use the forward algorithm to calculate the likelihood of the sequences in the testing data.
 
 
 ---
@@ -335,10 +333,9 @@ approved in advance, in writing)
 * other online courses and their materials
 
 
-
 <div class="alert alert-danger">
-The use of any of these items will be considered a serious academic integrity violation and will result,
-at a minimum, in an automatic 0 on this entire assessment (i.e., a 0 will be recorded for 20% of your entire
+The use of any of these disallowed resources will be considered a serious academic integrity violation and will result in,
+at a minimum, an automatic 0 on this entire assignment (i.e., a 0 will be recorded for 20% of your entire
 course grade).
 </div>
 
