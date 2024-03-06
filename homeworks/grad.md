@@ -15,8 +15,6 @@ submission: https://classroom.google.com/u/3/w/NjUwNDE2MzEwMzQx/tc/NjUxNTgzMTgyO
 
 
 <div class="alert alert-info">
-{% assign seconds = 1 | times: 24 | times: 60 | times: 60 %}
-{% assign nextDay = page.due_date %}
 
 Checkpoint 1 due: {{ page.due_date1 | date: "%A, %B %-d, %Y" }}<br>
 Checkpoint 2 due: {{ page.due_date2 | date: "%A, %B %-d, %Y" }}<br>
