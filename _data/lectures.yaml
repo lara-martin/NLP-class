@@ -135,7 +135,7 @@
 -
   date: 2024-03-06
   title: Learning & Using Logistic Regression
-  slides: 
+  slides: slides/24-03-06_Classification-2.pdf
   required:
     -
       title: NLP Chapter B.1
