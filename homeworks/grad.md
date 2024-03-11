@@ -99,10 +99,7 @@ of your implementation. However, the thoroughness and clarity of the writeup wil
 
 ### Milestones
 
-**Milestone 1: Selection of Option.** Select which of the options (GA1-GA3) you will do, and identify between 3-7 approved resources ([allowed resources](#allowed-resources)) you think may be
-valuable to use in your work. Record your option selection, and upload a PDF list of the approved resources to the submission site. This list should not be your complete or final list
-of all resources you might use: it is meant as a starting point. You may also remove papers/resources
-from this list as you make progress.
+**Milestone 1: Selection of Option.** Select which of the options (GA1-GA3) you will do and fill out the short form online.
 
 **Milestone 2: Initial draft of writeup, and git repo of your code with ≥ 3 non-trivial commits.** You must submit two items: an initial version of your writeup, and a git repository of your implementation containing at least three, non-trivial commits (e.g., commits affecting more than just whitespace or comments). Your writeup does not need to include results,
 but it does need to include a prose-based discussion of the algorithm; a prose-based discussion of your
@@ -183,9 +180,10 @@ However, make the figures count: do not include them simply to pad the paper. Do
 “recent” papers; try to find papers from the past 25 years.
 
 ### Milestones
-**Milestone 1: Selection of Option, Topic, and Initial list of papers.** Decide on a topic and compile a list of at least five relevant papers. You do not need to
-have read the papers but you should have read the abstracts. Your topic choice and list of papers (in
-a PDF) should be submitted to the submission site. This list should not be your complete or final list
+**Milestone 1: Selection of Option, Topic, and Initial list of papers.** Decide on a topic and fill out the short form online.
+ It would also be beneficial if you find at least 5 papers related to your topic. If you list them in the form, I can give you feedback
+ regarding their relevance to your topic and their quality.
+This list should not be your complete or final list
 of papers you’ll read or consult: it is meant as a starting point. You may also remove papers from this
 list when you actually write your paper.
 

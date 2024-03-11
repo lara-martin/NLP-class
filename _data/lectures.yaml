@@ -153,7 +153,7 @@
     -
       title: "Grad Checkpoint 1: Selection"
       url: grad.html    
-  slides:
+  slides: slides/24-03-11_Vector-Embeddings.pdf
   required:
     -
       title: NLP Chapter 14
