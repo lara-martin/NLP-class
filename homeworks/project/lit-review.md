@@ -107,8 +107,8 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 
 # What to Submit
 Submit the following to [Google Classroom]({{page.submission}}):
-* `group[#]-lit_review.pdf` which contains your literature review, where [#] is your group number. This can be in any format you like. We find that using Google Docs and then downloading as a PDF works well for this sort of thing.
-* `group[#]-milestone2.pdf` which contains your Milestone 2 submission. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template ([ACL's template](https://github.com/acl-org/acl-style-files)).
+* `group[#]-lit_review.pdf` which contains your literature review, where [#] is your group number. This can be in any format you like.
+* `group[#]-milestone2.pdf` which contains your updated project paper. To make grading easier, your proposal should include section headers corresponding to each of the bulleted points as well. While not required, we highly recommend that you use LaTeX and a conference template ([ACL's template](https://github.com/acl-org/acl-style-files)).
 
 # Grading
 <div class="alert alert-warning" markdown="1">
