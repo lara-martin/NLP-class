@@ -167,7 +167,7 @@
 -
   date: 2024-03-13
   title: Vector Embeddings
-  slides: 
+  slides: slides/24-03-13_Vector-Embeddings.pdf
       
 -
   date: 2024-03-15
@@ -201,16 +201,14 @@
       title: SLP Chapter 3
       url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
       authors:  Dan Jurafsky and James H. Martin
+  slides: slides/24-03-25_N-gram-LMs.pdf
     
 
 -
   date: 2024-03-27
   title:  N-Gram Language Models
   slides: 
-  homework_due:
-    -
-      title: "HW 2"
-      url: 
+
 
 -
   date: 2024-04-01
@@ -238,6 +236,9 @@
     -
       title: "Project Milestone 3: Halfway Checkpoint"
       url: project/halfway.html
+    -
+      title: "HW 2"
+      url: 
       
       
 -
