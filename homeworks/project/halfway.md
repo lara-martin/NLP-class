@@ -9,7 +9,7 @@ number: 3
 active_tab: homework
 release_date: 2024-03-25
 due_date: 2024-04-03 23:59:00EST
-submission: https://classroom.google.com/u/3/w/NjUwNDE2MzEwMzQx/tc/NjUxMjcyNDAwOTIx
+submission: https://classroom.google.com/c/NjUwNDE2MzEwMzQx/a/NjcxMjc1NjA2MjU5/details
 ---
 
 <!-- Check whether the assignment is ready to release -->
