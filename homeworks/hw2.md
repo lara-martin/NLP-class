@@ -61,9 +61,10 @@ You can download the materials for this assignment here:
 
 ## Learning Objectives
 * Calculate common evaluation metrics (recall, precision, F1, accuracy) for multiclass classification.
-* Explain when certain classes should be included or excluded in evaluation.
+* Explain when certain evaluation metrics should be modified to fit the problem.
 * Create and analyze a simple baseline model.
 * Follow code from online for making a neural network.
+* Compare the performance of a baseline and a neural model.
 
 
 ## Question 1 (24 points): Evaluating by Hand
@@ -122,15 +123,15 @@ Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (
 
 
 ## Question 3 (14 points): Model Evaluation 
-Starting with your prepped data code from the "Knowledge Check: Data Prep" assignment, train a basic neural network. 
+Starting with prepped data like you did in the "Knowledge Check: Data Prep" assignment, train a basic neural network and compare it to your baseline.
 
 1. Start with my modified implementation [data prep code](https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9?usp=sharing) for this assignment. Note that the input has both sentences separated by a special word `||`.
 2. [Continue to follow the tutorial](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/dd1c511de656ab48216de2866264b28f/deep_learning_tutorial.ipynb) to setup the network. [This tutorial](https://pytorch.org/tutorials/beginner/former_torchies/nnft_tutorial.html) might also be helpful.
 3. Switch the network to an RNN using [`torch.nn.RNN`](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html). Use a hidden size of 128.
 4. Train the network on the **train** set for **5 epochs**.
 5. Calculate accuracy, macro precision, macro recall, micro precision, and micro recall on the **dev set**.
-6. Turn in your code (8 points), these 5 scores (3 points), and a brief paragraph (5 points) explaining how the network did with its predictions, how it compares to your frequent class baseline from Question 2: Baselines, and what insights you can take away from comparing the two.
-7. Be sure to include a comment at the top of your code stating where you got the code you adapted (i.e., the tutorial link) (1 point).
+6. Turn in your code (8 points), these 5 scores (3 points), and a brief paragraph (5 points) explaining how the network did with its predictions, how it compares to your frequent class baseline from Question 2: Baselines, and what insights you can take away from comparing the two. 
+7. Be sure to include a comment at the top of your code stating where you got the code you adapted (e.g., the tutorial link) (1 point).
 
 ### Extra credit (3 points): Train another type of neural network and repeat steps 4-6 on this new network. How does this network compare to the previous network and the frequent class baseline? Why do you think it performed that way?
 
