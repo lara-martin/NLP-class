@@ -60,51 +60,82 @@ You can download the materials for this assignment here:
 =============================================================
 
 ## Learning Objectives
+* Calculate common evaluation metrics (recall, precision, F1, accuracy) for multiclass classification.
+* Explain when certain classes should be included or excluded in evaluation.
+* Create and analyze a simple baseline model.
+* Follow code from online
 
 
-
-
-## Description
-
-
-### Question 1 (24 points)
+## Question 1 (24 points): Evaluating by Hand
 
 Each of the following scenarios describes the result of some (made up) classifier: there is a list of the correct labels, and the corresponding predictions. For each of
 the following situations, compute accuracy, recall, precision, and F1 score. You may verify
 your answers with code, but you must show work, or some intermediate steps, to receive full
 credit on this problem.
 
+Slides from 2/12 and 2/14 will be the most useful for this question.
+
 a) (4 points) A binary classification result, where the correct labels are
 `[T, T, F, T, F, T, F, T]` and the predicted labels are
 `[T, F, T, T, F, F, F, T]`. Assume `T` means “true” (the desired class) and `F`
-(“false”) is the “default” class. Compute accuracy, and compute recall, precision, and
-F1 for `T`.
+(“false”) is the “default” class. 
+* Compute accuracy, and compute recall, precision, and F1 for `T`.
 
 b) (4 points) A binary classification result, where the correct labels are
 `[T, F, F, F, F, F, F, T]` and the predicted labels are
 `[F, T, F, F, F, F, F, F]`. Assume `T` means “true” (the desired class) and `F`
-(“false”) is the “default” class. Compute accuracy, and compute recall, precision, and
-F1 for `T`.
+(“false”) is the “default” class. 
+* Compute accuracy, and compute recall, precision, and F1 for `T`.
 
 c) (8 points) A multiclass classification result, where the correct labels are
 `[T, F, M, F, F, F, M, T]` and the predicted labels are
 `[F, T, M, F, F, F, F, T]`. Assume `T` means “true,” `M` means “maybe,” and
-`F` (“false”) is the “default” class. Compute accuracy. Then, compute, at **both the micro
-and macro levels**, average recall, precision, and F1. Explain why you should *not* include
-the `F` class in the precision, recall, and F1 computations.
+`F` (“false”) is the “default” class. 
+* Compute accuracy. 
+* Then, compute, at **both the micro and macro levels**, average recall, precision, and F1. 
+* Explain why you should *not* include the `F` class in the precision, recall, and F1 computations.
 
 d) (8 points) A multiclass classification result, where the correct labels are
 `[C, C, A, C, C, C, C, C, B, A, C, C, C]` and the predicted labels are
 `[C, C, C, C, C, C, C, C, B, A, A, C, C]`. In this example, there is no
 “good” default option, so we can consider `A`, `B`, and `C` to be all possible classes/labels
-of interest. Compute accuracy. Then, compute, at **both the micro and macro levels**,
-average recall, precision, and F1. Explain why you *should* include all classes in the
-precision, recall, and F1 computations.
+of interest. 
+* Compute accuracy. 
+* Then, compute, at **both the micro and macro levels**, average recall, precision, and F1. 
+* Explain why you *should* include all classes in the precision, recall, and F1 computations.
+
+## Question 2 (12 points): Baselines
+
+One very important aspect of NLP is the ability to identify good and reasonable
+baseline systems. These baseline systems help you contextualize any progress (or harm) your
+proposed approach makes. Coming up with these baselines is not always easy. However, in classification, a
+very common one is called the “most frequent class” baseline. This most frequent class baseline simply identifies the most common label y' from the training set, and then when presented with any evaluation instance, simply returns y'.
+
+For this question, I strongly recommend using the existing implementations of accuracy, re-
+call and precision in the Python library `sklearn`, e.g., `sklearn.metrics.precision_score` and `sklearn.metrics.recall_score`.
+
+a) (1 point) Consider a small training set with 5 instances. If the class labels for those 5 instances are [α, α, β, γ, α], respectively. What label would the most frequent baseline return?
+
+b) (9 points) Working from the [GLUE](https://huggingface.co/datasets/nyu-mll/glue) **RTE** corpus, implement a most frequent class baseline for predicting entailment. Evaluate this baseline **on only the dev set** with 5 measures: accuracy, macro precision, macro recall, micro precision, and micro recall.
+
+Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (2 points) describing what you observe from using this baseline and analyzing how reasonable the predictions made by this baseline are.
+
+
+## Question 3 (13 points): Model Evaluation 
+Starting with your prepped data code from the "Knowledge Check: Data Prep" assignment, train a basic neural network. 
+
+1. Start with my implementation for ["Knowledge Check: Data Prep"].
+2. Swap out the SuperGLUE data for GLUE data so that you have train/test/dev splits: [https://huggingface.co/datasets/nyu-mll/glue](https://huggingface.co/datasets/nyu-mll/glue)
+2. [Continue to follow the tutorial](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/dd1c511de656ab48216de2866264b28f/deep_learning_tutorial.ipynb) to setup the network.
+3. Train the network on the **train** set for **5 epochs**.
+3. Calculate accuracy, macro precision, macro recall, micro precision, and micro recall on the **dev set**.
+
+Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (2 points) explaining how the network did with its predictions and how it compares to your baseline from Question 2. Be sure to include a comment at the top of your code stating where you got the code you adapted (i.e., the tutorial link) (1 point).
 
 
 # Grading
 <div class="alert alert-warning" markdown="1">
-* Question 1 - 10 points
-* Question 2 - 18 points
-* Question 3 - 5 points
+* Question 1 - 24 points
+* Question 2 - 12 points
+* Question 3 - 13 points
 </div>
