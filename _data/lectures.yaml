@@ -268,10 +268,6 @@
 -
   date: 2024-04-15
   type: deadline
-  homework_due:
-    -
-      title: "HW 3"
-      url: 
   title: Transformers
   slides:
   required:
@@ -335,7 +331,10 @@
   date: 2024-04-29
   title: Prompt Engineering Tutorial
   type: tutorial
-
+  homework_due:
+    -
+      title: "HW 3"
+      url: 
 
 -
   date: 2024-05-01
