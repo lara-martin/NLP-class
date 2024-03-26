@@ -122,7 +122,7 @@ b) (12 points) Working from the [GLUE](https://huggingface.co/datasets/nyu-mll/g
 Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (2 points) describing what you observe from using this baseline and analyzing how reasonable the predictions made by this baseline are.
 
 
-## Question 3 (14 points): Model Evaluation 
+## Question 3 (17 points): Model Evaluation 
 Starting with prepped data like you did in the "Knowledge Check: Data Prep" assignment, train a basic neural network and compare it to your baseline.
 
 1. Start with my modified implementation [data prep code](https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9?usp=sharing) for this assignment. Note that the input has both sentences separated by a special word `||`.
@@ -141,7 +141,7 @@ Train another type of neural network and repeat steps 4-6 on this new network. H
 # Grading
 <div class="alert alert-warning" markdown="1">
 * Question 1 - 24 points
-* Question 2 - 12 points
-* Question 3 - 14 points
+* Question 2 - 13 points
+* Question 3 - 17 points
 * Extra credit - 3 points
 </div>
