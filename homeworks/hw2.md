@@ -133,7 +133,9 @@ Starting with prepped data like you did in the "Knowledge Check: Data Prep" assi
 6. Turn in your code (8 points), these 5 scores (3 points), and a brief paragraph (5 points) explaining how the network did with its predictions, how it compares to your frequent class baseline from Question 2: Baselines, and what insights you can take away from comparing the two. 
 7. Be sure to include a comment at the top of your code stating where you got the code you adapted (e.g., the tutorial link) (1 point).
 
-### Extra credit (3 points): Train another type of neural network and repeat steps 4-6 on this new network. How does this network compare to the previous network and the frequent class baseline? Why do you think it performed that way?
+### Extra credit (3 points): 
+
+Train another type of neural network and repeat steps 4-6 on this new network. How does this network compare to the previous network and the frequent class baseline? Why do you think it performed that way?
 
 
 # Grading
