@@ -7,8 +7,8 @@ title: Evaluation
 type: Homework
 number: 2
 active_tab: homework
-release_date: 2024-03-27
-due_date: 2024-04-03 23:59:00EST
+release_date: 2024-03-25
+due_date: 2024-04-05 23:59:00EST
 submission: 
 ---
 
@@ -124,7 +124,7 @@ Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (
 ## Question 3 (13 points): Model Evaluation 
 Starting with your prepped data code from the "Knowledge Check: Data Prep" assignment, train a basic neural network. 
 
-1. Start with my implementation for ["Knowledge Check: Data Prep"].
+1. Start with my modified implementation for ["Knowledge Check: Data Prep"].
 2. Swap out the SuperGLUE data for GLUE data so that you have train/test/dev splits: [https://huggingface.co/datasets/nyu-mll/glue](https://huggingface.co/datasets/nyu-mll/glue)
 2. [Continue to follow the tutorial](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/dd1c511de656ab48216de2866264b28f/deep_learning_tutorial.ipynb) to setup the network.
 3. Train the network on the **train** set for **5 epochs**.

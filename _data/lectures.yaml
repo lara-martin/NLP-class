@@ -236,15 +236,17 @@
     -
       title: "Project Milestone 3: Halfway Checkpoint"
       url: project/halfway.html
-    -
-      title: "HW 2"
-      url: 
-      
+
       
 -
   date: 2024-04-05
   title: Last Day to Withdraw
   type: no_lecture
+  homework_due:
+    -
+      title: "HW 2: Evaluation"
+      url: 
+        
   
   
 -
