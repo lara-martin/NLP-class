@@ -207,7 +207,7 @@
 -
   date: 2024-03-27
   title:  N-Gram Language Models
-  slides: 
+  slides: slides/24-03-27_N-gram-LMs-2.pdf
 
 
 -
@@ -242,17 +242,17 @@
   date: 2024-04-05
   title: Last Day to Withdraw
   type: no_lecture
-  homework_due:
-    -
-      title: "HW 2: Evaluation"
-      url: hw2.html 
         
   
   
 -
   date: 2024-04-08
   title: Recurrent Neural Network LMs
-  
+  type: deadline
+  homework_due:
+    -
+      title: "HW 2: Evaluation"
+      url: hw2.html 
   
 -
   date: 2024-04-10
