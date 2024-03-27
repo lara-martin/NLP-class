@@ -8,7 +8,7 @@ type: Homework
 number: 2
 active_tab: homework
 release_date: 2024-03-25
-due_date: 2024-04-05 23:59:00EST
+due_date: 2024-04-08 23:59:00EST
 submission: https://classroom.google.com/c/NjUwNDE2MzEwMzQx/a/NjUyMjcxNTI0MzQ4/details
 materials:
   -
