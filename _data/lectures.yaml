@@ -213,6 +213,7 @@
 -
   date: 2024-04-01
   title: Neural Language Models
+  slides: slides/24-04-01_Neural-LMs.pdf
   required: 
     -
       title: SLP Chapter 7
