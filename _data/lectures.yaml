@@ -222,7 +222,7 @@
 -
   date: 2024-04-03
   title: Recurrent Neural Network LMs
-  slides:
+  slides: slides/24-04-03_RNNs.pdf
   required:
     -
       title: NLP Chapter 6.3 & 18.3 (intro only)
@@ -248,7 +248,7 @@
   
 -
   date: 2024-04-08
-  title: Recurrent Neural Network LMs
+  title: Recurrent Neural Network LMs Tutorial
   type: deadline
   homework_due:
     -
