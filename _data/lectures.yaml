@@ -249,6 +249,7 @@
 -
   date: 2024-04-08
   title: Recurrent Neural Network LMs Tutorial
+  slides: slides/24-04-08_RNN-Tutorial.pdf
   type: deadline
   homework_due:
     -
