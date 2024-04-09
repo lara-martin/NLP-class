@@ -258,44 +258,32 @@
   
 -
   date: 2024-04-10
-  title: Attention
+  title: Attention & Transformers
   slides: 
   required:
     - 
-      title: NLP Chapter 18.3.1
-      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein 
-      
-      
--
-  date: 2024-04-15
-  title: Transformers
-  slides:
-  required:
-    - 
-      title: NLP Chapter 18.3.2
+      title: NLP Chapter 18.3.1-2
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
       authors: Jacob Eisenstein 
     -
       title: Attention Is All You Need
       url: https://dl.acm.org/doi/10.5555/3295222.3295349
-      authors: Ashish Vaswani, et al.      
-
+      authors: Ashish Vaswani, et al.        
+      
+      
 -
-  date: 2024-04-17
+  date: 2024-04-15
   title: Pre-training & Fine-tuning
+  slides:
   required:
     -
       title: SLP Chapter 11.3
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
       authors:  Dan Jurafsky and James H. Martin 
-      
-      
-      
+
 -
-  date: 2024-04-22
+  date: 2024-04-17
   title: Types of Foundational Models
-  slides: 
   required:
     -
       title: Language Models are Unsupervised Multitask Learners
@@ -305,9 +293,11 @@
       title: SLP Chapter 11.1-11.2 (+intro)
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
       authors:  Dan Jurafsky and James H. Martin  
-
+      
+      
+      
 -
-  date: 2024-04-24
+  date: 2024-04-22
   title: Ethics of NLP
   slides: 
   required:
@@ -322,7 +312,14 @@
     -
       title: Preventing Generation of Verbatim Memorization in Language Models Gives a False Sense of Privacy
       url: https://aclanthology.org/2023.inlg-main.3/
-      authors: Daphne Ippolito, et al.   
+      authors: Daphne Ippolito, et al.  
+
+-
+  date: 2024-04-24
+  title: Prompt Engineering Tutorial
+  slides: 
+  required:
+ 
   type: deadline
   homework_due:   
     -
@@ -330,18 +327,12 @@
       url: grad.html  
 -
   date: 2024-04-29
-  title: Prompt Engineering Tutorial
+  title: Instruction Tuning
   type: tutorial
   homework_due:
     -
       title: "HW 3"
       url: 
-
--
-  date: 2024-05-01
-  title: Instruction Tuning
-  type: deadline
-  slides: 
   required:
     -
       title: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
@@ -350,7 +341,18 @@
     -
       title: Instruction Tuning with GPT-4
       url: https://arxiv.org/abs/2304.03277
-      authors: Baolin Peng, Chunyuan Li, Pengcheng He, Michel Galley, Jianfeng Gao    
+      authors: Baolin Peng, Chunyuan Li, Pengcheng He, Michel Galley, Jianfeng Gao   
+
+-
+  date: 2024-05-01
+  title: "Applications: Machine Translation"
+  type: deadline
+  slides: 
+  required:
+      -
+      title: "SLP Chapter 13: Machine Translation"
+      url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
+      authors:  Dan Jurafsky and James H. Martin  
   homework_due:
     -
       title: "Project Milestone 4: Rough Draft"
@@ -358,14 +360,11 @@
     -
       title: "Grad Checkpoint 3: Feedback"
       url: grad.html        
+
 -
   date: 2024-05-06
   required:
-    -
-      title: "SLP Chapter 13: Machine Translation"
-      url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
-      authors:  Dan Jurafsky and James H. Martin  
-  title: "Applications: Machine Translation"
+  title: 
   
         
 -

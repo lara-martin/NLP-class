@@ -72,6 +72,8 @@ Materials for this assignment:
 {% endif %}
 
 
+<!-- TODO: add in help with padding the input -->
+
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
