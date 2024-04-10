@@ -259,7 +259,7 @@
 -
   date: 2024-04-10
   title: Attention & Transformers
-  slides: 
+  slides: slides/24-04-10_Attention-Transformers.pdf
   required:
     - 
       title: NLP Chapter 18.3.1-2
