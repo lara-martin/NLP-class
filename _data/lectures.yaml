@@ -349,7 +349,7 @@
   type: deadline
   slides: 
   required:
-      -
+    -
       title: "SLP Chapter 13: Machine Translation"
       url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
       authors:  Dan Jurafsky and James H. Martin  
