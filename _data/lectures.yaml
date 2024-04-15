@@ -273,8 +273,8 @@
       
 -
   date: 2024-04-15
-  title: Pre-training & Fine-tuning
-  slides:
+  title: Decoding, Sampling, & Transformer Fine-tuning
+  slides: slides/24-04-15_Transformers.pdf
   required:
     -
       title: SLP Chapter 11.3
