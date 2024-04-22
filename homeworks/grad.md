@@ -152,6 +152,10 @@ or Keras.
 ## Paper Track
 (GA4) Write a literature review paper in which you select one of a set of topics, and (i) identify, (ii) analyze,and (iii) synthesize modern approaches for the topic you choose.
 
+Here are some examples of literature review papers (also called survey papers) that have been published at conferences on more specific NLP topics. Your paper should be like these, although it doesn't have to be *quite* as thorough.
+* [Neural Machine Translation for Low-resource Languages: A Survey](https://dl.acm.org/doi/pdf/10.1145/3567592)
+* [Automatic Story Generation: Challenges and Attempts](https://arxiv.org/abs/2102.12634)
+
 
 Select one of the following topics (see [Paper Topics](#paper-topics)), and (i) identify, (ii) analyze, and (iii) synthesize modern approaches for the topic you choose.
 
@@ -253,15 +257,12 @@ they are offered as suggestions.
 
 ####  Computational Methods for Linguistic Subfields
 For this topic you will examine how computational/statistical models are developed to better explain (or
-mimic) linguistic phenomena/subfields. For example, you could explore computational approaches to phonol-
-ogy, morphology, syntax, semantics, or pragmatics—or any combination, e.g., morphosyntax, syntactic-
+mimic) linguistic phenomena/subfields. For example, you could explore computational approaches to phonology, morphology, syntax, semantics, or pragmatics—or any combination, e.g., morphosyntax, syntactic-
 semantic, phonology/morphology, typology, etc. (Try searching the [ACL Anthology](https://aclanthology.org/) for those terms.)
 
 #### Natural Language Generation
 
-For this topic you will examine methodological and/or evaluation approaches for generating natural lan-
-guage. Classic examples of natural language generation include machine translation and abstractive sum-
-marization. There’s an entire SIG on generation (SIGGEN) and conference (INLG) devoted to it.
+For this topic you will examine methodological and/or evaluation approaches for generating natural language. Classic examples of natural language generation include machine translation and abstractive summarization. There’s an entire SIG on generation (SIGGEN) and conference (INLG) devoted to it.
 
 ####  Ethical Issues and Bias in NLP
 For this topic you will explore ethical concerns (and approaches for dealing with them) in NLP, and/or issues
