@@ -306,7 +306,7 @@
 -
   date: 2024-04-22
   title: Ethics of NLP
-  slides: 
+  slides: slides/24-04-22_Ethics-in-NLP.pdf
   required:
     -
       title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜"
@@ -320,6 +320,14 @@
       title: Preventing Generation of Verbatim Memorization in Language Models Gives a False Sense of Privacy
       url: https://aclanthology.org/2023.inlg-main.3/
       authors: Daphne Ippolito, et al.  
+    -
+      title: Do Neural Language Models Overcome Reporting Bias?
+      url: https://aclanthology.org/2020.coling-main.605/
+      authors: Vered Shwartz, Yejin Choi
+    -
+      title: Challenges in Automated Debiasing for Toxic Language Detection
+      url: https://aclanthology.org/2021.eacl-main.274/
+      authors: Xuhui Zhou, et al.
 
 -
   date: 2024-04-24
