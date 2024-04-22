@@ -104,7 +104,7 @@ of your implementation. However, the thoroughness and clarity of the writeup wil
 **Milestone 2: Initial draft of writeup, and git repo of your code with ≥ 3 non-trivial commits.** You must submit two items: an initial version of your writeup, and a git repository of your implementation containing at least three, non-trivial commits (e.g., commits affecting more than just whitespace or comments). Your writeup does not need to include results,
 but it does need to include a prose-based discussion of the algorithm; a prose-based discussion of your
 implementation (or expected implementation), including any hurdles you are encountering; and a discussion of what tests you are running or will run to ensure correctness.You must turn in:
-* an **ANONYMIZED** PDF of your writeup,
+* an **ANONYMIZED** PDF of your writeup (name the file with your UMBC ID, e.g., "AB1234.pdf"),
 * a git repo for your code.
 Your anonymized PDF will be provided to other students to review/provide feedback on (see Milestone 3); your code will not be shared. You may optionally provide a written description of what, if
 any, writing assistance you received (e.g., the GSA Writing Advisor).
@@ -196,7 +196,7 @@ being “initial,” this must be a complete, well-written paper. Although this 
 solely comprise your grade, it should be a paper that you would find acceptable for determining your
 grade for the course’s paper component. To receive full credit, your paper must be a legitimate and
 full response to the prompt. You must turn in:
-* an **ANONYMIZED** PDF of the paper,
+* an **ANONYMIZED** PDF of the paper (name the file with your UMBC ID, e.g., "AB1234.pdf"),
 * the paper’s source (such that we could regenerate the PDF).
 Your anonymized PDF will be provided to other students to review (see Milestone 3); your source
 will not be shared. You may also provide a written description of what, if any, writing assistance you
