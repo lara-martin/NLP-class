@@ -170,14 +170,15 @@ should help inform the overall narrative and context for your discussion.
 scientific and engineering questions did each of the tackle? How well did the evaluations support the
 main claims? What was not done that could have been done?
 
-**Synthesize.** How do the efforts relate to one another? Do they follow one after another, making (incremental) progress on a task (metric)? Does one question some basic assumptions of another, and if so, how
-do the other papers fit in? What are the limitations of these approaches, and what still remains to be
+**Synthesize.** How do the efforts relate to one another? Do they follow one after another, making (incremental) progress on a task (metric)? Does one question some basic assumptions of another, and if so, how do the other papers fit in? What are the limitations of these approaches, and what still remains to be
 done? You can also link these papers and ideas to related fields.
-Within the Paper Track, you will be primarly evaluated primarily on the completeness, thoroughness,
-and clarity of your paper. Grammatical, logical, organizational, or factual errors will be negatively impact
-the score.Weak or lacking analysis and synthesis will also be large negative influences on the score.
+
 
 #### Requirements 
+Within the Paper Track, you will be primarly evaluated primarily on the completeness, thoroughness,
+and clarity of your paper. Grammatical, logical, organizational, or factual errors will be negatively impact
+the score. Weak or lacking analysis and synthesis will also be large negative influences on the score.
+
 Papers should be four pages, not including references, in the ACL format. Paper must
 use the [ACL style guide](https://github.com/acl-org/acl-style-files) (either LaTeX or Word is fine).
 Be sure to cite appropriately and follow all academic honesty standards. You may include figures (your
