@@ -48,14 +48,15 @@ or
 * Construct a literature review from state-of-the-art research.
 
 ## Submissions
-All milestones must be met for full credit.
+All milestones must be met for full credit. 
 
 | Item | If you select from the Implementation Track: | If you select from the Paper Track: | Grade |
 | ---- | ------------------------- | ------------------- | -----------|
 | Checkpoint 1 | Selection of one of GA1-GA3 and initial list of resources | Selection of topic for GA4 and initial list of papers | Ungraded |
-| Checkpoint 2 | Initial report discussing progress, hurdles, and other challenges; and git repo containing at least three non-trivial/starter commits | Complete first draft, including citations | |
-| Checkpoint 3 | Feedback/suggestions on another student's initial report | Peer review | |
-| Final Submission | Completed code, full git repository, completed writeup, and document summarizing how the feedback was used | Completed final paper + summary-of-changes document | |
+| Checkpoint 2 | Initial report discussing progress, hurdles, and other challenges; and git repo containing at least three non-trivial/starter commits | Complete first draft, including citations | Ungraded |
+| Checkpoint 3 | Feedback/suggestions on another student's initial report | Peer review | 10 points |
+| Final Submission | Completed code, full git repository, completed writeup, and document summarizing how the feedback was used | Completed final paper + summary-of-changes document | 40 points |
+| Final grade | || = total / 50|
 
 
 ## Description
