@@ -176,7 +176,9 @@ done? You can also link these papers and ideas to related fields.
 Within the Paper Track, you will be primarly evaluated primarily on the completeness, thoroughness,
 and clarity of your paper. Grammatical, logical, organizational, or factual errors will be negatively impact
 the score.Weak or lacking analysis and synthesis will also be large negative influences on the score.
-Requirements Papers should be four pages, not including references, in the ACL format. Paper must
+
+#### Requirements 
+Papers should be four pages, not including references, in the ACL format. Paper must
 use the [ACL style guide](https://github.com/acl-org/acl-style-files) (either LaTeX or Word is fine).
 Be sure to cite appropriately and follow all academic honesty standards. You may include figures (your
 own, reproductions, or copies of existing figures); be sure to provide appropriate credit for the figures.
