@@ -54,7 +54,7 @@ All milestones must be met for full credit.
 | ---- | ------------------------- | ------------------- | -----------|
 | Checkpoint 1 | Selection of one of GA1-GA3 and initial list of resources | Selection of topic for GA4 and initial list of papers | Ungraded |
 | Checkpoint 2 | Initial report discussing progress, hurdles, and other challenges; and git repo containing at least three non-trivial/starter commits | Complete first draft, including citations | Ungraded |
-| Checkpoint 3 | Feedback/suggestions on 2 other students' initial reports | Peer review | 10 points |
+| Checkpoint 3 | [Feedback/suggestions on 2 other students' initial reports](https://drive.google.com/file/d/1d_YcRGmIRbJavs2nKFaBf-dKOZybtam4/view) | [Peer review](https://drive.google.com/file/d/1kEbMa1gAvkH-y-DiO_lbnzIoJNWe0n4-/view) | 10 points |
 | Final Submission | Completed code, full git repository, completed writeup, and document summarizing how the feedback was used | Completed final paper + summary-of-changes document | 40 points |
 | Final grade | || = total / 50|
 

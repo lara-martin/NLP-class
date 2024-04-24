@@ -332,7 +332,7 @@
 -
   date: 2024-04-24
   title: Prompt Engineering Tutorial
-  slides: 
+  slides: slides/24-04-24_Prompting.pdf
   required:
     -
       title: Language Models are Few-Shot Learners
