@@ -353,10 +353,6 @@
   date: 2024-04-29
   title: Instruction Tuning
   type: tutorial
-  homework_due:
-    -
-      title: "HW 3"
-      url: 
   required:
     -
       title: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
@@ -389,7 +385,10 @@
   date: 2024-05-06
   required:
   title: 
-  
+  homework_due:
+    -
+      title: "HW 3: Prompt Engineering"
+      url: hw3.html
         
 -
   date: 2024-05-08
