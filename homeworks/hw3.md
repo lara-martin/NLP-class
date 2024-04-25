@@ -9,7 +9,7 @@ number: 3
 active_tab: homework
 release_date: 2024-04-24
 due_date: 2024-05-06 23:59:00EST
-submission: 
+submission: https://classroom.google.com/c/NjUwNDE2MzEwMzQx/a/Njc2MTc5MzM5MDM1/details
 materials:
   -
     name: LLAMA-2 Prompting Notebook
@@ -70,10 +70,9 @@ Materials for this assignment:
 * Determine when LLMs like Llama-2 would be worth using
 
 ## Helpful Resources
-Original paper on few-shot prompting:
-* [Language Models are Few-Shot Learners](https://papers.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html)
-Chain-of-thought Prompting:
-* [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html)
+
+* Original paper on few-shot prompting: [Language Models are Few-Shot Learners](https://papers.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html)
+* Chain-of-thought prompting: [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html)
 
 ### Other ways of prompting
 * [Prompt-and-Rerank: A Method for Zero-Shot and Few-Shot Arbitrary Textual Style Transfer with Small Language Models](https://aclanthology.org/2022.emnlp-main.141/)
