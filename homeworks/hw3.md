@@ -91,25 +91,25 @@ You will be using various prompting techniques to get Llama-2 to do RTE.
 1. (4 points, 2 points per evaluation) Provide 2 different ways you might objectively evaluate the output that the model generates. Pick one of these methods and use it for the rest of the questions to compare the outputs.
 2. (2 points) First try the RTE task using zero-shot prompting in the plainest way possible. Just ask the model to do the task. Don't give any examples for how to do it, don't use any fancy prompting techniques. Just ask it like you're asking a human to do the task. We will refer to this as your **baseline**.<br />
 	a. Provide 2 prompts.
-3. In class, we talked about [providing a "role" to the model as part of the instructions](slides/24-04-24_Prompting.pdf#page=18). 
-	a. (2 pts) Provide 2 prompts trying this out.
+3. In class, we talked about [providing a "role" to the model as part of the instructions](slides/24-04-24_Prompting.pdf#page=18). <br />
+	a. (2 pts) Provide 2 prompts trying this out.<br />
 	b. (2 pts) How does this compare to the output from the baseline? Use your objective measure from question 1 and also use your intuition for a more "subjective measure".
-4. What happens when you use examples (i.e., few-shot prompting -- passing some examples of the how to do the task in addition to the instructions)? 
-	a. (4 pts) Provide 4 prompts trying out different numbers of examples.
-	b. (2 pts) How does changing the number of examples affect performance?
+4. What happens when you use examples (i.e., few-shot prompting -- passing some examples of the how to do the task in addition to the instructions)? <br />
+	a. (4 pts) Provide 4 prompts trying out different numbers of examples.<br />
+	b. (2 pts) How does changing the number of examples affect performance?<br />
 	c. (1 pt) Is there a cut-off where it isn't helpful to have more examples?
-5. Consider [chain-of-thought prompting](https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html), where you get the model to "show its work" to produce better results.
-	a. (2 pts) Provide 2 prompts trying chain-of-thought prompting.
+5. Consider [chain-of-thought prompting](https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html), where you get the model to "show its work" to produce better results.<br />
+	a. (2 pts) Provide 2 prompts trying chain-of-thought prompting.<br />
 	b. (2 pts) How does this compare to your baseline?
-6. Llama-2 is not considered "state of the art", but it could still have its uses. Recall some of the tasks you looked into in HW1.
-	a. (3 pts) What types of NLP tasks do you think Llama-2 would be good at? Why?
-	b. (3 pts) What would it be bad at? Why?
+6. Llama-2 is not considered "state of the art", but it could still have its uses. Recall some of the tasks you looked into in HW1.<br />
+	a. (3 pts) What types of NLP tasks do you think Llama-2 would be good at? Why?<br />
+	b. (3 pts) What would it be bad at? Why?<br />
 	c. (2 pts) Was Llama-2 good at this task? Why do you think that?
 7. (2 pts) What types of "everyday" tasks (e.g., doing taxes, writing code) would Llama-2 be good at? Why?
 
 ### Extra credit
-* Play around with different sampling strategies. [Use this guide for implementing them using Hugging Face.](https://huggingface.co/docs/transformers/generation_strategies) Pick one of the prompts that you used above and keep it the same as you change to different ways of sampling. Try 3 different ways of sampling.
- a. (1 pt) What are the different ways you tried?
+* Play around with different sampling strategies. [Use this guide for implementing them using Hugging Face.](https://huggingface.co/docs/transformers/generation_strategies) Pick one of the prompts that you used above and keep it the same as you change to different ways of sampling. Try 3 different ways of sampling.<br />
+ a. (1 pt) What are the different ways you tried?<br />
  b. (6 pts, 2 pts each) How does it affect the generation?
 
 ## What to turn in
