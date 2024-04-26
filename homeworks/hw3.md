@@ -80,12 +80,15 @@ Materials for this assignment:
 
 ## What to do
 
-Start with [this notebook](https://colab.research.google.com/drive/1rOsK21yRRye4vljiMhSOq_SN_m19JKw3?usp=sharing) and change the prompts of the model to answer the questions below.
+Start with [this notebook](https://colab.research.google.com/drive/1rOsK21yRRye4vljiMhSOq_SN_m19JKw3?usp=sharing) and change the prompts of the model to answer the questions below. This notebook also has the data.
 Any time we ask for a prompt, please be sure to keep all the cells in the notebook with your prompt text. Copy the output from the model into the document where you answer the questions below. (This will keep the output in case the notebook is accidentally rerun.) The number of suggested prompts are **minimums**.
 
+The task you will do is called the [Story Cloze Test](https://aclanthology.org/W17-0906/). In cloze tests, a segment of text is removed and the person taking the test is asked to fill in the blank. In the Story Cloze Test, the ending to the 5-sentence story is missing and the model has to figure out which sentence (out of 2 options) is the better choice. Examples of the task can be found here: https://cs.rochester.edu/nlp/rocstories/
+You you be doing a variation of this task where you will be giving the model the first 4 sentences of the story, generating the last sentence, and comparing it with the "right" ending.
+
 <div class="alert alert-info" markdown="1">
-All of the questions will be in relation to the texual entailment task (RTE) from HW 2: [GLUE dataset](https://huggingface.co/datasets/nyu-mll/glue/viewer/rte)
-You will be using various prompting techniques to get Llama-2 to do RTE.
+All of the questions will be in relation to the Story Cloze Test.
+You will be using various prompting techniques to get Llama-2 to do the story completion.
 </div>
 
 1. (4 points, 2 points per evaluation) Provide 2 different ways you might objectively evaluate the output that the model generates. Pick one of these methods and use it for the rest of the questions to compare the outputs.
