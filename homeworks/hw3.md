@@ -88,7 +88,7 @@ You you be doing a variation of this task where you will be giving the model the
 
 <div class="alert alert-info" markdown="1">
 All of the questions will be in relation to the Story Cloze Test.
-You will be using various prompting techniques to get Llama-2 to do the story completion.
+You will be using various prompting techniques to get the large language model (LLM) Llama-2 to do the story completion.
 </div>
 
 1. (4 points, 2 points per evaluation) Provide 2 different ways you might objectively evaluate the output that the model generates. Pick one of these methods and use it for the rest of the questions to compare the outputs. If you find a method that wasn't mentioned in the class slides, please cite your source!
