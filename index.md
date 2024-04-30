@@ -110,7 +110,7 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 
 
 **Homeworks**
-: There are 3 homeworks: [NLP Tasks](homeworks/hw1.html) (learning objective 1), [NLP Evaluation](homeworks/hw2.html) (learning objective 2), [NLP Methods]() (learning objective 3). They each have a corresponding page on this website with more information.
+: There are 3 homeworks: [NLP Tasks](homeworks/hw1.html) (learning objective 1), [NLP Evaluation](homeworks/hw2.html) (learning objectives 2 & 3), [Prompt Engineering](homeworks/hw3.html) (learning objective 6). They each have a corresponding page on this website with more information.
 
 **Project (learning objective 6)**
 : Teams will come up with NLP project ideas (with the help of Lara & Duong) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.

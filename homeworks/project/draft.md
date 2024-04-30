@@ -7,9 +7,9 @@ title: Final Report Draft
 type: Project Milestone
 number: 4
 active_tab: homework
-release_date: 2023-11-03
-due_date: 2023-12-07 23:59:00EST
-submission: https://classroom.google.com/u/3/w/NjUwNDE2MzEwMzQx/tc/NjUxMjcyNDAwOTIx
+release_date: 2024-04-20
+due_date: 2024-05-03 23:59:00EST
+submission: https://classroom.google.com/c/NjUwNDE2MzEwMzQx/a/NjUyODk1MTIxMTcz/details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -55,31 +55,31 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-For this Milestone, we are requiring you to write a rough draft of your final report (with appropriate blanks for experiments you have not yet conducted). While this may sound strange (How can I write the final report without having results?), writing a draft of the final report early can be a very effective technique for organizing your thoughts and final experiments.
+For this Milestone, we are requiring you to write a rough draft of your final report (with appropriate blanks for experiments you have not yet conducted) by building on the report you've been iterating on this semester. While this may sound strange (How can I write the final report without having results?), writing a draft of the final report early can be a very effective technique for organizing your thoughts and final experiments. Your project should be about ~85% complete at this stage.
 
-We want to emphasize that you shouldn't stress out too much about making this submission perfect (we will be fairly lenient with grading here) but we highly recommend taking this opportunity to write a solid first draft. Your future selves will be thankful!
+We want to emphasize that you shouldn't stress out too much about making this submission perfect but we highly recommend taking this opportunity to write a solid first draft. Your future selves will be thankful!
 
 To be specific, for this Milestone, you should:
 * Finish all baseline experiments and get as many preliminary results from your main experiments as possible. You should show significant progress towards your main experimental results.
-* Create your final report using the provided conference paper template: [AAAI](https://www.aaai.org/Publications/Templates/AuthorKit23.zip) (Please ask us directly if you would like to use a template for a different conference. Also, if you are not familiar with LaTeX, let us know.) 
+* Create your final report using the provided conference paper template: [ACL](https://github.com/acl-org/acl-style-files) (Please ask us directly if you would like to use a template for a different conference. Also, if you are not familiar with LaTeX and would like to try using it, let us know.) 
 * Fill in as much of the final report as possible given your current results. Your report contain the sections outlined below. 
 
 ## Project Final Report
-Your final report is a document that describes what you have accomplished in your project this semester. You are welcome and *encouraged* to draw content from the previous reports you have submitted so far (Proposal & Lit Review). At this point in the class, all of you have read and presented on academic papers. You should use those journal and conference papers as inspiration for what a good writeup looks like.
+Your final report is a document that describes what you have accomplished in your project this semester. You are welcome and *encouraged* to draw content from the previous reports you have submitted so far. You should use journal and conference papers as inspiration for what a good writeup looks like.
 
 ### Report Sections
-The report should have the following sections. A lot of these can be reused and "fleshed out" from the previous Milestone.
+The report should have the following sections. A lot of these can be reused and "fleshed out" from the previous Milestones.
 
 __Title__ & __Author Names__: What are you calling your project? These are not graded but still important! (No section header for these bits)
 1. __Project Description__: This is the "what" and the "why" of your project. 
- * The "what": Explain the main idea of your project and what you are trying to accomplish. It's okay if these have changed since the project proposal.
- * The "why": If it's a research project, what's your research question (i.e., what are you trying to prove with this work)? If it's an artifact that you're creating, why are you creating it?
-2. __Related work__: What previous research will you be using or building off of? What work are you inspired by? Tell a short "story" using what you found out from the Lit Review. This can include papers from the course schedule as well as anything else you want to cite.
+ * The "what": Explain the main idea of your project and what you are trying to accomplish. It's okay if these have changed.
+ * The "why": If it's a research project, what's your research question (i.e., what are you trying to prove with this work)? If it's an artifact that you're creating, why are you creating it (e.g., who would use it)?
+2. __Related work__: What previous research will you be using or building off of? What work are you inspired by? Tell a short "story" starting with what you found out from the Lit Review.
 3. __Methods__: What are the steps you took to accomplish your project? This section should include enough detail that someone reading it could reasonably attempt to reproduce your work. Include figures if applicable.
-4. __Data__: What datasets, if any, did you use? If you collected or built your own dataset, how did you go about doing this? What are some potential problems/challenges you encountered with the data? If you had to clean your data, what did you use to do that? Explain your pre-processing steps.
-5. __Evaluation__: How are you evaluating your results? How do you know if you've answered your research question? If you're creating an AI system, what do you use to determine that it's working well?
+4. __Data__: Describe what your data is in detail. For example, what data have you decided to use? Where did you get it from, what does it look like, and what are some potential problems with it? If you are using few/zero shot prompting, what are some of your initial prompts? How have they been working?
+5. __Evaluation__: How are you evaluating your results? How do you know if you've answered your research question? If you're creating an NLP system, what do you use to determine that it's working well?
   * These can be things like accuracy, diversity metrics, perplexity, BLEU/ROUGE scores, success rate, human evaluation scores, etc. depending on your project.
-6. __Results__: Describe your main results as well as the results for intermediate steps that build toward your main project goal. (Note for the milestone: If you are still waiting on important results, please talk about them and how they will fit into the final report.) Negative results or plans for experiments to run are great to report too! Please include tables, plots, and example system outputs where applicable.
+6. __Results__: Describe your main results as well as the results for intermediate steps that build toward your main project goal. (Note for the milestone: If you are still waiting on important results, please talk about them and how they will fit into the final report.) **Negative results or plans for experiments to run are great to report too!** Please include tables, plots, and example system outputs where applicable.
 7. __Discussion__: This is a _meta_ section to discuss how the project went.
 What things did you try that didn't work out? If you were to start over from scratch, what would you do differently? If someone were to continue working on this project, what do you suggest are good next steps/good future work?
 8. __Attribution__: For each of your teammates, write a couple sentences describing their main contributions to the project. If you have any concerns about distribution of work, feel free to email us directly. This will not be in the final write-up, but we want to make sure you all still have a final plan for who will be doing what for the last part of the project.
@@ -103,5 +103,5 @@ This section is our grading rubric for the final report. This Milestone will not
 </div>
 
 # What to Submit
-Submit the following to [Blackboard]({{page.submission}}):
-* `roughdraft.pdf` which contains your rough draft submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, the use of LaTeX and a conference template is required. You can either use the [template from AAAI](https://www.aaai.org/Publications/Templates/AuthorKit23.zip) or message us directly if you'd like to use a LaTeX template from a different conference.
+Submit the following to [Google Classroom]({{page.submission}}):
+* `group[#]-milestone4.pdf` which contains your rough draft submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, you are now required to use the [template from ACL](https://github.com/acl-org/acl-style-files) for this milestone.

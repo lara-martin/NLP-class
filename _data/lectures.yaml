@@ -341,50 +341,54 @@
     -
       title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
       url: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
-      authors: Jason Wei, et al.      
- 
- 
+      authors: Jason Wei, et al.       
   type: deadline
   homework_due:   
     -
       title: "Grad Checkpoint 2: Draft"
       url: grad.html  
+
+
 -
   date: 2024-04-29
-  title: Instruction Tuning
-  type: tutorial
+  title:
   required:
-    -
-      title: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
-      url: https://aclanthology.org/2022.acl-long.244/
-      authors: Swaroop Mishra, Daniel Khashabi, Chitta Baral, Hannaneh Hajishirzi 
-    -
-      title: Instruction Tuning with GPT-4
-      url: https://arxiv.org/abs/2304.03277
-      authors: Baolin Peng, Chunyuan Li, Pengcheng He, Michel Galley, Jianfeng Gao   
+
 
 -
   date: 2024-05-01
-  title: "Applications: Machine Translation"
+  title: Alignment
   type: deadline
   slides: 
+  homework_due:
+    -
+      title: "Grad Checkpoint 3: Feedback"
+      url: grad.html    
+  required:
+    -
+      title: "Training language models to follow instructions with human feedback"
+      authors: 
+      url: https://arxiv.org/abs/2203.02155
+
+-
+  date: 2024-05-03
+  title: No Class - Project Milestone Due
+  type: no_lecture
+  slides: 
+  homework_due:
+    -
+      title: "Project Milestone 4: Rough Draft"
+      url: project/draft.html
+      
+
+-
+  date: 2024-05-06
   required:
     -
       title: "SLP Chapter 13: Machine Translation"
       url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
       authors:  Dan Jurafsky and James H. Martin  
-  homework_due:
-    -
-      title: "Project Milestone 4: Rough Draft"
-      url: project/draft.html
-    -
-      title: "Grad Checkpoint 3: Feedback"
-      url: grad.html        
-
--
-  date: 2024-05-06
-  required:
-  title: 
+  title: "Applications: Machine Translation"
   homework_due:
     -
       title: "HW 3: Prompt Engineering"
