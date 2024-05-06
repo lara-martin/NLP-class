@@ -83,27 +83,29 @@ Materials for this assignment:
 Start with [this notebook](https://colab.research.google.com/drive/1rOsK21yRRye4vljiMhSOq_SN_m19JKw3?usp=sharing) and change the prompts of the model to answer the questions below. This notebook also has the data.
 Any time we ask for a prompt, please be sure to keep all the cells in the notebook with your prompt text. Copy the output from the model into the document where you answer the questions below. (This will keep the output in case the notebook is accidentally rerun.) The number of suggested prompts are **minimums**.
 
-The task you will do is called the [Story Cloze Test](https://aclanthology.org/W17-0906/). In cloze tests, a segment of text is removed and the person taking the test is asked to fill in the blank. In the Story Cloze Test, the ending to the 5-sentence story is missing and the model has to figure out which sentence (out of 2 options) is the better choice. Examples of the task can be found here: https://cs.rochester.edu/nlp/rocstories/
-You you be doing a variation of this task where you will be giving the model the first 4 sentences of the story, generating the last sentence, and comparing it with the "right" ending.
+The task you will do is called the [Story Cloze Test](https://aclanthology.org/W17-0906/). In cloze tests, a segment of text is removed and the person taking the test is asked to fill in the blank. In the Story Cloze Test, the ending to the 5-sentence story is missing and the model has to figure out which sentence (out of 2 options) is the better choice. Examples of the task can be found here: [https://cs.rochester.edu/nlp/rocstories/](https://cs.rochester.edu/nlp/rocstories/)
+
 
 <div class="alert alert-info" markdown="1">
 All of the questions will be in relation to the Story Cloze Test.
-You will be using various prompting techniques to get the large language model (LLM) Llama-2 to do the story completion.
+You you be doing a variation of this task where you will be giving the model the first 4 sentences of the story, generating the last sentence, and comparing it with the "right" ending.<br><br>
+You will be using various prompting techniques to get the large language model (LLM) Llama-2 to do the story completion.<br><br>
+Select one story from the dataset to use as the story you're evaluating on for all of the questions below.
 </div>
 
-1. (4 points, 2 points per evaluation) Provide 2 different ways you might objectively evaluate the output that the model generates. Pick one of these methods and use it for the rest of the questions to compare the outputs. If you find a method that wasn't mentioned in the class slides, please cite your source!
+1. (4 points, 2 points per evaluation) Provide 2 different ways you might objectively evaluate the output that the model generates. **Pick one** of these methods and use it for the rest of the questions to compare the outputs. If you find a method that wasn't mentioned in the class slides, please cite your source!
 2. (2 points) First, try the generation task using zero-shot prompting in the plainest way possible. Just ask the model to do the task. Don't give any examples for how to do it, don't use any fancy prompting techniques. Just ask it like you're asking a human to do the task. We will refer to this as your **baseline**.<br />
 	a. Provide 2 prompts.
 3. In class, we talked about [providing a "role" to the model as part of the instructions](slides/24-04-24_Prompting.pdf#page=18). <br />
 	a. (2 pts) Provide 2 prompts trying this out.<br />
-	b. (2 pts) How does this compare to the output from the baseline? Use your objective measure from question 1 and also use your intuition for a more "subjective measure".
+	b. (2 pts) How does this compare to the output from the baseline? **Use your objective measure from question 1 and also use your intuition for a more "subjective measure".**
 4. What happens when you use examples (i.e., few-shot prompting -- passing some examples of the how to do the task in addition to the instructions)? <br />
 	a. (4 pts) Provide 4 prompts trying out different numbers of examples.<br />
-	b. (2 pts) How does changing the number of examples affect performance?<br />
+	b. (2 pts) How does changing the number of examples affect performance? Use your objective measure and your subjective measure.<br />
 	c. (1 pt) Is there a cut-off where it isn't helpful to have more examples?
 5. Consider [chain-of-thought prompting](https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html), where you get the model to "show its work" to produce better results.<br />
 	a. (2 pts) Provide 2 prompts trying chain-of-thought prompting.<br />
-	b. (2 pts) How does this compare to your baseline?
+	b. (2 pts) How does this compare to your baseline? Use your objective measure and your subjective measure.
 6. Llama-2 is not considered "state of the art", but it could still have its uses. Recall some of the tasks you looked into in HW1.<br />
 	a. (3 pts) What types of NLP tasks do you think Llama-2 would be good at? Why?<br />
 	b. (3 pts) What would it be bad at? Why?<br />

@@ -374,7 +374,6 @@
   date: 2024-05-03
   title: No Class - Project Milestone Due
   type: no_lecture
-  slides: 
   homework_due:
     -
       title: "Project Milestone 4: Rough Draft"
@@ -383,6 +382,7 @@
 
 -
   date: 2024-05-06
+  slides: slides/24-05-06_MT.pdf
   required:
     -
       title: "SLP Chapter 13: Machine Translation"
