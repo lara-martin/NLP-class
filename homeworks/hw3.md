@@ -124,8 +124,8 @@ Select one story from the dataset to use as the story you're evaluating on for a
  b. (6 pts, 2 pts each) How does it affect the generation?
 
 ## What to turn in
-* The ipynb file with all of your prompts and the code that you used for evaluation
-* A pdf with the answers to your questions and the output from the prompts
+* The code that you used for evaluation
+* A document with the answers to your questions, all of your prompts, and the output from the prompts
 
 # Grading
 <div class="alert alert-warning" markdown="1">
