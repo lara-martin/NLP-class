@@ -52,7 +52,7 @@ Please be sure to double check the academic integrity and generative AI policies
 <div class="alert alert-warning">
 If you are having a lot of trouble getting Llama-2 to run, feel free to use another model. Just be sure to specify what model you're using and use the same model for all questions of the homework.
 <br>
-ChatGPT has some free credit that they give you when you sign up with a new account. You could use that instead and make another account if you need more credit and don't want to spend money on refilling your credit.
+For example, ChatGPT has some free credit that they give you when you sign up with a new account. You could use that instead and make another account if you need more credit and don't want to spend money on refilling your credit.
 </div>
 
 {% if page.materials %}
