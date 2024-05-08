@@ -397,6 +397,7 @@
 -
   date: 2024-05-08
   title:   "Applications: Dialog Systems"
+  slides: slides/24-05-08_Dialog.pdf
   required:
     -
       title: "NLP Chapter 19.3: Dialogue"
