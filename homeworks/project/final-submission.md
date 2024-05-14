@@ -111,3 +111,22 @@ This section is our grading rubric for the final report.
 3. __Style__: You should write in paragraphs and complete sentences unless there is a very good reason not to.
 4. __Content__: The report answers all relevant questions posed in the previous section. Images, tables, plots, of other figures are used to support the report contents.
 5. __Length__: There is no strict word length requirement, but if your paper has fewer than 1,500 words (not including references) then it is very likely you have not provided enough detail.
+
+<div class="alert alert-warning" markdown="1">
+Presentation
+* Length - 1 point
+* Motivation - 1 point
+* Communcation - 1 point
+* Results - 1 point
+* Lessons Learned - 1 point
+
+Report
+* Formatting - 3 points
+* Communication - 3 points
+* Style - 1 point
+* Content - 7 x 3 points each = 21 points
+
+Group Feedback - 1 point
+
+Extra Credit (Popular Choice) - 2 points extra credit
+</div>
