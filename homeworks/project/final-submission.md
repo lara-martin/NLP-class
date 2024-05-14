@@ -74,3 +74,24 @@ Your presentation will be graded on the following criteria.
 
 
 
+## Project Final Report (28 points)
+Your final report is a document that describes what you have accomplished in your project this semester. You are very welcome and *encouraged* to draw content from all previous reports you have submitted so far. At this point in the class, all of you have read and presented on academic papers. You should use those journal and conference papers as inspiration for what a good writeup looks like.
+
+For your final report, the use of a conference template is **required**. You should use the [template from ACL](https://github.com/acl-org/acl-style-files). Please directly message us if you'd like to use a template from a different conference.
+
+### Report Sections
+The report should have the following sections.
+
+__Title__ & __Author Names__: What are you calling your project? These are not graded but still important! (No section header for these bits)
+1. __Project Description__: This is the "what" and the "why" of your project. 
+ * The "what": Explain the main idea of your project and what you are trying to accomplish. It's okay if these have changed since the project proposal.
+ * The "why": If it's a research project, what's your research question (i.e., what are you trying to prove with this work)? If it's an artifact that you're creating, why are you creating it?
+ * Link to your code repository.
+2. __Related work__: What previous research will you be using or building off of? What work are you inspired by? Don't just list previous work and summarize their contributions, rather, tell a short "story" using what you found out from the Literature Review. Explain how your work fits into the broader context.
+3. __Methods__: What are the steps you took to accomplish your project? This section should include enough detail that someone reading it could reasonably attempt to reproduce your work. Include figures if applicable.
+4. __Data__: Describe what your data is in detail. For example, what data have you decided to use? Where did you get it from, what does it look like, and what are some potential problems with it? If you are using few/zero shot prompting, what are some of your initial prompts? How have they been working?
+5. __Evaluation__: How did you evaluate your results? How do you know if you've answered your research question? If you're creating an NLP system, what do you use to determine that it's working well?
+  * These can be things like accuracy, diversity metrics, perplexity, BLEU/ROUGE scores, success rate, human evaluation scores, etc. depending on your project.
+6. __Results__: Describe your main results as well as the results for intermediate steps that build toward your main project goal. Please include tables, plots, and example system outputs where applicable. Feel free to include negative results in this section as well.
+7. __Discussion__: This is a _meta_ section to discuss how the project went.
+What things did you try that didn't work out? If you were to start over from scratch, what would you do differently? If someone were to continue working on this project, what do you suggest are good next steps/good future work?
