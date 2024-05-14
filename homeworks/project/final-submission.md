@@ -95,3 +95,19 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 6. __Results__: Describe your main results as well as the results for intermediate steps that build toward your main project goal. Please include tables, plots, and example system outputs where applicable. Feel free to include negative results in this section as well.
 7. __Discussion__: This is a _meta_ section to discuss how the project went.
 What things did you try that didn't work out? If you were to start over from scratch, what would you do differently? If someone were to continue working on this project, what do you suggest are good next steps/good future work?
+
+
+## Group Feedback (1 point)
+You are also required to submit [this feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdMVDwgj069f6U7H1UbAcBV2epp8XeUk9zOuAiZuquihPCP8A/viewform?usp=sf_link) for each member of your group.
+
+## Extra Credit: Popular Choice (2 points)
+Your classmates will vote on whose project & presentation was the coolest. This team will get 2 points.
+
+### Grading
+This section is our grading rubric for the final report. 
+
+1. __Formatting__: All of the sections described in the previous section are present and clearly marked. The report includes a title of the project and the name of the authors at the top. Images, tables, and other figures have captions and are referenced in the text. The paper uses the [ACL template](https://github.com/acl-org/acl-style-files) (or other approved template). The paper makes use of citations that follow the standard convention of whatever conference the template is from.
+2. __Communication__: Your report should be targeted at an audience who is familiar with NLP but has not taken the class and knows nothing about what you have done so far. You can imagine your audience as either the readers of a technical blog post (if you took the system option) or as reviewers of a paper submission to a conference such as ACL or EMNLP (if you took the research question option). You should aim to make your methods section clear enough that others could attempt to reproduce your work and your results section clear enough that readers understand exactly what experiments you ran.
+3. __Style__: You should write in paragraphs and complete sentences unless there is a very good reason not to.
+4. __Content__: The report answers all relevant questions posed in the previous section. Images, tables, plots, of other figures are used to support the report contents.
+5. __Length__: There is no strict word length requirement, but if your paper has fewer than 1,500 words (not including references) then it is very likely you have not provided enough detail.
