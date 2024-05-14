@@ -96,21 +96,20 @@ __Title__ & __Author Names__: What are you calling your project? These are not g
 7. __Discussion__: This is a _meta_ section to discuss how the project went.
 What things did you try that didn't work out? If you were to start over from scratch, what would you do differently? If someone were to continue working on this project, what do you suggest are good next steps/good future work?
 
-
-## Group Feedback (1 point)
-You are also required to submit [this feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdMVDwgj069f6U7H1UbAcBV2epp8XeUk9zOuAiZuquihPCP8A/viewform?usp=sf_link) for each member of your group.
-
-## Extra Credit: Popular Choice (2 points)
-Your classmates will vote on whose project & presentation was the coolest. This team will get 2 points.
-
-### Grading
-This section is our grading rubric for the final report. 
+### Report Grading
 
 1. __Formatting__: All of the sections described in the previous section are present and clearly marked. The report includes a title of the project and the name of the authors at the top. Images, tables, and other figures have captions and are referenced in the text. The paper uses the [ACL template](https://github.com/acl-org/acl-style-files) (or other approved template). The paper makes use of citations that follow the standard convention of whatever conference the template is from.
 2. __Communication__: Your report should be targeted at an audience who is familiar with NLP but has not taken the class and knows nothing about what you have done so far. You can imagine your audience as either the readers of a technical blog post (if you took the system option) or as reviewers of a paper submission to a conference such as ACL or EMNLP (if you took the research question option). You should aim to make your methods section clear enough that others could attempt to reproduce your work and your results section clear enough that readers understand exactly what experiments you ran.
 3. __Style__: You should write in paragraphs and complete sentences unless there is a very good reason not to.
 4. __Content__: The report answers all relevant questions posed in the previous section. Images, tables, plots, of other figures are used to support the report contents.
 5. __Length__: There is no strict word length requirement, but if your paper has fewer than 1,500 words (not including references) then it is very likely you have not provided enough detail.
+
+
+## Group Feedback (1 point)
+You are also required to submit [this feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdMVDwgj069f6U7H1UbAcBV2epp8XeUk9zOuAiZuquihPCP8A/viewform?usp=sf_link) for each member of your group.
+
+## Extra Credit: Popular Choice (2 points)
+Your classmates will vote on whose project & presentation was the coolest. This team will get 2 points.
 
 <div class="alert alert-warning" markdown="1">
 Presentation
@@ -131,12 +130,4 @@ Group Feedback - 1 point
 Extra Credit (Popular Choice) - 2 points extra credit
 </div>
 
-# What to Submit
-Every member of your team needs to fill out [this feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdMVDwgj069f6U7H1UbAcBV2epp8XeUk9zOuAiZuquihPCP8A/viewform?usp=sf_link).
 
-Submit the following to the spreadsheet before the exam period ({{ page.due_date | date: "%I:%M%p" }}) on **{{ page.due_date | date: "%A, %B %-d}}**:
-* A link to your pre-recorded video presentation. This can be on any video hosting platform ([YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc.). Please double check that the video link is visible to the public before submitting. It can be unlisted. 
-
-Submit the following to Google Classroom by 11:59 PM on **{{ page.due_date | date: "%A, %B %-d}}**:
-* `group[#]-final-report.pdf` which contains your project report. The use of a conference template is required. Use the [template from ACL](https://github.com/acl-org/acl-style-files) or please message us directly if you'd like to use a template from a different conference.
-  * Note that this report includes the link to your code repo!
