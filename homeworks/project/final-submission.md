@@ -133,3 +133,10 @@ Extra Credit (Popular Choice) - 2 points extra credit
 # What to Submit
 Every member of your team needs to fill out [this feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdMVDwgj069f6U7H1UbAcBV2epp8XeUk9zOuAiZuquihPCP8A/viewform?usp=sf_link).
 
+Submit the following to the spreadsheet before the exam period (10:30am) on **Friday, May 17**:
+* A link to your pre-recorded video presentation. This can be on any video hosting platform ([YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc.). Please double check that the video link is visible to the public before submitting. It can be unlisted. 
+
+Submit the following to Google Classroom by 11:59 PM on **Friday, May 17**:
+* `group#-final-report.pdf` which contains your project report. The use of a conference template is required. Use the [template from ACL](https://github.com/acl-org/acl-style-files) or please message us directly if you'd like to use a template from a different conference.
+  * Note that this report includes the link to your code repo!
+
