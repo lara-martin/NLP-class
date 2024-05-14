@@ -8,7 +8,7 @@ type: Project Milestone
 number: 5
 active_tab: homework
 release_date: 2024-05-01
-due_date: 2024-05-17 10:30:00EST
+due_date: 2024-05-17 10:30:00ET
 submission: https://classroom.google.com/c/NjUwNDE2MzEwMzQx/a/NjgyNTMzMjk5ODEy/details
 ---
 
