@@ -130,4 +130,8 @@ Group Feedback - 1 point
 Extra Credit (Popular Choice) - 2 points extra credit
 </div>
 
+# What to Submit
+Every member of your team needs to fill out [this feedback form](https://docs.google.com/forms/d/e/1FAIpQLSdMVDwgj069f6U7H1UbAcBV2epp8XeUk9zOuAiZuquihPCP8A/viewform?usp=sf_link).
 
+Submit the following to the spreadsheet before the exam period ({{ page.due_date | date: "%I:%M%p" }}) on **{{ page.due_date | date: "%A, %B %-d}}**:
+* A link to your pre-recorded video presentation. This can be on any video hosting platform ([YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc.). Please double check that the video link is visible to the public before submitting. It can be unlisted. 
