@@ -1,2 +1,3 @@
-timezone: America/New_York
+timezone: US/Eastern
 url: https://laramartin.net/NLP-class
+future: true

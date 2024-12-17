@@ -1,41 +1,12 @@
 ---
 title: CMSC 473/673 - Spring 2024 @ UMBC
-layout: default-2023
+layout: default-2024
 active_tab: about
 ---
 
-<!-- Display an alert about upcoming homework assignments -->
-{% capture now %}{{'now' | date: '%s'}}{% endcapture %}
-{% for page in site.pages %}
-{% if page.release_date and page.due_date %}
-{% capture release_date %}{{page.release_date | date: '%s'}}{% endcapture %}
-{% capture due_date %}{{page.due_date | date: '%s'}}{% endcapture %}
-{% if release_date < now and due_date >= now %}
-{% if page.type == "in-class" %}
-<!-- In class activity -->
-<div class="alert alert-info">
-The in-class activity for {{ page.release_date | date: "%A %b %-d" }} will be to <a href="{{page.url}}">{{ page.title }}</a>.
+<div class="alert alert-warning" markdown="1">
+This is an archived version of the class, which was taught in Spring 2023 at the University of Maryland, Baltimore County.  For a more recent edition, check [here](https://laramartin.net/NLP-class).
 </div>
-{% else %}
-<!-- Homework assignment -->
-<div class="alert alert-info">
-<a href="https://laramartin.net/NLP-class{{page.url}}">{% if page.type %}{{page.type}} {{page.number}}: {% endif %}{{page.title}}</a> has been released.
-{% if page.deliverables %}
-The assignment has multiple deliverables.
-<ul>
-{% for deliverable in page.deliverables %}
-<li>{{ deliverable.due_date | date: "%b %-d, %Y" }} - {{deliverable.description}}.</li>
-{% endfor %}
-</ul>
-{% else %}
-It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | date: "%A, %B %-d, %Y" }}.
-{% endif %}
-</div>
-{% endif %}
-{% endif %}
-{% endif %}
-{% endfor %}
-<!-- End alert for upcoming homework assignments -->
 
 
 <!--
