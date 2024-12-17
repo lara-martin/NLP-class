@@ -5,7 +5,7 @@ active_tab: about
 ---
 
 <div class="alert alert-warning" markdown="1">
-This is an archived version of the class, which was taught in Spring 2023 at the University of Maryland, Baltimore County.  For a more recent edition, check [here](https://laramartin.net/NLP-class).
+This is an archived version of the class, which was taught in Spring 2024 at the University of Maryland, Baltimore County.  For a more recent edition, check [here](https://laramartin.net/NLP-class).
 </div>
 
 
