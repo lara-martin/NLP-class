@@ -1,6 +1,6 @@
 ---
 title: CMSC 473/673 - Spring 2024 @ UMBC
-layout: default
+layout: default-2023
 active_tab: about
 ---
 
