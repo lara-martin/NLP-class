@@ -21,13 +21,13 @@
 
 
 -
-  date: 2024-01-29
+  date: 
   title: What class is this?
   activities: 
   slides: slides/24-01-29_Intro.pdf
   
 -
-  date: 2024-01-31
+  date: 
   title: What is NLP?
   slides: slides/24-01-31_What-is-NLP.pdf
   required: 
@@ -36,11 +36,11 @@
       authors: Jacob Eisenstein
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
 -
-  date: 2024-02-02
+  date: 
   title: Waitlist Deadline
   type: no_lecture  
 -
-  date: 2024-02-05
+  date: 
   title: Examples of NLP Tasks
   slides: slides/24-02-04_NLP-Tasks.pdf
   required:
@@ -54,22 +54,22 @@
       authors: Jacob Eisenstein  
 
 -
-  date: 2024-02-05
+  date: 
   title: Waitlists Deactivated
   type: no_lecture
 -
-  date: 2024-02-07
+  date: 
   title: Examples of NLP Tasks
   slides: slides/24-02-07_NLP-Tasks.pdf
 
   
 -
-  date: 2024-02-09
+  date: 
   title: Last Day to Change Schedule
   type: no_lecture
   
 -
-  date: 2024-02-12
+  date: 
   title: Machine Learning Basics & Evaluation
   slides: slides/24-02-12_ML-Evaluation.pdf
   required:
@@ -83,12 +83,12 @@
       authors: Dan Jurafsky and James H. Martin   
 
 -
-  date: 2024-02-14
+  date: 
   title: Machine Learning Basics & Evaluation
   slides: slides/24-02-14_ML-Evaluation.pdf
     
 -
-  date: 2024-02-19
+  date: 
   type: deadline
   homework_due:
     -
@@ -98,18 +98,18 @@
 
   
 -
-  date: 2024-02-21
+  date: 
   title: PyTorch & HuggingFace Tutorial
   slides: https://colab.research.google.com/github/huggingface/blog/blob/main/notebooks/01_how_to_train.ipynb
   type: tutorial
   
   
 -
-  date: 2024-02-26
+  date: 
    
 
 -
-  date: 2024-02-28
+  date: 
   type: deadline
   homework_due:   
     -
@@ -118,7 +118,7 @@
       
            
 -
-  date: 2024-03-04
+  date: 
   title: Classification with Logistic Regression
   slides: slides/24-03-04_Classification.pdf
   required:
@@ -133,7 +133,7 @@
       
 
 -
-  date: 2024-03-06
+  date: 
   title: Learning & Using Logistic Regression
   slides: slides/24-03-06_Classification-2.pdf
   required:
@@ -146,7 +146,7 @@
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
       authors: Dan Jurafsky and James H. Martin
 -
-  date: 2024-03-11
+  date: 
   title: Vector Embeddings
   type: deadline
   homework_due:   
@@ -165,12 +165,12 @@
       authors:  Dan Jurafsky and James H. Martin
 
 -
-  date: 2024-03-13
+  date: 
   title: Vector Embeddings
   slides: slides/24-03-13_Vector-Embeddings.pdf
       
 -
-  date: 2024-03-15
+  date: 
   type: no_lecture
   title: No Class - Project Milestone Due
   slides: 
@@ -180,17 +180,17 @@
       url: project/lit-review.html      
       
 -
-  date: 2024-03-18
+  date: 
   type: no_lecture
   title: Spring Break - No Class
 
 -
-  date: 2024-03-20
+  date: 
   title: Spring Break - No Class
   type: no_lecture
 
 -
-  date: 2024-03-25
+  date:
   title: N-Gram Language Models
   required:
     -
@@ -205,13 +205,13 @@
     
 
 -
-  date: 2024-03-27
+  date: 
   title:  N-Gram Language Models
   slides: slides/24-03-27_N-gram-LMs-2.pdf
 
 
 -
-  date: 2024-04-01
+  date: 
   title: Neural Language Models
   slides: slides/24-04-01_Neural-LMs.pdf
   required: 
@@ -220,7 +220,7 @@
       url: https://web.stanford.edu/~jurafsky/slp3/7.pdf
       authors:  Dan Jurafsky and James H. Martin
 -
-  date: 2024-04-03
+  date: 
   title: Recurrent Neural Network LMs
   slides: slides/24-04-03_RNNs.pdf
   required:
@@ -240,14 +240,14 @@
 
       
 -
-  date: 2024-04-05
-  title: Last Day to Withdraw
+  date: 
+  title: Last Day to Withdraw from Individual Classes
   type: no_lecture
         
   
   
 -
-  date: 2024-04-08
+  date: 
   title: Recurrent Neural Network LMs Tutorial
   slides: slides/24-04-08_RNN-Tutorial.pdf
   type: deadline
@@ -257,7 +257,7 @@
       url: hw2.html 
   
 -
-  date: 2024-04-10
+  date: 
   title: Attention & Transformers
   slides: slides/24-04-10_Attention-Transformers.pdf
   required:
@@ -272,7 +272,7 @@
       
       
 -
-  date: 2024-04-15
+  date: 
   title: Decoding, Sampling, & Transformer Fine-tuning
   slides: slides/24-04-15_Transformers.pdf
   required:
@@ -282,7 +282,7 @@
       authors:  Dan Jurafsky and James H. Martin 
 
 -
-  date: 2024-04-17
+  date: 
   title: Types of Foundational Models
   slides: slides/24-04-17_Foundation-Models.pdf
   required:
@@ -304,7 +304,7 @@
       
       
 -
-  date: 2024-04-22
+  date:
   title: Ethics of NLP
   slides: slides/24-04-22_Ethics-in-NLP.pdf
   required:
@@ -330,7 +330,7 @@
       authors: Xuhui Zhou, et al.
 
 -
-  date: 2024-04-24
+  date: 
   title: Prompt Engineering Tutorial
   slides: slides/24-04-24_Prompting.pdf
   required:
@@ -350,13 +350,13 @@
 
 
 -
-  date: 2024-04-29
+  date: 
   title:
   required:
 
 
 -
-  date: 2024-05-01
+  date: 
   title: Alignment
   type: deadline
   slides: slides/24-05-01_Alignment.pdf
@@ -371,7 +371,7 @@
       url: https://arxiv.org/abs/2203.02155
 
 -
-  date: 2024-05-03
+  date: 
   title: No Class - Project Milestone Due
   type: no_lecture
   homework_due:
@@ -381,7 +381,7 @@
       
 
 -
-  date: 2024-05-06
+  date: 
   slides: slides/24-05-06_MT.pdf
   required:
     -
@@ -395,7 +395,7 @@
       url: hw3.html
         
 -
-  date: 2024-05-08
+  date: 
   title:   "Applications: Dialog Systems"
   slides: slides/24-05-08_Dialog.pdf
   required:
@@ -410,7 +410,7 @@
 
 
 -
-  date: 2024-05-13
+  date: 
   title: "Applications: Creative Generation"
   slides: 
   required:
@@ -420,7 +420,7 @@
       authors: Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein  
   
 -
-  date: 2024-05-17
+  date: 
   title: Project Presentations, 10:30 AM-12:30 PM
   type: deadline
   slides: 
