@@ -26,7 +26,7 @@ The lecture schedule will be updated as the term progresses.
     </tr>
   </thead>
   <tbody>
-    {% for lecture in site.data.lectures %}
+    {% for lecture in site.data.2024.lectures %}
 	    <!-- Create a HTML anchor for the most recent lecture -->
 	    {% capture lecture_date %}{{lecture.date | date: '%s'}}{% endcapture %}
 	    {% assign lecture_date = lecture_date | plus: 0 %}
