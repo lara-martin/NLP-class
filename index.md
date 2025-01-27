@@ -1,5 +1,5 @@
 ---
-title: CMSC 473/673 - Spring 2024 @ UMBC
+title: CMSC 473/673 - Spring 2025 @ UMBC
 layout: default
 active_tab: about
 ---
@@ -45,7 +45,7 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 -->
 # CMSC 473/673 Natural Language Processing at UMBC
 
-## Spring 2024
+## Spring 2025
 
 ### Course Description
 Natural language processing (NLP) is the field of working with language to automatically perform a variety of tasks, instead of or in collaboration with people. NLP can focus on the Generation (NLG) and/or Understanding (NLU) of natural language. Recently, large language models (LLMs) like ChatGPT have gotten the attention of the general public, but they have also greatly changed the landscape of modern NLP research.
@@ -65,20 +65,21 @@ By the end of the course, you will be able to...
 **Instructor**
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
-: Office Hours: Tuesdays, 3-4pm ET and Wednesdays 2-3pm ET in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
+: Office Hours: TBA in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
 
 **TA**
-: Duong Ta
-: [dta1@umbc.edu](mailto:dta1@umbc.edu)
-: Office Hours: Thursdays, 12:50-2:50pm ET in ITE 334, also <a href="mailto:dta1@umbc.edu">by appointment</a>.
+: Maitri Mistry
+: [mmistry3@umbc.edu](mailto:mmistry3@umbc.edu)
+: Office Hours: TBA, also <a href="mailto:mmistry3@umbc.edu">by appointment</a>.
 
 ### Logistics
 **Time and Place**
 : Spring 2024, Mondays & Wednesdays from 11:30 AM - 12:45 PM ET
-: Interdisciplinary Life Sciences S 101
-: First day of class is January 29, 2024
-: Last day of class is May 15, 2024
-: Grading & submissions using [Google Classroom](https://classroom.google.com/u/3/c/NjUwNDE2MzEwMzQx)
+: Janet & Walter Sondheim 108
+: First day of class is January 28, 2025
+: Last day of class is May 13, 2025
+: Grading & submissions using Blackboard
+: Assignment descriptions on this website
 <br><br>
 **Textbooks**
 : [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
@@ -89,17 +90,11 @@ By the end of the course, you will be able to...
 
 | Assignment | 473 (undergrad) | 673 (grad) |
 |----------------|---------------------|----------------|
-| Class Knowledge Checks | 10% | 10% |
-| Homeworks | 50% | 30% |
+| Class Knowledge Checks | 20% | 10% |
+| Homeworks | 40% | 30% |
 | Project | 40% | 40% |
 | Grad Assignment | - | 20% |
 
-
-#### Google Classroom
-[Google Classroom](https://classroom.google.com/u/3/c/NjUwNDE2MzEwMzQx) will be used for grading and most communication. (Please email [both Lara & Duong](mailto:laramar@umbc.edu;dta1@umbc.edu?subject=[CMSC 473/673] Need access to Google Classroom) specifying the email address you want to use, if you need to be added.)
-Asynchronous questions to the instructor & TA or discussions with fellow classmates will be through Google Classroom.  There is no grade for discussions; they are only for your benefit.
-
-Disclaimer: This is the first time that I'm using Google Classroom, so there might be some hiccups along the way.
 
 #### Assignment Descriptions
 
@@ -122,13 +117,12 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 
 **Graduate Assignment (learning objective 4 or 5)**
 : If you are taking the graduate version of the course (CMSC 673), you will have an extra assignment that you need to complete. This assignment has two options that you can choose between (which you can choose depending on what career trajectory you plan). The graduate assignment is done individually.
-: **Option 1: Implementation** -- (suited for implementation-focused students) If you choose this option, you will pick an NLP tool from a list and implement it.
-: **Option 2: Paper** -- (suited for research-focused students) If you choose this option, you will find papers for and write up a literature review summarizing what you found.
+: **Option 1: Implementation** -- (suited for implementation-focused students) If you choose this option, you will be picking an NLP tool from a list and implementing it.
+: **Option 2: Paper** -- (suited for research-focused students) If you choose this option, you will be finding papers for and writing up a literature review summarizing what you found.
 
 ### Class Policies
 #### Late Day Policy
 Each student has five (5) free "late days".  Homeworks can be submitted at most three days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days cannot be used on the project's final milestone or the final grad assignment milestone, which must be finished by the final day of class.**
-
 
 #### Academic Integrity
 If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
@@ -141,6 +135,11 @@ If you use ChatGPT (or similar chatbots or AI-based generation tools), you must 
 
 Use of AI/automatic tools for grammatical assistance (such as spell-checkers or Grammarly) or small-scale predictive text (e.g., next word prediction, tab completion) is okay. Provided the use of these tools does not change the substance of your work, use of these tools may be, but is not required to be, disclosed.
 
+#### GitHub (and Other Repository) Use
+* You are allowed to use GitHub for your project.
+* You can use GitHub for the grad assignment (implementation option), but the repository must be private.
+* You are not allowed to use GitHub for the homeworks.
+
 #### Collaboration Policy
 ##### Not allowed
 The **homeworks** are designed for us to get an idea of how well you're picking up the material and applying it. Therefore, you are not allowed to collaborate on the homeworks.
@@ -152,6 +151,8 @@ You must clearly indicate the names of all people involved when submitting the a
 
 #### Technology Use
 You're allowed to use your computer in class since the clicker questions will be by phone or web browser ([https://www.polleverywhere.com/](https://www.polleverywhere.com/).
+
+
 
 ##### Acknowledgements
 Class materials have been borrowed from Dr. Chris Callison-Burch, Dr. Marine Carpuat, Dr. Frank Ferraro, and Dr. Alan Ritter. Generative AI policy is borrowed from Dr. Frank Ferraro.
