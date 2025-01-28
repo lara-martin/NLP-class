@@ -65,7 +65,7 @@ By the end of the course, you will be able to...
 **Instructor**
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
-: Office Hours: TBA in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
+: Office Hours: 1:45 - 2:30PM on Tuesdays & Thursdays in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
 
 **TA**
 : Maitri Mistry
@@ -74,7 +74,7 @@ By the end of the course, you will be able to...
 
 ### Logistics
 **Time and Place**
-: Spring 2024, Mondays & Wednesdays from 11:30 AM - 12:45 PM ET
+: Spring 2025, Tuesdays & Thursdays from 11:30 AM - 12:45 PM ET
 : Janet & Walter Sondheim 108
 : First day of class is January 28, 2025
 : Last day of class is May 13, 2025
