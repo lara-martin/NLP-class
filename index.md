@@ -65,12 +65,18 @@ By the end of the course, you will be able to...
 **Instructor**
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
-: Office Hours: 1:45 - 2:30PM on Tuesdays & Thursdays in ITE 216, also <a href="https://calendly.com/laramar/schedule">by appointment</a>.
+: Office Hours: 
+	* 1:45 - 2:30PM on Tuesdays & Thursdays in ITE 216
+	* Also <a href="https://calendly.com/laramar/schedule">by appointment</a>
 
 **TA**
 : Maitri Mistry
 : [mmistry3@umbc.edu](mailto:mmistry3@umbc.edu)
-: Office Hours: TBA, also <a href="mailto:mmistry3@umbc.edu">by appointment</a>.
+: Office Hours: 
+	* 2 - 3PM on Mondays in TBA
+	* 2:30 - 3:30PM on Thursdays [online](https://us04web.zoom.us/j/71390545038?pwd=crYbcQcb0sYBCH3ebobB6fpNJb1RNU.1 
+)
+	* Also <a href="mailto:mmistry3@umbc.edu">by appointment</a>
 
 ### Logistics
 **Time and Place**
@@ -108,7 +114,7 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 : There are 3 homeworks: [NLP Tasks](homeworks/hw1.html) (learning objective 1), [NLP Evaluation](homeworks/hw2.html) (learning objectives 2 & 3), [Prompt Engineering](homeworks/hw3.html) (learning objective 6). They each have a corresponding page on this website with more information.
 
 **Project (learning objective 6)**
-: Teams will come up with NLP project ideas (with the help of Lara & Duong) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.
+: Teams will come up with NLP project ideas (with the help of Lara & Maitri) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.
 : [Milestone 1: Project Proposal](homeworks/project/proposal.html)
 : [Milestone 2: Project Preparation and Informal Literature Review](homeworks/project/lit-review.html)
 : [Milestone 3: Halfway Point](homeworks/project/halfway.html)
