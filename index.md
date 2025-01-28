@@ -91,9 +91,9 @@ By the end of the course, you will be able to...
 | Assignment | 473 (undergrad) | 673 (grad) |
 |----------------|---------------------|----------------|
 | Class Knowledge Checks | 20% | 10% |
-| Homeworks | 40% | 30% |
+| Homeworks | 40% | 35% |
 | Project | 40% | 40% |
-| Grad Assignment | - | 20% |
+| Grad Assignment | - | 15% |
 
 
 #### Assignment Descriptions
@@ -150,7 +150,7 @@ However, for the **project**, you are allowed to work in teams of 3-5. You can a
 You must clearly indicate the names of all people involved when submitting the assignment. You are also required to list who did what for the project milestones.
 
 #### Technology Use
-You're allowed to use your computer in class since the clicker questions will be by phone or web browser ([https://www.polleverywhere.com/](https://www.polleverywhere.com/).
+You're allowed to use your computer in class since the clicker questions will be by phone or web browser ([https://www.polleverywhere.com/](https://www.polleverywhere.com/)).
 
 
 
