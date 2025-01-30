@@ -100,6 +100,8 @@ For this question, look up each of these NLP tasks, find a source that gives a d
 For example, if I was defining what UMBC is:<br>
 **UMBC**: "University of Maryland, Baltimore County (UMBC) is a top-ranked national university with an inclusive culture that connects innovative teaching and learning, research across disciplines, and civic engagement." (UMBC, https://umbc.edu/about/)
 
+The formatting of your citation doesn't need to be in any particular format, but direct quotes *always* need to be surrounded by double quotes (").
+
 Please note that you will be graded on the accuracy of your definition, so make sure your source is reliable.
 
 <div class="alert alert-info">
