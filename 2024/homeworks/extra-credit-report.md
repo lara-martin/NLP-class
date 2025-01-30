@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2024
 title: Extra Credit Research Report (+0.5-2 points on final grade)
 active_tab: homework
 release_date: 2023-11-28

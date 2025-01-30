@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2024
 img: 
 caption: 
 img_link: 

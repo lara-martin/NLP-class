@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2024
 img: evaluating_tech_things.png
 caption: Evaluating Tech Things
 img_link: https://xkcd.com/2072/

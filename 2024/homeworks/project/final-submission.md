@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2024
 img: estimating_time.png
 caption: Don't Panic
 img_link: https://xkcd.com/1658/   

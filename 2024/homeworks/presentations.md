@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2024
 title: Paper Group Presentation (10%)
 active_tab: homework
 release_date: 2023-09-03 

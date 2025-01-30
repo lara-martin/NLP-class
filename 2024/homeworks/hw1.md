@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2024
 img: periodic-table-of-nlp-tasks.png
 caption: Periodic Table of NLP Tasks
 img_link: https://www.innerdoc.com/periodic-table-of-nlp-tasks/

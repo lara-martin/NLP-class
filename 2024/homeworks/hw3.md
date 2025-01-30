@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2024
 img: beautiful-art.webp
 caption: Beautiful Art
 img_link: https://www.reddit.com/r/comics/comments/184eqmy/beautiful_art_oc/

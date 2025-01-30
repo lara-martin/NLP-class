@@ -7,9 +7,9 @@ title: Being up to the Task
 type: Homework
 number: 1
 active_tab: homework
-release_date: 2024-02-13
-due_date: 2024-02-28 23:59:00EST
-submission: https://classroom.google.com/c/NjUwNDE2MzEwMzQx/a/NjYyODU5Mzg4NDEw/details
+release_date: 2025-02-05
+due_date: 2025-02-18 23:59:00EST
+submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438115_1?courseId=_85408_1&gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -64,7 +64,7 @@ You can download the materials for this assignment here:
 * Searching for basic information about NLP tasks.
 * Exploring a dataset.
 * Coming up with appropriate tasks for an application & providing your reasoning behind it.
-* Determining appropriate inputs and outputs for the tasks.
+* Determining appropriate inputs and outputs for tasks.
 * Creating a system diagram.
 
 

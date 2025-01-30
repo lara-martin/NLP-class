@@ -29,7 +29,7 @@
 -
   date: 2025-01-30
   title: What is NLP?
-  slides: 
+  slides: slides/25-01-30_What-is-NLP.pdf
   required: 
     -
       title: NLP Chapter 1
@@ -42,7 +42,7 @@
 -
   date: 2025-02-04
   title: Examples of NLP Tasks
-  slides: 
+  slides: slides/25-02-04_NLP-Tasks.pdf
   required:
     -
       title: SLP Chapter 2
@@ -62,7 +62,6 @@
   title: Examples of NLP Tasks
   slides: 
 
-  
 -
   date: 2025-02-07
   title: Last Day to Change Schedule
@@ -110,7 +109,8 @@
   
 -
   date: 2025-02-20
-  title: Class Cancelled? 
+  type: no_lecture
+  title: Out of Town -- Class Cancelled
       
            
 -
