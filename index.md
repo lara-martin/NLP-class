@@ -73,7 +73,7 @@ By the end of the course, you will be able to...
 : Maitri Mistry
 : [mmistry3@umbc.edu](mailto:mmistry3@umbc.edu)
 : Office Hours: 
-	* 2 - 3PM on Mondays in TBA
+	* 2 - 3PM on Mondays in ITE 340
 	* 2:30 - 3:30PM on Thursdays [online](https://us04web.zoom.us/j/71390545038?pwd=crYbcQcb0sYBCH3ebobB6fpNJb1RNU.1 
 )
 	* Also <a href="mailto:mmistry3@umbc.edu">by appointment</a>
