@@ -60,7 +60,7 @@
 -
   date: 2025-02-06
   title: Examples of NLP Tasks
-  slides: 
+  slides: slides/25-02-06_NLP-Tasks.pdf
 
 -
   date: 2025-02-07
@@ -104,7 +104,7 @@
   homework_due:   
     -
       title: "HW1: Being up to the Task"
-      url: #hw1.html   
+      url: hw1.html   
   
   
 -
