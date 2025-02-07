@@ -69,6 +69,11 @@
   
 -
   date: 2025-02-11
+  title: Examples of NLP Tasks
+  slides: 
+
+-
+  date: 2025-02-13
   title: Machine Learning Basics & Evaluation
   slides: 
   required:
@@ -79,42 +84,42 @@
     -
       title: SLP Chapter 4.7, 4.8, & 4.10
       url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
-      authors: Dan Jurafsky and James H. Martin   
-
--
-  date: 2025-02-13
-  title: Machine Learning Basics & Evaluation
-  slides: 
+      authors: Dan Jurafsky and James H. Martin    
+  
     
--
-  date: 
-  type: deadline
-  homework_due:
-    -
-      title: "Project Milestone 1: Project Proposal"
-      url: #project/proposal.html
+#-
+#  date: 
+#  type: deadline
+#  homework_due:
+#    -
+#      title: "Project Milestone 1: Project Proposal"
+#      url: #project/proposal.html
 
 
   
 -
   date: 2025-02-18
+
+  
+-
+  date: 2025-02-20
+  title: Machine Learning Basics & Evaluation
+  slides: 
+      
+           
+-
+  date: 2025-02-25
   title: PyTorch & HuggingFace Tutorial
   slides: 
   type: deadline
   homework_due:   
     -
       title: "HW1: Being up to the Task"
-      url: hw1.html   
-  
-  
--
-  date: 2025-02-20
-  type: no_lecture
-  title: Out of Town -- Class Cancelled
+      url: hw1.html  
       
-           
+
 -
-  date: 2025-02-25
+  date: 2025-02-27
   title: Classification with Logistic Regression
   slides: 
   required:
@@ -126,10 +131,8 @@
       title: NLP Chapter 5.1-5.3 (+intro)
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
       authors: Dan Jurafsky and James H. Martin  
-      
-
 -
-  date: 2025-02-27
+  date: 2025-03-04
   title: Learning & Using Logistic Regression
   slides: 
   required:
@@ -141,8 +144,9 @@
       title: NLP Chapter 5.4-5.11
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
       authors: Dan Jurafsky and James H. Martin
+
 -
-  date: 2025-03-04
+  date: 2025-03-06
   title: Vector Embeddings
   type: deadline
   homework_due:   
@@ -159,25 +163,26 @@
       title: SLP Chapter 6
       url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
       authors:  Dan Jurafsky and James H. Martin
-
--
-  date: 2025-03-06
-  title: Vector Embeddings
-  slides: slides/24-03-13_Vector-Embeddings.pdf
       
--
-  date: 
-  type: deadline
-  title: No Class - Project Milestone Due
-  slides: 
-  homework_due:
-    -
-      title: "Project Milestone 2: Literature Review"
-      url: #project/lit-review.html      
+#-
+#  date: 
+#  type: deadline
+#  title: No Class - Project Milestone Due
+#  slides: 
+#  homework_due:
+#    -
+#      title: "Project Milestone 2: Literature Review"
+#      url: #project/lit-review.html      
       
 
 -
   date: 2025-03-10
+  title: Vector Embeddings
+  slides: slides/24-03-13_Vector-Embeddings.pdf
+    
+
+-
+  date: 2025-03-13
   title: N-Gram Language Models
   required:
     -
@@ -188,12 +193,6 @@
       title: SLP Chapter 3
       url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
       authors:  Dan Jurafsky and James H. Martin
-  slides: 
-    
-
--
-  date: 2025-03-13
-  title:  N-Gram Language Models
   slides: 
 
 -
@@ -208,6 +207,11 @@
   
 -
   date: 2025-03-25
+  title:  N-Gram Language Models
+  slides: 
+  
+-
+  date: 2025-03-27
   title: Neural Language Models
   slides: 
   required: 
@@ -215,8 +219,10 @@
       title: SLP Chapter 7
       url: https://web.stanford.edu/~jurafsky/slp3/7.pdf
       authors:  Dan Jurafsky and James H. Martin
+
+      
 -
-  date: 2025-03-27
+  date: 2025-04-01
   title: Recurrent Neural Network LMs
   slides: 
   required:
@@ -233,20 +239,23 @@
     -
       title: "Project Milestone 3: Halfway Checkpoint"
       url: #project/halfway.html
-
-      
+  
 -
-  date: 2025-04-01
+  date: 2025-04-03
   title: Recurrent Neural Network LMs Tutorial
   slides: 
   type: deadline
   homework_due:
     -
       title: "HW 2: Evaluation"
-      url: #hw2.html 
-  
+      url: #hw2.html   
+      
 -
-  date: 2025-04-03
+  date: 2025-04-04
+  title: Last Day to Withdraw from Individual Classes
+  type: no_lecture     
+-
+  date: 2025-04-08
   title: Attention & Transformers
   slides: 
   required:
@@ -257,14 +266,10 @@
     -
       title: Attention Is All You Need
       url: https://dl.acm.org/doi/10.5555/3295222.3295349
-      authors: Ashish Vaswani, et al.        
-      
+      authors: Ashish Vaswani, et al.      
+
 -
-  date: 2025-04-04
-  title: Last Day to Withdraw from Individual Classes
-  type: no_lecture     
--
-  date: 2025-04-08
+  date: 2025-04-10
   title: Decoding, Sampling, & Transformer Fine-tuning
   slides: 
   required:
@@ -272,9 +277,10 @@
       title: SLP Chapter 11.3
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
       authors:  Dan Jurafsky and James H. Martin 
-
+        
+      
 -
-  date: 2025-04-10
+  date: 2025-04-15
   title: Types of Foundational Models
   slides: 
   required:
@@ -290,10 +296,9 @@
       title: SLP Chapter 11.1-11.2 (+intro)
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
       authors:  Dan Jurafsky and James H. Martin   
-        
-      
+
 -
-  date: 2025-04-15
+  date: 2025-04-17
   title: Ethics of NLP
   slides: 
   required:
@@ -318,8 +323,16 @@
       url: https://aclanthology.org/2021.eacl-main.274/
       authors: Xuhui Zhou, et al.
 
+
 -
-  date: 2025-04-17
+  date: 2025-04-22
+  title: Ethics of NLP
+  slides: 
+
+
+
+-
+  date: 2025-04-24
   title: Prompt Engineering Tutorial
   slides: 
   required:
@@ -337,15 +350,18 @@
       title: "Grad Checkpoint 2: Draft"
       url: #grad.html  
 
+-
+  date: 
+  title: No Class - Project Milestone Due
+  type: no_lecture
+  homework_due:
+    -
+      title: "Project Milestone 4: Rough Draft"
+      url: #project/draft.html
+      
 
 -
-  date: 2025-04-22
-  title:
-  required:
-
-
--
-  date: 2025-04-24
+  date: 2025-04-29
   title: Alignment
   type: deadline
   slides: 
@@ -361,19 +377,16 @@
       title: "Training language models to follow instructions with human feedback"
       authors: Long Ouyang, et al.
       url: https://arxiv.org/abs/2203.02155
+  
+
+        
+-
+  date: 2025-05-01
+
+
 
 -
-  date: 
-  title: No Class - Project Milestone Due
-  type: no_lecture
-  homework_due:
-    -
-      title: "Project Milestone 4: Rough Draft"
-      url: #project/draft.html
-      
-
--
-  date: 2025-04-29
+  date: 2025-05-06
   title: "Applications: Machine Translation"
   slides: 
   required:
@@ -381,11 +394,9 @@
       title: "SLP Chapter 13: Machine Translation"
       url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
       authors:  Dan Jurafsky and James H. Martin  
-  
-
-        
+ 
 -
-  date: 2025-05-01
+  date: 2025-05-08
   title:   "Applications: Dialog Systems"
   slides: 
   required:
@@ -396,24 +407,17 @@
     -
       title: "SLP Chapter 15: Chatbots and Dialogue Systems"
       url: https://web.stanford.edu/~jurafsky/slp3/15.pdf
-      authors:  Dan Jurafsky and James H. Martin   
-
-
+      authors:  Dan Jurafsky and James H. Martin     
+  
 -
-  date: 2025-05-06
+  date: 2025-05-13
   title: "Applications: Creative Generation"
   slides: 
   required:
     -
       title: "Re3: Generating Longer Stories With Recursive Reprompting and Revision"
       url: https://aclanthology.org/2022.emnlp-main.296
-      authors: Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein  
- 
--
-  date: 2025-05-08
-  
--
-  date: 2025-05-13
+      authors: Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein    
   
 -
   date: 2025-05-15
