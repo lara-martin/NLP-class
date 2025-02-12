@@ -69,22 +69,13 @@
   
 -
   date: 2025-02-11
-  title: Examples of NLP Tasks
-  slides: 
+  title: No Class -- Snow Day
+  type: no_lecture
 
 -
   date: 2025-02-13
-  title: Machine Learning Basics & Evaluation
-  slides: 
-  required:
-    -
-      title: NLP Chapter 4.3 & 4.4
-      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein
-    -
-      title: SLP Chapter 4.7, 4.8, & 4.10
-      url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
-      authors: Dan Jurafsky and James H. Martin    
+  title: Examples of NLP Tasks
+  slides:  
   
     
 #-
@@ -99,7 +90,17 @@
   
 -
   date: 2025-02-18
-
+  title: Machine Learning Basics & Evaluation
+  slides: 
+  required:
+    -
+      title: NLP Chapter 4.3 & 4.4
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
+    -
+      title: SLP Chapter 4.7, 4.8, & 4.10
+      url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
+      authors: Dan Jurafsky and James H. Martin  
   
 -
   date: 2025-02-20
@@ -382,6 +383,13 @@
         
 -
   date: 2025-05-01
+  title: Retrieval-Augmented Generation (RAG)
+  required:
+    -
+      title: "Retrieval-Augmented Generation for Large Language Models: A Survey"
+      url: http://arxiv.org/abs/2312.10997
+      authors:  Yunfan Gao, et al.
+  
 
 
 
