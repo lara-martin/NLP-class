@@ -116,7 +116,7 @@ For example, if I was training an image recognition model, the inputs would be t
 
 
 ### Question 3: Draw a diagram (5 points)
-Now that you have all of the components, draw a flow diagram of where the data is coming from and going to, what processes you have to do (nodes with your chosen tasks), and how the data would be transformed. **Include all steps a-e.** You will be graded on whether it includes all the steps and clearly conveys the information.
+Now that you have all of the components, draw a flow diagram of where the data is coming from and going to (i.e, inputs and outputs), what processes you have to do (nodes with your chosen tasks), and how the data would be transformed (What are the features of the inputs and outputs?). **Include all steps a-e.** You will be graded on whether it includes all the steps and clearly conveys the information.
 
 You can draw your diagram in any app you want. Diagram apps I use often are MS Powerpoint and draw.io. No hand-drawn diagrams, please.
 
