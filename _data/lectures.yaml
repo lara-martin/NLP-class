@@ -91,7 +91,7 @@
 -
   date: 2025-02-18
   title: Machine Learning Basics & Evaluation
-  slides: 
+  slides: slides/25-02-18_ML-Evaluation.pdf
   required:
     -
       title: NLP Chapter 4.3 & 4.4
