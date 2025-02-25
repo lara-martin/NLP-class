@@ -101,28 +101,22 @@
       title: SLP Chapter 4.7, 4.8, & 4.10
       url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
       authors: Dan Jurafsky and James H. Martin  
+  type: deadline
+  homework_due:   
+    -
+      title: "HW1: Being up to the Task"
+      url: hw1.html        
   
 -
   date: 2025-02-20
-  title: Machine Learning Basics & Evaluation
+  title: Machine Learning Basics & Evaluation + Classification with Logistic Regression
   slides: slides/25-02-20_ML-Evaluation.pdf
       
            
 -
   date: 2025-02-25
-  title: PyTorch & HuggingFace Tutorial
-  slides: 
-  type: deadline
-  homework_due:   
-    -
-      title: "HW1: Being up to the Task"
-      url: hw1.html  
-      
-
--
-  date: 2025-02-27
   title: Classification with Logistic Regression
-  slides: 
+  slides: slides/25-02-25_Classification.pdf
   required:
     -
       title: NLP Chapter 2.5
@@ -132,6 +126,13 @@
       title: NLP Chapter 4.1, 5.1-5.3 (+ ch 5 intro)
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
       authors: Dan Jurafsky and James H. Martin  
+      
+
+-
+  date: 2025-02-27
+  title: PyTorch & HuggingFace Tutorial
+  slides: 
+
 -
   date: 2025-03-04
   title: Learning & Using Logistic Regression
