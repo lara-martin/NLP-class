@@ -69,7 +69,7 @@ If you are trying to decide between multiple project ideas, or if you’re strug
 Use the techniques we have learned in class to build a novel NLP system. While fine-tuning a large language model on a custom dataset or few-shot prompting your model could be a component of your project, we are expecting something more involved than just this. By the end of the semester, you should have a demo that runs either in Colab or a website showcasing your system.
 
 Write a project proposal that includes the following sections. The questions here are meant to guide your writing process.
-1. __Project Name__ (1 point): This is the title of your paper so that we can refer to it.
+1. __Project Name__ (1 point): This is the title of your project so that we can refer to it. You are welcome to change it for a later submission if you find it no longer fits your project.
 2. __Project Description__ (3 points): What novel NLP system do you propose to design?
   - Give an example mockup (image) of what the user experience will look like.
   - Describe what the system is meant to do and what use it will have. (1 to 2 paragraphs)
@@ -91,7 +91,7 @@ Write a project proposal that includes the following sections. The questions her
 By the end of the semester, you should have an academic paper that describes the research question, the experiments you ran to try and answer it, and an analysis of the experimental results.
 
 Write a project proposal that includes the following sections. The questions here are meant to guide your writing process.
-1. __Project Name__ (1 point): This is the title of your paper so that we can refer to it.
+1. __Project Name__ (1 point): This is the title of your project so that we can refer to it. You are welcome to change it for a later submission if you find it no longer fits your project.
 2. __Project Description__ (3 points): What research question or problem are you trying to solve?
   - Write a problem definition (1 to 2 paragraphs)
   - Give an illustrative example of the problem and/or your proposed solution.
