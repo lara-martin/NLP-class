@@ -78,13 +78,7 @@
   slides:  slides/25-02-13_NLP-Tasks.pdf
   
     
-#-
-#  date: 
-#  type: deadline
-#  homework_due:
-#    -
-#      title: "Project Milestone 1: Project Proposal"
-#      url: #project/proposal.html
+
 
 
   
@@ -175,10 +169,18 @@
 #    -
 #      title: "Project Milestone 2: Literature Review"
 #      url: #project/lit-review.html      
-      
+
 
 -
   date: 2025-03-10
+  type: deadline
+  homework_due:
+    -
+      title: "Project Milestone 1: Project Proposal"
+      url: project/proposal.html   
+
+-
+  date: 2025-03-11
   title: Vector Embeddings
   slides: slides/24-03-13_Vector-Embeddings.pdf
     
@@ -237,10 +239,10 @@
       url: https://web.stanford.edu/~jurafsky/slp3/9.pdf
       authors:  Dan Jurafsky and James H. Martin 
   type: deadline
-  homework_due:
-    -
-      title: "Project Milestone 3: Halfway Checkpoint"
-      url: #project/halfway.html
+  #homework_due:
+  #  -
+  #    title: "Project Milestone 3: Halfway Checkpoint"
+  #    url: project/halfway.html
   
 -
   date: 2025-04-03
