@@ -105,12 +105,6 @@
   date: 2025-02-20
   title: Machine Learning Basics & Evaluation + Classification with Logistic Regression
   slides: slides/25-02-20_ML-Evaluation.pdf
-      
-           
--
-  date: 2025-02-25
-  title: Classification with Logistic Regression
-  slides: slides/25-02-25_Classification.pdf
   required:
     -
       title: NLP Chapter 2.5
@@ -119,18 +113,12 @@
     -
       title: NLP Chapter 4.1, 5.1-5.3 (+ ch 5 intro)
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
-      authors: Dan Jurafsky and James H. Martin  
-      
-
+      authors: Dan Jurafsky and James H. Martin       
+           
 -
-  date: 2025-02-27
-  title: PyTorch & HuggingFace Tutorial
-  slides: https://colab.research.google.com/drive/1nqOFCMNgYswT9yVpMNxEQkpso4fDEBLR?usp=sharing
-
--
-  date: 2025-03-04
-  title: Learning & Using Logistic Regression
-  slides: 
+  date: 2025-02-25
+  title: Classification with Logistic Regression
+  slides: slides/25-02-25_Classification.pdf
   required:
     -
       title: NLP Chapter B.1
@@ -140,16 +128,17 @@
       title: NLP Chapter 5.4-5.11
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
       authors: Dan Jurafsky and James H. Martin
+      
 
 -
-  date: 2025-03-06
+  date: 2025-02-27
+  title: PyTorch & HuggingFace Tutorial
+  slides: https://colab.research.google.com/drive/1nqOFCMNgYswT9yVpMNxEQkpso4fDEBLR?usp=sharing
+
+-
+  date: 2025-03-04
   title: Vector Embeddings
-  type: deadline
-  homework_due:   
-    -
-      title: "Grad Checkpoint 1: Selection"
-      url: #grad.html    
-  slides: 
+  slides: slides/25-03-04_Vector-Embeddings.pdf
   required:
     -
       title: NLP Chapter 14
@@ -159,16 +148,18 @@
       title: SLP Chapter 6
       url: https://web.stanford.edu/~jurafsky/slp3/6.pdf
       authors:  Dan Jurafsky and James H. Martin
+
+-
+  date: 2025-03-06
+  title: Vector Embeddings 
+  slides: 
+
       
-#-
-#  date: 
 #  type: deadline
-#  title: No Class - Project Milestone Due
-#  slides: 
-#  homework_due:
+#  homework_due:   
 #    -
-#      title: "Project Milestone 2: Literature Review"
-#      url: #project/lit-review.html      
+#      title: "Grad Checkpoint 1: Selection"
+#      url: grad.html   
 
 
 -
@@ -181,8 +172,8 @@
 
 -
   date: 2025-03-11
-  title: Vector Embeddings
-  slides: slides/24-03-13_Vector-Embeddings.pdf
+  type: no_lecture
+  title: Class Cancelled - NSF Panel
     
 
 -
@@ -213,7 +204,17 @@
   date: 2025-03-25
   title:  N-Gram Language Models
   slides: 
-  
+
+#-
+#  date: 
+#  type: deadline
+#  title: No Class - Project Milestone Due
+#  slides: 
+#  homework_due:
+#    -
+#      title: "Project Milestone 2: Literature Review"
+#      url: #project/lit-review.html      
+
 -
   date: 2025-03-27
   title: Neural Language Models
@@ -352,7 +353,7 @@
   homework_due:   
     -
       title: "Grad Checkpoint 2: Draft"
-      url: #grad.html  
+      url: grad.html  
 
 -
   date: 
@@ -370,12 +371,9 @@
   type: deadline
   slides: 
   homework_due:
-    -
-      title: "Grad Checkpoint 3: Feedback"
-      url: grad.html
-    -
-      title: "HW 3: Prompt Engineering"
-      url: hw3.html  
+    #-
+    #  title: "HW 3: Prompt Engineering"
+    #  url: hw3.html  
   required:
     -
       title: "Training language models to follow instructions with human feedback"
@@ -387,6 +385,10 @@
 -
   date: 2025-05-01
   title: Retrieval-Augmented Generation (RAG)
+  homework_due:
+    -
+      title: "Grad Checkpoint 3: Feedback"
+      url: grad.html
   required:
     -
       title: "Retrieval-Augmented Generation for Large Language Models: A Survey"
@@ -441,4 +443,4 @@
       url: #project/final-submission.html
     -
       title: "Grad Checkpoint 4: Final Submission"
-      url: #grad.html        
+      url: grad.html        

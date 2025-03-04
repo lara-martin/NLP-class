@@ -3,14 +3,14 @@ layout: default
 img: 
 caption: 
 img_link: 
-title: Graduate Assignment (20% of grade)
+title: Graduate Assignment (15% of grade)
 active_tab: homework
-release_date: 2024-03-03
-due_date1: 2024-03-11 23:59:00EST
-due_date2: 2024-04-24 23:59:00EST
-due_date3: 2024-05-01 23:59:00EST
-due_date_final: 2024-05-17 23:59:00EST
-submission: https://classroom.google.com/u/3/w/NjUwNDE2MzEwMzQx/tc/NjUxNTgzMTgyODgy
+release_date: 2025-02-28
+due_date1: 2025-03-06 23:59:00EST
+due_date2: 2025-04-24 23:59:00EST
+due_date3: 2025-05-01 23:59:00EST
+due_date_final: 2024-05-15 23:59:00EST
+submission: 
 ---
 
 
@@ -77,7 +77,7 @@ spend significant time on any of them.
 Pick one:<br>
 (GA1) Using the Universal Dependencies corpora, implement and evaluate a neural arc-standard dependency parser. <br>
 (GA2) Re-implement the “Character-Aware Neural Language Models” work of Kim et al. (2016). <br>
-(GA3) Follow the tutorial ["A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition" (Rabiner, 1989)](https://ieeexplore.ieee.org/document/18626) to implement an HMM.
+(GA3) Implement your proposed solution from [HW 1](https://laramartin.net/NLP-class/homeworks/hw1.html) for **one** of the three parts (a, c, or e).
 
 
 For any of these options, you must
@@ -104,9 +104,11 @@ of your implementation. However, the thoroughness and clarity of the writeup wil
 
 **Milestone 2: Initial draft of writeup, and git repo of your code with ≥ 3 non-trivial commits.** You must submit two items: an initial version of your writeup, and a git repository of your implementation containing at least three, non-trivial commits (e.g., commits affecting more than just whitespace or comments). Your writeup does not need to include results,
 but it does need to include a prose-based discussion of the algorithm; a prose-based discussion of your
-implementation (or expected implementation), including any hurdles you are encountering; and a discussion of what tests you are running or will run to ensure correctness.You must turn in:
+implementation (or expected implementation), including any hurdles you are encountering; and a discussion of what tests you are running or will run to ensure correctness.
+
+You will turn in:
 * an **ANONYMIZED** PDF of your writeup (name the file with your UMBC ID, e.g., "AB1234.pdf"),
-* a git repo for your code.
+* a git repo for your code. Your repo must be private, but please share it with the course staff. Please do not list the repo on your writeup.
 Your anonymized PDF will be provided to other students to review/provide feedback on (see Milestone 3); your code will not be shared. You may optionally provide a written description of what, if
 any, writing assistance you received (e.g., the GSA Writing Advisor).
 
@@ -118,7 +120,7 @@ reviewing, and as an author, you will not know who your reviewers are. This is w
 the Milestone 1 drafts to be anonymized. All paper-reviewer identities will be known to course staff.
 
 **Final Writeup and Full Code.** This must be a complete, well-written writeup.
-You must turn in:
+You will turn in:
 * a **NON-ANONYMIZED** PDF of the writeup,
 * your code repo,
 * a PDF document discussing the changes made, both as a result of the reviews/feedback and
@@ -133,12 +135,7 @@ The algorithm is described in either textbook, and you may follow the broad outl
 your system twice: the first time on English-EWT, the other is another language from UD of your choice.
 For this option, you may use existing layers in the toolkits Pytorch, Tensorflow, or Keras.
 
-#### (GA2) Implement the Wall Street Journal/Penn Treebank perplexity results from [Kim et al. (2016)](https://aaai.org/papers/10362-character-aware-neural-language-models/)
 
-To do this, you will need to get the data from the instructor.
-In addition to re-creating the Penn treebank results, also evaluate this model on at least one non-English
-language from the UD data. For this option, you may use existing layers in the toolkits Pytorch, Tensorflow,
-or Keras.
 
 #### (GA3) Create a Hidden Markov Model from [Rabiner (1989)](https://ieeexplore.ieee.org/document/18626)'s tutorial
 
@@ -187,35 +184,33 @@ own, reproductions, or copies of existing figures); be sure to provide appropria
 However, make the figures count: do not include them simply to pad the paper. Do not consider just
 “recent” papers; try to find papers from the past 25 years.
 
-### Milestones
-**Milestone 1: Selection of Option, Topic, and Initial list of papers.** Decide on a topic and fill out the short form online.
- It would also be beneficial if you find at least 5 papers related to your topic. If you list them in the form, I can give you feedback
- regarding their relevance to your topic and their quality.
-This list should not be your complete or final list
-of papers you’ll read or consult: it is meant as a starting point. You may also remove papers from this
-list when you actually write your paper.
+Some good places to find papers include 
+* [*ACL](https://aclanthology.org/)
+* [COLM](https://openreview.net/group?id=colmweb.org/COLM/2024/Conference#tab-accept)
 
-**Milestone 2: Initial version of the paper.**  Despite it
-being “initial,” this must be a complete, well-written paper. Although this submission will not
-solely comprise your grade, it should be a paper that you would find acceptable for determining your
-grade for the course’s paper component. To receive full credit, your paper must be a legitimate and
-full response to the prompt. You must turn in:
+Or if you're interested in speech:
+* [Interspeech](https://www.isca-archive.org/index.html)
+* [ICASSP](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings)
+
+You can also find papers using [Google Scholar](https://scholar.google.com/) if you know the right keywords.
+
+### Milestones
+**Milestone 1: Selection of Option, Topic, and Initial list of papers.** Decide on a topic and fill out the short form online.  It would also be beneficial if you find at least 5 papers related to your topic. If you list them in the form, I can give you feedback  regarding their relevance to your topic and their quality. This list is not your complete or final list of papers you’ll read or consult: it is meant as a starting point. You may also remove papers from this list when you actually write your paper.
+
+**Milestone 2: Initial version of the paper.**  Despite it being “initial,” this must be a complete, well-written paper. Although this part is ungraded, the better this draft is, the more informative the feedback you'll get from your peers. 
+
+You will turn in:
 * an **ANONYMIZED** PDF of the paper (name the file with your UMBC ID, e.g., "AB1234.pdf"),
 * the paper’s source (such that we could regenerate the PDF).
 Your anonymized PDF will be provided to other students to review (see Milestone 3); your source
 will not be shared. You may also provide a written description of what, if any, writing assistance you
 received (e.g., the GSA Writing Advisor).
 
-**Milestone 3: Paper Peer Review.** In this process, you will
-receive up to two other students’ papers; you must provide feedback on the breadth, depth, and clarity
-of exposition. Reviewing forms and guides will be provided. To receive full credit for the reviews,
-you must provide constructive and civil reviews (a guide will be provided).
-This review will be “double-blind:” as a reviewer, you will not know whose papers you are reviewing,
-and as an author, you will not know who your reviewers are. This is why it is important for the
-Milestone 1 papers to be anonymized. All paper-reviewer identities will be known to course staff.
+**Milestone 3: Paper Peer Review.** In this process, you will receive up to two other students’ papers; you must provide feedback on the breadth, depth, and clarity of exposition. Reviewing forms and guides will be provided. To receive full credit for the reviews, you must provide constructive and civil reviews (a guide will be provided). This review will be “double-blind:” as a reviewer, you will not know whose papers you are reviewing, and as an author, you will not know who your reviewers are. This is why it is important for the Milestone 1 papers to be anonymized. All paper-reviewer identities will be known to course staff.
 
 **Final version of the paper.** This must be a complete, well-written paper.
-You must turn in:
+
+You will turn in:
 * a **NON-ANONYMIZED** PDF of the paper,
 * a PDF document discussing the changes made, both as a result of the reviews/feedback and
 along with any unprompted changes, and
@@ -225,8 +220,8 @@ assistance you received (e.g., the GSA Writing Advisor).
 
 ### Paper Topics
 
-Please select a topic from the three listed below. With consultation of the instructors, you may propose your
-own, separate topic.
+Please select a topic from the ones listed below. With consultation of the instructor, you may propose your
+own topic.
 
 ####  Hierarchical/Advanced Language Modeling
 For this topic, you will examine advanced and/or hierarchical approaches to language modeling. Examples
@@ -262,7 +257,7 @@ they are offered as suggestions.
 ####  Computational Methods for Linguistic Subfields
 For this topic you will examine how computational/statistical models are developed to better explain (or
 mimic) linguistic phenomena/subfields. For example, you could explore computational approaches to phonology, morphology, syntax, semantics, or pragmatics—or any combination, e.g., morphosyntax, syntactic-
-semantic, phonology/morphology, typology, etc. (Try searching the [ACL Anthology](https://aclanthology.org/) for those terms.)
+semantic, phonology/morphology, typology, etc.
 
 #### Natural Language Generation
 
