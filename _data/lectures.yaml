@@ -234,6 +234,10 @@
       url: https://web.stanford.edu/~jurafsky/slp3/9.pdf
       authors:  Dan Jurafsky and James H. Martin 
   type: deadline
+  homework_due:   
+    -
+      title: "HW2: Evaluation"
+      url: hw2.html    
   #homework_due:
   #  -
   #    title: "Project Milestone 3: Halfway Checkpoint"
@@ -243,11 +247,6 @@
   date: 2025-04-03
   title: Recurrent Neural Network LMs Tutorial
   slides: 
-  type: deadline
-  homework_due:
-    -
-      title: "HW 2: Evaluation"
-      url: #hw2.html   
       
 -
   date: 2025-04-04

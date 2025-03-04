@@ -9,7 +9,7 @@ number: 2
 active_tab: homework
 release_date: 2025-03-04
 due_date: 2025-04-01 23:59:00EST
-submission: 
+submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438117_1?courseId=_85408_1&gradeitemView=details
 materials:
   -
     name: GLUE data
