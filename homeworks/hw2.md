@@ -146,7 +146,7 @@ Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (
 Starting with prepped data like you did in the "Knowledge Check: Data Prep" assignment, train a basic neural network and compare it to your baseline.
 
 1. Start with my modified implementation [data prep code](https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9) for this assignment. Note that the input has both sentences separated by a special word `||`.
-2. [Continue to follow the tutorial](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/dd1c511de656ab48216de2866264b28f/deep_learning_tutorial.ipynb) to setup the network. [This tutorial](https://pytorch.org/tutorials/beginner/former_torchies/nnft_tutorial.html) and [this tutorial](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html) might also be helpful.
+2. [Continue to follow the tutorial](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/dd1c511de656ab48216de2866264b28f/deep_learning_tutorial.ipynb) to setup the network. [This tutorial](https://pytorch.org/tutorials/beginner/nn_tutorial.html) and [this tutorial](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html) might also be helpful.
 3. Switch the BoWClassifier model to an RNN using [`torch.nn.RNN`](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html). Use a hidden size of 128.
 4. Train the network on the **train** set for **5 epochs**.
 5. Calculate accuracy, macro precision, macro recall, micro precision, and micro recall on the **dev set**.
