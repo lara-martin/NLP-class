@@ -155,11 +155,7 @@
   slides: slides/25-03-06_Vector-Embeddings.pdf
 
       
-#  type: deadline
-#  homework_due:   
-#    -
-#      title: "Grad Checkpoint 1: Selection"
-#      url: grad.html   
+
 
 -
   date: 2025-03-11
@@ -182,7 +178,7 @@
       title: SLP Chapter 3
       url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
       authors:  Dan Jurafsky and James H. Martin
-  slides: 
+  slides: slides/25-03-13_N-gram-LMs.pdf
 
 -
   date: 2025-03-18
@@ -193,10 +189,17 @@
   date: 2025-03-20
   title: Spring Break - No Class
   type: no_lecture
-  
+
+-
+  date: 2025-03-24
+  type: deadline
+  homework_due:   
+    -
+      title: "Grad Checkpoint 1: Selection"
+      url: grad.html   
 -
   date: 2025-03-25
-  title:  N-Gram Language Models
+  title:  Review?
   slides: 
 
 #-

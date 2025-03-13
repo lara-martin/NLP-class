@@ -6,11 +6,10 @@ img_link:
 title: Graduate Assignment (15% of grade)
 active_tab: homework
 release_date: 2025-02-28
-due_date1: 2025-03-06 23:59:00EST
+due_date1: 2025-03-24 23:59:00EST
 due_date2: 2025-04-24 23:59:00EST
 due_date3: 2025-05-01 23:59:00EST
 due_date_final: 2024-05-15 23:59:00EST
-submission: 
 ---
 
 
@@ -22,7 +21,7 @@ Checkpoint 3 due: {{ page.due_date3 | date: "%A, %B %-d, %Y" }}<br>
 Final submission due: {{ page.due_date_final | date: "%A, %B %-d, %Y" }}<br>
 All due dates are {{ page.due_date1 | date: "%I:%M%p" }} ET.
 <br><br>
-Submission Link: <a href="{{page.submission}}">{{ page.submission }}</a><br><br>
+Submissions are under the "Grad Assignment" folder on Blackboard.<br><br>
 Please be sure to double check the academic integrity and generative AI policies <a href="https://laramartin.net/NLP-class/#academic-integrity">listed on the syllabus</a>.
 </div>
 
@@ -61,54 +60,66 @@ All milestones must be met for full credit.
 
 ## Description
 For the graduate assignment, choose ONE of the following
-assessments: **GA1-GA4**. GA1-GA3 will require you to implement NLP algorithms. For GA4, you will write a 4-page conference-style literature review paper on a particular topic.
-While each person is free to choose which of these four options they will complete, I encourage each person to strongly consider how
-each may be able to further their career/degree goals and choose the assessment that maximizes progress
-toward that goal. For example, someone writing a disseration (doctoral or masters) may wish to do the
-literature review paper, since it could help form the basis of the related work chapter of a dissertation. On
-the other hand, someone may wish to really dive deep into an aspect of NLP implementation.
+assessments.
 The possible assessments are divided into an “Implementation Track,” and a “Paper Track”. Both tracks
 consist of advanced topics that we may very lightly cover, or mention, in the course. However, we will not
 spend significant time on any of them.
+The Implementation Track will require you to implement and adapt NLP techniques. For the Paper Track, you will write a 4-page conference-style literature review paper on a particular topic.
+While each person is free to choose which of these two options they will complete, I encourage each person to strongly consider how each may be able to further their career/degree goals and choose the assessment that maximizes progress toward that goal. For example, someone writing a disseration (doctoral or masters) may wish to do the literature review paper, since it could help form the basis of the related work chapter of a dissertation. On the other hand, someone may wish to really dive deep into an aspect of NLP implementation.
+
 
 ---
 
 ## Implementation Track
-Pick one:<br>
-(GA1) Using the Universal Dependencies corpora, implement and evaluate a neural arc-standard dependency parser. <br>
-(GA2) Re-implement the “Character-Aware Neural Language Models” work of Kim et al. (2016). <br>
-(GA3) Implement your proposed solution from [HW 1](https://laramartin.net/NLP-class/homeworks/hw1.html) for **one** of the three parts (a, c, or e).
+Implement your proposed solution from [HW 1](https://laramartin.net/NLP-class/homeworks/hw1.html) for **one** of the three parts (a, c, or e):
+
+a. The user types in a keyword that they’re interested in, and the app finds relevant textbooks.
+c. The app displays a question relevant to the chapter.
+e. The app gives a numerical score for how well the user answered the question.
+
+Once you select which problem you will do, the rest of the project will include:
+1. finding potential methods for implementing it and/or finding existing repositories that tackle some of the components you want
+2. finding a dataset that will help create the system
+3. adapting the models/code/libraries to fit your problem
+4. evaluating your system
+
+At the end of the semester, you will submit:
+* A link to your repository
+* A writeup document that describes:
+	* Your reasoning behind the methodology that you used
+	* How you found the repositories you are using and why you decided to pick that particular implementation
+	* Any hurdles you encountered in your implementation
+	* How you found and modified your data
+	* What evaluation metrics you used and why
+	* A table of the results of your evaluation
+	* A comparison of your system to a zero-shot prompted GPT-3.5 model
+	* An analysis of what you would've done differently in retrospect
 
 
-For any of these options, you must
-1. implement the specific algorithm or system,
-2. train it on the specified data,
-3. evaluate it on the specified data,
-4. create a written lab report/writeup that includes
-  * a prose-based discussion of the algorithm;
-  * a prose-based discussion of your implementation, including any hurdles you encountered (and
-how you addressed them);
-  * a discussion of what tests you ran to ensure correctness;
-  * results on both dev/validation and test splits; and
-  * a summary of the approach’s ability to do the task(s) you evaluated.
-  
-Be sure to cite appropriately and follow all academic honesty standards. Accounting for items like tables
-and graphs, an appropriate target length of this writeup is anywhere from 1 to 3 pages (though that is not a
-hard limit).
-Within the Implementation Track, you will be primarly evaluated on the completeness and correctness
+<div class="alert alert-danger">
+Please cite all code that you find and adapt for your project. Since there aren't standardized ways to cite existing code, you can put the link to the repository/StackOverflow question/tutorial in a comment before the chunk of code that you took (and potentially adapted) from that source. If it's not clear what you took from the source, please explain what you took or how you were inspired by the algorithm in a comment.
+If you fail to do this, this will be seen as an academic integrity violation and you will get a zero on the assigment.<br><br>
+Furthermore, you are not allowed to simply take a repository and use it for your entire solution. If your code is found to be significantly similar to an existing repository (even if you cite it), you will get a zero on the assignment.<br><br>
+Please cite any AI-generated code in the way that is specified in the course syllabus.
+</div>
+
+
+Accounting for items like tables
+and graphs, an appropriate target length of this writeup should be approximately 2-4 pages.
+Within the Implementation Track, you will be primarly evaluated on the completeness
 of your implementation. However, the thoroughness and clarity of the writeup will be a sizeable (but non-majority) portion of your grade.
 
 ### Milestones
 
-**Milestone 1: Selection of Option.** Select which of the options (GA1-GA3) you will do and fill out the short form online.
+**Milestone 1: Selection of Option.** Select which of the options (a,c,or e) you will do and fill out the short form online. Write a short description of your initial idea for how you might implement it.
 
 **Milestone 2: Initial draft of writeup, and git repo of your code with ≥ 3 non-trivial commits.** You must submit two items: an initial version of your writeup, and a git repository of your implementation containing at least three, non-trivial commits (e.g., commits affecting more than just whitespace or comments). Your writeup does not need to include results,
-but it does need to include a prose-based discussion of the algorithm; a prose-based discussion of your
-implementation (or expected implementation), including any hurdles you are encountering; and a discussion of what tests you are running or will run to ensure correctness.
+but it does need to include a discussion of your proposed system; a discussion of your
+implementation (or expected implementation), including any hurdles you are currently encountering; a discussion of what data you are using (+ if and how you adpated it); and a discussion of what tests you are running or will run to ensure correctness.
 
 You will turn in:
 * an **ANONYMIZED** PDF of your writeup (name the file with your UMBC ID, e.g., "AB1234.pdf"),
-* a git repo for your code. Your repo must be private, but please share it with the course staff. Please do not list the repo on your writeup.
+* a git repo for your code. Your repo must be private, but please share it with the course staff. **Please do not list the repo on your writeup.**
 Your anonymized PDF will be provided to other students to review/provide feedback on (see Milestone 3); your code will not be shared. You may optionally provide a written description of what, if
 any, writing assistance you received (e.g., the GSA Writing Advisor).
 
@@ -128,21 +139,6 @@ along with any unprompted changes.
 As with the initial submission, you may also provide a written description of what, if any, writing
 assistance you received (e.g., the GSA Writing Advisor).
 
-### Implementation Options
-#### (GA1) Implement and evaluate a neural arc-standard dependency parser
-
-The algorithm is described in either textbook, and you may follow the broad outline given by [Chen and Manning (2014)](https://aclanthology.org/D14-1082/), but note that you do not have to re-implement this work exactly. I strongly recommend that you run through the algorithm on paper, and really understand it, before you begin coding. Train and evaluate
-your system twice: the first time on English-EWT, the other is another language from UD of your choice.
-For this option, you may use existing layers in the toolkits Pytorch, Tensorflow, or Keras.
-
-
-
-#### (GA3) Create a Hidden Markov Model from [Rabiner (1989)](https://ieeexplore.ieee.org/document/18626)'s tutorial
-
-1. Find a text dataset on HuggingFace. Make sure that it has a training/testing split (or make it yourself).
-2. Turn the text into [ARPAbet phonemes](https://en.wikipedia.org/wiki/ARPABET) using the [CMUdict](http://www.speech.cs.cmu.edu/cgi-bin/cmudict)
-3. Train an HMM from scratch following [Rabiner (1989)](https://ieeexplore.ieee.org/document/18626).
-4. Use the forward algorithm to calculate the likelihood of the sequences in the testing data.
 
 
 ---
@@ -224,35 +220,16 @@ Please select a topic from the ones listed below. With consultation of the instr
 own topic.
 
 ####  Hierarchical/Advanced Language Modeling
-For this topic, you will examine advanced and/or hierarchical approaches to language modeling. Examples
-include (modified) Kneser-Ney smoothing [[Chen and Goodman (1999)](https://www.sciencedirect.com/science/article/pii/S0885230899901286)], syntactic and/or semantic language
-models [[Chelba and Jelinek (1998)](https://aclanthology.org/P98-1035/)], topic models [[Blei et al. (2003)](https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf); [Teh et al. (2006)](https://www.jstor.org/stable/27639773)], hierarchical
-Bayesian language models [[MacKay and Peto (1995)](https://www.semanticscholar.org/paper/A-hierarchical-Dirichlet-language-model-MacKay-Peto/01fa57bd91f731522c861404d29e4604ba6ac6d3); [Teh (2006)](https://aclanthology.org/P06-1124/)] , and neural language models.
+For this topic, you will examine advanced and/or hierarchical approaches to language modeling. 
 
 #### Grounded Language Processing
 For this topic, you will examine how non-language signals (e.g., image or audio features) can help NLP
 tasks, how NLP tasks/models can improve understanding/analysis of those non-language signals, or both.
-For example, the task of (sequential) image captioning or video summarization involves producing natural
-language output that describes what is happening in those input images or videos. Visual question answering
-(and its variants) requires systems to answer questions about an image with a sunny sky in the background,
-answer the question “does it look like it’s going to rain?” Meanwhile, tasks involving conversational and
-dialogue agents (e.g., Google Now, or Alexa) may need to take in spoken language input and perform some
-action (including generating “spoken” language output) based on it.
 
 ####  Structured Prediction for NLP
 For this topic, you will examine structured prediction for a single task, or a significant, relevant aspect of
 that task. Roughly, structured prediction is any task that given an input, produces some object or label
-with an internal structure. This is in contrast to prediction tasks that simply predict a single, “flat” label,
-without any decomposable or introspective structure. We’ve already briefly talked about two instances of
-structured prediction—machine translation/alignment and part of speech tagging—and we’ll see more as we
-get further along in the semester. Canonical examples of structured prediction problems include, but are not
-limited to: (a) syntactic parsing (constituency or dependency); (b) machine translation; (c) semantic parsing
-(including FrameNet, PropBank, AMR, and VerbNet parsing); (d) structured information extraction (such
-as template-based slot filling as in the ACE Relation Extraction task); (e) ontology induction; and (f) entity
-coreference or cross-document entity linking. Generally, “bags-of-items” models do not arise in structured
-prediction tasks. Tasks like question answering, recognizing/determining textual entailment, and sentiment
-analysis may or may not involve structured prediction. Your paper is not restricted to the preceding items;
-they are offered as suggestions.
+with an internal structure, such as a syntax tree or semantic frame.
 
 ####  Computational Methods for Linguistic Subfields
 For this topic you will examine how computational/statistical models are developed to better explain (or
@@ -260,59 +237,50 @@ mimic) linguistic phenomena/subfields. For example, you could explore computatio
 semantic, phonology/morphology, typology, etc.
 
 #### Natural Language Generation
-
-For this topic you will examine methodological and/or evaluation approaches for generating natural language. Classic examples of natural language generation include machine translation and abstractive summarization. There’s an entire SIG on generation (SIGGEN) and conference (INLG) devoted to it.
+For this topic you will examine methodological and/or evaluation approaches for generating natural language. Classic examples of natural language generation include machine translation and abstractive summarization. There’s an entire SIG (special interest group) on generation (SIGGEN) and a conference (INLG) devoted to it.
 
 ####  Ethical Issues and Bias in NLP
 For this topic you will explore ethical concerns (and approaches for dealing with them) in NLP, and/or issues
-of implicit/explicit bias in NLP models. For example, this briefly appeared in some of the associations
-identified by Church and Hanks (1989). More recently you may have heard about how for a while Google
-Translate would always translate the Turkish sentence “o bir doktor” using the masculine pronoun “he”
-even though that Turkish sentence is gender neutral (this particular case has now been addressed). There
-are workshops on Ethics and gender bias in NLP. There is also a more general growing community called
-FAT/ML (Fairness, Accountability, and Transparency in Machine Learning). You can look through the
-associated proceedings (but make sure there’s an NLP component).
+of implicit/explicit bias in NLP models. You might want to check out the FAccT conference proceedings if you're interested in this topic.
 
 ####  NLP for [Insert Your Area Here]
 For this topic you would survey how NLP can be used in an area of study of interest to you. For instance,
 there are special interest groups (called SIGs) for NLP for the humanities, Semitic languages, and biomedical
-applications—among many others. Look at the “SIGs” row in the main table at [https://aclweb.org/anthology/](https://aclweb.org/anthology/).
-Although sentiment analysis often asks for a single label at the end, the internal classification may operate over structures. That
-is, the final flat label may be the result of some internal, latent structured prediction.
-[Workshops](https://aclweb.org/anthology/venues/ws/) also often offer targeted application and interest areas, for example in the legal domain, patents, economics, and others!
+applications—among many others. Look at the “SIGs” row at to bottom of the ACL Events table at [https://aclanthology.org/](https://aclanthology.org/).
+
 
 #### Your Choice!
 Unsatisfied with any of the above options? Then feel free to pick your own topic. The requirement is that
 you must clear it with the instructor first and it must have a significant relevance to material covered in this
 course.
 
----
 
-## Resources
-### Allowed Resources
-The only reference materials you may peruse, read, skim, look at, use, or otherwise consult are:
-* published textbooks (online versions or drafts are acceptable)
-* peer-reviewed papers
+### Resources
+
+What types of sources that you should cite in your paper?
+
+
+#### Resources you can use
+* peer-reviewed conference papers
+* peer-reviewed journal papers
+
+#### Resources you are allowed to use but should limit the use of
 * arXiv preprints
-* slides from tutorials or presentations for papers given at conferences
-* course materials from this class (such as slides, lecture discussion, and Discord notes and discussion)
-* the official documentation of community-standard libraries, like numpy, SciPy, sklearn, PyTorch, and
-HuggingFace
+* peer-reviewed workshop papers
+* technical reports (e.g., official reports posted by developers to explain their new model)
 
-### Disallowed Resources
-You are **not** allowed to peruse, read, skim, look at, use, or otherwise consult any of the following:
+
+#### Resources you shouldn't use
 * blog posts
+* course materials from this class (such as slides)
+* other online courses and their materials
+* slides from tutorials or presentations for papers given at conferences
+* textbooks
 * any sort of article, writing, manuscript, or slides not covered by the previous list (unless specifically
 approved in advance, in writing)
-* code or pseudo-code available online from existing implementations
-* other online courses and their materials
 
 
-<div class="alert alert-danger">
-The use of any of these disallowed resources will be considered a serious academic integrity violation and will result in,
-at a minimum, an automatic 0 on this entire assignment (i.e., a 0 will be recorded for 20% of your entire
-course grade).
-</div>
+
 
 
 Assignment adapted from Dr. Frank Ferraro.
