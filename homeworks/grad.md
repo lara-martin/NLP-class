@@ -51,7 +51,7 @@ All milestones must be met for full credit.
 
 | Item | If you select from the Implementation Track: | If you select from the Paper Track: | Grade |
 | ---- | ------------------------- | ------------------- | -----------|
-| Checkpoint 1 | Selection of one project type and initial list of resources | Selection of topic and initial list of papers | Ungraded |
+| Checkpoint 1 | Selection of one project type and initial implementation idea | Selection of topic and initial list of papers | Ungraded |
 | Checkpoint 2 | Initial report discussing progress, hurdles, and other challenges; and git repo containing at least three non-trivial/starter commits | Complete first draft, including citations | Ungraded |
 | Checkpoint 3 | [Feedback/suggestions on 2 other students' initial reports](https://drive.google.com/file/d/1d_YcRGmIRbJavs2nKFaBf-dKOZybtam4/view) | [Peer review](https://drive.google.com/file/d/1kEbMa1gAvkH-y-DiO_lbnzIoJNWe0n4-/view) | 10 points |
 | Final Submission | Completed code, full git repository, completed writeup, and document summarizing how the feedback was used | Completed final paper + summary-of-changes document | 40 points |
