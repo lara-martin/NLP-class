@@ -9,7 +9,7 @@ number: 2
 active_tab: homework
 release_date: 2025-03-27
 due_date: 2025-04-10 23:59:00EST
-submission_link: 
+submission_link: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438458_1?courseId=_85408_1&gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
