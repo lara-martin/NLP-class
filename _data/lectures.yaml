@@ -278,6 +278,11 @@
       title: SLP Chapter 11.3
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
       authors:  Dan Jurafsky and James H. Martin 
+  homework_due:
+    -
+      title: "Project Milestone 2: Project Progress"
+      url: project/progress-report1.html
+        
         
       
 -
@@ -357,7 +362,7 @@
   type: no_lecture
   homework_due:
     -
-      title: "Project Milestone 4: Rough Draft"
+      title: "Project Milestone 3: Rough Draft"
       url: #project/draft.html
       
 
@@ -435,7 +440,7 @@
   slides: 
   homework_due:
     -
-      title: "Project Milestone 5: Final Submission"
+      title: "Project Milestone 4: Final Submission"
       url: #project/final-submission.html
     -
       title: "Grad Checkpoint 4: Final Submission"

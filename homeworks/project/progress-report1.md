@@ -56,16 +56,16 @@ You can download the materials for this assignment here:
 By now, you should have made some progress on your project. This milestone will flesh out some of the components of your project from the proposal. Be sure to read the appropriate section for your project type below as the requirements start to diverge.
 
 
-## Demo: Build a novel interactive experience
-For this milestone, you will describe your demo in more detail. The milestone after this one will have a shorter report needed but will require a somewhat-working demo.
+## Demo: Build a novel NLP system
+For this milestone, you will describe your demo in more detail. The milestone after this one will have a shorter report needed but will require a somewhat-working demo. 
 
-Write a report that includes the following sections:
+Write a report that includes the following sections. The questions here are meant to guide your writing process.
 1. __Project Description__: What novel interactive experience do you propose to design? (This will collapse the __Project Description__ and __Related Work__ sections from your proposal into one section.)
-  - Do similar games/experiences exist to the one you propose to create? Give pointers to them and explain how you think they relate to your project idea. What were your inspirations?
+  - Do similar systems exist to the one you propose to create? Give pointers to them and explain how you think they relate to your project idea. What were your inspirations?
   - Include a repo link to your code (as it is so far) in this section.
 2. __Front End__: What will the user interact with?
   - Give an example mockup of what the user experience will look like. (Also consider: will there be any graphics or AI-generated images?)
-  - Describe how you expect users to interact with the system. For example, if this is a game, what types of input will it take/will you be parsing commands?
+  - Describe how you expect users to interact with the system. What is the interface?
 3. __Back End Architecture__: What does the overall architecture of your system look like? 
   - Describe how your architecture will work.
   - Give an example diagram of the backend system (the pipeline of components).
@@ -75,7 +75,7 @@ Write a report that includes the following sections:
   - What specific models will you be using? Will they be trained from scratch, finetuned, or just prompted?
 5. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do. You won't be graded on how far you've gotten in the project, but obviously the further you get, the less you'll have to scramble last-minute.
-6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/NLP-class/index.html#generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">
@@ -92,12 +92,12 @@ Total: 23 points
 </div>
 
 
-## Paper: Attempt to answer a research question about text generation or interactive fiction
+## Paper: Investigate an NLP research question
 For this milestone, you will take the components of your proposal and begin to move them into more "paper-like" sections. You will also be adding in some more details.
 
-While not required at this stage, we highly recommend that you use LaTeX and a conference template. If you do not have a conference/workshop in mind, I recommend that you use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj).
+While not required at this stage, we highly recommend that you use LaTeX and a conference template since you will have to for the next milestone. If you do not have a conference/workshop in mind, I recommend that you use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj).
 
-Your paper should include the following sections:
+Your paper should include the following sections. The questions here are meant to guide your writing process.
 1. __Introduction__: What research question(s) or problem are you trying to solve? (This is where your problem definition from the __Project Description__ of your proposal goes.)
   - Why this it worth researching?
   - What contributions does this work make? (i.e., What are you doing that's novel?)
@@ -112,7 +112,7 @@ Your paper should include the following sections:
   - How do these experiments answer your research questions?
 5. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
   - In this section also mention what you have completed so far and what is still left to do. You won't be graded on how far you've gotten in the project, but obviously the further you get, the less you'll have to scramble last-minute.
-6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/interactive-fiction-class/index.html#using-llms-or-generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+6. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your proposal document (<a href="https://laramartin.net/NLP-class/index.html#generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 ### Grading
 <div class="alert alert-warning" markdown="1">
