@@ -215,7 +215,7 @@
 -
   date: 2025-03-27
   title: Neural Language Models
-  slides: 
+  slides: slides/25-03-27_Neural-LMs.pdf
   required: 
     -
       title: SLP Chapter 7
