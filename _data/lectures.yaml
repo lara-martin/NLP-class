@@ -236,11 +236,7 @@
       title: SLP Chapter 9
       url: https://web.stanford.edu/~jurafsky/slp3/9.pdf
       authors:  Dan Jurafsky and James H. Martin 
-  type: deadline
-  homework_due:   
-    -
-      title: "HW2: Evaluation"
-      url: hw2.html    
+  
   #homework_due:
   #  -
   #    title: "Project Milestone 3: Halfway Checkpoint"
@@ -250,11 +246,16 @@
   date: 2025-04-03
   title: Recurrent Neural Network LMs Tutorial
   slides: 
+
       
 -
   date: 2025-04-04
   title: Last Day to Withdraw from Individual Classes
-  type: no_lecture     
+  type: no_lecture
+  homework_due:   
+    -
+      title: "HW2: Evaluation"
+      url: hw2.html  
 -
   date: 2025-04-08
   title: Attention & Transformers
