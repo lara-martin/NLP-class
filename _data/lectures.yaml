@@ -226,7 +226,7 @@
 -
   date: 2025-04-01
   title: Recurrent Neural Network LMs
-  slides: 
+  slides: slides/25-04-01_RNNs.pdf
   required:
     -
       title: NLP Chapter 6.3 & 18.3 (intro only)
