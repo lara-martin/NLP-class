@@ -225,7 +225,7 @@
       
 -
   date: 2025-04-01
-  title: Recurrent Neural Network LMs
+  title: Recurrent Neural Network LMs + Tutorial
   slides: slides/25-04-01_RNNs.pdf
   required:
     -
@@ -244,8 +244,17 @@
   
 -
   date: 2025-04-03
-  title: Recurrent Neural Network LMs Tutorial
+  title: Attention & Transformers
   slides: 
+  required:
+    - 
+      title: NLP Chapter 18.3.1-2
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein 
+    -
+      title: Attention Is All You Need
+      url: https://dl.acm.org/doi/10.5555/3295222.3295349
+      authors: Ashish Vaswani, et al.       
 
       
 -
@@ -258,20 +267,6 @@
       url: hw2.html  
 -
   date: 2025-04-08
-  title: Attention & Transformers
-  slides: 
-  required:
-    - 
-      title: NLP Chapter 18.3.1-2
-      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein 
-    -
-      title: Attention Is All You Need
-      url: https://dl.acm.org/doi/10.5555/3295222.3295349
-      authors: Ashish Vaswani, et al.      
-
--
-  date: 2025-04-10
   title: Decoding, Sampling, & Transformer Fine-tuning
   slides: 
   required:
@@ -279,15 +274,9 @@
       title: SLP Chapter 11.3
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
       authors:  Dan Jurafsky and James H. Martin 
-  homework_due:
-    -
-      title: "Project Milestone 2: Project Progress"
-      url: project/progress-report1.html
-        
-        
-      
+
 -
-  date: 2025-04-15
+  date: 2025-04-10
   title: Types of Foundational Models
   slides: 
   required:
@@ -302,7 +291,28 @@
     -
       title: SLP Chapter 11.1-11.2 (+intro)
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
-      authors:  Dan Jurafsky and James H. Martin   
+      authors:  Dan Jurafsky and James H. Martin     
+
+  homework_due:
+    -
+      title: "Project Milestone 2: Project Progress"
+      url: project/progress-report1.html
+        
+        
+      
+-
+  date: 2025-04-15
+  title: Prompt Engineering Tutorial
+  slides: 
+  required:
+    -
+      title: Language Models are Few-Shot Learners
+      url: https://papers.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
+      authors: Tom B. Brown, et al.
+    -
+      title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+      url: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
+      authors: Jason Wei, et al.   
 
 -
   date: 2025-04-17
@@ -340,62 +350,56 @@
 
 -
   date: 2025-04-24
-  title: Prompt Engineering Tutorial
-  slides: 
+  title: Alignment
+  slides:     
+  type: deadline
   required:
     -
-      title: Language Models are Few-Shot Learners
-      url: https://papers.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
-      authors: Tom B. Brown, et al.
-    -
-      title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
-      url: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
-      authors: Jason Wei, et al.       
-  type: deadline
+      title: "Training language models to follow instructions with human feedback"
+      authors: Long Ouyang, et al.
+      url: https://arxiv.org/abs/2203.02155  
   homework_due:   
     -
       title: "Grad Checkpoint 2: Draft"
       url: grad.html  
 
--
-  date: 
-  title: No Class - Project Milestone Due
-  type: no_lecture
-  homework_due:
-    -
-      title: "Project Milestone 3: Rough Draft"
-      url: #project/draft.html
+#-
+#  date: 
+#  title: No Class - Project Milestone Due
+#  type: no_lecture
+#  homework_due:
+#    -
+#      title: "Project Milestone 3: Rough Draft"
+#      url: #project/draft.html
       
 
 -
   date: 2025-04-29
-  title: Alignment
-  type: deadline
+  title: Retrieval-Augmented Generation (RAG)
+  #type: deadline
   slides: 
+  required:
+    -
+      title: "Retrieval-Augmented Generation for Large Language Models: A Survey"
+      url: http://arxiv.org/abs/2312.10997
+      authors:  Yunfan Gao, et al.  
   homework_due:
     #-
     #  title: "HW 3: Prompt Engineering"
     #  url: hw3.html  
-  required:
-    -
-      title: "Training language models to follow instructions with human feedback"
-      authors: Long Ouyang, et al.
-      url: https://arxiv.org/abs/2203.02155
+
   
 
         
 -
   date: 2025-05-01
-  title: Retrieval-Augmented Generation (RAG)
+  title: "Applications: "
+  type: deadline
   homework_due:
     -
       title: "Grad Checkpoint 3: Feedback"
       url: grad.html
-  required:
-    -
-      title: "Retrieval-Augmented Generation for Large Language Models: A Survey"
-      url: http://arxiv.org/abs/2312.10997
-      authors:  Yunfan Gao, et al.
+
   
 
 
