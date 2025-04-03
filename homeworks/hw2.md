@@ -136,7 +136,7 @@ The purpose of this question is to (1) setup a naive baseline to compare against
 
 a) (1 point) As a toy problem, consider a small training set with 5 instances. If the class labels for those 5 instances are [α, α, β, γ, α], respectively. What label would the most frequent baseline return?
 
-b) (12 points) Working from the [GLUE](https://huggingface.co/datasets/nyu-mll/glue) **RTE** corpus, calculate a most frequent class baseline on the training set for predicting entailment. Implement the 5 metrics: accuracy, macro precision, macro recall, micro precision, and micro recall. I strongly recommend using the existing implementations of accuracy, recall, and precision in the Python library `sklearn`, e.g., `sklearn.metrics.precision_score` and `sklearn.metrics.recall_score`. Then evaluate your baseline "model" **on only the dev/validation set** using the 5 metrics.
+b) (12 points) Working from the [GLUE](https://huggingface.co/datasets/nyu-mll/glue) **RTE** corpus, calculate a most frequent class baseline on the training set for predicting entailment. Implement these 5 metrics: accuracy, macro precision, macro recall, micro precision, and micro recall. I strongly recommend using the existing implementations of accuracy, recall, and precision in the Python library `sklearn`, e.g., `sklearn.metrics.precision_score` and `sklearn.metrics.recall_score`. Then evaluate your baseline "model" **on only the dev/validation set** using the 5 metrics.
 Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (2 points) both describing what you observe from using this baseline and analyzing how reasonable the predictions made by this baseline are.
 
 
