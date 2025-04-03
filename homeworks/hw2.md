@@ -132,25 +132,23 @@ baseline systems. These baseline systems help you contextualize any progress (or
 proposed approach makes. Coming up with these baselines is not always easy. However, in classification, a
 very common one is called the “most frequent class” baseline. This most frequent class baseline simply identifies the most common label y' from the training set, and then when presented with any evaluation instance, simply returns y'.
 
-For this question, I strongly recommend using the existing implementations of accuracy, re-
-call and precision in the Python library `sklearn`, e.g., `sklearn.metrics.precision_score` and `sklearn.metrics.recall_score`.
+The purpose of this question is to (1) setup a naive baseline to compare against the model you'll make in Question 3, and (2) implement evaluation metrics in Python. 
 
-a) (1 point) Consider a small training set with 5 instances. If the class labels for those 5 instances are [α, α, β, γ, α], respectively. What label would the most frequent baseline return?
+a) (1 point) As a toy problem, consider a small training set with 5 instances. If the class labels for those 5 instances are [α, α, β, γ, α], respectively. What label would the most frequent baseline return?
 
-b) (12 points) Working from the [GLUE](https://huggingface.co/datasets/nyu-mll/glue) **RTE** corpus, implement a most frequent class baseline for predicting entailment. Evaluate this baseline **on only the dev set** with 5 measures: accuracy, macro precision, macro recall, micro precision, and micro recall.
-
-Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (2 points) describing what you observe from using this baseline and analyzing how reasonable the predictions made by this baseline are.
+b) (12 points) Working from the [GLUE](https://huggingface.co/datasets/nyu-mll/glue) **RTE** corpus, calculate a most frequent class baseline on the training set for predicting entailment. Implement the 5 metrics: accuracy, macro precision, macro recall, micro precision, and micro recall. I strongly recommend using the existing implementations of accuracy, recall, and precision in the Python library `sklearn`, e.g., `sklearn.metrics.precision_score` and `sklearn.metrics.recall_score`. Then evaluate your baseline "model" **on only the dev/validation set** using the 5 metrics.
+Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (2 points) both describing what you observe from using this baseline and analyzing how reasonable the predictions made by this baseline are.
 
 
-## Question 3 (19 points): Model Evaluation 
-Starting with prepped data like you did in the "Knowledge Check: Data Prep" assignment, train a basic neural network and compare it to your baseline.
+## Question 3 (19 points): Model Training and Evaluation 
+Now you will train a basic recurrent neural network and compare it to your baseline. Please note that you will be graded on how well you implemented your model and your analysis of how well it did, not on the performance of the model itself.
 
-1. Start with my modified implementation [data prep code](https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9) for this assignment. Note that the input has both sentences separated by a special word `||`.
+1. Start with my modified implementation of the [data prep code](https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9) for this assignment. Note that the input has both sentences separated by a special word `||`. Be sure to keep them together as a single input but treat the "||" as its own type.
 2. [Continue to follow the tutorial](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/dd1c511de656ab48216de2866264b28f/deep_learning_tutorial.ipynb) to setup the network. [This tutorial](https://pytorch.org/tutorials/beginner/nn_tutorial.html) and [this tutorial](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html) might also be helpful.
 3. Switch the BoWClassifier model to an RNN using [`torch.nn.RNN`](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html). Use a hidden size of 128.
-4. Train the network on the **train** set for **5 epochs**.
+4. Train the network on the [GLUE](https://huggingface.co/datasets/nyu-mll/glue) **training** set for **5 epochs**.
 5. Calculate accuracy, macro precision, macro recall, micro precision, and micro recall on the **dev set**.
-6. Turn in your code (8 points), these 5 scores (5 points), and a brief paragraph (5 points) explaining how the network did with its predictions, how it compares to your frequent class baseline from Question 2: Baselines, and what insights you can take away from comparing the two. 
+6. Turn in your code (8 points), these 5 scores (5 points), and a brief paragraph (5 points) explaining how the network did with its predictions, how it compares to your frequent class baseline from Question 2, and what insights you can take away from comparing the two. 
 7. Be sure to include a comment at the top of your code stating **all of the places** where you got the code that you adapted (e.g., the tutorial links) (1 point).
 
 ### Extra credit (5 points): 
