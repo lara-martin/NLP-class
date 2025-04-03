@@ -12,20 +12,18 @@ due_date: 2025-04-04 23:59:00EST
 submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438117_1?courseId=_85408_1&gradeitemView=details
 materials:
   -
+    name: HW 2 Data Prep Code
+    url: https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9
+  -
     name: GLUE data
     url: https://huggingface.co/datasets/nyu-mll/glue/viewer/rte
   -
-    name: Torch Tutorial from Knowledge Check
-    url: https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/dd1c511de656ab48216de2866264b28f/deep_learning_tutorial.ipynb
-  -
-    name: RNN Tutorial
-    url: https://pytorch.org/tutorials/beginner/former_torchies/nnft_tutorial.html#example-2-recurrent-net
+    name: PyTorch Deep Learning Tutorial
+    url: https://pytorch.org/tutorials/beginner/nlp/deep_learning_tutorial.html
   -
     name: Character RNN Tutorial
     url: https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html
-  -
-    name: HW 2 Data Prep Code
-    url: https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9
+
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -144,7 +142,7 @@ Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (
 Now you will train a basic recurrent neural network and compare it to your baseline. Please note that you will be graded on how well you implemented your model and your analysis of how well it did, not on the performance of the model itself.
 
 1. Start with my modified implementation of the [data prep code](https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9) for this assignment. Note that the input has both sentences separated by a special word `||`. Be sure to keep the sentences together as a single input but treat the `||` as its own type.
-2. [Continue to follow the tutorial](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/dd1c511de656ab48216de2866264b28f/deep_learning_tutorial.ipynb) to setup the network. [This tutorial](https://pytorch.org/tutorials/beginner/nn_tutorial.html) and [this tutorial](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html) might also be helpful.
+2. [Continue to follow PyTorch's Deep Learning tutorial](https://pytorch.org/tutorials/beginner/nlp/deep_learning_tutorial.html) (that the Data Prep Knowledge Check was based on) to setup the network. [This tutorial](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html) might also be helpful.
 3. Switch the BoWClassifier model to an RNN using [`torch.nn.RNN`](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html). Use a hidden size of 128.
 4. Train the network on the [GLUE](https://huggingface.co/datasets/nyu-mll/glue) RTE **training** set for **5 epochs**.
 5. Calculate accuracy, macro precision, macro recall, micro precision, and micro recall on the **dev set**.
