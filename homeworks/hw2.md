@@ -143,7 +143,7 @@ Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (
 ## Question 3 (19 points): Model Training and Evaluation 
 Now you will train a basic recurrent neural network and compare it to your baseline. Please note that you will be graded on how well you implemented your model and your analysis of how well it did, not on the performance of the model itself.
 
-1. Start with my modified implementation of the [data prep code](https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9) for this assignment. Note that the input has both sentences separated by a special word `||`. Be sure to keep them together as a single input but treat the `||` as its own type.
+1. Start with my modified implementation of the [data prep code](https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9) for this assignment. Note that the input has both sentences separated by a special word `||`. Be sure to keep the sentences together as a single input but treat the `||` as its own type.
 2. [Continue to follow the tutorial](https://colab.research.google.com/github/pytorch/tutorials/blob/gh-pages/_downloads/dd1c511de656ab48216de2866264b28f/deep_learning_tutorial.ipynb) to setup the network. [This tutorial](https://pytorch.org/tutorials/beginner/nn_tutorial.html) and [this tutorial](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html) might also be helpful.
 3. Switch the BoWClassifier model to an RNN using [`torch.nn.RNN`](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html). Use a hidden size of 128.
 4. Train the network on the [GLUE](https://huggingface.co/datasets/nyu-mll/glue) RTE **training** set for **5 epochs**.
