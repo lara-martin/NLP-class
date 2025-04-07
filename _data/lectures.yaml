@@ -267,19 +267,13 @@
       url: hw2.html  
 -
   date: 2025-04-08
-  title: Decoding, Sampling, & Transformer Fine-tuning
-  slides: 
+  title: Decoding, Pretraining & Finetuning
+  slides: slides/25-04-08_Decoding-Foundation-Models.pdf
   required:
     -
-      title: SLP Chapter 11.3
+      title: SLP Chapter 11.1-11.3 (+intro)
       url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
       authors:  Dan Jurafsky and James H. Martin 
-
--
-  date: 2025-04-10
-  title: Types of Foundational Models
-  slides: 
-  required:
     -
       url: https://aclanthology.org/N19-1423/
       title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
@@ -287,21 +281,10 @@
     -
       title: Language Models are Unsupervised Multitask Learners
       url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
-      authors:  Alec Radford, et al. 
-    -
-      title: SLP Chapter 11.1-11.2 (+intro)
-      url: https://web.stanford.edu/~jurafsky/slp3/11.pdf
-      authors:  Dan Jurafsky and James H. Martin     
+      authors:  Alec Radford, et al.       
 
-  homework_due:
-    -
-      title: "Project Milestone 2: Project Progress"
-      url: project/progress-report1.html
-        
-        
-      
 -
-  date: 2025-04-15
+  date: 2025-04-10
   title: Prompt Engineering Tutorial
   slides: 
   required:
@@ -312,10 +295,16 @@
     -
       title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
       url: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
-      authors: Jason Wei, et al.   
-
+      authors: Jason Wei, et al.  
+  homework_due:
+    -
+      title: "Project Milestone 2: Project Progress"
+      url: project/progress-report1.html
+        
+        
+      
 -
-  date: 2025-04-17
+  date: 2025-04-15
   title: Ethics of NLP
   slides: 
   required:
@@ -340,24 +329,31 @@
       url: https://aclanthology.org/2021.eacl-main.274/
       authors: Xuhui Zhou, et al.
 
+-
+  date: 2025-04-17
+  title: Ethics of NLP
+  slides: 
+  required:
+
+
 
 -
   date: 2025-04-22
-  title: Ethics of NLP
-  slides: 
-
-
-
--
-  date: 2025-04-24
   title: Alignment
-  slides:     
-  type: deadline
-  required:
+  slides: 
     -
       title: "Training language models to follow instructions with human feedback"
       authors: Long Ouyang, et al.
       url: https://arxiv.org/abs/2203.02155  
+
+
+-
+  date: 2025-04-24
+  title: Making LLMs Smaller
+  slides:     
+  type: deadline
+  required:
+
   homework_due:   
     -
       title: "Grad Checkpoint 2: Draft"
