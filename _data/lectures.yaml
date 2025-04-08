@@ -340,7 +340,8 @@
 -
   date: 2025-04-22
   title: Alignment
-  slides: 
+  slides:
+  required:
     -
       title: "Training language models to follow instructions with human feedback"
       authors: Long Ouyang, et al.
