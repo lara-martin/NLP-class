@@ -73,7 +73,7 @@ While each person is free to choose which of these two options they will complet
 ## Implementation Track
 Implement your proposed solution from [HW 1](https://laramartin.net/NLP-class/homeworks/hw1.html) for **one** of the three parts (a, c, or e):
 
-a. The user types in a keyword that they’re interested in, and the app finds relevant textbooks.
+a. The user types in a topic or query that they’re interested in, and the app finds relevant textbooks.
 c. The app displays a question relevant to the chapter.
 e. The app gives a numerical score for how well the user answered the question.
 
