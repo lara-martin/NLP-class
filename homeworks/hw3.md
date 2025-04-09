@@ -7,9 +7,9 @@ title: Prompting Engineering
 type: Homework
 number: 3
 active_tab: homework
-release_date: 2024-04-24
-due_date: 2024-05-06 23:59:00EST
-submission: https://classroom.google.com/c/NjUwNDE2MzEwMzQx/a/Njc2MTc5MzM5MDM1/details
+release_date: 2025-04-10
+due_date: 2025-04-29 23:59:00EST
+submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438454_1/assessmentSettings?contentId=_7438454_1&courseId=_85408_1&gradeitemView=details
 materials:
   -
     name: LLAMA-2 Prompting Notebook
@@ -51,8 +51,6 @@ Please be sure to double check the academic integrity and generative AI policies
 
 <div class="alert alert-warning">
 If you are having a lot of trouble getting Llama-2 to run, feel free to use another model. Just be sure to specify what model you're using and use the same model for all questions of the homework.
-<br>
-For example, ChatGPT has some free credit that they give you when you sign up with a new account. You could use that instead and make another account if you need more credit and don't want to spend money on refilling your credit.
 </div>
 
 {% if page.materials %}
@@ -121,7 +119,7 @@ Select one story from the dataset to use as the story you're evaluating on for a
 ### Extra credit
 * Play around with different sampling strategies. [Use this guide for implementing them using Hugging Face.](https://huggingface.co/docs/transformers/generation_strategies) Pick one of the prompts that you used above and keep it the same as you change to different ways of sampling. Try 3 different ways of sampling.<br />
  a. (1 pt) What are the different ways you tried?<br />
- b. (6 pts, 2 pts each) How does it affect the generation?
+ b. (3 pts, 1 pt each) How does it affect the generation?
 
 ## What to turn in
 * The code that you used for evaluation
@@ -136,5 +134,5 @@ Select one story from the dataset to use as the story you're evaluating on for a
 * Question 5 -  4 points
 * Question 6 -  8 points
 * Question 7 -  2 points
-* Extra Credit -  7 points
+* Extra Credit -  4 points
 </div>

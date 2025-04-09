@@ -286,7 +286,7 @@
 -
   date: 2025-04-10
   title: Prompt Engineering Tutorial
-  slides: 
+  slides: slides/25-04-10_Foundation-Models-Prompting.pdf
   required:
     -
       title: Language Models are Few-Shot Learners
@@ -381,9 +381,9 @@
       url: http://arxiv.org/abs/2312.10997
       authors:  Yunfan Gao, et al.  
   homework_due:
-    #-
-    #  title: "HW 3: Prompt Engineering"
-    #  url: hw3.html  
+    -
+      title: "HW 3: Prompt Engineering"
+      url: hw3.html  
 
   
 
@@ -404,12 +404,17 @@
 -
   date: 2025-05-06
   title: "Applications: Machine Translation"
-  slides: 
+  slides:
+  type: deadline  
   required:
     -
       title: "SLP Chapter 13: Machine Translation"
       url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
-      authors:  Dan Jurafsky and James H. Martin  
+      authors:  Dan Jurafsky and James H. Martin
+  homework_due:
+    -
+      title: "Project Milestone 3: Rough Draft"
+      url: #project/draft.html      
  
 -
   date: 2025-05-08
