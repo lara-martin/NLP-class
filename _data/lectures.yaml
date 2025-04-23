@@ -338,26 +338,19 @@
 
 -
   date: 2025-04-22
+  title: Class Cancelled
+
+
+
+-
+  date: 2025-04-24
   title: Alignment
   slides:
   required:
     -
       title: "Training language models to follow instructions with human feedback"
       authors: Long Ouyang, et al.
-      url: https://arxiv.org/abs/2203.02155  
-
-
--
-  date: 2025-04-24
-  title: Making LLMs Smaller
-  slides:     
-  type: deadline
-  required:
-
-  homework_due:   
-    -
-      title: "Grad Checkpoint 2: Draft"
-      url: grad.html  
+      url: https://arxiv.org/abs/2203.02155     
 
 #-
 #  date: 
@@ -371,15 +364,26 @@
 
 -
   date: 2025-04-29
-  title: Retrieval-Augmented Generation (RAG)
-  #type: deadline
-  slides: 
+  title: Making LLMs Smaller
+  slides:     
   required:
     -
-      title: "Retrieval-Augmented Generation for Large Language Models: A Survey"
-      url: http://arxiv.org/abs/2312.10997
-      authors:  Yunfan Gao, et al.  
-  homework_due:
+      title: "LoRA: Low-Rank Adaptation of Large Language Models"
+      authors: Edward J. Hu, et al.
+      url: https://openreview.net/forum?id=nZeVKeeFYf9
+    -
+      title: "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer"
+      url: https://openreview.net/forum?id=B1ckMDqlg
+      authors: Noam Shazeer, et al.
+    -
+      title: "Sparse Upcycling: Training Mixture-of-Experts from Dense Checkpoints"
+      url: https://arxiv.org/abs/2212.05055
+      authors: Aran Komatsuzaki, et al.      
+  type: deadline
+  homework_due:   
+    -
+      title: "Grad Checkpoint 2: Draft"
+      url: grad.html
     -
       title: "HW 3: Prompt Engineering"
       url: hw3.html  
@@ -389,17 +393,15 @@
         
 -
   date: 2025-05-01
-  title: "Applications: "
-  type: deadline
-  homework_due:
+  title: Retrieval-Augmented Generation (RAG)
+  slides: 
+  required:
     -
-      title: "Grad Checkpoint 3: Feedback"
-      url: grad.html
+      title: "Retrieval-Augmented Generation for Large Language Models: A Survey"
+      url: http://arxiv.org/abs/2312.10997
+      authors:  Yunfan Gao, et al.  
 
   
-
-
-
 -
   date: 2025-05-06
   title: "Applications: Machine Translation"
@@ -411,6 +413,9 @@
       url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
       authors:  Dan Jurafsky and James H. Martin
   homework_due:
+    -
+      title: "Grad Checkpoint 3: Feedback"
+      url: grad.html
     -
       title: "Project Milestone 3: Rough Draft"
       url: #project/draft.html      

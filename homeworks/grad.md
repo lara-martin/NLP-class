@@ -7,8 +7,8 @@ title: Graduate Assignment (15% of grade)
 active_tab: homework
 release_date: 2025-02-28
 due_date1: 2025-03-24 23:59:00EST
-due_date2: 2025-04-24 23:59:00EST
-due_date3: 2025-05-01 23:59:00EST
+due_date2: 2025-04-29 23:59:00EST
+due_date3: 2025-05-06 23:59:00EST
 due_date_final: 2024-05-15 23:59:00EST
 ---
 

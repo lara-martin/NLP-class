@@ -5,11 +5,11 @@ caption: Don't Panic
 img_link: https://xkcd.com/1658/
 title: Final Report Draft
 type: Project Milestone
-number: 4
+number: 3
 active_tab: homework
-release_date: 2024-04-20
-due_date: 2024-05-03 23:59:00EST
-submission: https://classroom.google.com/c/NjUwNDE2MzEwMzQx/a/NjUyODk1MTIxMTcz/details
+release_date: 2025-04-23
+due_date: 2025-05-06 23:59:00EST
+submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438460_1?courseId=_85408_1&gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -55,53 +55,127 @@ You can download the materials for this assignment here:
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
 
-For this Milestone, we are requiring you to write a rough draft of your final report (with appropriate blanks for experiments you have not yet conducted) by building on the report you've been iterating on this semester. While this may sound strange (How can I write the final report without having results?), writing a draft of the final report early can be a very effective technique for organizing your thoughts and final experiments. Your project should be about ~85% complete at this stage.
+At this stage you will be starting to wrap things up. Be sure to read the appropriate section for your project type to learn more about the requirements for this milestone.
 
-We want to emphasize that you shouldn't stress out too much about making this submission perfect but we highly recommend taking this opportunity to write a solid first draft. Your future selves will be thankful!
+The final (next) milestone will have a poster presentation regardless of whether you are doing the demo or the paper track.
 
-To be specific, for this Milestone, you should:
-* Finish all baseline experiments and get as many preliminary results from your main experiments as possible. You should show significant progress towards your main experimental results.
-* Create your final report using the provided conference paper template: [ACL](https://github.com/acl-org/acl-style-files) (Please ask us directly if you would like to use a template for a different conference. Also, if you are not familiar with LaTeX and would like to try using it, let us know.) 
-* Fill in as much of the final report as possible given your current results. Your report contain the sections outlined below. 
 
-## Project Final Report
-Your final report is a document that describes what you have accomplished in your project this semester. You are welcome and *encouraged* to draw content from the previous reports you have submitted so far. You should use journal and conference papers as inspiration for what a good writeup looks like.
+## Demo: Build a novel NLP system
+You should have a semi-working system in place. For this deliverable, you will need to share a 5-10 minute video showing the various components of what you have working so far. Not everything needs to be completed. **You are allowed to have placeholders in the code for components that are incomplete.** For this reason, we are asking you to submit a video instead of having you write a report and us trying to run the code ourselves.
 
-### Report Sections
-The report should have the following sections. A lot of these can be reused and "fleshed out" from the previous Milestones.
 
-__Title__ & __Author Names__: What are you calling your project? These are not graded but still important! (No section header for these bits)
-1. __Project Description__: This is the "what" and the "why" of your project. 
- * The "what": Explain the main idea of your project and what you are trying to accomplish. It's okay if these have changed.
- * The "why": If it's a research project, what's your research question (i.e., what are you trying to prove with this work)? If it's an artifact that you're creating, why are you creating it (e.g., who would use it)?
-2. __Related work__: What previous research will you be using or building off of? What work are you inspired by? Tell a short "story" starting with what you found out from the Lit Review.
-3. __Methods__: What are the steps you took to accomplish your project? This section should include enough detail that someone reading it could reasonably attempt to reproduce your work. Include figures if applicable.
-4. __Data__: Describe what your data is in detail. For example, what data have you decided to use? Where did you get it from, what does it look like, and what are some potential problems with it? If you are using few/zero shot prompting, what are some of your initial prompts? How have they been working?
-5. __Evaluation__: How are you evaluating your results? How do you know if you've answered your research question? If you're creating an NLP system, what do you use to determine that it's working well?
-  * These can be things like accuracy, diversity metrics, perplexity, BLEU/ROUGE scores, success rate, human evaluation scores, etc. depending on your project.
-6. __Results__: Describe your main results as well as the results for intermediate steps that build toward your main project goal. (Note for the milestone: If you are still waiting on important results, please talk about them and how they will fit into the final report.) **Negative results or plans for experiments to run are great to report too!** Please include tables, plots, and example system outputs where applicable.
-7. __Discussion__: This is a _meta_ section to discuss how the project went.
-What things did you try that didn't work out? If you were to start over from scratch, what would you do differently? If someone were to continue working on this project, what do you suggest are good next steps/good future work?
-8. __Attribution__: For each of your teammates, write a couple sentences describing their main contributions to the project. If you have any concerns about distribution of work, feel free to email us directly. This will not be in the final write-up, but we want to make sure you all still have a final plan for who will be doing what for the last part of the project.
+Your video should include the following three things:
+<div class="alert alert-warning" markdown="1">
+Note that at this stage the questions below are *guiding* questions. Do not include the questions themselves in your video. Your content in each section should contain as much information as necessary to thoroughly explain your system.
+</div>
+1. __Description__: A high-level description of the your system.
+	- What have you been making?
+	- What will it be like? (e.g., What do you imagine people will use this tool for? or What sort of game/experience will this be?)
+2. __Algorithm Explanation__: An explanation of the algorithm(s)/model(s) of the system, while showing the code for them.
+	- Be sure to include plenty of details where relevant, such as: how you are using the models, what prompts you use, what symbolic components you are using, or how you are using datasets or knowledge bases. Feel free to use anything you wrote about from the **Back End Details** of your previous milestone.
+3. __End-to-end Example__: An example of how it looks or will look when someone uses your system. (For example, a playthrough of part of your game.)
+	- This is basically showing the interface and demonstrating how all of the pieces go together; i.e., the **Front End** section from Milestone 2 but in video format.
+
+You do not need to talk about your inspirations for the project at this stage, unless you think they are relevant. The video does not need to include a slide show unless you feel that it will improve your explanation of the system.
+
+
+In a separate document called `team#-supplement.pdf`, include:
+1. __Title__: What are you calling your system?
+2. __System Diagram__: This might be in something formal like [UML](https://slickplan.com/blog/how-to-make-a-uml-diagram) or a more informal format, but it should include more details than your **Back End Architecture** diagram(s) from the previous milestone probably had.
+3. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
+  - In this section also mention what you have completed so far and what is still left to do.
+4. __LLM Use Statement__: Describe exactly how you used LLMs to generate **parts of your code** (<a href="https://laramartin.net/NLP-class/index.html#generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 ### Grading
-This section is our grading rubric for the final report. This Milestone will not be graded too harshly but please keep these guidelines in mind. The more effort you put into this draft, the better our suggestions can be so that you can have a great final draft for the next Milestone.
-
-1. __Formatting__: All of the sections described in the previous section are present and clearly marked. The report includes a title of the project and the name of the authors at the top. Images, tables, and other figures have captions and are referenced in the text. The paper makes use of citations that follow the standard convention of the conference template.
-2. __Communication__: Your report should be targeted at an audience who is familiar with NLP but has not taken the class and knows nothing about what you have done so far. You can imagine your audience as either the readers of a technical blog post (if you took the NLP system option) or as reviewers of a paper submission to an AI conference such as ACL (if you took the research question option). You should aim to make your methods section clear enough that others could attempt to reproduce your work and your results section clear enough that readers understand exactly what experiments you ran.
-3. __Style__: You should write in paragraphs and complete sentences unless there is a very good reason not to.
-4. __Content__: The report answers all relevant questions posed in the previous section. Images, tables, plots, of other figures are used to support the report contents.
-5. __Length__: There is no strict word length requirement, but if your paper has fewer than 1,500 words (not including references) then it is very likely you have not provided enough detail.
-
 <div class="alert alert-warning" markdown="1">
-* Formatting - 1 point
-* Communication - 2 points
-* Style - 1 point
-* Content (description, related work, methods, data, evaluation, results, discussion) - 7 x 3 points each =  21 points
-* Attribution - 1 point
-* Length - 1 point
+You will get full points if you 1) include all of the material listed above and 2) incorporate the feedback you got from the previous submission.<br>
+
+
+* Title - 1 point
+* Code - 2 points
+* System Diagram  - 3 points
+* Video: Description - 5 points
+* Video: Algorithm Explanation - 10 points
+* Video: End-to-end Example - 5 points
+* Team Members - 2 points
+* LLM Use Statement - 1 point
+
+Total: 29 points
 </div>
 
-# What to Submit
-Submit the following to [Google Classroom]({{page.submission}}):
-* `group[#]-milestone4.pdf` which contains your rough draft submission. To make grading easier, your report should include section headers corresponding to each of the bulleted points. As stated earlier, you are now required to use the [template from ACL](https://github.com/acl-org/acl-style-files) for this milestone.
+### What to Submit
+Submit the following to [Blackboard]({{page.submission_link}}):
+* The link to your repository.
+* Your video or a link to where your video is hosted.
+* `team#-supplement.pdf`
+
+## Paper: Investigate an NLP research question
+
+To help you, here are some example reports from previous class projects:
+* [Example Report 1](example_report-2022-1.pdf)
+* [Example Report 2](example_report-2022-2.pdf)
+* [Example Report 3](example_report.pdf)
+
+For this milestone, you will take the components of your proposal and begin to move them into more "paper-like" sections. You will also be adding in some more details. Discussion and Conclusion sections will be added in the final deliverable.
+
+Your paper needs to be in a conference template, written in LaTeX.
+* You can use [Overleaf](https://www.overleaf.com) to write LaTeX papers together. The CSEE department has a subscription to Overleaf now, so you should be able to have multiple collaborators on the same paper.
+* If you do not have a conference/workshop in mind, I recommend that you use the [template from the Association for Computational Linguistics](https://www.overleaf.com/latex/templates/association-for-computational-linguistics-acl-conference/jvxskxpnznfj).
+
+
+<div class="alert alert-warning" markdown="1">
+<b>Science 101</b><br>
+A *research question* should be **something that can be proved true or false.** An example of a *bad* research question might be "Which dog is the best dog?" because it cannot be rejected (i.e., null hypothesis). <br> A *better* way to rephrase this---by potentially looking at the same problem---would be to ask "Is Pharaoh a good dog?". This can then be tested. You just need to define how to measure "goodness" in this case.
+</div>
+
+
+Your paper should include the following sections:
+<div class="alert alert-warning" markdown="1">
+Note that at this stage the questions below are *guiding* questions. Do not include the questions themselves in your paper and make sure that what you write in each section builds to be one cohesive section. Your content in each section should contain information beyond these questions as well.
+</div>
+1. __Title__: What are you calling your study?
+2. __Abstract__: A high-level overview of what the paper is about.
+3. __Introduction__: What research question(s) or problem are you trying to solve?
+  - Why this it worth researching?
+  - What contributions does this work make? (i.e., What are you doing that's novel?) You might have to compare to other research.
+4. __Related Work__: What previous research has been done on this research question?
+  - I want you to do a deeper dive of the related work now. Find *at least five more papers* to add to the narrative you've written so far.
+5. __Methods__: What are you doing or making to address your research question(s)?
+  - If you are using any datasets, does the needed data already exist?  If so, how much data is available? What does the data look like? If you are just using a few examples for few-shot prompting, how did you select those?
+  - Describe your solution to the problem/research question. What model(s) are you using? If you are using few- or zero-shot prompting, what do your prompts look like?
+6. __Evaluation__: *Renamed from Experiments section* What experiments will you be running?
+  - What are you measuring and why? What evaluation metrics do you plan to use to answer your research question(s)?
+  - What are your proposed *baselines*? (That is, what are you comparing your method against?)
+  - How do these experiments answer your research questions?
+7. __Results__: What did you find from your evaluation?
+	- This should be more than just a list of raw numbers. You should explain to the reader how to interpret any graphs or tables you have and describe any trends that you see.
+	- It's okay if you don't have all of your results yet! Just report what you have so far. 
+8. __References__: Papers are cited correctly in the conference's format and are references in the main text.
+
+In a separate document called `team#-supplement.pdf`, write:
+1. __Team Members__: Give a list of the students who are participating in this project, and what contributions you have made and expect to make for the project.
+  - In this section also mention what you have completed so far and what is still left to do.
+2. __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of your paper (<a href="https://laramartin.net/NLP-class/index.html#generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
+
+### Grading
+<div class="alert alert-warning" markdown="1">
+You will get full points if you 1) include all of the material listed above and 2) incorporate the feedback you got from the previous submission.<br>
+
+* Title - 1 point
+* Abstract - 2 points
+* Introduction - 5 points
+* Related Work - 5 points
+* Methods - 5 points
+* Evaluation - 5 points
+* Results - 2 points
+* References - 1 points
+* Team Members - 2 points
+* LLM Use Statement - 1 point
+
+Total: 29 points
+</div>
+
+### What to Submit
+Submit the following to [Blackboard]({{page.submission_link}}):
+* `team#-roughdraft.pdf` which is your draft.
+* `team#-supplement.pdf`, the supplemental material mentioned above.
