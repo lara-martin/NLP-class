@@ -66,7 +66,7 @@ You should have a semi-working system in place. For this deliverable, you will n
 
 Your video should include the following three things:
 <div class="alert alert-warning" markdown="1">
-Note that at this stage the questions below are *guiding* questions. Do not include the questions themselves in your video. Your content in each section should contain as much information as necessary to thoroughly explain your system.
+Note that the questions below are *guiding* questions. Do not include the questions themselves in your video. Your content in each section should contain as much information as necessary to thoroughly explain your system.
 </div>
 1. __Description__: A high-level description of the your system.
 	- What have you been making?
@@ -131,7 +131,7 @@ A *research question* should be **something that can be proved true or false.** 
 
 Your paper should include the following sections:
 <div class="alert alert-warning" markdown="1">
-Note that at this stage the questions below are *guiding* questions. Do not include the questions themselves in your paper and make sure that what you write in each section builds to be one cohesive section. Your content in each section should contain information beyond these questions as well.
+Note that the questions below are *guiding* questions. Do not include the questions themselves in your paper and make sure that what you write in each section builds to be one cohesive section. Your content in each section should contain information beyond these questions as well.
 </div>
 1. __Title__: What are you calling your study?
 2. __Abstract__: A high-level overview of what the paper is about.
