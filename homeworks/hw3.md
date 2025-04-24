@@ -97,7 +97,7 @@ You will be using various prompting techniques to get the large language model (
 Select one story from the dataset to use as the story you're evaluating on for all of the questions below.
 </div>
 
-1. (4 points, ~~2 points per evaluation~~ 2 points for explaining why your evaluation metric is reasonable, 2 points free) You will need some objective evaluation metrics to determine how well your prompting is doing. You will be using two objective evaluation metrics throughout this homework. 
+1. (4 points, ~~2 points per evaluation~~ 2 points for explaining why your evaluation metric is reasonable, 2 points free) You will need some objective evaluation metrics to determine how well your prompting is doing. You will be using two objective evaluation metrics throughout this homework. Take the time now to implement both in your code.
 	a. The for the first one, you will use BLEU. BLEU is common evaluation metric used in NLP created to evaluate how accurate machine translation (computational translation of one human language to another) systems were. You can call BLEU using this library: [https://www.nltk.org/api/nltk.translate.bleu_score.html](https://www.nltk.org/api/nltk.translate.bleu_score.html)
 	b. For the second evaluation metric, you will pick your own. If you find a method that wasn't mentioned in the class slides, please cite your source!
 2. (2 points) First, try the generation task using zero-shot prompting in the plainest way possible. Just ask the model to do the task. Don't give any examples for how to do it, don't use any fancy prompting techniques. Just ask it like you're asking a human to do the task. We will refer to this as your **baseline**.<br />
