@@ -345,7 +345,7 @@
 -
   date: 2025-04-24
   title: Alignment
-  slides:
+  slides: slides/25-04-24_Alignment.pdf
   required:
     -
       title: "Training language models to follow instructions with human feedback"
