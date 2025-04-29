@@ -94,7 +94,7 @@ The task you will do is called the [Story Cloze Test](https://aclanthology.org/W
 All of the questions will be in relation to the Story Cloze Test.
 You you be doing a variation of this task where you will be giving the model the first 4 sentences of the story, generating the last sentence, and comparing it with the "right" ending.<br><br>
 You will be using various prompting techniques to get the large language model (LLM) Llama-2 to do the story completion.<br><br>
-Select one story from the dataset to use as the story you're evaluating on for all of the questions below.
+Select one story from the validation set provided in the notebook to use as the story you're evaluating on for all of the questions below.
 </div>
 
 1. (2 points for explaining why your evaluation metric is reasonable) You will need some objective evaluation metrics to determine how well your prompting is doing. You will be using two objective evaluation metrics throughout this homework. Take the time now to implement both in your code.
