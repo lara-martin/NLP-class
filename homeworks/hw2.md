@@ -71,6 +71,7 @@ Materials for this assignment:
 
 
 <!-- TODO: add in help with padding the input -->
+<!-- TODO: split into two homeworks -->
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================

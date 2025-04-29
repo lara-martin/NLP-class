@@ -289,6 +289,10 @@
   slides: slides/25-04-10_Foundation-Models-Prompting.pdf
   required:
     -
+      title: SLP Chapter 12.1, 12.4
+      url: https://web.stanford.edu/~jurafsky/slp3/12.pdf
+      authors:  Dan Jurafsky and James H. Martin
+    -
       title: Language Models are Few-Shot Learners
       url: https://papers.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html
       authors: Tom B. Brown, et al.
@@ -308,6 +312,10 @@
   title: Ethics of NLP
   slides: slides/25-04-15_Ethics-in-NLP.pdf
   required:
+    -
+      title: SLP Chapter 10.6
+      url: https://web.stanford.edu/~jurafsky/slp3/10.pdf
+      authors:  Dan Jurafsky and James H. Martin    
     -
       title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big? 🦜"
       url: https://dl.acm.org/doi/10.1145/3442188.3445922
@@ -348,25 +356,24 @@
   slides: slides/25-04-24_Alignment.pdf
   required:
     -
+      title: SLP Chapter 12.2-12.3
+      url: https://web.stanford.edu/~jurafsky/slp3/12.pdf
+      authors:  Dan Jurafsky and James H. Martin 
+    -
       title: "Training language models to follow instructions with human feedback"
       authors: Long Ouyang, et al.
       url: https://arxiv.org/abs/2203.02155     
-
-#-
-#  date: 
-#  title: No Class - Project Milestone Due
-#  type: no_lecture
-#  homework_due:
-#    -
-#      title: "Project Milestone 3: Rough Draft"
-#      url: #project/draft.html
       
 
 -
   date: 2025-04-29
-  title: Making LLMs Smaller
-  slides:     
+  title: "Small" LLMs
+  slides: slides/25-04-29_Small-LLMs.pdf 
   required:
+    -
+      title: SLP Chapter 10.5.3
+      url: https://web.stanford.edu/~jurafsky/slp3/10.pdf
+      authors:  Dan Jurafsky and James H. Martin  
     -
       title: "LoRA: Low-Rank Adaptation of Large Language Models"
       authors: Edward J. Hu, et al.
@@ -376,9 +383,13 @@
       url: https://openreview.net/forum?id=B1ckMDqlg
       authors: Noam Shazeer, et al.
     -
-      title: "Sparse Upcycling: Training Mixture-of-Experts from Dense Checkpoints"
-      url: https://arxiv.org/abs/2212.05055
-      authors: Aran Komatsuzaki, et al.      
+      title: "Distilling the Knowledge in a Neural Network"
+      url: https://arxiv.org/abs/1503.02531
+      authors: Geoffrey Hinton, et al.
+    -
+      title: "Compression of Neural Machine Translation Models via Pruning"
+      url: https://aclanthology.org/K16-1029/
+      authors: Abigail See, et al.
   type: deadline
   homework_due:   
     -
@@ -396,6 +407,10 @@
   title: Retrieval-Augmented Generation (RAG)
   slides: 
   required:
+    -
+      title: SLP Chapter 14.3
+      url: https://web.stanford.edu/~jurafsky/slp3/14.pdf
+      authors:  Dan Jurafsky and James H. Martin 
     -
       title: "Retrieval-Augmented Generation for Large Language Models: A Survey"
       url: http://arxiv.org/abs/2312.10997
