@@ -430,15 +430,13 @@
   homework_due:
     -
       title: "Grad Checkpoint 3: Feedback"
-      url: grad.html
-    -
-      title: "Project Milestone 3: Rough Draft"
-      url: project/draft.html      
+      url: grad.html   
  
 -
   date: 2025-05-08
   title:   "Applications: Dialog Systems"
   slides: 
+  type: deadline 
   required:
     -
       title: "NLP Chapter 19.3: Dialogue"
@@ -447,7 +445,11 @@
     -
       title: "SLP Chapter 15: Chatbots and Dialogue Systems"
       url: https://web.stanford.edu/~jurafsky/slp3/15.pdf
-      authors:  Dan Jurafsky and James H. Martin     
+      authors:  Dan Jurafsky and James H. Martin    
+  homework_due:
+    -
+      title: "Project Milestone 3: Rough Draft"
+      url: project/draft.html    
   
 -
   date: 2025-05-13

@@ -8,7 +8,7 @@ type: Project Milestone
 number: 3
 active_tab: homework
 release_date: 2025-04-23
-due_date: 2025-05-06 23:59:00EST
+due_date: 2025-05-08 23:59:00EST
 submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438460_1?courseId=_85408_1&gradeitemView=details
 ---
 
