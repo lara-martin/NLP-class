@@ -405,7 +405,7 @@
 -
   date: 2025-05-01
   title: Retrieval-Augmented Generation (RAG)
-  slides: 
+  slides: slides/25-05-01_RAG.pdf
   required:
     -
       title: SLP Chapter 14.3
