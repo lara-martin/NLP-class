@@ -420,7 +420,7 @@
 -
   date: 2025-05-06
   title: "Applications: Machine Translation"
-  slides:
+  slides: slides/25-05-06_MT.pdf
   type: deadline  
   required:
     -
