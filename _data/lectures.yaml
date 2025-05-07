@@ -434,9 +434,24 @@
  
 -
   date: 2025-05-08
-  title:   "Applications: Dialog Systems"
+  title:  "Applications: Creative Generation" 
   slides: 
   type: deadline 
+  required:
+    -
+      title: "Re3: Generating Longer Stories With Recursive Reprompting and Revision"
+      url: https://aclanthology.org/2022.emnlp-main.296
+      authors: Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein   
+ 
+  homework_due:
+    -
+      title: "Project Milestone 3: Rough Draft"
+      url: project/draft.html    
+  
+-
+  date: 2025-05-13
+  title: "Working on Project & Applications: Dialog Systems"
+  slides: 
   required:
     -
       title: "NLP Chapter 19.3: Dialogue"
@@ -445,21 +460,7 @@
     -
       title: "SLP Chapter 15: Chatbots and Dialogue Systems"
       url: https://web.stanford.edu/~jurafsky/slp3/15.pdf
-      authors:  Dan Jurafsky and James H. Martin    
-  homework_due:
-    -
-      title: "Project Milestone 3: Rough Draft"
-      url: project/draft.html    
-  
--
-  date: 2025-05-13
-  title: "Applications: Creative Generation"
-  slides: 
-  required:
-    -
-      title: "Re3: Generating Longer Stories With Recursive Reprompting and Revision"
-      url: https://aclanthology.org/2022.emnlp-main.296
-      authors: Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein    
+      authors:  Dan Jurafsky and James H. Martin      
   
 -
   date: 2025-05-15
@@ -469,7 +470,7 @@
   homework_due:
     -
       title: "Project Milestone 4: Final Submission"
-      url: #project/final-submission.html
+      url: project/final-submission.html
     -
       title: "Grad Checkpoint 4: Final Submission"
       url: grad.html        
