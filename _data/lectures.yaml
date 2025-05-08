@@ -438,6 +438,18 @@
   slides: slides/25-05-08_Lara-Martin-Research.pdf
   type: deadline 
   required:
+    -
+      title: "Event Representations for Automated Story Generation with Deep Neural Nets"
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/11430
+      authors:  Lara J. Martin, et al.
+    -
+      title: "Controllable Neural Story Plot Generation via Reward Shaping"
+      url: https://www.ijcai.org/proceedings/2019/829
+      authors:  Pradyumna Tambwekar, et al.
+    -
+      title: "Dungeons and Dragons as a Dialogue Challenge for Artificial Intelligence"
+      url: https://aclanthology.org/2022.emnlp-main.637
+      authors:  Chris Callison-Burch, et al.      
  
   homework_due:
     -
