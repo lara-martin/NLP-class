@@ -109,11 +109,11 @@ and graphs, an appropriate target length of this writeup should be approximately
 Within the Implementation Track, you will be primarly evaluated on the completeness
 of your implementation. However, the thoroughness and clarity of the writeup will be a sizeable (but non-majority) portion of your grade.
 
-### Milestones
+### Checkpoints
 
-**Milestone 1: Selection of Option.** Select which of the options (a,c,or e) you will do and fill out the short form online. Write a short description of your initial idea for how you might implement it.
+**Checkpoint 1: Selection of Option.** Select which of the options (a,c,or e) you will do and fill out the short form online. Write a short description of your initial idea for how you might implement it.
 
-**Milestone 2: Initial draft of writeup, and git repo of your code with ≥ 3 non-trivial commits.** You must submit two items: an initial version of your writeup, and a git repository of your implementation containing at least three, non-trivial commits (e.g., commits affecting more than just whitespace or comments). Your writeup does not need to include results,
+**Checkpoint 2: Initial draft of writeup, and git repo of your code with ≥ 3 non-trivial commits.** You must submit two items: an initial version of your writeup, and a git repository of your implementation containing at least three, non-trivial commits (e.g., commits affecting more than just whitespace or comments). Your writeup does not need to include results,
 but it does need to include a discussion of your proposed system; a discussion of your
 implementation (or expected implementation), including any hurdles you are currently encountering; a discussion of what data you are using (+ if and how you adpated it); and a discussion of what tests you are running or will run to ensure correctness.
 
@@ -123,14 +123,14 @@ You will turn in:
 Your anonymized PDF will be provided to other students to review/provide feedback on (see Milestone 3); your code will not be shared. You may optionally provide a written description of what, if
 any, writing assistance you received (e.g., the GSA Writing Advisor).
 
-**Milestone 3: Feedback on Discussion.** You will receive up to two other students’ initial writeups; you must provide feedback on the breadth, depth, and clarity of exposition. You may also provide suggestions on hurdles that are described in
+**Checkpoint 3: Feedback on Discussion.** You will receive up to two other students’ initial writeups; you must provide feedback on the breadth, depth, and clarity of exposition. You may also provide suggestions on hurdles that are described in
 the writeup(s). Reviewing forms and guides will be provided. To receive full credit for the reviews,
 you must provide constructive and civil reviews (a guide will be provided).
 This feedback will be “double-blind:” as a reviewer, you will not know whose writeups you are
 reviewing, and as an author, you will not know who your reviewers are. This is why it is important for
 the Milestone 1 drafts to be anonymized. All paper-reviewer identities will be known to course staff.
 
-**Final Writeup and Full Code.** This must be a complete, well-written writeup.
+**Final Submission: Final Writeup and Full Code.** This must be a complete, well-written writeup.
 You will turn in:
 * a **NON-ANONYMIZED** PDF of the writeup,
 * your code repo,
@@ -190,10 +190,10 @@ Or if you're interested in speech:
 
 You can also find papers using [Google Scholar](https://scholar.google.com/) if you know the right keywords.
 
-### Milestones
-**Milestone 1: Selection of Option, Topic, and Initial list of papers.** Decide on a topic and fill out the short form online.  It would also be beneficial if you find at least 5 papers related to your topic. If you list them in the form, I can give you feedback  regarding their relevance to your topic and their quality. This list is not your complete or final list of papers you’ll read or consult: it is meant as a starting point. You may also remove papers from this list when you actually write your paper.
+### Checkpoints
+**Checkpoint 1: Selection of Option, Topic, and Initial list of papers.** Decide on a topic and fill out the short form online.  It would also be beneficial if you find at least 5 papers related to your topic. If you list them in the form, I can give you feedback  regarding their relevance to your topic and their quality. This list is not your complete or final list of papers you’ll read or consult: it is meant as a starting point. You may also remove papers from this list when you actually write your paper.
 
-**Milestone 2: Initial version of the paper.**  Despite it being “initial,” this must be a complete, well-written paper. Although this part is ungraded, the better this draft is, the more informative the feedback you'll get from your peers. 
+**Checkpoint 2: Initial version of the paper.**  Despite it being “initial,” this must be a complete, well-written paper. Although this part is ungraded, the better this draft is, the more informative the feedback you'll get from your peers. 
 
 You will turn in:
 * an **ANONYMIZED** PDF of the paper (name the file with your UMBC ID, e.g., "AB1234.pdf"),
@@ -202,9 +202,9 @@ Your anonymized PDF will be provided to other students to review (see Milestone 
 will not be shared. You may also provide a written description of what, if any, writing assistance you
 received (e.g., the GSA Writing Advisor).
 
-**Milestone 3: Paper Peer Review.** In this process, you will receive up to two other students’ papers; you must provide feedback on the breadth, depth, and clarity of exposition. Reviewing forms and guides will be provided. To receive full credit for the reviews, you must provide constructive and civil reviews (a guide will be provided). This review will be “double-blind:” as a reviewer, you will not know whose papers you are reviewing, and as an author, you will not know who your reviewers are. This is why it is important for the Milestone 1 papers to be anonymized. All paper-reviewer identities will be known to course staff.
+**Checkpoint 3: Paper Peer Review.** In this process, you will receive up to two other students’ papers; you must provide feedback on the breadth, depth, and clarity of exposition. Reviewing forms and guides will be provided. To receive full credit for the reviews, you must provide constructive and civil reviews (a guide will be provided). This review will be “double-blind:” as a reviewer, you will not know whose papers you are reviewing, and as an author, you will not know who your reviewers are. This is why it is important for the Milestone 1 papers to be anonymized. All paper-reviewer identities will be known to course staff.
 
-**Final version of the paper.** This must be a complete, well-written paper.
+**Final Submission: Final version of the paper.** This must be a complete, well-written paper.
 
 You will turn in:
 * a **NON-ANONYMIZED** PDF of the paper,

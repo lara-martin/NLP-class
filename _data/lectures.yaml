@@ -434,14 +434,10 @@
  
 -
   date: 2025-05-08
-  title:  "Applications: Creative Generation" 
-  slides: 
+  title:  "Storytelling, D&D, and AAC" 
+  slides: slides/25-05-08_Lara-Martin-Research.pdf
   type: deadline 
   required:
-    -
-      title: "Re3: Generating Longer Stories With Recursive Reprompting and Revision"
-      url: https://aclanthology.org/2022.emnlp-main.296
-      authors: Kevin Yang, Yuandong Tian, Nanyun Peng, Dan Klein   
  
   homework_due:
     -
