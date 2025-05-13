@@ -459,7 +459,7 @@
 -
   date: 2025-05-13
   title: "Working on Project & Applications: Dialog Systems"
-  slides: 
+  slides: slides/25-05-13_Dialog.pdf
   required:
     -
       title: "NLP Chapter 19.3: Dialogue"
