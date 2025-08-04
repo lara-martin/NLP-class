@@ -188,7 +188,7 @@ Or if you're interested in speech:
 * [Interspeech](https://www.isca-archive.org/index.html)
 * [ICASSP](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings)
 
-You can also find papers using [Google Scholar](https://scholar.google.com/) if you know the right keywords.
+You can also find papers using [Google Scholar](https://scholar.google.com/) if you know the right keywords. If you found a paper but can't access the pdf, you can look for it on ResearchGate or submit a request for the library to send it to you via the [Illiad](https://umbc.illiad.oclc.org/illiad/logon.html) system.
 
 ### Checkpoints
 **Checkpoint 1: Selection of Option, Topic, and Initial list of papers.** Decide on a topic and fill out the short form online.  It would also be beneficial if you find at least 5 papers related to your topic. If you list them in the form, I can give you feedback  regarding their relevance to your topic and their quality. This list is not your complete or final list of papers you’ll read or consult: it is meant as a starting point. You may also remove papers from this list when you actually write your paper.
