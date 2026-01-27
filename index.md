@@ -68,7 +68,7 @@ By the end of the course, you will be able to...
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 : Office Hours: 
-	* 1:45 - 2:30PM on Tuesdays & Thursdays in ITE 342-A
+	* <!--1:45 - 2:30PM on Tuesdays & Thursdays--> TBD in ITE 342-A
 	* Also <a href="https://calendly.com/laramar/schedule">by appointment</a>
 
 **TA**
