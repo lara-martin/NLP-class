@@ -37,10 +37,6 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 {% endfor %}
 <!-- End alert for upcoming homework assignments -->
 
-<div class="alert alert-warning" markdown="1">
-This is an archived version of the class, which was taught in Spring 2025 at the University of Maryland, Baltimore County.  For a more recent edition, check [here](https://laramartin.net/NLP-class).
-</div>
-
 
 <!--
 <div class="alert alert-success" markdown="1">
@@ -96,7 +92,8 @@ By the end of the course, you will be able to...
 |----------------|---------------------|----------------|
 | Class Knowledge Checks | 20% | 10% |
 | Homeworks | 40% | 35% |
-| Project | 40% | 40% |
+| Exam | 10% | 10% |
+| Project | 30% | 30% |
 | Grad Assignment | - | 15% |
 
 
