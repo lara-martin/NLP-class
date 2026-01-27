@@ -86,7 +86,7 @@ By the end of the course, you will be able to...
 : [Introduction to Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf) by Jacob Eisenstein
 
 
-#### Grading
+### Grading
 
 | Assignment | 473 (undergrad) | 673 (grad) |
 |----------------|---------------------|----------------|
@@ -97,7 +97,7 @@ By the end of the course, you will be able to...
 | Grad Assignment | - | 15% |
 
 
-#### Assignment Descriptions
+### Assignment Descriptions
 
 **Class Knowledge Checks**
 : These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the topic of the day, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
