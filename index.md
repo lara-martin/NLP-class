@@ -43,6 +43,8 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 
 ## Spring 2026
 
+**Jump to class policies:** [[Late Day](#late-day-policy)] [[Academic Integrity](#academic-integrity)] [[Generative AI](#generative-ai)] [[GitHub Use](#github-and-other-repository-use)] [[Collaboration](#collaboration-policy)]
+
 <br>
 ### Course Description
 Natural language processing (NLP) is the field of working with language to automatically perform a variety of tasks, instead of or in collaboration with people. NLP can focus on the Generation (NLG) and/or Understanding (NLU) of natural language. Recently, large language models (LLMs) like ChatGPT have gotten the attention of the general public, but they have also greatly changed the landscape of modern NLP research.
