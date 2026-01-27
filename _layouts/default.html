@@ -48,14 +48,14 @@
     <nav class="navbar navbar-expand-md navbar-light" style="background-color: #fdb515;" role="banner">
 
 
-		<div class="hidden-md"><li><a href="{{ site.baseurl }}/index.html" class="navbar-brand">CMSC 473/673 NLP @ UMBC</a></li></div>
-		<div class="visible-md"><li><a href="{{ site.baseurl }}/index.html" class="navbar-brand">CMSC 473/673</a></li></div>
+		<div class="hidden-md"><a href="{{ site.baseurl }}/index.html" class="navbar-brand">CMSC 473/673 NLP @ UMBC</a></div>
+		<div class="visible-md"><a href="{{ site.baseurl }}/index.html" class="navbar-brand">CMSC 473/673</a></div>
 
         
         <div class="collapse navbar-collapse" role="navigation">
           <ul class="mr-auto navbar-nav">
-            <li id="about"><a href="{{ site.baseurl }}">About</a></li>
-            <li id="lectures"><a href="{{ site.baseurl }}/lectures.html">Schedule</a></li>
+            <li class="nav-item"> <a id="about" class="nav-link active" href="{{ site.baseurl }}">About <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"><a id="lectures" class="nav-link" href="{{ site.baseurl }}/lectures.html">Schedule</a></li>
             <li id="homework" class="nav-item dropdown">
               <a class="dropdown-toggle nav-link" data-toggle="dropdown" id="homework" href="#">Homework</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
