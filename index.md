@@ -42,14 +42,12 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 # CMSC 473/673 Natural Language Processing at UMBC
 
 ## Spring 2026
-
+<br>
 **Jump to class policies:** [[Late Day](#late-day-policy)] [[Academic Integrity](#academic-integrity)] [[Generative AI](#generative-ai)] [[GitHub Use](#github-and-other-repository-use)] [[Collaboration](#collaboration-policy)]
-
 <br>
 ### Course Description
 Natural language processing (NLP) is the field of working with language to automatically perform a variety of tasks, instead of or in collaboration with people. NLP can focus on the Generation (NLG) and/or Understanding (NLU) of natural language. Recently, large language models (LLMs) like ChatGPT have gotten the attention of the general public, but they have also greatly changed the landscape of modern NLP research.
 This course will show you both old & new techniques that are still used today and will give you a basic understanding of why & how we do NLP.
-
 <br>
 ### Learning Objectives
 By the end of the course, you will be able to...
@@ -110,6 +108,9 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 **Homeworks**
 : There are 3 homeworks: [NLP Tasks](homeworks/hw1.html) (learning objective 1), [NLP Evaluation](homeworks/hw2.html) (learning objectives 2 & 3), [Prompt Engineering](homeworks/hw3.html) (learning objective 6). They each have a corresponding page on this website with more information.
 
+**Exam (learning objective 3)**
+: 
+
 **Project (learning objective 6)**
 : Teams will come up with NLP project ideas (with the help of Lara & Maitri) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.
 : [Milestone 1: Project Proposal](homeworks/project/proposal.html)
@@ -161,7 +162,6 @@ You're allowed to use your computer in class since the clicker questions will be
 ##### Acknowledgements
 Class materials have been borrowed from Dr. Chris Callison-Burch, Dr. Marine Carpuat, Dr. Frank Ferraro, and Dr. Alan Ritter. Generative AI policy is borrowed from Dr. Frank Ferraro.
 
-<br>
 ------
 ## UMBC School Policies
 
