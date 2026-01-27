@@ -1,6 +1,6 @@
 ---
-title: CMSC 473/673 - Spring 2026 @ UMBC
-layout: default
+title: CMSC 473/673 - Spring 2025 @ UMBC
+layout: default-2025
 active_tab: about
 ---
 
@@ -49,7 +49,7 @@ This is an archived version of the class, which was taught in Spring 2025 at the
 -->
 # CMSC 473/673 Natural Language Processing at UMBC
 
-## Spring 2026
+## Spring 2025
 
 ### Course Description
 Natural language processing (NLP) is the field of working with language to automatically perform a variety of tasks, instead of or in collaboration with people. NLP can focus on the Generation (NLG) and/or Understanding (NLU) of natural language. Recently, large language models (LLMs) like ChatGPT have gotten the attention of the general public, but they have also greatly changed the landscape of modern NLP research.
@@ -70,18 +70,24 @@ By the end of the course, you will be able to...
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 : Office Hours: 
-	* 1:45 - 2:30PM on Tuesdays & Thursdays in ITE 342-A
+	* 1:45 - 2:30PM on Tuesdays & Thursdays in ITE 216
 	* Also <a href="https://calendly.com/laramar/schedule">by appointment</a>
 
 **TA**
-: TBD
+: Maitri Mistry
+: [mmistry3@umbc.edu](mailto:mmistry3@umbc.edu)
+: Office Hours: 
+	* 2 - 3PM on Mondays in ITE 340
+	* 2:30 - 3:30PM on Thursdays [online](https://us04web.zoom.us/j/71390545038?pwd=crYbcQcb0sYBCH3ebobB6fpNJb1RNU.1 
+)
+	* Also <a href="mailto:mmistry3@umbc.edu">by appointment</a>
 
 ### Logistics
 **Time and Place**
-: Spring 2026, Tuesdays & Thursdays from 11:30 AM - 12:45 PM ET
-: Math & Psychology 104
-: First day of class is January 27, 2026
-: Last day of class is May 13, 2026
+: Spring 2025, Tuesdays & Thursdays from 11:30 AM - 12:45 PM ET
+: Janet & Walter Sondheim 108
+: First day of class is January 28, 2025
+: Last day of class is May 13, 2025
 : Grading & submissions using Blackboard
 : Assignment descriptions on this website
 <br><br>

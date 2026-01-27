@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-2025
 title: CMSC 473/673 - Modules
 active_tab: modules
 ---
