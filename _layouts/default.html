@@ -46,14 +46,12 @@
 
     <!-- Docs master nav -->
     <nav class="navbar navbar-expand-md navbar-light" style="background-color: #fdb515;" role="banner">
-
-
-		<div class="hidden-md"><a href="{{ site.baseurl }}/index.html" class="navbar-brand">CMSC 473/673 NLP @ UMBC</a></div>
-		<div class="visible-md"><a href="{{ site.baseurl }}/index.html" class="navbar-brand">CMSC 473/673</a></div>
-
-        
-        <div class="collapse navbar-collapse" role="navigation">
-          <ul class="mr-auto navbar-nav">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarToggler">
+		<a href="{{ site.baseurl }}" class="navbar-brand">CMSC 473/673 NLP @ UMBC</a>       
+         <ul class="mr-auto navbar-nav mt-2 mt-lg-0">
             <li class="nav-item"> <a id="about" class="nav-link active" href="{{ site.baseurl }}">About <span class="sr-only">(current)</span></a></li>
             <li class="nav-item"><a id="lectures" class="nav-link" href="{{ site.baseurl }}/lectures.html">Schedule</a></li>
             <li id="homework" class="nav-item dropdown">
@@ -87,7 +85,6 @@
           </ul>
         </div>
       </div>
-      
     </nav>
 
     <div class="container">
