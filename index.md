@@ -47,10 +47,12 @@ It is due before {{ page.due_date | date: "%I:%M%p" }} on {{ page.due_date | dat
 
 ## Spring 2026
 
+<br><br>
 ### Course Description
 Natural language processing (NLP) is the field of working with language to automatically perform a variety of tasks, instead of or in collaboration with people. NLP can focus on the Generation (NLG) and/or Understanding (NLU) of natural language. Recently, large language models (LLMs) like ChatGPT have gotten the attention of the general public, but they have also greatly changed the landscape of modern NLP research.
 This course will show you both old & new techniques that are still used today and will give you a basic understanding of why & how we do NLP.
 
+<br><br>
 ### Learning Objectives
 By the end of the course, you will be able to...
 1. Recall common tasks in NLP and formulate problems for them.
@@ -60,7 +62,7 @@ By the end of the course, you will be able to...
 5. Construct a literature review from state-of-the-art research.
 6. Plan and create an NLP system for a particular task.
 
-
+<br><br>
 ### Staff
 **Instructor**
 : [Lara Martin](https://laramartin.net)
@@ -72,6 +74,7 @@ By the end of the course, you will be able to...
 **TA**
 : TBD
 
+<br><br>
 ### Logistics
 **Time and Place**
 : Spring 2026, Tuesdays & Thursdays from 11:30 AM - 12:45 PM ET
@@ -85,7 +88,7 @@ By the end of the course, you will be able to...
 : [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
 : [Introduction to Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf) by Jacob Eisenstein
 
-
+<br><br>
 ### Grading
 
 | Assignment | 473 (undergrad) | 673 (grad) |
@@ -96,7 +99,7 @@ By the end of the course, you will be able to...
 | Project | 30% | 30% |
 | Grad Assignment | - | 15% |
 
-
+<br><br>
 ### Assignment Descriptions
 
 **Class Knowledge Checks**
@@ -121,6 +124,7 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 : **Option 1: Implementation** -- (suited for implementation-focused students) If you choose this option, you will be picking an NLP tool from a list and implementing it.
 : **Option 2: Paper** -- (suited for research-focused students) If you choose this option, you will be finding papers for and writing up a literature review summarizing what you found.
 
+<br><br>
 ### Class Policies
 #### Late Day Policy
 Each student has five (5) free "late days".  Homeworks can be submitted at most three days late.  If you are out of late days, then you will not be able to get credit for subsequent late assignments. One "day" is defined as anytime between 1 second and 24 hours after the homework deadline. The intent of the late day policy it to allow you to take extra time due to unforseen circumstances like illnesses or family emergencies, and for forseeable interruptions like on campus interviewing and religious holidays.  You do not need to ask permission to use your late days.  No additional late days are granted. **Late days cannot be used on the project's final milestone or the final grad assignment milestone, which must be finished by the final day of class.**
