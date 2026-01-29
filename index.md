@@ -57,34 +57,30 @@ By the end of the course, you will be able to...
 4. Implement AI systems that use popular NLP toolkits and libraries.
 5. Construct a literature review from state-of-the-art research.
 6. Plan and create an NLP system for a particular task.
-
 <br>
 ### Staff
 **Instructor**
 : [Lara Martin](https://laramartin.net)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 : Office Hours: 
-	* <!--1:45 - 2:30PM on Tuesdays & Thursdays--> TBD in ITE 342-A
+	* 9am - 10am on Tuesdays & Thursdays in ITE 342-A and [online](https://umbc.webex.com/meet/laramar)
 	* Also <a href="https://calendly.com/laramar/schedule">by appointment</a>
 
 **TA**
 : TBD
-
 <br>
 ### Logistics
 **Time and Place**
 : Spring 2026, Tuesdays & Thursdays from 11:30 AM - 12:45 PM ET
-: Math & Psychology 104
+: Math & Psychology 104 for Catonsville students / Online (Invite only) for Shady Grove students
 : First day of class is January 27, 2026
 : Last day of class is May 13, 2026
 : Grading & submissions using Blackboard
 : Assignment descriptions on this website
-
 <br>
 **Textbooks**
 : [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
 : [Introduction to Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf) by Jacob Eisenstein
-
 <br>
 ### Grading
 
@@ -123,7 +119,6 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 : If you are taking the graduate version of the course (CMSC 673), you will have an extra assignment that you need to complete. This assignment has two options that you can choose between (which you can choose depending on what career trajectory you plan). The graduate assignment is done individually.
 : **Option 1: Implementation** -- (suited for implementation-focused students) If you choose this option, you will be picking an NLP tool from a list and implementing it.
 : **Option 2: Paper** -- (suited for research-focused students) If you choose this option, you will be finding papers for and writing up a literature review summarizing what you found.
-
 <br>
 ### Class Policies
 #### Late Day Policy
