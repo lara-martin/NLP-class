@@ -145,11 +145,12 @@ Use of AI/automatic tools for grammatical assistance (such as spell-checkers or 
 
 #### Collaboration Policy
 ##### Not allowed
-The **homeworks** are designed for us to get an idea of how well you're picking up the material and applying it. Therefore, you are not allowed to collaborate on the homeworks.
+The **class knowledge checks** are designed for us to get an idea of how well you're picking up the material and applying it. Therefore, you are not allowed to collaborate on the knowledge checks.
 The **graduate assignment** is also done individually.
 
 ##### Allowed
-However, for the **project**, you are allowed to work in teams of 3-5. You can also discuss answers/submissions for the **class knowledge checks**.
+However, for the **project**, you are allowed to work in teams of 3-5.
+You are also allowed to work on the **homeworks** by yourself or in pairs (2 people).
 You must clearly indicate the names of all people involved when submitting the assignment. You are also required to list who did what for the project milestones.
 
 #### Technology Use
