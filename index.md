@@ -57,7 +57,8 @@ By the end of the course, you will be able to...
 4. Implement AI systems that use popular NLP toolkits and libraries.
 5. Construct a literature review from state-of-the-art research.
 6. Plan and create an NLP system for a particular task.
-<br>
+
+
 ### Staff
 **Instructor**
 : [Lara Martin](https://laramartin.net)
@@ -68,7 +69,8 @@ By the end of the course, you will be able to...
 
 **TA**
 : TBD
-<br>
+
+
 ### Logistics
 **Time and Place**
 : Spring 2026, Tuesdays & Thursdays from 11:30 AM - 12:45 PM ET
@@ -81,7 +83,8 @@ By the end of the course, you will be able to...
 **Textbooks**
 : [Speech and Language Processing](https://web.stanford.edu/~jurafsky/slp3/) by Dan Jurafsky and James H. Martin
 : [Introduction to Natural Language Processing](https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf) by Jacob Eisenstein
-<br>
+
+
 ### Grading
 
 | Assignment | 473 (undergrad) | 673 (grad) |
@@ -105,7 +108,7 @@ Your two lowest grade class knowledge checks (i.e., incomplete or missing submis
 : There are 3 homeworks: [NLP Tasks](homeworks/hw1.html) (learning objective 1), [NLP Evaluation](homeworks/hw2.html) (learning objectives 2 & 3), [Prompt Engineering](homeworks/hw3.html) (learning objective 6). They each have a corresponding page on this website with more information.
 
 **Exam (learning objective 3)**
-: 
+: You will be provided with a list of potential concepts ahead of the exam. You should understand what these concepts are, how they are used, and how they relate to each other. A random subset of those concepts will be selected for the exam. You will be given the whole class period to complete the exam.
 
 **Project (learning objective 6)**
 : Teams will come up with NLP project ideas (with the help of Lara & Maitri) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.
