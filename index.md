@@ -68,7 +68,10 @@ By the end of the course, you will be able to...
 	* Also <a href="https://calendly.com/laramar/schedule">by appointment</a>
 
 **TA**
-: TBD
+: Omkar Kulkarni
+: [omkark1@umbc.edu](mailto:omkark1@umbc.edu)
+: Office Hours:
+    * TBD
 
 
 ### Logistics
