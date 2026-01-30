@@ -28,6 +28,16 @@
   
 -
   date: 2026-01-29
+  title: No Class - Snow Day
+  slides: 
+
+-
+  date: 2026-01-30
+  title: Waitlist Deadline
+  type: no_lecture  
+
+-
+  date: 2026-02-03
   title: What is NLP?
   slides: #slides/25-01-30_What-is-NLP.pdf
   required: 
@@ -35,18 +45,14 @@
       title: NLP Chapter 1
       authors: Jacob Eisenstein
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+
+
+
 -
-  date: 2026-01-30
-  title: Waitlist Deadline
-  type: no_lecture  
--
-  date: 2026-02-02
-  title: Waitlists Deactivated
-  type: no_lecture
--
-  date: 2026-02-03
+  date: 2026-02-05
   title: Examples of NLP Tasks
-  slides: #slides/25-02-04_NLP-Tasks.pdf
+  #slides/25-02-04_NLP-Tasks.pdf
+  slides: #slides/25-02-06_NLP-Tasks.pdf
   required:
     -
       title: SLP Chapter 2
@@ -58,14 +64,11 @@
       authors: Jacob Eisenstein  
 
 
--
-  date: 2026-02-05
-  title: Examples of NLP Tasks
-  slides: #slides/25-02-06_NLP-Tasks.pdf
+
 
 -
-  date: 2026-02-06
-  title: Last Day to Change Schedule
+  date: 2026-02-09
+  title: Waitlists Deactivated
   type: no_lecture
   
 -
@@ -86,7 +89,10 @@
     #  url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
     #  authors: Jacob Eisenstein
 
-
+-
+  date: 2026-02-13
+  title: Last Day to Change Schedule
+  type: no_lecture
 
     #-
     #  title: SLP Chapter 4.7, 4.8, & 4.10

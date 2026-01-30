@@ -151,7 +151,7 @@ The **graduate assignment** is also done individually.
 ##### Allowed
 However, for the **project**, you are allowed to work in teams of 3-5.
 You are also allowed to work on the **homeworks** by yourself or in pairs (2 people).
-You must clearly indicate the names of all people involved when submitting the assignment. You are also required to list who did what for the project milestones.
+You must clearly indicate the names of all people involved when submitting the assignment. You are also required to list who did what. If you fail to do this, it could result in a poor grade.
 
 #### Technology Use
 You're allowed to use your computer in class since the clicker questions will be by phone or web browser ([https://www.polleverywhere.com/](https://www.polleverywhere.com/)).
