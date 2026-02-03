@@ -57,21 +57,23 @@ By the end of the course, you will be able to...
 4. Implement AI systems that use popular NLP toolkits and libraries.
 5. Construct a literature review from state-of-the-art research.
 6. Plan and create an NLP system for a particular task.
+7. Identify ethical issues in NLP systems and consider how they might be mitigated.
 
 
 ### Staff
 **Instructor**
-: [Lara Martin](https://laramartin.net)
+: [Lara Martin](https://laramartin.net) (she/they)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 : Office Hours: 
 	* 9am - 10am on Tuesdays & Thursdays in ITE 342-A and [online](https://umbc.webex.com/meet/laramar)
 	* Also <a href="https://calendly.com/laramar/schedule">by appointment</a>
 
 **TA**
-: Omkar Kulkarni
+: Omkar Kulkarni (he)
 : [omkark1@umbc.edu](mailto:omkark1@umbc.edu)
 : Office Hours:
-    * TBD
+    * 2pm - 3:30pm Thursdays in ITE 334, drop ins welcome
+    * 2pm - 3:30pm Tuesdays in ITE 334, by appointment
 
 
 ### Logistics
@@ -93,7 +95,9 @@ By the end of the course, you will be able to...
 | Assignment | 473 (undergrad) | 673 (grad) |
 |----------------|---------------------|----------------|
 | Class Knowledge Checks | 15% | 10% |
-| Homeworks | 40% | 35% |
+| Homework 1 | 10% | 5% |
+| Homework 2 | 15% | 15% |
+| Homework 3 | 15% | 15% |
 | Exam | 15% | 15% |
 | Project | 30% | 30% |
 | Grad Assignment | - | 10% |
@@ -103,18 +107,18 @@ By the end of the course, you will be able to...
 
 **Class Knowledge Checks**
 : These checks are in place to see how well you all are understanding the material as the course goes. These might look like clicker questions (using Poll Everywhere), "minute" questions to get you to think about the topic of the day, or a small in-class assignment. These will not be graded for accuracy, just whether or not you did them.
-If you cannot attend a lecture for any reason, you can make up the "minute" questions or assignments in your own time. [Please ask Dr. Martin](mailto:laramar@umbc.edu?subject=[CMSC 473/673] Make-up clicker question) if you need to make up a day where we did only clicker questions.
+If you cannot attend a lecture for any reason, you can make up the knowledge check in your own time. The knowledge check will be posted on Blackboard.
 Your two lowest grade class knowledge checks (i.e., incomplete or missing submissions) will be dropped.
 
 
 **Homeworks**
-: There are 3 homeworks: [NLP Tasks](homeworks/hw1.html) (learning objective 1), [NLP Evaluation](homeworks/hw2.html) (learning objectives 2 & 3), [Prompt Engineering](homeworks/hw3.html) (learning objective 6). They each have a corresponding page on this website with more information.
+: There are 3 homeworks: NLP Tasks (learning objective 1), NLP Evaluation & Neural Networks (learning objectives 2 & 3), Prompt Engineering & NLP Ethics (learning objectives 6 & 7). They each have a corresponding page on this website with more information.
 
 **Exam (learning objective 3)**
 : You will be provided with a list of potential concepts ahead of the exam. You should understand what these concepts are, how they are used, and how they relate to each other. A random subset of those concepts will be selected for the exam. You will be given the whole class period to complete the exam.
 
 **Project (learning objective 6)**
-: Teams will come up with NLP project ideas (with the help of Lara & Maitri) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.
+: Teams will come up with NLP project ideas (with the help of Lara) and implement them. There will be check-ins along the way to see how you are progressing and to see how well your team is working together. Teams can consist of both graduate and undergraduate students.
 : [Milestone 1: Project Proposal](homeworks/project/proposal.html)
 : [Milestone 2: Project Preparation and Informal Literature Review](homeworks/project/lit-review.html)
 : [Milestone 3: Halfway Point](homeworks/project/halfway.html)
@@ -134,7 +138,9 @@ Each student has five (5) free "late days".  Homeworks can be submitted at most 
 If you are struggling because of the material or having difficulties completing the assignments on time, please [reach out to Dr. Martin](mailto:laramar@umbc.edu) rather than copying another student or looking up answers online. We can come up with a solution to help you out before you feel like you need to resort to cheating.
 
 Plagiarism or any sort of cheating is not tolerated in this class. All work submitted must be your own (or, if permitted, with partners---see [Collaoration Policy](#collaboration-policy). If you are allowed external sources
-on an assignment, please be sure to cite your source! This includes Large Language Models (LLMs): Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. If you are suspected of cheating, plagiarism, or other forms of academic dishonesty, your case will be brought to the attention of the Undergraduate Academic Conduct Committee or Graduate Council Grievance Committee and may result in an F in the course, depending on the Committee’s decision. **Your first offense will result in at least a 0 (zero) on the assignment.** If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
+on an assignment, please be sure to cite your source! This includes Large Language Models (LLMs): Please see [the next section](#generative-ai) for our policy specific to ChatGPT and other generative AI. Remember, reusing your own work from a different class is not permitted; this is self-plagiarism. 
+If it is determined that you have violated the academic dishonesty policy, the instructor may impose a penalty up to and including failure of the course and reporting to the appropriate undergraduate or graduate administrative bodies.
+If you would like more information on what constitutes as academic dishonesty, please consult [https://academicconduct.umbc.edu/](https://academicconduct.umbc.edu/).
 
 #### Generative AI
 If you use ChatGPT (or similar chatbots or AI-based generation tools), you must describe exactly how you used it, including providing the prompt, the original generation, and your edits. This applies to prose, code, or any form of content creation. Not disclosing is an academic integrity violation. If you do disclose, your answer may receive anywhere from 0 to full credit, depending on the extent of substantive edits, achievement of learning objectives, and overall circumvention of those objectives.
