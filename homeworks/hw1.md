@@ -7,9 +7,10 @@ title: Being up to the Task
 type: Homework
 number: 1
 active_tab: homework
-release_date: 2025-02-05
-due_date: 2025-02-18 23:59:00EST
-submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438115_1?courseId=_85408_1&gradeitemView=details
+release_date: 2026-02-04
+due_date: 2025-02-20 23:59:00EST
+submission: https://blackboard.umbc.edu/ultra/courses/_96481_1/outline/assessment/test/_8407414_1?courseId=_96481_1&gradeitemView=details
+online_submission: https://blackboard.umbc.edu/ultra/courses/_98413_1/outline/assessment/test/_8407366_1?courseId=_98413_1&gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -40,7 +41,8 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 The assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}.
 <br>
-Submission Link: <a href="{{page.submission}}">{{ page.submission }}</a><br><br>
+Submission Link (in-person section): <a href="{{page.submission}}">{{ page.submission }}</a><br><br>
+Submission Link (online section): <a href="{{page.online_submission}}">{{ page.online_submission }}</a><br><br>
 Please be sure to double check the academic integrity and generative AI policies <a href="https://laramartin.net/NLP-class/#academic-integrity">listed on the syllabus</a>.
 </div>
 

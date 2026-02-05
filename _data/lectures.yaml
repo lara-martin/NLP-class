@@ -51,8 +51,7 @@
 -
   date: 2026-02-05
   title: Examples of NLP Tasks
-  #slides/25-02-04_NLP-Tasks.pdf
-  slides: #slides/25-02-06_NLP-Tasks.pdf
+  slides: #slides/26-02-05_nlp-tasks.pdf
   required:
     -
       title: SLP Chapter 2
@@ -113,12 +112,8 @@
       title: SLP Chapter 4.9 (Evaluation), 4.10 (Test sets)
       url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
       authors: Dan Jurafsky and James H. Martin  
-  type: deadline
-  homework_due:   
-    -
-      title: "HW1: Being up to the Task"
-      url: #hw1.html        
-  
+
+
 -
   date: 2026-02-19
   title: Classification with Logistic Regression
@@ -132,7 +127,15 @@
       title: NLP Chapter 4.3 (Classification with Logistic Regression) #4.1, 5.1-5.3 (+ ch 5 intro)
       url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
       authors: Dan Jurafsky and James H. Martin       
-           
+
+-
+  date: 2026-02-20
+  type: deadline
+   homework_due:   
+    -
+      title: "HW1: Being up to the Task"
+      url: hw1.html        
+         
 -
   date: 2026-02-24
   title: Learning in Logistic Regression
@@ -146,7 +149,11 @@
       title: NLP Chapter 4.6 (Gradient Descent) #5.4-5.11
       url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
       authors: Dan Jurafsky and James H. Martin
-      
+  type: deadline
+  homework_due:   
+    -
+      title: "Grad Checkpoint 1: Selection"
+      url: grad.html        
 
 -
   date: 2026-02-26
@@ -232,11 +239,7 @@
       title: SLP Chapter 13 (RNNs and LSTMs)
       url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
       authors:  Dan Jurafsky and James H. Martin   
-  type: deadline
-  homework_due:   
-    -
-      title: "Grad Checkpoint 1: Selection"
-      url: #grad.html  
+
 
    
 
@@ -420,10 +423,10 @@
   homework_due:   
     -
       title: "Grad Checkpoint 2: Draft"
-      #url: grad.html
+      url: grad.html
     -
       title: "HW 3: Prompt Engineering"
-      #url: hw3.html  
+      url: #hw3.html  
 
   
 
@@ -457,7 +460,7 @@
   homework_due:
     -
       title: "Grad Checkpoint 3: Feedback"
-      #url: grad.html   
+      url: grad.html   
  
 -
   date: 2026-05-07
@@ -516,7 +519,7 @@
   homework_due:
     -
       title: "Project Milestone 4: Final Submission"
-      #url: project/final-submission.html
+      url: #project/final-submission.html
     -
       title: "Grad Checkpoint 4: Final Submission"
-      #url: grad.html        
+      url: grad.html        
