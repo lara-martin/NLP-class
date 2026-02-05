@@ -131,7 +131,7 @@
 -
   date: 2026-02-20
   type: deadline
-   homework_due:   
+  homework_due:   
     -
       title: "HW1: Being up to the Task"
       url: hw1.html        
