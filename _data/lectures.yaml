@@ -73,35 +73,16 @@
 -
   date: 2026-02-10
   title: Examples of NLP Tasks
-  slides:  #slides/25-02-13_NLP-Tasks.pdf
-  
--
-  date: 2026-02-12
-  title: Machine Learning Basics
+  slides:  slides/26-02-05_nlp-tasks-2.pdf
   required:
     -
       title: Deep Learning Chapter 5.1-5.3 (ML Basics)
       url: https://www.deeplearningbook.org/contents/ml.html
       authors: Ian Goodfellow, Yoshua Bengio, and Aaron Courville
-    #-
-    #  title: NLP Chapter 4.3
-    #  url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-    #  authors: Jacob Eisenstein
-
+       
 -
-  date: 2026-02-13
-  title: Last Day to Change Schedule
-  type: no_lecture
-
-    #-
-    #  title: SLP Chapter 4.7, 4.8, & 4.10
-    #  url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
-    #  authors: Dan Jurafsky and James H. Martin    
- 
-   
--
-  date: 2026-02-17
-  title:  ML Evaluation
+  date: 2026-02-12
+  title: ML Evaluation
   slides: #slides/25-02-18_ML-Evaluation.pdf
   required:
     -
@@ -113,9 +94,55 @@
       url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
       authors: Dan Jurafsky and James H. Martin  
 
+-
+  date: 2026-02-13
+  title: Last Day to Change Schedule
+  type: no_lecture
+
+ 
+   
+-
+  date: 2026-02-17
+  title: Vector Embeddings
+  slides: #slides/25-03-04_Vector-Embeddings.pdf
+  required:
+    -
+      title: NLP Chapter 14 (Distributional and distributed semantics)
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein    
+    -
+      title: SLP Chapter 5 (Embeddings)
+      url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
+      authors:  Dan Jurafsky and James H. Martin
 
 -
   date: 2026-02-19
+  title: Vector Embeddings
+
+-
+  date: 2026-02-20
+  type: deadline
+  homework_due:   
+    -
+      title: "HW1: Being up to the Task"
+      url: hw1.html   
+
+-
+  date: 2026-02-24 
+  title: N-Gram Language Models
+  required:
+    -
+      title: NLP Chapter 6.1 (Language models)
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
+    -
+      title: SLP Chapter 3 (N-gram Language Models)
+      url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
+      authors:  Dan Jurafsky and James H. Martin
+  slides: #slides/25-03-13_N-gram-LMs.pdf
+
+-
+  date: 2026-02-26
   title: Classification with Logistic Regression
   slides: #slides/25-02-20_ML-Evaluation.pdf
   required:
@@ -128,16 +155,10 @@
       url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
       authors: Dan Jurafsky and James H. Martin       
 
--
-  date: 2026-02-20
-  type: deadline
-  homework_due:   
-    -
-      title: "HW1: Being up to the Task"
-      url: hw1.html        
+     
          
 -
-  date: 2026-02-24
+  date: 2026-03-03
   title: Learning in Logistic Regression
   slides: #slides/25-02-25_Classification.pdf
   required:
@@ -156,46 +177,17 @@
       url: grad.html        
 
 -
-  date: 2026-02-26
+  date: 2026-03-05
   title: PyTorch & HuggingFace Tutorial
   slides: #https://colab.research.google.com/drive/1nqOFCMNgYswT9yVpMNxEQkpso4fDEBLR?usp=sharing
 
--
-  date: 2026-03-03
-  title: Vector Embeddings
-  slides: #slides/25-03-04_Vector-Embeddings.pdf
-  required:
-    -
-      title: NLP Chapter 14 (Distributional and distributed semantics)
-      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein    
-    -
-      title: SLP Chapter 5 (Embeddings)
-      url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
-      authors:  Dan Jurafsky and James H. Martin
 
--
-  date: 2026-03-05
-  title: Vector Embeddings 
-  slides: #slides/25-03-06_Vector-Embeddings.pdf
 
-      
-
+  
 
 -
   date: 2026-03-10
   #type: no_lecture
-  title: N-Gram Language Models
-  required:
-    -
-      title: NLP Chapter 6.1 (Language models)
-      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein
-    -
-      title: SLP Chapter 3 (N-gram Language Models)
-      url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
-      authors:  Dan Jurafsky and James H. Martin
-  slides: #slides/25-03-13_N-gram-LMs.pdf
   homework_due:
     -
       title: "Project Milestone 1: Project Proposal"
