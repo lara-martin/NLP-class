@@ -187,14 +187,10 @@
 
 -
   date: 2026-03-10
-  #type: no_lecture
   homework_due:
     -
       title: "Project Milestone 1: Project Proposal"
       url: #project/proposal.html   
-
--
-  date: 2026-03-12
   title: Neural Language Models
   slides: #slides/25-03-27_Neural-LMs.pdf
   required: 
@@ -205,7 +201,21 @@
     -
       title: NLP Chapter 3 (Nonlinear classification)
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein   
+      authors: Jacob Eisenstein 
+      
+-
+  date: 2026-03-12
+  title: Recurrent Neural Network LMs + Seq2Seq #+ Tutorial
+  slides: #slides/25-04-01_RNNs.pdf
+  required:
+    -
+      title: NLP Chapter 18.3 intro (Neural machine translation)
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
+    -
+      title: SLP Chapter 13 (RNNs and LSTMs)
+      url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
+      authors:  Dan Jurafsky and James H. Martin   
 
 -
   date: 2026-03-17
@@ -220,23 +230,6 @@
    
 -
   date: 2026-03-24
-  title: Recurrent Neural Network LMs + Seq2Seq #+ Tutorial
-  slides: #slides/25-04-01_RNNs.pdf
-  required:
-    -
-      title: NLP Chapter 18.3 intro (Neural machine translation)
-      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein
-    -
-      title: SLP Chapter 13 (RNNs and LSTMs)
-      url: https://web.stanford.edu/~jurafsky/slp3/13.pdf
-      authors:  Dan Jurafsky and James H. Martin   
-
-
-   
-
--
-  date: 2026-03-26
   title: Attention & Transformers
   slides: #slides/25-04-03_Attention-Transformers.pdf
   required:
@@ -255,7 +248,23 @@
     -
       title: Attention Is All You Need
       url: https://dl.acm.org/doi/10.5555/3295222.3295349
-      authors: Ashish Vaswani, et al.  
+      authors: Ashish Vaswani, et al.   
+
+
+   
+
+-
+  date: 2026-03-26
+  title: Masked Language Models
+  required:
+    -
+      title: SLP Chapter 10 (Masked Language Models)
+      url: https://web.stanford.edu/~jurafsky/slp3/10.pdf
+      authors:  Dan Jurafsky and James H. Martin 
+    -
+      url: https://aclanthology.org/N19-1423/
+      title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
+      authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
 
       
 -
@@ -284,19 +293,6 @@
    #   url: hw2.html  
 -
   date: 2026-04-07
-  title: Masked Language Models
-  required:
-    -
-      title: SLP Chapter 10 (Masked Language Models)
-      url: https://web.stanford.edu/~jurafsky/slp3/10.pdf
-      authors:  Dan Jurafsky and James H. Martin 
-    -
-      url: https://aclanthology.org/N19-1423/
-      title: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding"
-      authors: Jacob Devlin, Ming-Wei Chang, Kenton Lee, Kristina Toutanova
-
--
-  date: 2026-04-09
   title: Decoding, Pretraining & Finetuning
   slides: #slides/25-04-08_Decoding-Foundation-Models.pdf
   required:
@@ -307,12 +303,10 @@
     -
       title: Language Models are Unsupervised Multitask Learners
       url: https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf
-      authors:  Alec Radford, et al.   
-        
-        
-      
+      authors:  Alec Radford, et al.  
+
 -
-  date: 2026-04-14
+  date: 2026-04-09
   title: Prompt Engineering Tutorial
   slides: #slides/25-04-10_Foundation-Models-Prompting.pdf
   required:
@@ -327,14 +321,16 @@
     -
       title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
       url: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
-      authors: Jason Wei, et al.  
+      authors: Jason Wei, et al.   
+        
+        
+      
+-
+  date: 2026-04-14
   homework_due:
     -
       title: "Project Milestone 2: Project Progress"
       #url: project/progress-report1.html
-
--
-  date: 2026-04-16
   title: Ethics of NLP
   slides: #slides/25-04-15_Ethics-in-NLP.pdf
   required:
@@ -350,10 +346,8 @@
       title: Green AI
       url: https://dl.acm.org/doi/10.1145/3381831
       authors: Roy Schwartz, Jesse Dodge, Noah A. Smith, Oren Etzioni
-
-
 -
-  date: 2026-04-21
+  date: 2026-04-16
   title: Ethics of NLP
   slides: #slides/25-04-17_Ethics-in-NLP.pdf
   required:
@@ -372,7 +366,7 @@
 
 
 -
-  date: 2026-04-23
+  date: 2026-04-21
   title: Alignment
   slides: #slides/25-04-24_Alignment.pdf
   required:
@@ -383,11 +377,11 @@
     -
       title: "Training language models to follow instructions with human feedback"
       authors: Long Ouyang, et al.
-      url: https://arxiv.org/abs/2203.02155     
-      
+      url: https://arxiv.org/abs/2203.02155   
+
 
 -
-  date: 2026-04-28
+  date: 2026-04-23
   title: Small LLMs
   slides: #slides/25-04-29_Small-LLMs.pdf 
   required:
@@ -410,7 +404,11 @@
     -
       title: "Compression of Neural Machine Translation Models via Pruning"
       url: https://aclanthology.org/K16-1029/
-      authors: Abigail See, et al.
+      authors: Abigail See, et al.  
+      
+
+-
+  date: 2026-04-28
   type: deadline
   homework_due:   
     -
@@ -419,12 +417,6 @@
     -
       title: "HW 3: Prompt Engineering"
       url: #hw3.html  
-
-  
-
-        
--
-  date: 2026-04-30
   title: Retrieval-Augmented Generation (RAG)
   slides: #slides/25-05-01_RAG.pdf
   required:
@@ -436,26 +428,26 @@
       title: "Retrieval-Augmented Generation for Large Language Models: A Survey"
       url: http://arxiv.org/abs/2312.10997
       authors:  Yunfan Gao, et al.  
-
   
+
+        
 -
-  date: 2026-05-05
-  title: Automatic Speech Recognition
-  slides:
-  type: deadline 
+  date: 2026-04-30
   required:
     -
       title: SLP Chapter 15 (Automated Speech Recognition)
       url: https://web.stanford.edu/~jurafsky/slp3/15.pdf
-      authors:  Dan Jurafsky and James H. Martin  
+      authors:  Dan Jurafsky and James H. Martin
+  title: Automatic Speech Recognition
+  slides:
   
+-
+  date: 2026-05-05
+  type: deadline 
   homework_due:
     -
       title: "Grad Checkpoint 3: Feedback"
       url: grad.html   
- 
--
-  date: 2026-05-07
   title: "Applications: Machine Translation"
   slides: #slides/25-05-06_MT.pdf
   required:
@@ -467,6 +459,9 @@
       title: NLP Chapter 18 (Neural machine translation)
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
       authors: Jacob Eisenstein 
+       
+-
+  date: 2026-05-07
   #title:  "Storytelling, D&D, and AAC" 
   #slides: #slides/25-05-08_Lara-Martin-Research.pdf
   type: deadline 
@@ -483,14 +478,10 @@
   #    title: "Dungeons and Dragons as a Dialogue Challenge for Artificial Intelligence"
   #    url: https://aclanthology.org/2022.emnlp-main.637
   #    authors:  Chris Callison-Burch, et al.      
- 
   homework_due:
     -
       title: "Project Milestone 3: Rough Draft"
       #url: project/draft.html    
-  
--
-  date: 2026-05-12
   title: "Applications: Dialog Systems"
   slides: #slides/25-05-13_Dialog.pdf
   required:
@@ -501,7 +492,12 @@
     -
       title: SLP Chapter K (Frame-based Dialogue Systems)
       url: https://web.stanford.edu/~jurafsky/slp3/K.pdf
-      authors:  Dan Jurafsky and James H. Martin      
+      authors:  Dan Jurafsky and James H. Martin     
+        
+-
+  date: 2026-05-12
+  title: "Applications: TBD"
+ 
   
 -
   date: 2026-05-14
