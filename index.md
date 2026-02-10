@@ -65,15 +65,16 @@ By the end of the course, you will be able to...
 : [Lara Martin](https://laramartin.net) (she/they)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 : Office Hours: 
-	* 9am - 10am on Tuesdays & Thursdays in ITE 342-A and [online](https://umbc.webex.com/meet/laramar)
+	* 9am - 10am on Tuesdays & Thursdays in ITE 342-A and [online](https://umbc.webex.com/meet/laramar), drop ins welcome
 	* Also <a href="https://calendly.com/laramar/schedule">by appointment</a>
 
 **TA**
 : Omkar Kulkarni (he)
 : [omkark1@umbc.edu](mailto:omkark1@umbc.edu)
 : Office Hours:
-    * 2pm - 3:30pm Thursdays in ITE 334, drop ins welcome
+    * 2pm - 3:30pm Thursdays in ITE 334 and [online](https://umbc.webex.com/meet/omkark1), drop ins welcome
     * 2pm - 3:30pm Tuesdays in ITE 334, by appointment
+    * <a href="https://calendly.com/omkark1/cmsc-473-673-office-hours">By appointment</a>
 
 
 ### Logistics
