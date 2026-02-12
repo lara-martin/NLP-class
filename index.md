@@ -65,7 +65,7 @@ By the end of the course, you will be able to...
 : [Lara Martin](https://laramartin.net) (she/they)
 : [laramar@umbc.edu](mailto:laramar@umbc.edu)
 : Office Hours: 
-	* 9am - 10am on Tuesdays & Thursdays in ITE 342-A and [online](https://umbc.webex.com/meet/laramar), drop ins welcome
+	* 9:30am - 10:30am on Tuesdays & Thursdays in ITE 342-A and [online](https://umbc.webex.com/meet/laramar), drop ins welcome
 	* Also <a href="https://calendly.com/laramar/schedule">by appointment</a>
 
 **TA**
