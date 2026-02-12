@@ -73,7 +73,7 @@
 -
   date: 2026-02-10
   title: Examples of NLP Tasks + ML Basics
-  slides:  slides/26-02-05_nlp-tasks-2.pdf
+  slides:  slides/26-02-11_nlp-tasks-2-ml
   required:
     -
       title: Deep Learning Chapter 5.1-5.3 (ML Basics)
@@ -82,8 +82,8 @@
        
 -
   date: 2026-02-12
-  title: ML Evaluation
-  slides: #slides/25-02-18_ML-Evaluation.pdf
+  title: NLP Tasks + ML Evaluation
+  slides: slides/26-02-12_nlp-tasks-3-eval
   required:
     -
       title: NLP Chapter 4.4 (Evaluating classifiers)
