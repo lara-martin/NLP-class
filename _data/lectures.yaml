@@ -83,7 +83,7 @@
 -
   date: 2026-02-12
   title: NLP Tasks + ML Evaluation
-  slides: slides/26-02-12_nlp-tasks-3-eval
+  slides: slides/26-02-12_nlp-tasks-3-eval.pdf
   required:
     -
       title: NLP Chapter 4.4 (Evaluating classifiers)
