@@ -123,15 +123,8 @@
  
 -
   date: 2026-02-19
-  title: Vector Embeddings
-    -
-      title: NLP Chapter 14 (Distributional and distributed semantics)
-      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein    
-    -
-      title: SLP Chapter 5 (Embeddings)
-      url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
-      authors:  Dan Jurafsky and James H. Martin
+  title: Classification with Logistic Regression Models
+
       
 -
   date: 2026-02-20
@@ -143,6 +136,19 @@
 
 -
   date: 2026-02-24 
+  title: Vector Embeddings
+  required:
+    -
+      title: NLP Chapter 14 (Distributional and distributed semantics)
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein    
+    -
+      title: SLP Chapter 5 (Embeddings)
+      url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
+      authors:  Dan Jurafsky and James H. Martin
+
+-
+  date: 2026-02-26
   title: N-Gram Language Models
   required:
     -
@@ -155,11 +161,6 @@
       authors:  Dan Jurafsky and James H. Martin
   slides: #slides/25-03-13_N-gram-LMs.pdf
 
--
-  date: 2026-02-26
-  title: Classification with Logistic Regression
-  slides: #slides/25-02-20_ML-Evaluation.pdf
-  required:
    
 
      
