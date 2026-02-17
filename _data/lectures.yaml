@@ -103,9 +103,27 @@
    
 -
   date: 2026-02-17
-  title: Vector Embeddings
-  slides: #slides/25-03-04_Vector-Embeddings.pdf
+  title: ML Evaluation + Classification with Logistic Regression Models
+  slides: slides/26-02-17_evaluation-lr.pdf
   required:
+    -
+      title: NLP Chapter 2.5 (Logistic regression)
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
+    -
+      title: NLP Chapter 4.3 (Classification with Logistic Regression) #4.1, 5.1-5.3 (+ ch 5 intro)
+      url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
+      authors: Dan Jurafsky and James H. Martin 
+  type: deadline
+  homework_due:   
+    -
+      title: CATME Survey Due
+      
+      
+ 
+-
+  date: 2026-02-19
+  title: Vector Embeddings
     -
       title: NLP Chapter 14 (Distributional and distributed semantics)
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
@@ -114,11 +132,7 @@
       title: SLP Chapter 5 (Embeddings)
       url: https://web.stanford.edu/~jurafsky/slp3/5.pdf
       authors:  Dan Jurafsky and James H. Martin
-
--
-  date: 2026-02-19
-  title: Vector Embeddings
-
+      
 -
   date: 2026-02-20
   type: deadline
@@ -146,14 +160,7 @@
   title: Classification with Logistic Regression
   slides: #slides/25-02-20_ML-Evaluation.pdf
   required:
-    -
-      title: NLP Chapter 2.5 (Logistic regression)
-      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein
-    -
-      title: NLP Chapter 4.3 (Classification with Logistic Regression) #4.1, 5.1-5.3 (+ ch 5 intro)
-      url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
-      authors: Dan Jurafsky and James H. Martin       
+   
 
      
          
