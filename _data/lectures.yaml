@@ -138,6 +138,7 @@
 -
   date: 2026-02-24 
   title: Vector Embeddings
+  slides: slides/26-02-24_vector-embeddings.pdf
   required:
     -
       title: NLP Chapter 14 (Distributional and distributed semantics)
