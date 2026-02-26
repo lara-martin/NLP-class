@@ -151,6 +151,26 @@
 
 -
   date: 2026-02-26
+  title: Vector Embeddings and Learning in Logistic Regression
+  slides: slides/26-02-26_vector-embeddings-lr-learning.pdf
+  required:
+    -
+      title: NLP Chapter B.1 (Gradient Descent)
+      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
+      authors: Jacob Eisenstein
+    -
+      title: NLP Chapter 4.6 (Gradient Descent) #5.4-5.11
+      url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
+      authors: Dan Jurafsky and James H. Martin
+  
+
+
+   
+
+     
+         
+-
+  date: 2026-03-03
   title: N-Gram Language Models
   required:
     -
@@ -162,24 +182,6 @@
       url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
       authors:  Dan Jurafsky and James H. Martin
   slides: #slides/25-03-13_N-gram-LMs.pdf
-
-   
-
-     
-         
--
-  date: 2026-03-03
-  title: Learning in Logistic Regression
-  slides: #slides/25-02-25_Classification.pdf
-  required:
-    -
-      title: NLP Chapter B.1 (Gradient Descent)
-      url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein
-    -
-      title: NLP Chapter 4.6 (Gradient Descent) #5.4-5.11
-      url: https://web.stanford.edu/~jurafsky/slp3/4.pdf
-      authors: Dan Jurafsky and James H. Martin
   type: deadline
   homework_due:   
     -
