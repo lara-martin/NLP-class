@@ -202,7 +202,7 @@
   homework_due:
     -
       title: "Project Milestone 1: Project Proposal"
-      url: #project/proposal.html   
+      url: project/proposal.html   
   title: Neural Language Models
   slides: #slides/25-03-27_Neural-LMs.pdf
   required: 

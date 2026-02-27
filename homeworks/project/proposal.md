@@ -7,8 +7,8 @@ title: Project Proposal
 type: Project Milestone
 number: 1
 active_tab: homework
-release_date: 2025-02-28
-due_date: 2025-03-11 23:59:00EST
+release_date: 2026-02-26
+due_date: 2026-03-10 23:59:00EST
 submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438455_1?courseId=_85408_1&gradeitemView=details
 ---
 
