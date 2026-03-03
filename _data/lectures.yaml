@@ -181,7 +181,7 @@
       title: SLP Chapter 3 (N-gram Language Models)
       url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
       authors:  Dan Jurafsky and James H. Martin
-  slides: #slides/25-03-13_N-gram-LMs.pdf
+  slides: slides/26-03-03_ngram-lms.pdf
   type: deadline
   homework_due:   
     -
