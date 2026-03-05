@@ -165,12 +165,18 @@
   
 
 
-   
-
+-
+  date: 2026-03-03  
+  title: No Class - Sick
+  type: deadline
+  homework_due:   
+    -
+      title: "Grad Checkpoint 1: Selection"
+      url: grad.html   
      
          
 -
-  date: 2026-03-03
+  date: 2026-03-05
   title: N-Gram Language Models
   required:
     -
@@ -181,17 +187,13 @@
       title: SLP Chapter 3 (N-gram Language Models)
       url: https://web.stanford.edu/~jurafsky/slp3/3.pdf
       authors:  Dan Jurafsky and James H. Martin
-  slides: slides/26-03-03_ngram-lms.pdf
-  type: deadline
-  homework_due:   
-    -
-      title: "Grad Checkpoint 1: Selection"
-      url: grad.html        
+  slides: slides/26-03-05_ngram-lms.pdf
+     
 
--
-  date: 2026-03-05
-  title: PyTorch & HuggingFace Tutorial
-  slides: #https://colab.research.google.com/drive/1nqOFCMNgYswT9yVpMNxEQkpso4fDEBLR?usp=sharing
+#-
+#  date: 2026-03-05
+#  title: PyTorch & HuggingFace Tutorial
+#  slides: #https://colab.research.google.com/drive/1nqOFCMNgYswT9yVpMNxEQkpso4fDEBLR?usp=sharing
 
 
 
@@ -203,7 +205,7 @@
     -
       title: "Project Milestone 1: Project Proposal"
       url: project/proposal.html   
-  title: Neural Language Models
+  title: Neural Language Models & PyTorch Tutorial
   slides: #slides/25-03-27_Neural-LMs.pdf
   required: 
     -
