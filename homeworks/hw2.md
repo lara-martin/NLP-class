@@ -7,9 +7,10 @@ title: Evaluation
 type: Homework
 number: 2
 active_tab: homework
-release_date: 2026-03-10
+release_date: 2026-03-05
 due_date: 2026-04-03 23:59:00EST
-submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438117_1?courseId=_85408_1&gradeitemView=details
+submission: https://blackboard.umbc.edu/ultra/courses/_96481_1/outline/assessment/test/_8407415_1?courseId=_96481_1&gradeitemView=details
+online_submission: https://blackboard.umbc.edu/ultra/courses/_98413_1/outline/assessment/test/_8407367_1?courseId=_98413_1&gradeitemView=details
 materials:
   -
     name: HW 2 Data Prep Code
@@ -19,10 +20,10 @@ materials:
     url: https://huggingface.co/datasets/nyu-mll/glue/viewer/rte
   -
     name: PyTorch Deep Learning Tutorial
-    url: https://pytorch.org/tutorials/beginner/nlp/deep_learning_tutorial.html
+    url: https://docs.pytorch.org/tutorials/beginner/nlp/deep_learning_tutorial.html
   -
     name: Character RNN Tutorial
-    url: https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html
+    url: https://docs.pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html
 
 ---
 
@@ -54,7 +55,8 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 The assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}.
 <br>
-Submission Link: <a href="{{page.submission}}">{{ page.submission }}</a><br><br>
+Submission Link (in-person section): <a href="{{page.submission}}">{{ page.submission }}</a><br>
+Submission Link (online section): <a href="{{page.online_submission}}">{{ page.online_submission }}</a><br><br>
 Please be sure to double check the academic integrity and generative AI policies <a href="https://laramartin.net/NLP-class/#academic-integrity">listed on the syllabus</a>.
 </div>
 
@@ -91,7 +93,7 @@ the following situations, compute accuracy, recall, precision, and F1 score. You
 your answers with code, but **you must show work, or some intermediate steps, to receive full
 credit** on this problem.
 
-Slides from [2/18](https://laramartin.net/NLP-class/slides/25-02-18_ML-Evaluation.pdf) and [2/20](https://laramartin.net/NLP-class/slides/25-02-20_ML-Evaluation.pdf) will be the most useful for this question.
+Slides from [2/12](https://laramartin.net/NLP-class/slides/26-02-12_nlp-tasks-3-eval.pdf) and [2/17](https://laramartin.net/NLP-class/slides/26-02-17_evaluation-lr.pdf) will be the most useful for this question.
 
 a) (4 points total) A binary classification result, where the correct labels are
 `[T, T, F, T, F, T, F, T]` and the predicted labels are
@@ -143,8 +145,8 @@ Turn in your code (5 points), these 5 scores (5 points), and a brief paragraph (
 Now you will train a basic recurrent neural network and compare it to your baseline. Please note that you will be graded on how well you implemented your model and your analysis of how well it did, not on the performance of the model itself.
 
 1. Start with my modified implementation of the [data prep code](https://colab.research.google.com/drive/1fTakwqcG55XUxhJ48mwawqegDxYq_zj9) for this assignment. Note that the input has both sentences separated by a special word `||`. Be sure to keep the sentences together as a single input but treat the `||` as its own type.
-2. [Continue to follow PyTorch's Deep Learning tutorial](https://pytorch.org/tutorials/beginner/nlp/deep_learning_tutorial.html) (that the Data Prep Knowledge Check was based on) to setup the network. [This tutorial](https://pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html) might also be helpful.
-3. Switch the BoWClassifier model to an RNN using [`torch.nn.RNN`](https://pytorch.org/docs/stable/generated/torch.nn.RNN.html). Use a hidden size of 128.
+2. [Continue to follow PyTorch's Deep Learning tutorial](https://docs.pytorch.org/tutorials/beginner/nlp/deep_learning_tutorial.html) (that the Data Prep Knowledge Check was based on) to setup the network. [This tutorial](https://docs.pytorch.org/tutorials/intermediate/char_rnn_classification_tutorial.html) might also be helpful.
+3. Switch the BoWClassifier model to an RNN using [`torch.nn.RNN`](https://docs.pytorch.org/docs/stable/generated/torch.nn.RNN.html). Use a hidden size of 128.
 4. Train the network on the [GLUE](https://huggingface.co/datasets/nyu-mll/glue) RTE **training** set for **5 epochs**.
 5. Calculate accuracy, macro precision, macro recall, micro precision, and micro recall on the **dev set**.
 6. Turn in your code (8 points), these 5 scores (5 points), and a brief paragraph (5 points) explaining how the network did with its predictions, how it compares to your frequent class baseline from Question 2, and what insights you can take away from comparing the two. 
