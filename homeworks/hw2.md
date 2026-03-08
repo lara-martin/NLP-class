@@ -115,7 +115,7 @@ c) (8 points total) A multiclass classification result, where the correct labels
 `F` (“false”) is the “default” class. 
 * (1 pt) Compute accuracy. 
 * (6 pts) Then, compute, at **both the micro and macro levels**, average recall, precision, and F1. 
-* (1 pt) Explain why you should *not* include the `F` class in the precision, recall, and F1 computations.
+* (1 pt) Although you can include `F` in the calculations for the previous question, explain why you should *not* include the `F` class in the precision, recall, and F1 computations.
 
 d) (8 points total) A multiclass classification result, where the correct labels are
 `[C, C, A, C, C, C, C, C, B, A, C, C, C]` and the predicted labels are
