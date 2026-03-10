@@ -205,8 +205,8 @@
     -
       title: "Project Milestone 1: Project Proposal"
       url: project/proposal.html   
-  title: Neural Language Models & PyTorch Tutorial
-  slides: #slides/25-03-27_Neural-LMs.pdf
+  title: N-gram LMs and Neural Language Models
+  slides: slides/26-03-10_ngram-lms-nns.pdf
   required: 
     -
       title: SLP Chapter 6 (Neural Networks)
@@ -219,7 +219,7 @@
       
 -
   date: 2026-03-12
-  title: Recurrent Neural Network LMs + Seq2Seq #+ Tutorial
+  title: Recurrent Neural Network LMs + Seq2Seq + Tutorial
   slides: #slides/25-04-01_RNNs.pdf
   required:
     -
