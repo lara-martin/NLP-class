@@ -8,7 +8,7 @@ type: Homework
 number: 2
 active_tab: homework
 release_date: 2026-03-05
-due_date: 2026-04-03 23:59:00EST
+due_date: 2026-04-10 23:59:00EST
 submission: https://blackboard.umbc.edu/ultra/courses/_96481_1/outline/assessment/test/_8407415_1?courseId=_96481_1&gradeitemView=details
 online_submission: https://blackboard.umbc.edu/ultra/courses/_98413_1/outline/assessment/test/_8407367_1?courseId=_98413_1&gradeitemView=details
 materials:

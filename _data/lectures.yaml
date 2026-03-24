@@ -241,7 +241,7 @@
 -
   date: 2026-03-24
   title: Seq2Seqs, Attention, & Transformers
-  slides: #slides/25-04-03_Attention-Transformers.pdf
+  slides: slides/26-03-24_attention-transformers.pdf
   required:
     - 
       title: NLP Chapter 18.3 intro-18.3.2 (Neural machine translation)
@@ -297,10 +297,7 @@
   date: 2026-04-03
   title: Last Day to Withdraw from Individual Classes
   type: no_lecture
-  homework_due:   
-    -
-      title: "HW2: Evaluation"
-   #   url: hw2.html  
+
 -
   date: 2026-04-07
   title: Decoding, Pretraining & Finetuning
@@ -333,7 +330,13 @@
       url: https://papers.neurips.cc/paper_files/paper/2022/hash/9d5609613524ecf4f15af0f7b31abca4-Abstract-Conference.html
       authors: Jason Wei, et al.   
         
-        
+-
+  date: 2026-04-10
+  type: deadline
+  homework_due:   
+    -
+      title: "HW2: Evaluation"
+      url: hw2.html         
       
 -
   date: 2026-04-14
