@@ -73,7 +73,7 @@
 -
   date: 2026-02-10
   title: Examples of NLP Tasks + ML Basics
-  slides:  slides/26-02-11_nlp-tasks-2-ml
+  slides:  slides/26-02-11_nlp-tasks-2-ml.pdf
   required:
     -
       title: Deep Learning Chapter 5.1-5.3 (ML Basics)
