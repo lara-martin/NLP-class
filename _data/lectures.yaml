@@ -265,7 +265,8 @@
 
 -
   date: 2026-03-26
-  title: Transformers & Masked Language Models
+  title: Transformers & Foundation Models
+  slides: slides/26-03-26_transformers-foundation-models.pdf
   required:
     -
       title: SLP Chapter 10 (Masked Language Models)
@@ -343,7 +344,7 @@
   homework_due:
     -
       title: "Project Milestone 2: Project Progress"
-      #url: project/progress-report1.html
+      url: project/progress-report.html
   title: Ethics of NLP
   slides: #slides/25-04-15_Ethics-in-NLP.pdf
   required:
