@@ -301,8 +301,8 @@
 
 -
   date: 2026-04-07
-  title: Decoding, Pretraining & Finetuning
-  slides: #slides/25-04-08_Decoding-Foundation-Models.pdf
+  title: Decoding, Pretraining, & Finetuning
+  slides: slides/26-04-07_decoding.pdf
   required:
     -
       title: SLP Chapter 9 (Post-training)
