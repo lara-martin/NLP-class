@@ -363,7 +363,7 @@
 -
   date: 2026-04-16
   title: Ethics of NLP
-  slides: #slides/25-04-17_Ethics-in-NLP.pdf
+  slides: slides/26-04-16_ethics-2.pdf
   required:
     -
       title: Preventing Generation of Verbatim Memorization in Language Models Gives a False Sense of Privacy
