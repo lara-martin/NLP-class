@@ -382,7 +382,7 @@
 -
   date: 2026-04-21
   title: Alignment
-  slides: #slides/25-04-24_Alignment.pdf
+  slides: slides/26-04-21_alignment.pdf
   required:
     -
       title: SLP Chapter 9.1-9.3 (Instruction tuning, Learning from preferences...)
