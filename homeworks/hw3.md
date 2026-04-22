@@ -102,7 +102,7 @@ Any time we ask for a prompt, please be sure to keep all the cells in the notebo
 <div class="alert alert-info" markdown="1">
 All of the questions will be in relation to the following task.
 For a given set of steps from WikiHow, you will be predicting the title of the article. That is, generating a title and comparing it with the original title.<br><br>
-You will be using various prompting techniques to get the large language models (LLMs) to do the title prediction.<br><br>
+You will be using various prompting techniques to get the large language model (LLM) to do the title prediction.<br><br>
 Select one article from the dataset provided in the notebook to use as the data you're evaluating on for all of the questions below.
 </div>
 
