@@ -428,9 +428,6 @@
     -
       title: "Grad Checkpoint 2: Draft"
       url: grad.html
-    -
-      title: "HW 3: Prompt Engineering"
-      url: #hw3.html  
   title: Retrieval-Augmented Generation (RAG)
   slides: #slides/25-05-01_RAG.pdf
   required:
@@ -462,6 +459,9 @@
     -
       title: "Grad Checkpoint 3: Feedback"
       url: grad.html   
+    -
+      title: "HW 3: Prompt Engineering and Ethics"
+      url: hw3.html  
   title: "Applications: Machine Translation"
   slides: #slides/25-05-06_MT.pdf
   required:
