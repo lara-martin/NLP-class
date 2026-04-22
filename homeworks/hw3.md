@@ -9,8 +9,8 @@ number: 3
 active_tab: homework
 release_date: 2026-04-21
 due_date: 2026-05-05 23:59:00EST
-submission: 
-online_submission: 
+submission: https://blackboard.umbc.edu/ultra/courses/_96481_1/outline/assessment/test/_8407416_1?courseId=_96481_1&gradeitemView=details
+online_submission: https://blackboard.umbc.edu/ultra/courses/_98413_1/outline/assessment/test/_8528735_1?courseId=_98413_1&gradeitemView=details
 materials:
   -
     name: Prompting Notebook
@@ -74,6 +74,7 @@ Materials for this assignment:
 * Recall how to evaluate generated output
 * Identify what prompting techniques produce better output
 * Determine when smaller LLMs like Mistral/Llama-2/etc. would be worth using
+* Consider the ethical implications of using an LLM
 
 ## Part 1: Prompting
 
