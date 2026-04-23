@@ -397,7 +397,7 @@
 -
   date: 2026-04-23
   title: Small LLMs
-  slides: #slides/25-04-29_Small-LLMs.pdf 
+  slides: slides/26-04-23_RLHF+small-llms.pdf
   required:
     -
       title: SLP Chapter 10.5.3
