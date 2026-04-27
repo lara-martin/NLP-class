@@ -429,7 +429,7 @@
       title: "Grad Checkpoint 2: Draft"
       url: grad.html
   title: Retrieval-Augmented Generation (RAG)
-  slides: #slides/25-05-01_RAG.pdf
+  slides: slides/26-04-28_RAG.pdf
   required:
     -
       title: SLP Chapter 11 (Information Retrieval and Retrieval-Augmented Generation)
