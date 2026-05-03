@@ -7,9 +7,10 @@ title: Final Submission
 type: Project Milestone
 number: 4
 active_tab: homework
-release_date: 2025-05-07
-due_date: 2025-05-15 11:59:00ET
-submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438463_1?courseId=_85408_1&gradeitemView=details
+release_date: 2026-05-03
+due_date: 2026-05-15 11:59:00ET
+submission: https://blackboard.umbc.edu/ultra/courses/_96481_1/outline/assessment/test/_8407431_1?courseId=_96481_1&gradeitemView=details
+online_submission: https://blackboard.umbc.edu/ultra/courses/_98413_1/outline/assessment/test/_8407383_1?courseId=_98413_1&gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -35,7 +36,11 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-Both the video and the paper are due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before 11:59PM.<br>Submission Link: <a href="{{page.submission}}">{{page.submission}}</a><br>
+Both the video and the paper are due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before 11:59PM.<br>
+Submission Link (in-person section): <a href="{{page.submission}}">{{ page.submission }}</a><br>
+Submission Link (online section): <a href="{{page.online_submission}}">{{ page.online_submission }}</a><br>
+It makes it easier to grade if one person from each section (online and in-person) submits.<br><br>
+Please be sure to double check the academic integrity and generative AI policies <a href="https://laramartin.net/NLP-class/#academic-integrity">listed on the syllabus</a>.
 <br><br>
 Examples from my previous AI class: <a href="https://docs.google.com/spreadsheets/d/1FnP2T5-VHwcEr3LfuJrPxgVEJhjsjpepHl3Ov1YWjlA/edit?usp=sharing">Here</a>
 </div>
@@ -91,7 +96,6 @@ You no longer need to mention who did what on your team.
 
 
 ### What to Submit
-Submit the following to [Blackboard]({{page.submission_link}}):
 * The link to your repository.
 * The link to your video.
 * `team#-supplement.pdf`, the LLM use statement.
@@ -171,7 +175,6 @@ __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of y
 
 
 ### What to Submit
-Submit the following to [Blackboard]({{page.submission_link}}):
 * `team#-finaldraft.pdf` which is your final paper.
 * A link to your presentation video.
 * `team#-supplement.pdf`, the LLM use statement.

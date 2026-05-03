@@ -7,9 +7,10 @@ title: Rough Draft
 type: Project Milestone
 number: 3
 active_tab: homework
-release_date: 2025-04-23
-due_date: 2025-05-08 23:59:00EST
-submission: https://blackboard.umbc.edu/ultra/courses/_85408_1/outline/assessment/test/_7438460_1?courseId=_85408_1&gradeitemView=details
+release_date: 2026-05-03
+due_date: 2026-05-08 23:59:00EST
+submission: https://blackboard.umbc.edu/ultra/courses/_96481_1/outline/assessment/test/_8407430_1?courseId=_96481_1&gradeitemView=details
+online_submission: https://blackboard.umbc.edu/ultra/courses/_98413_1/outline/assessment/test/_8407382_1?courseId=_98413_1&gradeitemView=details
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -35,10 +36,18 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-This assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}. 
-<br>Submission Link: <a href="{{page.submission}}">{{ page.submission }}</a>
+{% assign seconds = 1 | times: 24 | times: 60 | times: 60 %}
+{% assign nextDay = page.due_date %}
 
+The assignment is due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before {{ page.due_date | date: "%I:%M%p" }}.
+<br>
+Submission Link (in-person section): <a href="{{page.submission}}">{{ page.submission }}</a><br>
+Submission Link (online section): <a href="{{page.online_submission}}">{{ page.online_submission }}</a><br>
+It makes it easier to grade if one person from each section (online and in-person) submits.<br><br>
+Please be sure to double check the academic integrity and generative AI policies <a href="https://laramartin.net/NLP-class/#academic-integrity">listed on the syllabus</a>.
 </div>
+
+
 
 {% if page.materials %}
 <div class="alert alert-info">
@@ -104,7 +113,6 @@ Total: 29 points
 </div>
 
 ### What to Submit
-Submit the following to [Blackboard]({{page.submission_link}}):
 * The link to your repository.
 * Your video or a link to where your video is hosted.
 * `team#-supplement.pdf`
@@ -176,6 +184,5 @@ Total: 29 points
 </div>
 
 ### What to Submit
-Submit the following to [Blackboard]({{page.submission_link}}):
 * `team#-roughdraft.pdf` which is your draft.
 * `team#-supplement.pdf`, the supplemental material mentioned above.

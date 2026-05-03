@@ -495,7 +495,7 @@
   homework_due:
     -
       title: "Project Milestone 3: Rough Draft"
-      #url: project/draft.html    
+      url: project/draft.html    
   title: "Applications: Dialog Systems"
   slides: #slides/25-05-13_Dialog.pdf
   required:
@@ -521,7 +521,7 @@
   homework_due:
     -
       title: "Project Milestone 4: Final Submission"
-      url: #project/final-submission.html
+      url: project/final-submission.html
     -
       title: "Grad Checkpoint 4: Final Submission"
       url: grad.html        
