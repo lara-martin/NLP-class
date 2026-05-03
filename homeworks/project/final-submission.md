@@ -11,6 +11,10 @@ release_date: 2026-05-03
 due_date: 2026-05-15 11:59:00ET
 submission: https://blackboard.umbc.edu/ultra/courses/_96481_1/outline/assessment/test/_8407431_1?courseId=_96481_1&gradeitemView=details
 online_submission: https://blackboard.umbc.edu/ultra/courses/_98413_1/outline/assessment/test/_8407383_1?courseId=_98413_1&gradeitemView=details
+materials:
+  -
+    name: Poster Template
+    url: poster-template.pptx
 ---
 
 <!-- Check whether the assignment is ready to release -->
@@ -36,7 +40,9 @@ Warning: this assignment is out of date.  It may still need to be updated for th
 
 
 <div class="alert alert-info">
-Both the video and the paper are due on {{ page.due_date | date: "%A, %B %-d, %Y" }} before 11:59PM.<br>
+The presentation day will be on May 14, 2026 from 10:30am - 12:30pm in <b>SONDHEIM 101</b>.
+Posters must be submitted by May 13th at 12pm or earlier to <a href="mailto:gweiss@csee.umbc.edu,skyejonke@umbc.edu">Geoff Weiss and Skye Jonke</a>.
+Everything is due on Blackboard by {{ page.due_date | date: "%A, %B %-d, %Y" }} before 11:59PM.<br>
 Submission Link (in-person section): <a href="{{page.submission}}">{{ page.submission }}</a><br>
 Submission Link (online section): <a href="{{page.online_submission}}">{{ page.online_submission }}</a><br>
 It makes it easier to grade if one person from each section (online and in-person) submits.<br><br>
@@ -59,8 +65,49 @@ You can download the materials for this assignment here:
 
 {{page.type}} {{page.number}}: {{page.title}}
 =============================================================
-Now's the time to finish up the project! **All deliverables will be due on {{ page.due_date | date: "%B %-d" }} at 11:59PM.**
+Here are the requirements for the final submission of your project. Please refer to the appropriate section below for your project type.
 
+
+
+
+## How will the presentation day work?
+
+### Getting Ready
+* Posters should be size **22 x 34**. This can be 22" tall and 34" wide or vice versa.
+	* The CSEE department has generously agreed to pay for and print the posters.
+	* I have provided a Powerpoint [poster template]({{page.materials[0].url}}) for you to use. You're welcome to adapt it as much as you like except make sure to keep it 22 x 34 (or 34 x 22). It's currently set to 22 x 34.
+	* You are not required to use the template at all, but make sure it's the correct size. You can also make a poster in LaTeX, if you prefer.
+	* If you want Dr. Martin to look at your poster before you print it, be sure to give them a couple days before you want to print it.
+	* Please email your poster to [Geoff Weiss and Skye Jonke](mailto:gweiss@csee.umbc.edu,skyejonke@umbc.edu) by **noon** on **December 10**.
+	* Save your poster as a **pdf** before sending it to Geoff & Skye.
+	* In addition to emailing the poster to print, please submit the pdf on Blackboard.
+	* Your poster will be ready by 5:30pm on December 10th in ITE 325 by the front desk. It will need to be trimmed. **Please pick up your poster and trim it** before coming to the presentation day on December 11th. Please let Lara know if you can't pick the poster up during business hours (9am-5pm) so she can get it for you.
+	
+
+Here are some example posters from previous classes that I liked:
+* [Example Poster 1](team1-poster.pdf)
+* [Example Poster 2](team3-poster.pdf)
+* [Example Poster 3](team6-poster.pdf)
+	
+
+### On Presentation Day
+* Posters will be either attached to the walls or presented on easels around the room (ILSB 116A).
+* Please be in ILSB 116A on time or a bit earlier!! (10:30am on December 11th)
+* The presentations will be open to the university, broadly, but mostly focused on CSEE folks.
+* Within your team, designate some members to be "group 1" and the rest to be in "group 2". The first half of the time group 1 will present and group 2 will walk around and look at other posters/demos. Everyone will switch halfway through so that you all get a chance to see each other's work. You don't have to tell us who is in which group; this is just to let you know what's going to happen on presentation day.
+* There will be a voting box where visitors can vote for their favorite presentation(s). The team with the most votes will get 2 points of extra credit on Milestone 4.
+* **For demo teams**: Please bring a laptop and charger, and have your demo ready to be played with.
+
+
+### Poster Grading
+The posters will be graded on two main criteria:
+* __Content__: (8 points) The poster contains enough relevant information that someone can get the highlights of the project without you necessarily presenting (although you will still be presenting it).
+	* Information is written in clear language.
+	* Contains: 1) an introduction to what you did, 2) information about the methods/system, and 3) any results/discussion (for paper teams) or takeaways (for demo teams).
+* __Visuals__: (4 points) The poster contains relevant visuals without overwhelming the reader, and the text organization is nicely displayed and not too "wordy".
+
+
+<!--
 ## Video Presentation (5 points)
 All presentations must be a pre-recorded video -- this will allow us to watch the presentations asynchronously while simultaneously leaving you with a nice artifact that you can show off to friends/colleagues/future employers.
 * Each video should be about 5 minutes in length.
@@ -76,7 +123,7 @@ Your presentation will be graded on the following criteria.
 3. __Results__: The main findings of the project are reported.
 4. __Lessons Learned__: What did you learn from this project and what might you do differently next time? What questions or directions for future work remain?
 
-
+-->
 
 ## Demo: Build a novel NLP system
 
@@ -107,14 +154,16 @@ You no longer need to mention who did what on your team.
 You will get full points if you 1) include all of the material listed above and 2) incorporate the feedback you got from the previous submission.<br>
 
 
-* Video Presentation - 5 points ([See description above.](#presentation-grading))
+<!--* Video Presentation - 5 points ([See description above.](#presentation-grading))-->
+* Poster Content - 8 points ([See description above.](#poster-grading))
+* Poster Visuals - 4 points
 * System Diagram  - 5 points - Updated to reflect your final system. This can also be put into your presentation slides, if you want.
 * Minimal bugs - 5 points - Runs from beginning to end with minimal bugs (1-3 bugs, depending on the size/type of bug).
 * Completeness - 10 points - The demo does what the previous milestones' architecture claim it would do (within reason).
 * Read Me - 3 points - A short document explaining what your system is, and how to setup and run your demo. Put this readme in the README.md file of your repository.
 * LLM Use Statement - 1 point
 
-Total: 29 points
+Total: 36 points
 </div>
 ---
 
@@ -183,12 +232,13 @@ __LLM Use Statement__: Describe exactly how you used LLMs to generate parts of y
 ### Grading
 <div class="alert alert-warning" markdown="1">
 
-* Video Presentation - 5 points ([See description above.](#presentation-grading))
+* Poster Content - 8 points ([See description above.](#poster-grading))
+* Poster Visuals - 4 points
 * Results - 5 points - Data is displayed in a clear format and tables/graphs are made to accompany the text.
 * Discussion - 5 points - Insights make sense and show that the results were thought about deeply.
 * Tips Integrated - 3 points - All previous tips/recommendations were integrated or adjusted for.
 * Completeness - 10 points - All sections listed above are included, paper seems cohesive, and paper is in correct format.
 * LLM Use Statement - 1 point
 
-Total: 29 points
+Total: 36 points
 </div>
