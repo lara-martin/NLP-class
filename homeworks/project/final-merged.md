@@ -91,8 +91,8 @@ Here are some example posters from previous classes that I liked:
 	
 
 ### On Presentation Day
-* Posters will be either attached to the walls or presented on easels around the room (ILSB 116A).
-* Please be in ILSB 116A on time or a bit earlier!! (10:30am on December 11th)
+* Posters will be attached to the walls around the room (SOND 101).
+* Please be in Sondheim 101 on time or a bit earlier!! (10:30am on December 11th)
 * The presentations will be open to the university, broadly, but mostly focused on CSEE folks.
 * Within your team, designate some members to be "group 1" and the rest to be in "group 2". The first half of the time group 1 will present and group 2 will walk around and look at other posters/demos. Everyone will switch halfway through so that you all get a chance to see each other's work. You don't have to tell us who is in which group; this is just to let you know what's going to happen on presentation day.
 * There will be a voting box where visitors can vote for their favorite presentation(s). The team with the most votes will get 2 points of extra credit on Milestone 4.
@@ -127,7 +127,7 @@ Your presentation will be graded on the following criteria.
 
 ## Demo: Build a novel NLP system
 
-The final deliverable is the demo itself, a video presentation, and a supplemental document. Your demo should be a complete program that can run end-to-end.
+The final deliverable is the demo itself, a poster , and a supplemental document. Your demo should be a complete program that can run end-to-end.
 
 Your demo should:
 * Be runable by the grader, following the read me.
@@ -135,7 +135,9 @@ Your demo should:
 * **Not** be edited after the deadline. We will be grading the last commit pushed before the deadline.
 
 In a separate document called `team#-supplement.pdf`, provide the
-* __system diagram__, updated to include any changes you made
+* __Project Description__ - Updated to take feedback into consideration, otherwise you can just copy this from previous milestones.
+* __Back End Architecture__ - Updated to include any changes you made. Include the updated system diagram.
+* __Evaluation__ - Completed with a comparison of your system or components of your system to baselines. Share what you found both in terms of measurements and overall insights.
 * __LLM Use Statement__ - Describe exactly how you used LLMs to generate **parts of your code** (<a href="https://laramartin.net/NLP-class/index.html#generative-ai">refer to the syllabus for guidance</a>). If you did not use **any** generative text, please state so in this section.
 
 You no longer need to mention who did what on your team.
@@ -145,7 +147,7 @@ You no longer need to mention who did what on your team.
 ### What to Submit
 * The link to your repository.
 * `team#-poster.pdf`, your poster.
-* `team#-supplement.pdf`, the LLM use statement and system diagram.
+* `team#-supplement.pdf`with the 4 components mentioned above.
 
 
 
@@ -157,19 +159,20 @@ You will get full points if you 1) include all of the material listed above and 
 <!--* Video Presentation - 5 points ([See description above.](#presentation-grading))-->
 * Poster Content - 10 points ([See description above.](#poster-grading))
 * Poster Visuals - 4 points
-* System Diagram  - 5 points - Updated to reflect your final system. This can also be put into your presentation slides, if you want.
+* Back End Architecture  - 2 points - Updated to reflect your final system. The system diagram can also be put on your poster, if you want.
+* Evaluation - 5 points - Comparison is complete and shows off what works and doesn't work with your program.
 * Minimal bugs - 5 points - Runs from beginning to end with minimal bugs (1-3 bugs, depending on the size/type of bug).
 * Completeness - 10 points - The demo does what the previous milestones' architecture claim it would do (within reason).
 * Read Me - 3 points - A short document explaining what your system is, and how to setup and run your demo. Put this readme in the README.md file of your repository.
 * LLM Use Statement - 1 point
 
-Total: 38 points
+Total: 40 points
 </div>
 ---
 
 ## Paper: Investigate an NLP research question
 
-The final deliverable is the paper itself, a video presentation, and a supplemental document. The paper will be a continuation of the same one you've been building on.
+The final deliverable is the paper itself, a poster, and a supplemental document. The paper will be a continuation of the same one you've been building on.
 
 Here are some example reports from previous classes again to aid you:
 * [Example Report 1](example_report-2022-1.pdf)
@@ -234,11 +237,12 @@ You no longer need to mention who did what on your team.
 
 * Poster Content - 10 points ([See description above.](#poster-grading))
 * Poster Visuals - 4 points
-* Results - 5 points - Data is displayed in a clear format and tables/graphs are made to accompany the text.
+* Abstract - 3 points - Abstract is short but thoroughly describes what the paper is about.
+* Results - 5 points - Data is explained and tables/graphs are made to accompany the text.
 * Discussion - 5 points - Insights make sense and show that the results were thought about deeply.
-* Tips Integrated - 3 points - All previous tips/recommendations were integrated or adjusted for.
+* References - 2 points - Papers are correctly cited.
 * Completeness - 10 points - All sections listed above are included, paper seems cohesive, and paper is in correct format.
 * LLM Use Statement - 1 point
 
-Total: 38 points
+Total: 40 points
 </div>
