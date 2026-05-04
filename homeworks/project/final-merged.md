@@ -127,7 +127,7 @@ Your presentation will be graded on the following criteria.
 
 ## Demo: Build a novel NLP system
 
-The final deliverable is the demo itself, a poster , and a supplemental document. Your demo should be a complete program that can run end-to-end.
+The final deliverable is the demo itself, a poster, and a supplemental document. Your demo should be a complete program that can run end-to-end.
 
 Your demo should:
 * Be runable by the grader, following the read me.
