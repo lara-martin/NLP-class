@@ -462,6 +462,10 @@
     -
       title: "HW 3: Prompt Engineering and Ethics"
       url: hw3.html  
+  title: In-Class Project Work
+
+-
+  date: 2026-05-07
   title: "Applications: Machine Translation"
   slides: #slides/25-05-06_MT.pdf
   required:
@@ -472,13 +476,13 @@
     - 
       title: NLP Chapter 18 (Neural machine translation)
       url: https://github.com/jacobeisenstein/gt-nlp-class/blob/master/notes/eisenstein-nlp-notes.pdf
-      authors: Jacob Eisenstein 
-       
+      authors: Jacob Eisenstein   
+
+     
 -
-  date: 2026-05-07
+  date: 2026-05-12
   #title:  "Storytelling, D&D, and AAC" 
   #slides: #slides/25-05-08_Lara-Martin-Research.pdf
-  type: deadline 
   #required:
   #  -
   #    title: "Event Representations for Automated Story Generation with Deep Neural Nets"
@@ -492,10 +496,7 @@
   #    title: "Dungeons and Dragons as a Dialogue Challenge for Artificial Intelligence"
   #    url: https://aclanthology.org/2022.emnlp-main.637
   #    authors:  Chris Callison-Burch, et al.      
-  homework_due:
-    -
-      title: "Project Milestone 3: Rough Draft"
-      url: project/draft.html    
+  
   title: "Applications: Dialog Systems"
   slides: #slides/25-05-13_Dialog.pdf
   required:
@@ -508,20 +509,17 @@
       url: https://web.stanford.edu/~jurafsky/slp3/K.pdf
       authors:  Dan Jurafsky and James H. Martin     
         
--
-  date: 2026-05-12
-  title: "Applications: TBD"
  
   
 -
   date: 2026-05-14
-  title: Project Presentations, 10:30 AM-12:30 PM
+  title: Project Presentations, 10:30 AM-12:30 PM, SOND 101
   type: deadline
   slides: 
   homework_due:
     -
-      title: "Project Milestone 4: Final Submission"
-      url: project/final-submission.html
+      title: "Project Milestone 3: Final Submission"
+      url: project/final-merged.html
     -
       title: "Grad Checkpoint 4: Final Submission"
       url: grad.html        
