@@ -47,8 +47,8 @@ Submission Link (in-person section): <a href="{{page.submission}}">{{ page.submi
 Submission Link (online section): <a href="{{page.online_submission}}">{{ page.online_submission }}</a><br>
 It makes it easier to grade if one person from each section (online and in-person) submits.<br><br>
 Please be sure to double check the academic integrity and generative AI policies <a href="https://laramartin.net/NLP-class/#academic-integrity">listed on the syllabus</a>.
-<br><br>
-Examples from my previous AI class: <a href="https://docs.google.com/spreadsheets/d/1FnP2T5-VHwcEr3LfuJrPxgVEJhjsjpepHl3Ov1YWjlA/edit?usp=sharing">Here</a>
+<!--<br><br>
+Examples from my previous AI class: <a href="https://docs.google.com/spreadsheets/d/1FnP2T5-VHwcEr3LfuJrPxgVEJhjsjpepHl3Ov1YWjlA/edit?usp=sharing">Here</a>-->
 </div>
 
 {% if page.materials %}
