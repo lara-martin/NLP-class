@@ -78,10 +78,10 @@ Here are the requirements for the final submission of your project. Please refer
 	* I have provided a Powerpoint [poster template]({{page.materials[0].url}}) for you to use. You're welcome to adapt it as much as you like except make sure to keep it 22 x 34 (or 34 x 22). It's currently set to 22 x 34.
 	* You are not required to use the template at all, but make sure it's the correct size. You can also make a poster in LaTeX, if you prefer.
 	* If you want Dr. Martin to look at your poster before you print it, be sure to give them a couple days before you want to print it.
-	* Please email your poster to [Geoff Weiss and Skye Jonke](mailto:gweiss@csee.umbc.edu,skyejonke@umbc.edu) by **noon** on **December 10**.
+	* Please email your poster to [Geoff Weiss and Skye Jonke](mailto:gweiss@csee.umbc.edu,skyejonke@umbc.edu) by **noon** on **May 13**.
 	* Save your poster as a **pdf** before sending it to Geoff & Skye.
 	* In addition to emailing the poster to print, please submit the pdf on Blackboard.
-	* Your poster will be ready by 5:30pm on December 10th in ITE 325 by the front desk. It will need to be trimmed. **Please pick up your poster and trim it** before coming to the presentation day on December 11th. Please let Lara know if you can't pick the poster up during business hours (9am-5pm) so she can get it for you.
+	* Your poster will be ready by 5:30pm on May 13th in ITE 325 by the front desk. It will need to be trimmed. **Please pick up your poster and trim it** before coming to the presentation day on May 14th. Please let Lara know if you can't pick the poster up during business hours (9am-5pm) so she can get it for you.
 	
 
 Here are some example posters from previous classes that I liked:
@@ -92,10 +92,10 @@ Here are some example posters from previous classes that I liked:
 
 ### On Presentation Day
 * Posters will be attached to the walls around the room (SOND 101).
-* Please be in Sondheim 101 on time or a bit earlier!! (10:30am on December 11th)
+* Please be in Sondheim 101 on time or a bit earlier!! (10:30am on May 14th)
 * The presentations will be open to the university, broadly, but mostly focused on CSEE folks.
 * Within your team, designate some members to be "group 1" and the rest to be in "group 2". The first half of the time group 1 will present and group 2 will walk around and look at other posters/demos. Everyone will switch halfway through so that you all get a chance to see each other's work. You don't have to tell us who is in which group; this is just to let you know what's going to happen on presentation day.
-* There will be a voting box where visitors can vote for their favorite presentation(s). The team with the most votes will get 2 points of extra credit on Milestone 4.
+* There will be a form where visitors can vote for their favorite presentation(s). The team with the most votes will get 2 points of extra credit on this Milestone.
 * **For demo teams**: Please bring a laptop and charger, and have your demo ready to be played with.
 
 
