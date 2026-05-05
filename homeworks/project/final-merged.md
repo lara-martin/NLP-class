@@ -5,7 +5,7 @@ caption: Don't Panic
 img_link: https://xkcd.com/1658/   
 title: Final Submission
 type: Project Milestone
-number: 4
+number: 3
 active_tab: homework
 release_date: 2026-05-03
 due_date: 2026-05-14 11:59:00ET
