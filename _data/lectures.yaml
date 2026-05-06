@@ -467,7 +467,7 @@
 -
   date: 2026-05-07
   title: "Applications: Machine Translation"
-  slides: #slides/25-05-06_MT.pdf
+  slides: slides/26-05-07_MT.pdf
   required:
     -
       title: SLP Chapter 12 (Machine Translation)
