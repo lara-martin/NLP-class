@@ -497,8 +497,8 @@
   #    url: https://aclanthology.org/2022.emnlp-main.637
   #    authors:  Chris Callison-Burch, et al.      
   
-  title: "Applications: Dialog Systems"
-  slides: #slides/25-05-13_Dialog.pdf
+  title: "Dialog Systems, the LARA Lab, and Open Questions in NLP"
+  slides: slides/26-05-12_last.pdf
   required:
     -
       title: NLP Chapter 19.3 (Dialogue)
